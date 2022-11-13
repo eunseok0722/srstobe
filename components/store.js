@@ -1,12 +1,8 @@
 import moduleHeader from "./modules/mdHeader.js";
-import moduleFooter from "./modules/mdFooter.js";
-import moduleMainPage from "./modules/mdMainPage.js";
 
 const Store = Vuex.createStore({
     modules: {
         moduleHeader,
-        moduleFooter,
-        moduleMainPage,
     },
     state: {
         count: 0,

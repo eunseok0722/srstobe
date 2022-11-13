@@ -1,4 +1,6 @@
-#header {
+
+/* main-header css */
+.main-header {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -21,165 +23,207 @@
       bottom: 0;
     }
   }
-}
 
-.gnb-wrap {
-  height: 6rem;
-  width: $gnb-max;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  padding-bottom: 2rem;
-  box-sizing: border-box;
-  .nav-list {
-    width: 100%;
+  /* main header  gnb CSS */
+  .gnb-wrap {
+    height: 6rem;
+    width: $gnb-max;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
-    .list-item {
-      position: relative;
-
-      a,
-      button,
-      .nav-item {
-        color: $white;
-        letter-spacing: 0.25rem;
+    align-items: flex-end;
+    padding-bottom: 2rem;
+    box-sizing: border-box;
+    .nav-list {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      .list-item {
         position: relative;
-        z-index: $nav-z-index;
-      }
-      .ico-box {
+
         a,
         button,
         .nav-item {
-          width: 10rem;
-          height: 3.3rem;
-          background-image: url("../images/ico_mouse_001.png");
-          background-size: 2.2rem 3.3rem;
-          background-position: center;
-          background-repeat: no-repeat;
+          color: $white;
+          letter-spacing: 0.25rem;
+          position: relative;
+          z-index: $nav-z-index;
         }
-        &::after {
-          content: '';
-          position: absolute;
-          bottom: -2rem;
-          left: 50%;
-          transform: translateX(-50%);
-          border-radius: 17rem 17rem 0 0;
-          display: block;
-          width: 17rem;
-          height: 8rem;
-          background-color: #0054a6;
-          box-shadow: 10px 10px 16px 0 rgba(0,0,0,0.1);
+        .ico-box {
+          a,
+          button,
+          .nav-item {
+            width: 10rem;
+            height: 3.3rem;
+            background-image: url("../images/ico_mouse_001.png");
+            background-size: 2.2rem 3.3rem;
+            background-position: center;
+            background-repeat: no-repeat;
+          }
+          &::after {
+            content: '';
+            position: absolute;
+            bottom: -2rem;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 17rem 17rem 0 0;
+            display: block;
+            width: 17rem;
+            height: 8rem;
+            background-color: #0054a6;
+            box-shadow: 10px 10px 16px 0 rgba(0,0,0,0.1);
+          }
         }
       }
     }
   }
-}
-.gnb-sub-wrap {
-  position: absolute;
-  bottom: -500px;
-  left: 50%;
-  transform: translateX(-50%);
-  height: fit-content;
-  width: $pc-min;
-  margin: 0 auto;
-  padding: 3.5rem 0 3rem;
-  box-sizing: border-box;
-  @include flex-col(3rem);
-  justify-content: space-between;
-  z-index: $nav-z-index + 1;
-  transition: bottom 0.3s ease-in;
+  /* main header  gnb CSS */
 
-  &:after {
-    content: '';
+  /* main header sub gnb CSS */
+  .gnb-sub-wrap {
     position: absolute;
-    top: 0;
-    bottom: 0;
+    bottom: -500px;
     left: 50%;
     transform: translateX(-50%);
-    display: block;
-    width: 100vw;
-    height: 100%;
-    background-color: #2b8add;
-    opacity: 0.85;
+    height: fit-content;
+    width: $pc-min;
+    margin: 0 auto;
+    padding: 3.5rem 0 3rem;
+    box-sizing: border-box;
+    @include flex-col(3rem);
+    justify-content: space-between;
+    z-index: $nav-z-index + 1;
+    transition: bottom 0.3s ease-in;
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      display: block;
+      width: 100vw;
+      height: 100%;
+      background-color: #2b8add;
+      opacity: 0.85;
+    }
+    .gnb-header {
+      z-index: $nav-z-index + 2;
+      color: $white;
+    }
+    .d2-list-wrap {
+      z-index: $nav-z-index + 2;
+      .d2-list {
+        width: 100%;
+        display: flex;
+        gap: 1rem;
+        justify-content: space-between;
+        .d2-list-item {
+          flex-basis: 20%;
+          @include bd(3px, $white);
+          @include bdrs(1.4rem);
+          &.d1-menu {
+            @include flex-col();
+            justify-content: center;
+            border: none;
+            background-color: $blue_sub;
+            .d2-item {
+              gap: 3rem;
+              padding: 3rem 3.5rem;
+              justify-content: space-between;
+              align-items: flex-end;
+              .lb-tit-r {
+                padding: 1rem 2rem;
+                @include bdrs(1.5rem);
+                &:hover {
+                  background-color: $light_blue;
+                }
+              }
+            }
+          }
+
+          &:hover {
+            background-color: $white;
+            .d2-item {
+              h3,
+              .lb-tit-r {
+                color: $blue_lr;
+              }
+              .d3-list {
+                .d3-list-item {
+                  color: inherit;
+                }
+              }
+            }
+          }
+        }
+      }
+      .d2-item {
+        @include flex-col(2.5rem);
+        padding: 2.5rem 1.5rem;
+        h3,
+        .lb-tit-r {
+          padding: 0 1rem;
+          color: $white;
+        }
+        .d3-list {
+          @include flex-col();
+          .d3-list-item {
+            padding: 1rem 0 1rem 1rem;
+            @include bdrs(1rem);
+            color: $white;
+            &:hover {
+
+              background-color: $light_blue;
+              a,
+              button {
+                //font-family: $point-font;
+                color: $blue_lr;
+              }
+            }
+          }
+        }
+      }
+    }
   }
-  .gnb-header {
-    z-index: $nav-z-index + 2;
-    color: $white;
-  }
-  .gnb-sub-list-wrap {
-    z-index: $nav-z-index + 2;
-    .gnb-d2-list {
+  /* main header sub gnb CSS */
+}
+/* // main-header css */
+
+/* sub header CSS */
+.sub-header {
+  width: 100%;
+  height: fit-content;
+  .gnb-wrap {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 1.4rem 0;
+    .nav-list {
       width: 100%;
       display: flex;
-      gap: 1rem;
       justify-content: space-between;
-      .d2-list-item {
-        flex-basis: 20%;
-        @include bd(3px, $white);
-        @include bdrs(1.4rem);
-        &.d1-menu {
-          @include flex-col();
-          justify-content: center;
-          border: none;
-          background-color: $blue_sub;
-          .gnb-d2-item {
-            gap: 3rem;
-            padding: 3rem 3.5rem;
-            justify-content: space-between;
-            align-items: flex-end;
-            .lb-tit-r {
-              padding: 1rem 2rem;
-              @include bdrs(1.5rem);
-              &:hover {
-                background-color: $light_blue;
-              }
-            }
-          }
-        }
-
-        &:hover {
-          background-color: $white;
-          .gnb-d2-item {
-            h3,
-            .lb-tit-r {
-              color: $blue_lr;
-            }
-            .d3-list {
-              .d3-list-item {
-                color: inherit;
-              }
-            }
-          }
-        }
-      }
-    }
-    .gnb-d2-item {
-      @include flex-col(2.5rem);
-      padding: 2.5rem 1.5rem;
-      h3,
-      .lb-tit-r {
-        padding: 0 1rem;
-        color: $white;
-      }
-      .d3-list {
-        @include flex-col();
-        .d3-list-item {
-          padding: 1rem 0 1rem 1rem;
-          @include bdrs(1rem);
-          color: $white;
+      .list-item {
+        flex-basis: 18.2rem;
+        .tit-h1 {
+          padding: 1.8rem 3.2rem;
+          text-align: center;
+          font-weight: $b;
+          @include bdrs(1.4rem);
           &:hover {
-
-            background-color: $light_blue;
-            a,
-            button {
-              //font-family: $point-font;
-              color: $blue_lr;
+            background-color: $blue_l;
+            a {
+              color: $white;
             }
           }
         }
       }
     }
   }
+  .d2-list-wrap {
+    display: none;
+  }
 }
+
+/* // sub header CSS */

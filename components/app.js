@@ -28,13 +28,15 @@ const options = {
 const { loadModule } = window['vue3-sfc-loader'];
 
 // 컴포넌트 선언
-const MainHeader = Vue.defineAsyncComponent(()=> loadModule('../components/MainHeader.vue', options));
-const CompFooter =  Vue.defineAsyncComponent(()=> loadModule('../components/CompFooter.vue', options));
+const MainHeader = Vue.defineAsyncComponent(()=> loadModule('../components/common/MainHeader.vue', options));
+const CompHeader =  Vue.defineAsyncComponent(()=> loadModule('../components/common/CompHeader.vue', options));
+const CompFooter =  Vue.defineAsyncComponent(()=> loadModule('../components/common/CompFooter.vue', options));
 
 // vue 인스턴스 설정
 const app = Vue.createApp({
     components: {
         MainHeader,
+        CompHeader,
         CompFooter,
     },
     computed() {

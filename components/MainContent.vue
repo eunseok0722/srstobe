@@ -19,10 +19,6 @@
 </template>
 
 <script>
-// import MainMagazineList from '../components/MainMagazineList.vue';
-// import MainAuthor from "../components/MainAuthor.vue"
-// import PodcastList from "./PodcastList.vue";
-// import NewsTicker from "../components/NewsTicker.vue";
 
 export default {
   name: "MainContent",
