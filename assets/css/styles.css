@@ -208,7 +208,7 @@ body { font-family: "Garet", sans-serif; }
 
 .main-header .gnb-sub-wrap .d2-list-wrap .d2-list { width: 100%; display: flex; gap: 1rem; justify-content: space-between; }
 
-.main-header .gnb-sub-wrap .d2-list-wrap .d2-list .d2-list-item { flex-basis: 20%; border: 3px solid #fff; -webkit-border-radius: 1.4rem; -moz-border-radius: 1.4rem; border-radius: 1.4rem; }
+.main-header .gnb-sub-wrap .d2-list-wrap .d2-list .d2-list-item { flex-basis: 20%; border: 3px solid #fff; -webkit-border-radius: 1.4rem; -moz-border-radius: 1.4rem; border-radius: 1.4rem; transition: all 0.3s; }
 
 .main-header .gnb-sub-wrap .d2-list-wrap .d2-list .d2-list-item.d1-menu { display: flex; flex-direction: column; gap: 0; justify-content: center; border: none; background-color: #2b8add; }
 
@@ -230,7 +230,7 @@ body { font-family: "Garet", sans-serif; }
 
 .main-header .gnb-sub-wrap .d2-list-wrap .d2-item .d3-list { display: flex; flex-direction: column; gap: 0; }
 
-.main-header .gnb-sub-wrap .d2-list-wrap .d2-item .d3-list .d3-list-item { padding: 1rem 0 1rem 1rem; -webkit-border-radius: 1rem; -moz-border-radius: 1rem; border-radius: 1rem; color: #fff; }
+.main-header .gnb-sub-wrap .d2-list-wrap .d2-item .d3-list .d3-list-item { padding: 1rem 0 1rem 1rem; -webkit-border-radius: 1rem; -moz-border-radius: 1rem; border-radius: 1rem; color: #fff; transition: all 0.3s; }
 
 .main-header .gnb-sub-wrap .d2-list-wrap .d2-item .d3-list .d3-list-item:hover { background-color: #daf0f9; }
 
