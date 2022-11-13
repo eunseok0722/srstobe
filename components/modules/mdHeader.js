@@ -18,8 +18,11 @@ const getters = {
 }
 
 const mutations = {
-    navChange(state) {
-        state.navActive = !state.navActive;
+    navActivate(state) {
+        state.navActive = true;
+    },
+    navInactivate(state) {
+        state.navActive = false;
     },
     handleScroll(state) {
         if(state.timer === null) {

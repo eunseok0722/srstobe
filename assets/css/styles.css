@@ -233,7 +233,7 @@ body { font-family: "Garet", sans-serif; }
 
 .gnb-sub-wrap .gnb-sub-list-wrap .gnb-d2-item .d3-list .d3-list-item:hover { background-color: #daf0f9; }
 
-.gnb-sub-wrap .gnb-sub-list-wrap .gnb-d2-item .d3-list .d3-list-item:hover a, .gnb-sub-wrap .gnb-sub-list-wrap .gnb-d2-item .d3-list .d3-list-item:hover button { color: #319efb; }
+.gnb-sub-wrap .gnb-sub-list-wrap .gnb-d2-item .d3-list .d3-list-item:hover a, .gnb-sub-wrap .gnb-sub-list-wrap .gnb-d2-item .d3-list .d3-list-item:hover button { font-family: "Poppins", sans-serif; color: #319efb; }
 
 .main-visual { display: flex; justify-content: center; align-items: center; width: 100vw; height: 100vh; background-image: url("../images/img_main_visual_bg.png"); background-position: center; background-size: cover; }
 

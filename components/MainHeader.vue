@@ -1,6 +1,6 @@
 <template>
   <!-- header | 머릿말 -->
-  <div id="header" v-on:mouseenter="navChange" v-on:mouseleave="navChange"  :class="{active: navActive}">
+  <div id="header" @mouseenter="navActivate" @mouseleave="navInactivate" :class="{active: navActive}">
     <div class="gnb-wrap">
       <ul class="nav-list">
         <li class="list-item">
@@ -192,8 +192,11 @@ export default {
 
   },
   methods: {
-    navChange() {
-      this.$store.commit('moduleHeader/navChange')
+    navActivate() {
+      this.$store.commit('moduleHeader/navActivate')
+    },
+    navInactivate() {
+      this.$store.commit('moduleHeader/navInactivate')
     },
     // handleScroll() {
     //   this.$store.commit('moduleHeader/handleScroll')
