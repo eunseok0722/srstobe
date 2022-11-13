@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document ========================================================================== */
 /** 1. Correct the line height in all browsers. 2. Prevent adjustments of font size after orientation changes in iOS. */
@@ -132,20 +133,110 @@ a { text-decoration: none; color: inherit; }
 
 button { border: none; background: none; font: inherit; }
 
-@font-face { font-family: 'Garet'; src: url("../fonts/Garet-Book.woff2") format("woff2"), url("../fonts/Garet-Book.woff") format("woff"), url("../fonts/Garet-Book.ttf") format("truetype"), url("../fonts/Garet-Book.otf") format("opentype"); font-weight: 400; font-style: normal; }
+@font-face { font-family: 'Garet'; src: url("../font/Garet-Book.woff2") format("woff2"), url("../font/Garet-Book.woff") format("woff"), url("../font/Garet-Book.ttf") format("truetype"), url("../font/Garet-Book.otf") format("opentype"); font-weight: 400; font-style: normal; }
 
-@font-face { font-family: 'Garet'; src: url("../fonts/Garet-Heavy.woff2") format("woff2"), url("../fonts/Garet-Heavy.woff") format("woff"), url("../fonts/Garet-Heavy.ttf") format("truetype"), url("../fonts/Garet-Heavy.otf") format("opentype"); font-weight: 700; font-style: normal; }
+@font-face { font-family: 'Garet'; src: url("../font/Garet-Heavy.woff2") format("woff2"), url("../font/Garet-Heavy.woff") format("woff"), url("../font/Garet-Heavy.ttf") format("truetype"), url("../font/Garet-Heavy.otf") format("opentype"); font-weight: 700; font-style: normal; }
 
-@font-face { font-family: 'Poppins'; src: url("../fonts/Poppins-Light.woff2") format("woff2"), url("../fonts/Poppins-Light.woff") format("woff"), url("../fonts/Poppins-Light.ttf") format("truetype"), url("../fonts/Poppins-Light.otf") format("opentype"); font-weight: 300; font-style: normal; }
+@font-face { font-family: 'Poppins'; src: url("../font/Poppins-Light.woff2") format("woff2"), url("../font/Poppins-Light.woff") format("woff"), url("../font/Poppins-Light.ttf") format("truetype"), url("../font/Poppins-Light.otf") format("opentype"); font-weight: 300; font-style: normal; }
 
-@font-face { font-family: 'Poppins'; src: url("../fonts/Poppins-Regular.woff2") format("woff2"), url("../fonts/Poppins-Regular.woff") format("woff"), url("../fonts/Poppins-Regular.ttf") format("truetype"), url("../fonts/Poppins-Regular.otf") format("opentype"); font-weight: 400; font-style: normal; }
+@font-face { font-family: 'Poppins'; src: url("../font/Poppins-Regular.woff2") format("woff2"), url("../font/Poppins-Regular.woff") format("woff"), url("../font/Poppins-Regular.ttf") format("truetype"), url("../font/Poppins-Regular.otf") format("opentype"); font-weight: 400; font-style: normal; }
 
-@font-face { font-family: 'Poppins'; src: url("../fonts/Poppins-Medium.woff2") format("woff2"), url("../fonts/Poppins-Medium.woff") format("woff"), url("../fonts/Poppins-Medium.ttf") format("truetype"), url("../fonts/Poppins-Medium.otf") format("opentype"); font-weight: 500; font-style: normal; }
+@font-face { font-family: 'Poppins'; src: url("../font/Poppins-Medium.woff2") format("woff2"), url("../font/Poppins-Medium.woff") format("woff"), url("../font/Poppins-Medium.ttf") format("truetype"), url("../font/Poppins-Medium.otf") format("opentype"); font-weight: 500; font-style: normal; }
 
-@font-face { font-family: 'Poppins'; src: url("../fonts/Poppins-SemiBold.woff2") format("woff2"), url("../fonts/Poppins-SemiBold.woff") format("woff"), url("../fonts/Poppins-SemiBold.ttf") format("truetype"), url("../fonts/Poppins-SemiBold.otf") format("opentype"); font-weight: 600; font-style: normal; }
+@font-face { font-family: 'Poppins'; src: url("../font/Poppins-SemiBold.woff2") format("woff2"), url("../font/Poppins-SemiBold.woff") format("woff"), url("../font/Poppins-SemiBold.ttf") format("truetype"), url("../font/Poppins-SemiBold.otf") format("opentype"); font-weight: 600; font-style: normal; }
 
-@font-face { font-family: 'Poppins'; src: url("../fonts/Poppins-Bold.woff2") format("woff2"), url("../fonts/Poppins-Bold.woff") format("woff"), url("../fonts/Poppins-Bold.ttf") format("truetype"), url("../fonts/Poppins-Bold.otf") format("opentype"); font-weight: 700; font-style: normal; }
+@font-face { font-family: 'Poppins'; src: url("../font/Poppins-Bold.woff2") format("woff2"), url("../font/Poppins-Bold.woff") format("woff"), url("../font/Poppins-Bold.ttf") format("truetype"), url("../font/Poppins-Bold.otf") format("opentype"); font-weight: 700; font-style: normal; }
 
-@font-face { font-family: 'Poppins'; src: url("../fonts/Poppins-ExtraBold.woff2") format("woff2"), url("../fonts/Poppins-ExtraBold.woff") format("woff"), url("../fonts/Poppins-ExtraBold.ttf") format("truetype"), url("../fonts/Poppins-ExtraBold.otf") format("opentype"); font-weight: 800; font-style: normal; }
+@font-face { font-family: 'Poppins'; src: url("../font/Poppins-ExtraBold.woff2") format("woff2"), url("../font/Poppins-ExtraBold.woff") format("woff"), url("../font/Poppins-ExtraBold.ttf") format("truetype"), url("../font/Poppins-ExtraBold.otf") format("opentype"); font-weight: 800; font-style: normal; }
+
+#wrapper { width: 100%; }
+
+body { font-family: "Garet", sans-serif; }
+
+.blind { font-size: 0; position: absolute; text-indent: -9999px; }
+
+.tit-h1 { font-family: "Poppins", sans-serif; font-weight: 400; font-size: 1.6rem; }
+
+.tit-h2 { font-family: "Poppins", sans-serif; font-weight: 700; font-size: 1.4rem; }
+
+.tit-h3 { font-family: "Poppins", sans-serif; font-weight: 600; font-size: 1.3rem; }
+
+.txt-l { font-size: 1.6rem; }
+
+.txt-r { font-size: 1.3rem; }
+
+.txt-s { font-size: 1.05rem; }
+
+.lb-tit-r { font-family: "Poppins", sans-serif; font-size: 1.8rem; font-weight: 600; }
+
+.lb-txt-r { font-family: "Garet", sans-serif; font-size: 1.5rem; font-weight: 400; }
+
+.garet { font-family: "Garet", sans-serif; }
+
+.poppins { font-family: "Poppins", sans-serif; }
+
+.blue-d { background-color: #0054a6; }
+
+.blue-l { background-color: #008aff; }
+
+#header { position: fixed; bottom: 0; left: 0; width: 100%; height: fit-content; /* header  활성화 */ }
+
+#header::after { content: ''; display: block; position: absolute; bottom: 0; left: 0; width: 100vw; height: 6rem; background-color: #02468c; z-index: -1; }
+
+#header.active .gnb-sub-wrap { bottom: 0; }
+
+.gnb-wrap { height: 6rem; width: 1024px; margin: 0 auto; display: flex; justify-content: space-between; align-items: flex-end; padding-bottom: 2rem; box-sizing: border-box; }
+
+.gnb-wrap .nav-list { width: 100%; display: flex; justify-content: space-between; align-items: baseline; }
+
+.gnb-wrap .nav-list .list-item { position: relative; }
+
+.gnb-wrap .nav-list .list-item a, .gnb-wrap .nav-list .list-item button, .gnb-wrap .nav-list .list-item .nav-item { color: #fff; letter-spacing: 0.25rem; position: relative; z-index: 100; }
+
+.gnb-wrap .nav-list .list-item .ico-box a, .gnb-wrap .nav-list .list-item .ico-box button, .gnb-wrap .nav-list .list-item .ico-box .nav-item { width: 10rem; height: 3.3rem; background-image: url("../images/ico_mouse_001.png"); background-size: 2.2rem 3.3rem; background-position: center; background-repeat: no-repeat; }
+
+.gnb-wrap .nav-list .list-item .ico-box::after { content: ''; position: absolute; bottom: -2rem; left: 50%; transform: translateX(-50%); border-radius: 17rem 17rem 0 0; display: block; width: 17rem; height: 8rem; background-color: #0054a6; box-shadow: 10px 10px 16px 0 rgba(0, 0, 0, 0.1); }
+
+.gnb-sub-wrap { position: absolute; bottom: -500px; left: 50%; transform: translateX(-50%); height: fit-content; width: 1280px; margin: 0 auto; padding: 3.5rem 0 3rem; box-sizing: border-box; display: flex; flex-direction: column; gap: 3rem; justify-content: space-between; z-index: 101; transition: bottom 0.5s ease-in-out; }
+
+.gnb-sub-wrap:after { content: ''; position: absolute; top: 0; bottom: 0; left: 50%; transform: translateX(-50%); display: block; width: 100vw; height: 100%; background-color: #2b8add; opacity: 0.85; }
+
+.gnb-sub-wrap .gnb-header { z-index: 102; color: #fff; }
+
+.gnb-sub-wrap .gnb-sub-list-wrap { z-index: 102; }
+
+.gnb-sub-wrap .gnb-sub-list-wrap .gnb-d2-list { width: 100%; display: flex; gap: 1rem; justify-content: space-between; }
+
+.gnb-sub-wrap .gnb-sub-list-wrap .gnb-d2-list .d2-list-item { flex-basis: 20%; border: 3px solid #fff; -webkit-border-radius: 1.4rem; -moz-border-radius: 1.4rem; border-radius: 1.4rem; }
+
+.gnb-sub-wrap .gnb-sub-list-wrap .gnb-d2-list .d2-list-item.d1-menu { display: flex; flex-direction: column; gap: 0; justify-content: center; border: none; background-color: #2b8add; }
+
+.gnb-sub-wrap .gnb-sub-list-wrap .gnb-d2-list .d2-list-item.d1-menu .gnb-d2-item { gap: 3rem; padding: 3rem 3.5rem; justify-content: space-between; align-items: flex-end; }
+
+.gnb-sub-wrap .gnb-sub-list-wrap .gnb-d2-list .d2-list-item.d1-menu .gnb-d2-item .lb-tit-r { padding: 1rem 2rem; -webkit-border-radius: 1.5rem; -moz-border-radius: 1.5rem; border-radius: 1.5rem; }
+
+.gnb-sub-wrap .gnb-sub-list-wrap .gnb-d2-list .d2-list-item.d1-menu .gnb-d2-item .lb-tit-r:hover { background-color: #daf0f9; }
+
+.gnb-sub-wrap .gnb-sub-list-wrap .gnb-d2-list .d2-list-item:hover { background-color: #fff; }
+
+.gnb-sub-wrap .gnb-sub-list-wrap .gnb-d2-list .d2-list-item:hover .gnb-d2-item h3, .gnb-sub-wrap .gnb-sub-list-wrap .gnb-d2-list .d2-list-item:hover .gnb-d2-item .lb-tit-r { color: #319efb; }
+
+.gnb-sub-wrap .gnb-sub-list-wrap .gnb-d2-list .d2-list-item:hover .gnb-d2-item .d3-list .d3-list-item { color: inherit; }
+
+.gnb-sub-wrap .gnb-sub-list-wrap .gnb-d2-item { display: flex; flex-direction: column; gap: 2.5rem; padding: 2.5rem 1.5rem; }
+
+.gnb-sub-wrap .gnb-sub-list-wrap .gnb-d2-item h3, .gnb-sub-wrap .gnb-sub-list-wrap .gnb-d2-item .lb-tit-r { padding: 0 1rem; color: #fff; }
+
+.gnb-sub-wrap .gnb-sub-list-wrap .gnb-d2-item .d3-list { display: flex; flex-direction: column; gap: 0; }
+
+.gnb-sub-wrap .gnb-sub-list-wrap .gnb-d2-item .d3-list .d3-list-item { padding: 1rem 0 1rem 1rem; -webkit-border-radius: 1rem; -moz-border-radius: 1rem; border-radius: 1rem; color: #fff; }
+
+.gnb-sub-wrap .gnb-sub-list-wrap .gnb-d2-item .d3-list .d3-list-item:hover { background-color: #daf0f9; }
+
+.gnb-sub-wrap .gnb-sub-list-wrap .gnb-d2-item .d3-list .d3-list-item:hover a, .gnb-sub-wrap .gnb-sub-list-wrap .gnb-d2-item .d3-list .d3-list-item:hover button { color: #319efb; }
+
+.main-visual { display: flex; justify-content: center; align-items: center; width: 100vw; height: 100vh; background-image: url("../images/img_main_visual_bg.png"); background-position: center; background-size: cover; }
+
+.main-visual .visual-cont { width: 90%; max-width: 1280px; height: fit-content; }
 
 /*# sourceMappingURL=../css/styles.css.map */

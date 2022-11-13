@@ -26,7 +26,37 @@
     <script type="module" src="../components/router.js"></script>
 </head>
 <body>
-<!-- @@placeholder=root_content -->
+
+<!--start Contents-->
+
+
+<div id="app">
+    <!-- wrapper -->
+    <div id="wrapper">
+        <!-- header component -->
+        <main-header></main-header>
+        <!-- //header component -->
+
+        <!-- container -->
+        <div id="container">
+            <!-- contents | 컨텐츠영역 -->
+            <router-view></router-view>
+            <!-- //contents | 컨텐츠영역 -->
+        </div>
+        <!-- //container -->
+
+        <!-- footer component -->
+        <comp-footer></comp-footer>
+        <!-- //footer component -->
+
+    </div>
+    <!-- //wrapper -->
+</div>
+
+<!--end Contents-->
+
+
+
 
 <!-- Vue 정의 app.js -->
 <script type="module" src="../components/app.js"></script>

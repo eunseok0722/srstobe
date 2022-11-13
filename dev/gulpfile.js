@@ -103,7 +103,7 @@ gulp.task('watch', function () {
     gulp.watch('page_include/**/*.html', gulp.series('extend'));
     gulp.watch('js_dev/*.js', gulp.series('babel'));
 
-    //markup_guide_dev 폴더가 있는 경우만
+    //markup_guide_dev 폴더
     gulp.watch('markup_guide_dev/assets/css/**/*.scss', gulp.series('sass-mrkp'));
     gulp.watch('markup_guide_dev/**/*.html', gulp.series('extend-mrkp'));
     gulp.watch('markup_guide_dev/assets/js/*.js', gulp.series('babel-mrkp'));

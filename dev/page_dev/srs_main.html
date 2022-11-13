@@ -5,24 +5,29 @@
 
 <!--start Contents-->
 
-<!-- wrapper -->
-<div id="wrapper">
 
-    <comp-header></comp-header>
+<div id="app">
+    <!-- wrapper -->
+    <div id="wrapper">
+        <!-- header component -->
+        <main-header></main-header>
+        <!-- //header component -->
 
-    <!-- container -->
-    <div id="container">
-        <!-- contents | 컨텐츠영역 -->
-        <router-view></router-view>
-        <!-- //contents | 컨텐츠영역 -->
+        <!-- container -->
+        <div id="container">
+            <!-- contents | 컨텐츠영역 -->
+            <router-view></router-view>
+            <!-- //contents | 컨텐츠영역 -->
+        </div>
+        <!-- //container -->
+
+        <!-- footer component -->
+        <comp-footer></comp-footer>
+        <!-- //footer component -->
+
     </div>
-    <!-- //container -->
-
-    <comp-footer></comp-footer>
-
-
+    <!-- //wrapper -->
 </div>
-<!-- //wrapper -->
 
 <!--end Contents-->
 

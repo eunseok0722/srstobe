@@ -18,10 +18,10 @@
         @include bdb(1px, #d7d7d7);
         .table-item {
           font-size: $font-16r;
-          padding: 1.5rem;
+          padding: 2rem;
           box-sizing: border-box;
           &:first-child {
-            flex-basis: 20rem;
+            flex-basis: 30rem;
             font-size: $font-13r;
             font-weight: $b;
           }
@@ -38,7 +38,7 @@
 .content {
   .content-header {
     width: 100%;
-    padding: 1.5rem;
+    padding: 2rem;
     box-sizing: border-box;
     @include bdt(1px, $mrkp-blue);
     @include bdb(1px, $mrkp-blue);
@@ -54,7 +54,7 @@ section {
 article {
   display: flex;
   .ico-box {
-    flex-basis: 30rem;
+    flex-basis: 42rem;
     display: flex;
     align-items: center;
     gap: 2rem;
@@ -91,12 +91,10 @@ article {
       font-size: $font-16r;
     }
   }
-  &.art-garet {
-    font-family: "Garet", sans-serif;
+  &.garet {
     font-weight: $r;
   }
-  &.art-poppins {
-    font-family: "Poppins", sans-serif;
+  &.poppins {
     font-weight: $md;
   }
 }

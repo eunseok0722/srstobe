@@ -188,19 +188,19 @@ body { font-family: "NanumSquareRound", sans-serif; }
 
 .desc-table-wrap .desc-table .table-row .table-column { display: flex; border-bottom: 1px solid #d7d7d7; }
 
-.desc-table-wrap .desc-table .table-row .table-column .table-item { font-size: 1.6rem; padding: 1.5rem; box-sizing: border-box; }
+.desc-table-wrap .desc-table .table-row .table-column .table-item { font-size: 1.6rem; padding: 2rem; box-sizing: border-box; }
 
-.desc-table-wrap .desc-table .table-row .table-column .table-item:first-child { flex-basis: 20rem; font-size: 1.3rem; font-weight: 700; }
+.desc-table-wrap .desc-table .table-row .table-column .table-item:first-child { flex-basis: 30rem; font-size: 1.3rem; font-weight: 700; }
 
 .container { margin-top: 6rem; }
 
-.content .content-header { width: 100%; padding: 1.5rem; box-sizing: border-box; border-top: 1px solid #0072bc; border-bottom: 1px solid #0072bc; color: #0072bc; background-color: #f2f8fb; }
+.content .content-header { width: 100%; padding: 2rem; box-sizing: border-box; border-top: 1px solid #0072bc; border-bottom: 1px solid #0072bc; color: #0072bc; background-color: #f2f8fb; }
 
 section { margin-top: 5rem; display: flex; flex-direction: column; gap: 5rem; }
 
 article { display: flex; }
 
-article .ico-box { flex-basis: 30rem; display: flex; align-items: center; gap: 2rem; }
+article .ico-box { flex-basis: 42rem; display: flex; align-items: center; gap: 2rem; }
 
 article .ico-box .ico { display: flex; width: 7rem; height: 5.5rem; color: #fff; font-size: 2.6rem; justify-content: center; align-items: center; background: url("../images/ico_file_001.png") no-repeat center center/70px 55px; }
 
@@ -216,9 +216,9 @@ article .font-box .font-tit .desc { font-size: 1.4rem; }
 
 article .font-box .font-exam { font-size: 1.6rem; }
 
-article.art-garet { font-family: "Garet", sans-serif; font-weight: 400; }
+article.garet { font-weight: 400; }
 
-article.art-poppins { font-family: "Poppins", sans-serif; font-weight: 500; }
+article.poppins { font-weight: 500; }
 
 .color-guide { display: flex; width: 100%; }
 

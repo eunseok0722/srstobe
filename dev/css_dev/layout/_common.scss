@@ -1,14 +1,67 @@
 //// 기본 폰트 정의
-//body {
-//  font-family: $default_font;
-//}
-//
+body {
+  font-family: $default_font;
+}
+
 //// 웹접근성용 안내 문구 숨김
-//.blind {
-//  font-size: 0;
-//  position: absolute;
-//  text-indent: -9999px;
-//}
+.blind {
+  font-size: 0;
+  position: absolute;
+  text-indent: -9999px;
+}
+
+//// font 설정
+.tit-h1 {
+  font-family: $point_font;
+  font-weight: $r;
+  font-size: $font-16r;
+}
+.tit-h2 {
+  font-family: $point_font;
+  font-weight: $b;
+  font-size: $font-14r;
+}
+.tit-h3 {
+  font-family: $point_font;
+  font-weight: $sb;
+  font-size: $font-13r;
+}
+
+.txt-l {
+  font-size: $font-16r;
+}
+.txt-r {
+  font-size: $font-13r;
+}
+.txt-s {
+  font-size: $font-10r;
+}
+
+.lb-tit-r {
+  font-family: $point-font;
+  font-size: $font-18r;
+  font-weight: $sb;
+}
+.lb-txt-r {
+  font-family: $default_font;
+  font-size: $font-15r;
+  font-weight: $r;
+}
+
+.garet {
+  font-family: "Garet", sans-serif;
+}
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+
+.blue-d {
+  background-color: $blue_d;
+}
+.blue-l {
+  background-color: $blue_l;
+}
 //
 //
 //
