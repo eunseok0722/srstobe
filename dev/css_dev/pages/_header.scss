@@ -89,7 +89,7 @@
   @include flex-col(3rem);
   justify-content: space-between;
   z-index: $nav-z-index + 1;
-  transition: bottom 0.5s ease-in-out;
+  transition: bottom 0.3s ease-in;
 
   &:after {
     content: '';
