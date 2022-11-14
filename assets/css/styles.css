@@ -238,21 +238,35 @@ body { font-family: "Garet", sans-serif; }
 
 /* // main-header css */
 /* sub header CSS */
-.sub-header { width: 100%; height: fit-content; }
+.sub-header { width: 100%; height: fit-content; border-bottom: 1px solid #d7d7d7; }
 
-.sub-header .gnb-wrap { width: 1280px; margin: 0 auto; padding: 1.4rem 0; }
+.sub-header .gnb-wrap { width: 1280px; margin: 0 auto; padding: 1.3rem 0; }
 
-.sub-header .gnb-wrap .nav-list { width: 100%; display: flex; justify-content: space-between; }
+.sub-header .gnb-wrap .nav-list { width: 100%; height: 5rem; display: flex; justify-content: space-between; }
 
 .sub-header .gnb-wrap .nav-list .list-item { flex-basis: 18.2rem; }
 
-.sub-header .gnb-wrap .nav-list .list-item .tit-h1 { padding: 1.8rem 3.2rem; text-align: center; font-weight: 700; -webkit-border-radius: 1.4rem; -moz-border-radius: 1.4rem; border-radius: 1.4rem; }
+.sub-header .gnb-wrap .nav-list .list-item .tit-h1 { padding: 1.7rem 3.2rem; text-align: center; font-weight: 700; -webkit-border-radius: 1.4rem; -moz-border-radius: 1.4rem; border-radius: 1.4rem; }
 
 .sub-header .gnb-wrap .nav-list .list-item .tit-h1:hover { background-color: #008aff; }
 
 .sub-header .gnb-wrap .nav-list .list-item .tit-h1:hover a { color: #fff; }
 
-.sub-header .d2-list-wrap { display: none; }
+.sub-header .d2-list-wrap { position: absolute; top: 7.7rem; left: 0; right: 0; background-color: #ffffff; border-bottom: 3px solid #008aff; }
+
+.sub-header .d2-list-wrap .d2-list { width: 1280px; height: 310px; margin: 0 auto; padding: 1.3rem 1.4rem; box-sizing: border-box; display: flex; gap: 9.4rem; }
+
+.sub-header .d2-list-wrap .d2-item { width: 22rem; display: flex; flex-direction: column; gap: 0.5rem; }
+
+.sub-header .d2-list-wrap .d2-item .tit-box { display: flex; flex-direction: column; gap: 0.5rem; justify-content: flex-end; padding: 1.2rem 1.8rem; border-radius: 1rem; height: 5.2rem; box-sizing: border-box; }
+
+.sub-header .d2-list-wrap .d3-list { width: 100%; display: flex; flex-direction: column; gap: 0; }
+
+.sub-header .d2-list-wrap .d3-list .d3-list-item a { display: block; padding: 1.2rem 1.8rem; border-radius: 1rem; }
+
+.sub-header .d2-list-wrap .d3-list .d3-list-item a:hover { color: #008aff; font-weight: 700; background-color: #daf0f9; }
+
+.sub-header .d2-list-wrap.v2 { display: none; }
 
 /* // sub header CSS */
 .main-visual { display: flex; justify-content: center; align-items: center; width: 100vw; height: 100vh; background-image: url("../images/img_main_visual_bg.png"); background-position: center; background-size: cover; }
