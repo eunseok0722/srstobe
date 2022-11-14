@@ -246,7 +246,7 @@ body { font-family: "Garet", sans-serif; }
 
 .sub-header .gnb-wrap .nav-list .list-item { flex-basis: 18.2rem; }
 
-.sub-header .gnb-wrap .nav-list .list-item .tit-h1 { padding: 1.7rem 3.2rem; text-align: center; font-weight: 700; -webkit-border-radius: 1.4rem; -moz-border-radius: 1.4rem; border-radius: 1.4rem; }
+.sub-header .gnb-wrap .nav-list .list-item .tit-h1 { padding: 1.7rem 3.2rem; text-align: center; font-weight: 700; -webkit-border-radius: 1.4rem; -moz-border-radius: 1.4rem; border-radius: 1.4rem; transition: background-color 0.3s ease; }
 
 .sub-header .gnb-wrap .nav-list .list-item .tit-h1:hover { background-color: #008aff; }
 
@@ -262,7 +262,7 @@ body { font-family: "Garet", sans-serif; }
 
 .sub-header .d2-list-wrap .d3-list { width: 100%; display: flex; flex-direction: column; gap: 0; }
 
-.sub-header .d2-list-wrap .d3-list .d3-list-item a { display: block; padding: 1.2rem 1.8rem; border-radius: 1rem; }
+.sub-header .d2-list-wrap .d3-list .d3-list-item a { display: block; padding: 1.2rem 1.8rem; border-radius: 1rem; transition: background-color 0.3s ease; }
 
 .sub-header .d2-list-wrap .d3-list .d3-list-item a:hover { color: #008aff; font-weight: 700; background-color: #daf0f9; }
 
