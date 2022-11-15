@@ -1,17 +1,16 @@
 <template>
   <!-- header | 머릿말 -->
-  <div id="header" class="sub-header">
-
+  <div id="header" class="sub-header" @mouseleave="d2Inactivate">
     <div class="gnb-wrap">
       <ul class="nav-list">
         <!--  d1 | APPLICATIONS  -->
-        <li class="list-item">
+        <li class="list-item" v-on:mouseenter="d2Activate(0)">
           <h2 class="tit-h1">
             <a class="nav-item">
               APPLICATIONS
             </a>
           </h2>
-          <div class="d2-list-wrap">
+          <div class="d2-list-wrap v1" :class="{active: d2State[0].active}">
             <ul class="d2-list">
               <!--  d2 | Automotive  -->
               <li class="d2-list-item">
@@ -151,13 +150,13 @@
         </li>
         <!--  //d1 | APPLICATIONS  -->
         <!--  d1 | PRODUCTS  -->
-        <li class="list-item">
+        <li class="list-item"  v-on:mouseenter="d2Activate(1)">
           <h2 class="tit-h1">
             <a class="nav-item">
               PRODUCTS
             </a>
           </h2>
-          <div class="d2-list-wrap v2">
+          <div class="d2-list-wrap v2" :class="{active: d2State[1].active}">
             <ul class="d2-list">
               <!--  d2 | RETINA-Next Gen  -->
               <li class="d2-list-item">
@@ -167,7 +166,9 @@
                     <h3 class="tit-h3">RETINA-Next Gen</h3>
                   </div>
                   <div class="img-box">
-                    <img src="" alt="">
+                    <a href="#">
+                      <img :src="path" alt="">
+                    </a>
                   </div>
                 </div>
               </li>
@@ -176,11 +177,12 @@
               <li class="d2-list-item">
                 <div class="d2-item">
                   <div class="tit-box">
-                    <p class="txt-s"></p>
                     <h3 class="tit-h3">RETINA-4F</h3>
                   </div>
                   <div class="img-box">
-                    <img src="" alt="">
+                    <a href="#">
+                      <img :src="path" alt="">
+                    </a>
                   </div>
                 </div>
               </li>
@@ -193,7 +195,9 @@
                     <h3 class="tit-h3">IRISt</h3>
                   </div>
                   <div class="img-box">
-                    <img src="" alt="">
+                    <a href="#">
+                      <img :src="path" alt="">
+                    </a>
                   </div>
                 </div>
               </li>
@@ -202,11 +206,12 @@
               <li class="d2-list-item">
                 <div class="d2-item">
                   <div class="tit-box">
-                    <p class="txt-s"></p>
                     <h3 class="tit-h3">IRISc</h3>
                   </div>
                   <div class="img-box">
-                    <img src="" alt="">
+                    <a href="#">
+                      <img :src="path" alt="">
+                    </a>
                   </div>
                 </div>
               </li>
@@ -215,11 +220,12 @@
               <li class="d2-list-item">
                 <div class="d2-item">
                   <div class="tit-box">
-                    <p class="txt-s"></p>
                     <h3 class="tit-h3">RETINA-4S</h3>
                   </div>
                   <div class="img-box">
-                    <img src="" alt="">
+                    <a href="#">
+                      <img :src="path" alt="">
+                    </a>
                   </div>
                 </div>
               </li>
@@ -228,11 +234,12 @@
               <li class="d2-list-item">
                 <div class="d2-item">
                   <div class="tit-box">
-                    <p class="txt-s"></p>
                     <h3 class="tit-h3">RETINA-4A</h3>
                   </div>
                   <div class="img-box">
-                    <img src="" alt="">
+                    <a href="#">
+                      <img :src="path" alt="">
+                    </a>
                   </div>
                 </div>
               </li>
@@ -241,11 +248,12 @@
               <li class="d2-list-item">
                 <div class="d2-item">
                   <div class="tit-box">
-                    <p class="txt-s"></p>
                     <h3 class="tit-h3">IRISm</h3>
                   </div>
                   <div class="img-box">
-                    <img src="" alt="">
+                    <a href="#">
+                      <img :src="path" alt="">
+                    </a>
                   </div>
                 </div>
               </li>
@@ -254,11 +262,12 @@
               <li class="d2-list-item">
                 <div class="d2-item">
                   <div class="tit-box">
-                    <p class="txt-s"></p>
                     <h3 class="tit-h3">SE68-51W</h3>
                   </div>
                   <div class="img-box">
-                    <img src="" alt="">
+                    <a href="#">
+                      <img :src="path" alt="">
+                    </a>
                   </div>
                 </div>
               </li>
@@ -268,13 +277,13 @@
         </li>
         <!--  //d1 | PRODUCTS  -->
         <!--  d1 | DESIGN  -->
-        <li class="list-item">
+        <li class="list-item" v-on:mouseenter="d2Activate(2)">
           <h2 class="tit-h1">
             <a class="nav-item">
               DESIGN
             </a>
           </h2>
-          <div class="d2-list-wrap v2">
+          <div class="d2-list-wrap v3" :class="{active: d2State[2].active}">
             <ul class="d2-list">
               <!--  d2 | 4D Imaging Radar  -->
               <li class="d2-list-item">
@@ -284,7 +293,9 @@
                     <h3 class="tit-h3">4D Imaging Radar</h3>
                   </div>
                   <div class="img-box">
-                    <img src="" alt="">
+                    <a href="#">
+                      <img :src="path" alt="">
+                    </a>
                   </div>
                 </div>
               </li>
@@ -297,7 +308,9 @@
                     <h3 class="tit-h3">Software Defined Vehicle</h3>
                   </div>
                   <div class="img-box">
-                    <img src="" alt="">
+                    <a href="#">
+                      <img :src="path" alt="">
+                    </a>
                   </div>
                 </div>
               </li>
@@ -310,7 +323,9 @@
                     <h3 class="tit-h3">SWaP sensor</h3>
                   </div>
                   <div class="img-box">
-                    <img src="" alt="">
+                    <a href="#">
+                      <img :src="path" alt="">
+                    </a>
                   </div>
                 </div>
               </li>
@@ -323,7 +338,9 @@
                     <h3 class="tit-h3">Edge Device with ML</h3>
                   </div>
                   <div class="img-box">
-                    <img src="" alt="">
+                    <a href="#">
+                      <img :src="path" alt="">
+                    </a>
                   </div>
                 </div>
               </li>
@@ -334,19 +351,18 @@
         </li>
         <!--  //d1 | DESIGN  -->
         <!--  d1 | ABOUT SRS  -->
-        <li class="list-item">
+        <li class="list-item" v-on:mouseenter="d2Activate(3)">
           <h2 class="tit-h1">
             <a class="nav-item">
               ABOUT SRS
             </a>
           </h2>
-          <div class="d2-list-wrap v2">
+          <div class="d2-list-wrap v4" :class="{active: d2State[3].active}">
             <ul class="d2-list">
               <!--  d2 |Investors & Partners  -->
               <li class="d2-list-item">
                 <div class="d2-item">
                   <div class="tit-box">
-                    <p class="txt-s"></p>
                     <h3 class="tit-h3">Investors & Partners</h3>
                   </div>
                 </div>
@@ -356,7 +372,6 @@
               <li class="d2-list-item">
                 <div class="d2-item">
                   <div class="tit-box">
-                    <p class="txt-s"></p>
                     <h3 class="tit-h3">Awards & Patents</h3>
                   </div>
                 </div>
@@ -366,11 +381,7 @@
               <li class="d2-list-item">
                 <div class="d2-item">
                   <div class="tit-box">
-                    <p class="txt-s"></p>
                     <h3 class="tit-h3">Team building</h3>
-                  </div>
-                  <div class="img-box">
-                    <img src="" alt="">
                   </div>
                 </div>
               </li>
@@ -379,7 +390,6 @@
               <li class="d2-list-item">
                 <div class="d2-item">
                   <div class="tit-box">
-                    <p class="txt-s"></p>
                     <h3 class="tit-h3">Contacts</h3>
                   </div>
                 </div>
@@ -389,7 +399,6 @@
               <li class="d2-list-item">
                 <div class="d2-item">
                   <div class="tit-box">
-                    <p class="txt-s"></p>
                     <h3 class="tit-h3">Newsroom</h3>
                   </div>
                 </div>
@@ -412,9 +421,19 @@ export default {
   name: "compHeader",
   props: [],
   data() {
-    return {}
+    return {
+      d2State: [
+        {id: 1, active: false},
+        {id: 2, active: false},
+        {id: 3, active: false},
+        {id: 4, active: false},
+      ]
+    }
   },
   computed: {
+    path() {
+      return `../../assets/images/img_temp_01.png`
+    }
     // imgPath() {
     //   return this.$store.state.path.img
     // },
@@ -436,6 +455,17 @@ export default {
 
   },
   methods: {
+    d2Activate(index) {
+      for(let i = 0 ; i < this.d2State.length; i ++) {
+        this.d2State[i].active = false
+      }
+      this.d2State[index].active = true
+    },
+    d2Inactivate() {
+      for(let i = 0 ; i < this.d2State.length; i ++) {
+        this.d2State[i].active = false
+      }
+    }
     // navChange() {
     //   this.$store.commit('moduleHeader/navChange')
     // },

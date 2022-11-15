@@ -1,4 +1,3 @@
-
 /* main-header css */
 .main-header {
   position: fixed;
@@ -6,6 +5,7 @@
   left: 0;
   width: 100%;
   height: fit-content;
+
   &::after {
     content: '';
     display: block;
@@ -17,6 +17,7 @@
     background-color: #02468c;
     z-index: -1;
   }
+
   /* header  활성화 */
   &.active {
     .gnb-sub-wrap {
@@ -34,11 +35,13 @@
     align-items: flex-end;
     padding-bottom: 2rem;
     box-sizing: border-box;
+
     .nav-list {
       width: 100%;
       display: flex;
       justify-content: space-between;
       align-items: baseline;
+
       .list-item {
         position: relative;
 
@@ -50,6 +53,7 @@
           position: relative;
           z-index: $nav-z-index;
         }
+
         .ico-box {
           a,
           button,
@@ -61,6 +65,7 @@
             background-position: center;
             background-repeat: no-repeat;
           }
+
           &::after {
             content: '';
             position: absolute;
@@ -72,12 +77,13 @@
             width: 17rem;
             height: 8rem;
             background-color: #0054a6;
-            box-shadow: 10px 10px 16px 0 rgba(0,0,0,0.1);
+            box-shadow: 10px 10px 16px 0 rgba(0, 0, 0, 0.1);
           }
         }
       }
     }
   }
+
   /* main header  gnb CSS */
 
   /* main header sub gnb CSS */
@@ -109,35 +115,43 @@
       background-color: #2b8add;
       opacity: 0.85;
     }
+
     .gnb-header {
       z-index: $nav-z-index + 2;
       color: $white;
     }
+
     .d2-list-wrap {
       z-index: $nav-z-index + 2;
+
       .d2-list {
         width: 100%;
         display: flex;
         gap: 1rem;
         justify-content: space-between;
+
         .d2-list-item {
           flex-basis: 20%;
           @include bd(3px, $white);
           @include bdrs(1.4rem);
           transition: all 0.3s;
+
           &.d1-menu {
             @include flex-col();
             justify-content: center;
             border: none;
             background-color: $blue_sub;
+
             .d2-item {
               gap: 3rem;
               padding: 3rem 3.5rem;
               justify-content: space-between;
               align-items: flex-end;
+
               .lb-tit-r {
                 padding: 1rem 2rem;
                 @include bdrs(1.5rem);
+
                 &:hover {
                   background-color: $light_blue;
                 }
@@ -147,11 +161,13 @@
 
           &:hover {
             background-color: $white;
+
             .d2-item {
               h3,
               .lb-tit-r {
                 color: $blue_lr;
               }
+
               .d3-list {
                 .d3-list-item {
                   color: inherit;
@@ -161,23 +177,29 @@
           }
         }
       }
+
       .d2-item {
         @include flex-col(2.5rem);
         padding: 2.5rem 1.5rem;
+
         h3,
         .lb-tit-r {
           padding: 0 1rem;
           color: $white;
         }
+
         .d3-list {
           @include flex-col();
+
           .d3-list-item {
             padding: 1rem 0 1rem 1rem;
             @include bdrs(1rem);
             color: $white;
             transition: all 0.3s;
+
             &:hover {
               background-color: $light_blue;
+
               a,
               button {
                 //font-family: $point-font;
@@ -189,8 +211,10 @@
       }
     }
   }
+
   /* main header sub gnb CSS */
 }
+
 /* // main-header css */
 
 /* sub header CSS */
@@ -198,25 +222,31 @@
   width: 100%;
   height: fit-content;
   border-bottom: 1px solid #d7d7d7;
+
   .gnb-wrap {
     width: 1280px;
     margin: 0 auto;
     padding: 1.3rem 0;
+
     .nav-list {
       width: 100%;
       height: 5rem;
       display: flex;
       justify-content: space-between;
+
       .list-item {
         flex-basis: 18.2rem;
+
         .tit-h1 {
           padding: 1.7rem 3.2rem;
           text-align: center;
           font-weight: $b;
           @include bdrs(1.4rem);
           transition: background-color 0.3s ease;
+
           &:hover {
             background-color: $blue_l;
+
             a {
               color: $white;
             }
@@ -225,13 +255,18 @@
       }
     }
   }
+
   .d2-list-wrap {
     position: absolute;
     top: 7.7rem;
     left: 0;
     right: 0;
     background-color: #ffffff;
-    border-bottom: 3px solid $blue_l;
+    height: fit-content;
+    //max-height: 350px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
     .d2-list {
       width: 1280px;
       height: 310px;
@@ -242,38 +277,136 @@
       gap: 9.4rem;
 
     }
+
     .d2-item {
       width: 22rem;
       @include flex-col(0.5rem);
+
       .tit-box {
         @include flex-col(0.5rem);
         justify-content: flex-end;
         padding: 1.2rem 1.8rem;
         border-radius: 1rem;
-        height : 5.2rem;
+        height: 5.2rem;
+        //height: fit-content;
         box-sizing: border-box;
+        a {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .img-box {
+        width: 274px;
+        height: 74px;
+        margin: 0 1.8rem;
+        border-radius: 10px;
+        box-sizing: border-box;
+        overflow: hidden;
+        a {
+          display: block;
+          width: 100%;
+          height: 100%;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s;
+          }
+        }
+      }
+      &:hover {
+        .img-box {
+          border: 2px solid $blue_l;
+          a {
+            img {
+              transform: scale(1.1);
+            }
+          }
+        }
+
       }
     }
+
     .d3-list {
       width: 100%;
       @include flex-col();
+
       .d3-list-item {
         a {
           display: block;
           padding: 1.2rem 1.8rem;
           border-radius: 1rem;
           transition: background-color 0.3s ease;
+
           &:hover {
-            color : $blue_l;
+            color: $blue_l;
             font-weight: $b;
             background-color: $light_blue;
           }
         }
       }
     }
+
+    &.active {
+      max-height: 350px;
+      border-bottom: 3px solid $blue_l;
+    }
   }
-  .d2-list-wrap.v2 {
-    display: none;
+
+  .d2-list-wrap.v2,
+  .d2-list-wrap.v3 {
+    .d2-list {
+      flex-wrap: wrap;
+      row-gap: 0;
+      column-gap: 2.2rem;
+      align-content: flex-start;
+      .d2-list-item {
+        width: fit-content;
+        height: fit-content;
+      }
+    }
+    .d2-item {
+      width: 29.2rem;
+      gap: 0;
+      .tit-box {
+        padding: 0.9rem 1.8rem;
+      }
+    }
+  }
+
+  .d2-list-wrap.v3 {
+    .d2-item {
+      .img-box {
+        height: 104px;
+      }
+    }
+  }
+
+  .d2-list-wrap.v4 {
+    .d2-list {
+      justify-content: space-between;
+      gap: 0;
+    }
+    .d2-item {
+      .tit-box {
+        height: fit-content;
+        justify-content: center;
+        text-align: center;
+        transition: background-color 0.3s ease;
+      }
+      &:hover {
+        .tit-box {
+          background-color: $light_blue;
+          color: $blue_l;
+        }
+      }
+    }
+  }
+
+  .d2-list-wrap.v1,
+  .d2-list-wrap.v2,
+  .d2-list-wrap.v3 {
+    //display: none;
   }
 }
 
