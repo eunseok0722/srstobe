@@ -161,11 +161,13 @@ body { font-family: "Garet", sans-serif; }
 
 .tit-h3 { font-family: "Poppins", sans-serif; font-weight: 600; font-size: 1.3rem; }
 
-.txt-l { font-size: 1.6rem; }
+.txt-l { font-size: 1.6rem; font-weight: 400; }
 
-.txt-r { font-size: 1.3rem; }
+.txt-r { font-size: 1.3rem; font-weight: 400; }
 
-.txt-s { font-size: 1.05rem; }
+.txt-m { font-size: 1.1rem; font-weight: 400; }
+
+.txt-s { font-size: 1.05rem; font-weight: 400; }
 
 .lb-tit-r { font-family: "Poppins", sans-serif; font-size: 1.8rem; font-weight: 600; }
 
@@ -179,6 +181,20 @@ body { font-family: "Garet", sans-serif; }
 
 .blue-l { background-color: #008aff; }
 
+/* icon style */
+.ico-item { width: 3rem; height: 3rem; border-radius: 0.8rem; background-repeat: no-repeat; background-position: center center; box-shadow: 4.9px 3.4px 8px 0 rgba(0, 0, 0, 0.1); overflow: hidden; }
+
+.ico-item a { display: block; width: 100%; height: 100%; }
+
+.ico-item.ty02 { width: 5.2rem; height: 5.2rem; border-radius: 1.3rem; }
+
+.ico-facebook { background-image: url("../images/ico_facebook_001.png"); background-size: 3rem 3rem; }
+
+.ico-linkedin { background-image: url("../images/ico_linkedin_001.png"); background-size: 3rem 3rem; }
+
+.ico-arrow-top { background-image: url("../images/ico_arrow_001.png"); background-size: 2.5rem 1.4rem; background-color: #008aff; border: 1px solid #0054a6; }
+
+/* //icon style */
 /* main-header css */
 .main-header { position: fixed; bottom: 0; left: 0; width: 100%; height: fit-content; /* header  활성화 */ /* main header  gnb CSS */ /* main header  gnb CSS */ /* main header sub gnb CSS */ /* main header sub gnb CSS */ }
 
@@ -297,6 +313,54 @@ body { font-family: "Garet", sans-serif; }
 .sub-header .d2-list-wrap.v4 .d2-item:hover .tit-box { background-color: #daf0f9; color: #008aff; }
 
 /* // sub header CSS */
+#footer { width: 100%; height: fit-content; background-color: #f5f5f5; }
+
+#footer .footer-wrap { width: 1280px; margin: 0 auto; padding: 3.7rem 3.2rem 3.2rem; box-sizing: border-box; display: flex; flex-direction: column; gap: 4.6rem; }
+
+#footer .sec-addr { display: flex; justify-content: space-between; }
+
+#footer .sec-addr .art-addr { display: flex; flex-direction: column; gap: 1rem; }
+
+#footer .sec-addr .art-addr address { font-style: normal; display: flex; flex-direction: column; gap: 0.7rem; }
+
+#footer .sec-addr .art-addr address span { display: block; }
+
+#footer .sec-map .gnb-wrap .nav-list { display: flex; flex-direction: column; gap: 0; flex-wrap: wrap; height: 31rem; }
+
+#footer .sec-map .gnb-wrap .nav-list .list-item { flex-basis: 33.33%; width: 33.33%; display: flex; flex-direction: column; gap: 2rem; }
+
+#footer .sec-map .gnb-wrap .nav-list .list-item:nth-child(3), #footer .sec-map .gnb-wrap .nav-list .list-item:nth-child(4) { flex-basis: 16.67%; width: 16.67%; }
+
+#footer .sec-map .gnb-wrap .nav-list .list-item .tit-h1 { font-weight: 700; }
+
+#footer .sec-map .d2-list-wrap .d2-list { display: flex; flex-wrap: wrap; row-gap: 1.8rem; }
+
+#footer .sec-map .d2-list-wrap .d2-list .d2-list-item { flex-basis: 50%; }
+
+#footer .sec-map .d2-item { display: flex; flex-direction: column; gap: 1.2rem; }
+
+#footer .sec-map .d2-item .tit-box { display: flex; flex-direction: column; gap: 1rem; }
+
+#footer .sec-map .d2-item .tit-box .txt-s { font-weight: 700; }
+
+#footer .sec-map .d2-item .d3-list { display: flex; flex-direction: column; gap: 0.6rem; }
+
+#footer .sec-map .d2-list-wrap.v1 .d2-list { row-gap: 3rem; }
+
+#footer .sec-map .d2-list-wrap.v1 .d2-item .tit-box { justify-content: flex-end; height: 3.2rem; }
+
+#footer .sec-map .d2-list-wrap.v2 .d2-list { align-items: flex-end; }
+
+#footer .sec-map .d2-list-wrap.v2 .d2-list .d2-list-item:nth-child(5) { margin-top: 3rem; }
+
+#footer .sec-map .d2-list-wrap.v3 .d2-list, #footer .sec-map .d2-list-wrap.v4 .d2-list { flex-direction: column; flex-wrap: nowrap; }
+
+#footer .sec-copy { display: flex; justify-content: space-between; }
+
+#footer .sec-copy .ico-list { display: flex; gap: 1rem; }
+
+#footer .ico-arrow-top { position: fixed; bottom: 15%; right: 3%; }
+
 .main-visual { display: flex; justify-content: center; align-items: center; width: 100vw; height: 100vh; background-image: url("../images/img_main_visual_bg.png"); background-position: center; background-size: cover; }
 
 .main-visual .visual-cont { width: 90%; max-width: 1280px; height: fit-content; }

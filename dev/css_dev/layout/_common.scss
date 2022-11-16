@@ -29,12 +29,19 @@ body {
 
 .txt-l {
   font-size: $font-16r;
+  font-weight: $r;
 }
 .txt-r {
   font-size: $font-13r;
+  font-weight: $r;
+}
+.txt-m {
+  font-size: $font-11r;
+  font-weight: $r;
 }
 .txt-s {
   font-size: $font-10r;
+  font-weight: $r;
 }
 
 .lb-tit-r {
@@ -62,6 +69,43 @@ body {
 .blue-l {
   background-color: $blue_l;
 }
+
+/* icon style */
+.ico-item {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.8rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: 4.9px 3.4px 8px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  &.ty02 {
+    width: 5.2rem;
+    height: 5.2rem;
+    border-radius: 1.3rem;
+  }
+}
+.ico-facebook {
+  background-image: url("../images/ico_facebook_001.png");
+  background-size: 3rem 3rem;
+}
+.ico-linkedin {
+  background-image: url("../images/ico_linkedin_001.png");
+  background-size: 3rem 3rem;
+}
+.ico-arrow-top {
+  background-image: url("../images/ico_arrow_001.png");
+  background-size: 2.5rem 1.4rem;
+  background-color: $blue_l;
+  border: 1px solid $blue_d;
+}
+
+/* //icon style */
 //
 //
 //
