@@ -317,7 +317,7 @@ body { font-family: "Garet", sans-serif; }
 
 #footer .footer-wrap { width: 1280px; margin: 0 auto; padding: 3.7rem 3.2rem 3.2rem; box-sizing: border-box; display: flex; flex-direction: column; gap: 4.6rem; }
 
-#footer .sec-addr { display: flex; justify-content: space-between; }
+#footer .sec-addr { display: flex; justify-content: space-between; border-bottom: 1px solid #d7d7d7; padding-bottom: 3rem; }
 
 #footer .sec-addr .art-addr { display: flex; flex-direction: column; gap: 1rem; }
 
@@ -355,7 +355,7 @@ body { font-family: "Garet", sans-serif; }
 
 #footer .sec-map .d2-list-wrap.v3 .d2-list, #footer .sec-map .d2-list-wrap.v4 .d2-list { flex-direction: column; flex-wrap: nowrap; }
 
-#footer .sec-copy { display: flex; justify-content: space-between; }
+#footer .sec-copy { display: flex; justify-content: space-between; border-top: 1px solid #d7d7d7; padding-top: 2rem; }
 
 #footer .sec-copy .ico-list { display: flex; gap: 1rem; }
 
