@@ -441,22 +441,26 @@ select {
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
-
-  background-image: url("../images/ico_arrow_003.png");
-  background-size: 1.2rem 0.6rem;
-  background-repeat: no-repeat;
   background-position: calc(100% - 1.5rem) center;
+  background-repeat: no-repeat;
+
   option {
-    margin-top: 1rem;
     font-size: 1.15rem;
     padding: 1rem 0;
-    box-sizing: border-box;
   }
   &:focus,
   :focus-visible {
-    background-image: url("../images/ico_arrow_002.png");
-    outline: none;
-    border-color: $blue_l;
+
+    outline-color: $blue_l;
   }
 
+}
+.select-ty {
+  background-image: url("../images/ico_arrow_003.png");
+  background-size: 1.2rem 0.6rem;
+  transition: background 0.2s ease;
+
+  &.active {
+    background-image: url("../images/ico_arrow_002.png");
+  }
 }
