@@ -1,6 +1,7 @@
 <template>
   <!-- header | 머릿말 -->
   <div id="header" class="sub-header" @mouseleave="d2Inactivate">
+    <!--  gnb | general navigation  -->
     <div class="gnb-wrap">
       <ul class="nav-list">
         <!--  d1 | APPLICATIONS  -->
@@ -150,7 +151,7 @@
         </li>
         <!--  //d1 | APPLICATIONS  -->
         <!--  d1 | PRODUCTS  -->
-        <li class="list-item"  v-on:mouseenter="d2Activate(1)">
+        <li class="list-item" v-on:mouseenter="d2Activate(1)">
           <h2 class="tit-h1">
             <a class="nav-item">
               PRODUCTS
@@ -410,12 +411,20 @@
         <!--  //d1 | ABOUT SRS  -->
       </ul>
     </div>
+    <!--  gnb | general navigation   -->
+    <!--  breadcrumb | breadcrumb navigation  -->
+    <template v-if="true">
+      <comp-breadcrumb></comp-breadcrumb>
+    </template>
+    <!--  breadcrumb | breadcrumb navigation  -->
   </div>
   <!-- //header | 머릿말 -->
 </template>
 
 <script>
 // import NavSnsList from "../components/NavSnsList.vue";
+
+import CompBreadcrumb from "./CompBreadcrumb.vue";
 
 export default {
   name: "compHeader",
@@ -441,13 +450,13 @@ export default {
   },
   methods: {
     d2Activate(index) {
-      for(let i = 0 ; i < this.d2State.length; i ++) {
+      for (let i = 0; i < this.d2State.length; i++) {
         this.d2State[i].active = false
       }
       this.d2State[index].active = true
     },
     d2Inactivate() {
-      for(let i = 0 ; i < this.d2State.length; i ++) {
+      for (let i = 0; i < this.d2State.length; i++) {
         this.d2State[i].active = false
       }
     }
@@ -465,7 +474,7 @@ export default {
   //   window.removeEventListener('scroll', this.handleScroll)
   // },
   components: {
-    // 'nav-sns-list': NavSnsList,
+    CompBreadcrumb
   }
 }
 </script>

@@ -221,16 +221,17 @@
 .sub-header {
   width: 100%;
   height: fit-content;
-  border-bottom: 1px solid #d7d7d7;
+
 
   .gnb-wrap {
-    width: 1280px;
-    margin: 0 auto;
+    width: 100%;
     padding: 1.3rem 0;
+    border-bottom: 1px solid #d7d7d7;
 
     .nav-list {
-      width: 100%;
+      width: 1280px;
       height: 5rem;
+      margin: 0 auto;
       display: flex;
       justify-content: space-between;
 
@@ -411,3 +412,50 @@
 }
 
 /* // sub header CSS */
+
+/* breadcrumb CSS */
+
+.breadcrumb-wrap {
+  width: 100%;
+  padding: 1.3rem 0;
+  border-bottom: 1px solid #d7d7d7;
+  .breadcrumb {
+    width: 1280px;
+    margin: 0 auto;
+    .bread-list {
+      display: flex;
+      justify-content: flex-end;
+      gap: 2.5rem;
+    }
+  }
+}
+
+/* // breadcrumb CSS */
+
+select {
+  display: block;
+  padding: 1rem 4.2rem 1rem 1.6rem;
+  border-radius: 3.2rem;
+
+//  기본 화살표 제거
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+
+  background-image: url("../images/ico_arrow_003.png");
+  background-size: 1.2rem 0.6rem;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 1.5rem) center;
+  option {
+    margin-top: 1rem;
+    padding: 1rem 0;
+    box-sizing: border-box;
+  }
+  &:focus,
+  :focus-visible {
+    background-image: url("../images/ico_arrow_002.png");
+    outline: none;
+    border-color: $blue_l;
+  }
+
+}
