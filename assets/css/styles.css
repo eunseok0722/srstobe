@@ -343,7 +343,19 @@ body { font-family: "Garet", sans-serif; }
 
 #footer .sec-map .d2-item .tit-box .txt-s { font-weight: 700; }
 
+#footer .sec-map .d2-item .tit-box .txt-r { width: fit-content; }
+
+#footer .sec-map .d2-item .tit-box .txt-r::after { content: ''; display: block; width: 0; height: 1px; background-color: #000; transition: width 0.3s; margin: 0 auto; }
+
+#footer .sec-map .d2-item .tit-box:hover .txt-r::after { width: 100%; }
+
 #footer .sec-map .d2-item .d3-list { display: flex; flex-direction: column; gap: 0.6rem; }
+
+#footer .sec-map .d2-item .d3-list .d3-list-item a { display: block; width: fit-content; }
+
+#footer .sec-map .d2-item .d3-list .d3-list-item a::after { content: ''; display: block; width: 0; height: 1px; background-color: #000; transition: width 0.3s; margin: 0 auto; }
+
+#footer .sec-map .d2-item .d3-list .d3-list-item:hover a::after { width: 100%; }
 
 #footer .sec-map .d2-list-wrap.v1 .d2-list { row-gap: 3rem; }
 
