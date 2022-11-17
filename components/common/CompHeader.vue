@@ -432,26 +432,11 @@ export default {
   },
   computed: {
     path() {
-      return `../../assets/images/img_temp_01.png`
+      return `../../assets/images/img_temp_001.png`
     }
     // imgPath() {
     //   return this.$store.state.path.img
     // },
-    // logoImgUrl() {
-    //   return this.$store.state.moduleHeader.logoImg.url
-    // },
-    // navMenuItem() {
-    //   return this.$store.state.moduleHeader.navMenuItem
-    // },
-    // navActive() {
-    //   return this.$store.state.moduleHeader.navActive
-    // },
-    // navSnsItem() {
-    //   return this.$store.state.navSnsItem
-    // },
-    // inactivate() {
-    //   return this.$store.state.moduleHeader.scrollY >= 150 && this.$store.state.moduleHeader.lastScrollY < this.$store.state.moduleHeader.scrollY
-    // }
 
   },
   methods: {
