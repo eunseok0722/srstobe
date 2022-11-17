@@ -78,10 +78,51 @@
         .txt-s {
           font-weight: $b;
         }
+        .txt-r {
+          width: fit-content;
+          &::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 1px;
+            background-color: #000;
+            transition: width 0.3s;
+            margin: 0 auto;
+          }
+        }
+        &:hover {
+          .txt-r {
+            &::after {
+              width: 100%;
+            }
+          }
+        }
       }
 
       .d3-list {
         @include flex-col(0.6rem);
+        .d3-list-item {
+          a {
+            display: block;
+            width: fit-content;
+            &::after {
+              content: '';
+              display: block;
+              width: 0;
+              height: 1px;
+              background-color: #000;
+              transition: width 0.3s;
+              margin: 0 auto;
+            }
+          }
+          &:hover {
+            a {
+              &::after {
+                width: 100%;
+              }
+            }
+          }
+        }
       }
     }
 

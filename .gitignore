@@ -1,3 +1,6 @@
 /.idea/.gitignore
 /.idea/vcs.xml
 /dev/node_modules/
+/.idea/modules.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/srstobe.iml
