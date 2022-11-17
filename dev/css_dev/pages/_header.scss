@@ -436,7 +436,7 @@ select {
   display: block;
   padding: 1rem 4.2rem 1rem 1.6rem;
   border-radius: 3.2rem;
-
+  font-size: 1.15rem;
 //  기본 화살표 제거
   appearance: none;
   -moz-appearance: none;
@@ -448,6 +448,7 @@ select {
   background-position: calc(100% - 1.5rem) center;
   option {
     margin-top: 1rem;
+    font-size: 1.15rem;
     padding: 1rem 0;
     box-sizing: border-box;
   }

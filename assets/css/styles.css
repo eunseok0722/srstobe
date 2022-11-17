@@ -323,9 +323,9 @@ body { font-family: "Garet", sans-serif; }
 .breadcrumb-wrap .breadcrumb .bread-list { display: flex; justify-content: flex-end; gap: 2.5rem; }
 
 /* // breadcrumb CSS */
-select { display: block; padding: 1rem 4.2rem 1rem 1.6rem; border-radius: 3.2rem; appearance: none; -moz-appearance: none; -webkit-appearance: none; background-image: url("../images/ico_arrow_003.png"); background-size: 1.2rem 0.6rem; background-repeat: no-repeat; background-position: calc(100% - 1.5rem) center; }
+select { display: block; padding: 1rem 4.2rem 1rem 1.6rem; border-radius: 3.2rem; font-size: 1.15rem; appearance: none; -moz-appearance: none; -webkit-appearance: none; background-image: url("../images/ico_arrow_003.png"); background-size: 1.2rem 0.6rem; background-repeat: no-repeat; background-position: calc(100% - 1.5rem) center; }
 
-select option { margin-top: 1rem; padding: 1rem 0; box-sizing: border-box; }
+select option { margin-top: 1rem; font-size: 1.15rem; padding: 1rem 0; box-sizing: border-box; }
 
 select:focus, select :focus-visible { background-image: url("../images/ico_arrow_002.png"); outline: none; border-color: #008aff; }
 
