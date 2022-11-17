@@ -432,7 +432,7 @@ export default {
   },
   computed: {
     path() {
-      return `../../assets/images/img_temp_001.png`
+      return `../assets/images/img_temp_001.png`
     }
     // imgPath() {
     //   return this.$store.state.path.img
