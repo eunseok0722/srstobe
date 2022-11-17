@@ -151,6 +151,8 @@ button { border: none; background: none; font: inherit; }
 
 #wrapper { width: 100%; }
 
+.container { overflow: hidden; }
+
 body { font-family: "Garet", sans-serif; }
 
 .blind { font-size: 0; position: absolute; text-indent: -9999px; }
