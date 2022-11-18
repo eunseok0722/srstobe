@@ -19,6 +19,7 @@ gulp.task('extend', function () {
         .pipe(gulp.dest('../pages/'));
 });
 
+
 gulp.task('sass', function () {
     return gulp.src('css_dev/*.scss')
         .pipe(plumber())
@@ -62,7 +63,7 @@ gulp.task('webserver', function () {
 
 /* markup gulp setting */
 gulp.task('extend-mrkp', function () {
-    return gulp.src('markup_guide_dev/**/*.html')
+    return gulp.src('markup_guide_dev/pages/*.html')
         .pipe(extender({annotations:false,verbose:false,root:"../"}))
         .pipe(plumber())
         .pipe(gulp.dest('../markup_guide/'));
