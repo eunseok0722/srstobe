@@ -22,8 +22,6 @@ const { loadModule } = window['vue3-sfc-loader'];
 
 // 컴포넌트 선언
 const
-    // CompHeader = ()=> loadModule('../components/CompHeader.vue', options),
-    // CompFooter = ()=> loadModule('../components/CompFooter.vue', options),
     MainContent = ()=> loadModule('../components/MainContent.vue', options);
 
 const routes = [

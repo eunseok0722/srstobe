@@ -314,6 +314,14 @@ body { font-family: "Garet", sans-serif; }
 
 .sub-header .d2-list-wrap.v4 .d2-item:hover .tit-box { background-color: #daf0f9; color: #008aff; }
 
+.sub-header.ty02 .gnb-wrap { position: absolute; top: 0; left: 0; transition: background-color 0.3s ease; border-bottom: 1px solid #d7d7d733; }
+
+.sub-header.ty02 .gnb-wrap:hover, .sub-header.ty02 .gnb-wrap :focus, .sub-header.ty02 .gnb-wrap :active { background-color: #fff; }
+
+.sub-header.ty02 .gnb-wrap:hover .tit-h1 .nav-item, .sub-header.ty02 .gnb-wrap :focus .tit-h1 .nav-item, .sub-header.ty02 .gnb-wrap :active .tit-h1 .nav-item { color: inherit; }
+
+.sub-header.ty02 .tit-h1 .nav-item { color: #fff; }
+
 /* // sub header CSS */
 /* breadcrumb CSS */
 .breadcrumb-wrap { width: 100%; padding: 1.3rem 0; border-bottom: 1px solid #d7d7d7; }

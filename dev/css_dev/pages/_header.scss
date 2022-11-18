@@ -268,6 +268,7 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease;
+
     .d2-list {
       width: 1280px;
       height: 310px;
@@ -291,11 +292,13 @@
         height: 5.2rem;
         //height: fit-content;
         box-sizing: border-box;
+
         a {
           width: 100%;
           height: 100%;
         }
       }
+
       .img-box {
         width: 274px;
         height: 74px;
@@ -303,10 +306,12 @@
         border-radius: 10px;
         box-sizing: border-box;
         overflow: hidden;
+
         a {
           display: block;
           width: 100%;
           height: 100%;
+
           img {
             width: 100%;
             height: 100%;
@@ -315,9 +320,11 @@
           }
         }
       }
+
       &:hover {
         .img-box {
           border: 2px solid $blue_l;
+
           a {
             img {
               transform: scale(1.1);
@@ -361,14 +368,17 @@
       row-gap: 0;
       column-gap: 2.2rem;
       align-content: flex-start;
+
       .d2-list-item {
         width: fit-content;
         height: fit-content;
       }
     }
+
     .d2-item {
       width: 29.2rem;
       gap: 0;
+
       .tit-box {
         padding: 0.9rem 1.8rem;
       }
@@ -388,6 +398,7 @@
       justify-content: space-between;
       gap: 0;
     }
+
     .d2-item {
       .tit-box {
         height: fit-content;
@@ -395,6 +406,7 @@
         text-align: center;
         transition: background-color 0.3s ease;
       }
+
       &:hover {
         .tit-box {
           background-color: $light_blue;
@@ -409,7 +421,35 @@
   .d2-list-wrap.v3 {
     //display: none;
   }
+
+  &.ty02 {
+    .gnb-wrap {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transition: background-color 0.3s ease;
+      @include bdb(1px, #d7d7d733);
+      &:hover,
+      :focus,
+      :active {
+        background-color: $white;
+        .tit-h1 {
+          .nav-item {
+            color: inherit;
+          }
+        }
+      }
+    }
+
+    .tit-h1 {
+      .nav-item {
+        color: $white;
+      }
+    }
+
+  }
 }
+
 
 /* // sub header CSS */
 
@@ -419,9 +459,11 @@
   width: 100%;
   padding: 1.3rem 0;
   border-bottom: 1px solid #d7d7d7;
+
   .breadcrumb {
     width: 1280px;
     margin: 0 auto;
+
     .bread-list {
       display: flex;
       justify-content: flex-end;
@@ -437,7 +479,7 @@ select {
   padding: 1rem 4.2rem 1rem 1.6rem;
   border-radius: 3.2rem;
   font-size: 1.15rem;
-//  기본 화살표 제거
+  //  기본 화살표 제거
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -448,6 +490,7 @@ select {
     font-size: 1.15rem;
     padding: 1rem 0;
   }
+
   &:focus,
   :focus-visible {
 
@@ -455,6 +498,7 @@ select {
   }
 
 }
+
 .select-ty {
   background-image: url("../images/ico_arrow_003.png");
   background-size: 1.2rem 0.6rem;

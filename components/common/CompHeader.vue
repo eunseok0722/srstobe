@@ -1,6 +1,6 @@
 <template>
   <!-- header | 머릿말 -->
-  <div id="header" class="sub-header" @mouseleave="d2Inactivate">
+  <div id="header" class="sub-header" @mouseleave="d2Inactivate" :class="type">
     <!--  gnb | general navigation  -->
     <div class="gnb-wrap">
       <ul class="nav-list">
@@ -413,7 +413,7 @@
     </div>
     <!--  gnb | general navigation   -->
     <!--  breadcrumb | breadcrumb navigation  -->
-    <template v-if="true">
+    <template v-if="breadcrumb">
       <comp-breadcrumb></comp-breadcrumb>
     </template>
     <!--  breadcrumb | breadcrumb navigation  -->
@@ -428,7 +428,10 @@ import CompBreadcrumb from "./CompBreadcrumb.vue";
 
 export default {
   name: "compHeader",
-  props: [],
+  props: {
+    type: String,
+    breadcrumb: Boolean
+  },
   data() {
     return {
       d2State: [
