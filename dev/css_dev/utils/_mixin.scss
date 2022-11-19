@@ -126,11 +126,11 @@
 //    @content;
 //  }
 //}
-//@mixin t-l {
-//  @media (max-width: $t-l) {
-//    @content;
-//  }
-//}
+@mixin t-l {
+  @media (max-width: $t-l) {
+    @content;
+  }
+}
 //
 //@mixin p-s {
 //  @media (max-width: $p-s) {

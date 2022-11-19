@@ -22,6 +22,7 @@
 
       img {
         width: 100%;
+        min-width: $pc-min;
         height: 100%;
         object-fit: contain;
       }
@@ -137,8 +138,13 @@
               left: 477px;
             }
             &.ty10 {
-              top: 290px;
+              top: 291px;
+              //left: 1160px;
               right: 89px;
+              //@include t-l {
+              //  left: 1160px;
+              //  right: unset;
+              //}
             }
             &.ty11 {
               top: 65px;
@@ -158,7 +164,12 @@
             }
             &.ty15 {
               top: 100px;
+              //left: 1140px;
               right: 110px;
+              //@include t-l {
+              //  left: 1140px;
+              //  right: unset;
+              //}
             }
             &.ty16 {
               top: 247px;

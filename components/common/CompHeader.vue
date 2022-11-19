@@ -8,7 +8,7 @@
           <!--  d1 | APPLICATIONS  -->
           <li class="list-item" v-on:mouseenter="d2Activate(0)">
             <h2 class="tit-h1">
-              <a class="nav-item">
+              <a href="#" class="nav-item">
                 APPLICATIONS
               </a>
             </h2>
@@ -154,7 +154,7 @@
           <!--  d1 | PRODUCTS  -->
           <li class="list-item" v-on:mouseenter="d2Activate(1)">
             <h2 class="tit-h1">
-              <a class="nav-item">
+              <a href="#" class="nav-item">
                 PRODUCTS
               </a>
             </h2>
@@ -281,7 +281,7 @@
           <!--  d1 | DESIGN  -->
           <li class="list-item" v-on:mouseenter="d2Activate(2)">
             <h2 class="tit-h1">
-              <a class="nav-item">
+              <a href="#" class="nav-item">
                 DESIGN
               </a>
             </h2>
@@ -355,7 +355,7 @@
           <!--  d1 | ABOUT SRS  -->
           <li class="list-item" v-on:mouseenter="d2Activate(3)">
             <h2 class="tit-h1">
-              <a class="nav-item">
+              <a href="#" class="nav-item">
                 ABOUT SRS
               </a>
             </h2>
@@ -365,7 +365,9 @@
                 <li class="d2-list-item">
                   <div class="d2-item">
                     <div class="tit-box">
-                      <h3 class="tit-h3">Investors & Partners</h3>
+                      <h3 class="tit-h3">
+                        <a href="#">Investors & Partners</a>
+                      </h3>
                     </div>
                   </div>
                 </li>
@@ -374,7 +376,9 @@
                 <li class="d2-list-item">
                   <div class="d2-item">
                     <div class="tit-box">
-                      <h3 class="tit-h3">Awards & Patents</h3>
+                      <h3 class="tit-h3">
+                        <a href="#">Awards & Patents</a>
+                      </h3>
                     </div>
                   </div>
                 </li>
@@ -383,7 +387,9 @@
                 <li class="d2-list-item">
                   <div class="d2-item">
                     <div class="tit-box">
-                      <h3 class="tit-h3">Team building</h3>
+                      <h3 class="tit-h3">
+                        <a href="#">Team building</a>
+                      </h3>
                     </div>
                   </div>
                 </li>
@@ -392,7 +398,9 @@
                 <li class="d2-list-item">
                   <div class="d2-item">
                     <div class="tit-box">
-                      <h3 class="tit-h3">Contacts</h3>
+                      <h3 class="tit-h3">
+                        <a href="#">Contacts</a>
+                      </h3>
                     </div>
                   </div>
                 </li>
@@ -401,7 +409,11 @@
                 <li class="d2-list-item">
                   <div class="d2-item">
                     <div class="tit-box">
-                      <h3 class="tit-h3">Newsroom</h3>
+                      <h3 class="tit-h3">
+                        <router-link to="/about">
+                          Newsroom
+                        </router-link>
+                      </h3>
                     </div>
                   </div>
                 </li>
