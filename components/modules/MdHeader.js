@@ -1,10 +1,10 @@
 const state = ({
-    navMenuItem: [
-        {id: 1, name: 'Magazine', path: '/magazine'},
-        {id: 2, name: 'Authors', path: '/authors'},
-        {id: 3, name: 'Podcast', path: '/podcast'},
-    ],
-    logoImg : { url: 'fyrre_magazine.png' },
+    // navMenuItem: [
+    //     {id: 1, name: 'Magazine', path: '/magazine'},
+    //     {id: 2, name: 'Authors', path: '/authors'},
+    //     {id: 3, name: 'Podcast', path: '/podcast'},
+    // ],
+    // logoImg : { url: 'fyrre_magazine.png' },
     navActive: false,
     scrollY: 0,
     lastScrollY: 0,
@@ -13,7 +13,7 @@ const state = ({
 
 const getters = {
     HeaderData: function HeaderData(state) {
-        return state.HeaderData
+        return state
     }
 }
 

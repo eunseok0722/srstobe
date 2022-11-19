@@ -1,21 +1,21 @@
 /* main-header css */
-.main-header {
+.main-header-wrap {
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
   height: fit-content;
-
+  z-index: $nav-z-index;
   &::after {
-    content: '';
-    display: block;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100vw;
-    height: 6rem;
-    background-color: #02468c;
-    z-index: -1;
+    //content: '';
+    //display: block;
+    //position: absolute;
+    //bottom: 0;
+    //left: 0;
+    //width: 100vw;
+    //height: 6rem;
+    //background-color: #02468c;
+    //z-index: -1;
   }
 
   /* header  활성화 */
@@ -26,114 +26,124 @@
   }
 
   /* main header  gnb CSS */
-  .gnb-wrap {
-    height: 6rem;
-    width: $gnb-max;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    padding-bottom: 2rem;
-    box-sizing: border-box;
-
-    .nav-list {
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-
-      .list-item {
-        position: relative;
-
-        a,
-        button,
-        .nav-item {
-          color: $white;
-          letter-spacing: 0.25rem;
-          position: relative;
-          z-index: $nav-z-index;
-        }
-
-        .ico-box {
-          a,
-          button,
-          .nav-item {
-            width: 10rem;
-            height: 3.3rem;
-            background-image: url("../images/ico_mouse_001.png");
-            background-size: 2.2rem 3.3rem;
-            background-position: center;
-            background-repeat: no-repeat;
-          }
-
-          &::after {
-            content: '';
-            position: absolute;
-            bottom: -2rem;
-            left: 50%;
-            transform: translateX(-50%);
-            border-radius: 17rem 17rem 0 0;
-            display: block;
-            width: 17rem;
-            height: 8rem;
-            background-color: #0054a6;
-            box-shadow: 10px 10px 16px 0 rgba(0, 0, 0, 0.1);
-          }
-        }
-      }
-    }
-  }
+  //.gnb-wrap {
+  //  height: 6rem;
+  //  width: $gnb-max;
+  //  margin: 0 auto;
+  //  display: flex;
+  //  justify-content: space-between;
+  //  align-items: flex-end;
+  //  padding-bottom: 2rem;
+  //  box-sizing: border-box;
+  //
+  //  .nav-list {
+  //    width: 100%;
+  //    display: flex;
+  //    justify-content: space-between;
+  //    align-items: baseline;
+  //
+  //    .list-item {
+  //      position: relative;
+  //
+  //      a,
+  //      button,
+  //      .nav-item {
+  //        color: $white;
+  //        letter-spacing: 0.25rem;
+  //        position: relative;
+  //        z-index: $nav-z-index;
+  //      }
+  //
+  //      .ico-box {
+  //        a,
+  //        button,
+  //        .nav-item {
+  //          width: 10rem;
+  //          height: 3.3rem;
+  //          background-image: url("../images/ico_mouse_001.png");
+  //          background-size: 2.2rem 3.3rem;
+  //          background-position: center;
+  //          background-repeat: no-repeat;
+  //        }
+  //
+  //        &::after {
+  //          content: '';
+  //          position: absolute;
+  //          bottom: -2rem;
+  //          left: 50%;
+  //          transform: translateX(-50%);
+  //          border-radius: 17rem 17rem 0 0;
+  //          display: block;
+  //          width: 17rem;
+  //          height: 8rem;
+  //          background-color: #0054a6;
+  //          box-shadow: 10px 10px 16px 0 rgba(0, 0, 0, 0.1);
+  //        }
+  //      }
+  //    }
+  //  }
+  //}
 
   /* main header  gnb CSS */
 
   /* main header sub gnb CSS */
   .gnb-sub-wrap {
     position: absolute;
-    bottom: -500px;
+    bottom: -220px;
     left: 50%;
     transform: translateX(-50%);
     height: fit-content;
     width: $pc-min;
     margin: 0 auto;
-    padding: 3.5rem 0 3rem;
+    padding: 2.2rem 3.2rem 2.8rem;
     box-sizing: border-box;
-    @include flex-col(3rem);
+    border-radius: 3rem;
+    background-color: $blue_l;
+    display: flex;
+    gap: 9rem;
     justify-content: space-between;
-    z-index: $nav-z-index + 1;
     transition: bottom 0.3s ease-in;
 
     &:after {
-      content: '';
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      display: block;
-      width: 100vw;
-      height: 100%;
-      background-color: #2b8add;
-      opacity: 0.85;
+      //content: '';
+      //position: absolute;
+      //top: 0;
+      //bottom: 0;
+      //left: 50%;
+      //transform: translateX(-50%);
+      //display: block;
+      //width: 100vw;
+      //height: 100%;
+      //background-color: #2b8add;
+      //opacity: 0.85;
     }
 
     .gnb-header {
       z-index: $nav-z-index + 2;
       color: $white;
+      flex-basis: 13.8%;
+      @include flex-col(2.6rem);
+      .tit-h1 {
+        font-size: $font-36r;
+        font-weight: $l;
+      }
     }
 
     .d2-list-wrap {
       z-index: $nav-z-index + 2;
+      flex-basis: 79.13%;
 
       .d2-list {
         width: 100%;
         display: flex;
-        gap: 1rem;
+        gap: 0.7rem;
         justify-content: space-between;
 
         .d2-list-item {
-          flex-basis: 20%;
-          @include bd(3px, $white);
+          flex-basis: 25%;
           @include bdrs(1.4rem);
+          background-color: $blue_sub;
+          box-shadow: 4.3px 4.2px 6px 0 rgba(0, 0, 0, 0.24);
           transition: all 0.3s;
 
           &.d1-menu {
@@ -180,7 +190,7 @@
 
       .d2-item {
         @include flex-col(2.5rem);
-        padding: 2.5rem 1.5rem;
+        padding: 2.5rem 0.8rem 2.7rem;
 
         h3,
         .lb-tit-r {
@@ -192,8 +202,8 @@
           @include flex-col();
 
           .d3-list-item {
-            padding: 1rem 0 1rem 1rem;
-            @include bdrs(1rem);
+            padding: 1rem 0 0.7rem 1rem;
+            @include bdrs(1.2rem);
             color: $white;
             transition: all 0.3s;
 
@@ -227,6 +237,7 @@
     width: 100%;
     padding: 1.3rem 0;
     border-bottom: 1px solid #d7d7d7;
+    z-index: $nav-z-index;
 
     .nav-list {
       width: 1280px;
@@ -430,12 +441,12 @@
       transition: background-color 0.3s ease;
       @include bdb(1px, #d7d7d733);
       &:hover,
-      :focus,
-      :active {
+      :focus {
         background-color: $white;
         .tit-h1 {
           .nav-item {
             color: inherit;
+            background-color: unset;
           }
         }
       }

@@ -1,8 +1,11 @@
-import moduleHeader from "./modules/mdHeader.js";
+import ModuleHeader from "./modules/MdHeader.js";
+import ModuleMain from "./modules/MdMain.js";
 
 const Store = Vuex.createStore({
     modules: {
-        moduleHeader,
+        ModuleHeader,
+        ModuleMain,
+
     },
     state: {
         count: 0,

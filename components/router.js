@@ -22,7 +22,7 @@ const { loadModule } = window['vue3-sfc-loader'];
 
 // 컴포넌트 선언
 const
-    MainContent = ()=> loadModule('../components/MainContent.vue', options);
+    MainContent = ()=> loadModule('../components/main/MainContent.vue', options);
 
 const routes = [
     {
