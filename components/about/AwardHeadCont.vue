@@ -44,8 +44,11 @@ export default {
     img() {
       return `../assets/images/img_about_001.png`
     },
+    lastScrollY() {
+      return this.$store.getters["HeaderData"].lastScrollY;
+    },
     scrollY() {
-      return this.$store.getters["HeaderData"].scrollY > 200
+      return this.$store.getters["HeaderData"].scrollY >= 300
     }
   },
   methods: {

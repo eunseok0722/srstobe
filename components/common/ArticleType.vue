@@ -23,7 +23,7 @@
         </div>
       </div>
     </article>
-    <template v-if="true">
+    <template v-if="pagination">
       <article class="pagination-wrap">
         <div class="pagination">
           <div class="btn-page prev">
@@ -63,7 +63,8 @@
 export default {
   name: "articleType",
   props: {
-    articleData: Object
+    articleData: Object,
+    pagination: Boolean,
   },
   computed: {
     path() {

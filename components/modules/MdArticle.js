@@ -60,6 +60,27 @@ const state = ({
 
         ]
     },
+    teamData: [
+        {
+            id: 1,
+            img: `img_about_prf_003.png`,
+            name: `Paul,Yonghwan Kim`,
+            tit: `President & CEO`,
+        },
+        {
+            id: 2,
+            img: `img_about_prf_001.png`,
+            name: `DR.Kim`,
+            tit: `Co-founder & CTO`,
+        },
+        {
+            id: 3,
+            img: `img_about_prf_002.png`,
+            name: `Nara Won`,
+            tit: `President of Americas HQ`,
+        },
+
+    ],
     // itemState: [
     //     {id: 1, active: false},
     //     {id: 2, active: false},

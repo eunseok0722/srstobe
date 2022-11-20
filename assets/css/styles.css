@@ -213,7 +213,11 @@ body { font-family: "Garet", sans-serif; }
 
 .tit-cont { font-size: 4.2rem; font-weight: 400; }
 
+.tit-sec { font-family: "Poppins", sans-serif; font-size: 4.8rem; font-weight: 400; }
+
 .tit-art { font-size: 2.2rem; font-family: "Poppins", sans-serif; font-weight: 400; }
+
+.tit-art-02 { font-size: 2.4rem; font-family: "Poppins", sans-serif; font-weight: 500; }
 
 .tit-head { font-size: 5.4rem; font-family: "Poppins", sans-serif; font-weight: 400; }
 
@@ -226,6 +230,8 @@ body { font-family: "Garet", sans-serif; }
 .blue-d { background-color: #0054a6; }
 
 .blue-l { background-color: #008aff; }
+
+.gray { background-color: #ebebeb; }
 
 /* icon style */
 .ico-item { width: 3rem; height: 3rem; border-radius: 0.8rem; background-repeat: no-repeat; background-position: center center; box-shadow: 4.9px 3.4px 8px 0 rgba(0, 0, 0, 0.1); overflow: hidden; box-sizing: border-box; }
@@ -599,6 +605,52 @@ select:focus, select :focus-visible { outline-color: #008aff; }
 .his-item .txt-box .box .tit-art { line-height: 1.2; }
 
 .his-item .txt-box .box .txt-l { line-height: 1.5; }
+
+.award-vision-content .content-header { width: 40%; line-height: 1.2; }
+
+.award-vision-content section { display: flex; flex-direction: column; gap: 12.5rem; }
+
+.award-vision-content .art-cont { display: flex; flex-direction: row-reverse; gap: 4rem; }
+
+.award-vision-content .art-cont:nth-child(2n) { flex-direction: row; }
+
+.award-vision-content .art-cont .txt-box { flex-basis: 50%; width: 50%; line-height: 1.7; }
+
+.award-vision-content .art-cont .img-wrap { flex-basis: 50%; width: 50%; height: 0; padding-bottom: 29.7%; overflow: hidden; }
+
+.award-vision-content .art-cont .img-wrap img { width: 100%; object-fit: cover; }
+
+.award-member-content { align-items: center; }
+
+.award-member-content .content-header { width: 50%; text-align: center; line-height: 1.2; }
+
+.award-member-content section { width: 100%; }
+
+.award-member-content .team-list { display: flex; gap: 6rem; }
+
+.award-member-content .team-list .list-item { flex-basis: 33.33%; }
+
+.team-item { display: flex; flex-direction: column; gap: 3rem; align-items: center; text-align: center; background-color: #fff; padding: 7.6rem 3rem 9.5rem; box-sizing: border-box; -webkit-border-radius: 1.6rem; -moz-border-radius: 1.6rem; border-radius: 1.6rem; box-shadow: 5.2px 6px 12px 0 rgba(0, 0, 0, 0.1); }
+
+.team-item .txt-box { display: flex; flex-direction: column; gap: 1.8rem; }
+
+.team-item .img-box { position: relative; overflow: hidden; width: 186px; max-width: 186px; height: 186px; max-height: 186px; border-radius: 186px; }
+
+.team-item .img-box .img-layer { position: absolute; height: 0; bottom: 0; left: 0; right: 0; transition: height 0.3s; background: linear-gradient(360deg, #008aff 18%, rgba(255, 255, 255, 0) 79%); z-index: 1; }
+
+.team-item .img-box .img-layer .sns-list-wrap { position: absolute; bottom: -3rem; left: 50%; transform: translateX(-50%); transition: bottom 0.3s; }
+
+.team-item .img-box .img-layer .sns-list-wrap .sns-list { gap: 1rem; }
+
+.team-item .img-box .img-layer .sns-list-wrap .sns-list .sns-item a::after, .team-item .img-box .img-layer .sns-list-wrap .sns-list .sns-item button::after { background-size: 13px 13px; background-repeat: no-repeat; }
+
+.team-item .img-box .img-wrap { width: 100%; height: 0; padding-bottom: 100%; }
+
+.team-item .img-box .img-wrap img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; margin: auto; }
+
+.team-item:hover .img-box .img-layer { height: 100%; }
+
+.team-item:hover .img-box .img-layer .sns-list-wrap { bottom: 3rem; }
 
 /* //Awards & Patents CSS */
 
