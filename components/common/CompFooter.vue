@@ -5,14 +5,14 @@
     <div class="footer-wrap">
       <section class="sec-addr">
         <article class="art-addr addr-1">
-          <h3 class="tit-h3">Smart Radar System Inc.</h3>
+          <h3 class="tit-m">Smart Radar System Inc.</h3>
           <address>
             <span class="txt-m">3rd Floor, Fine Venture Bldg, 41, Seongnam-daero 925gil, Bundan</span>
             <span class="txt-m">+82 1533 0217</span>
           </address>
         </article>
         <article class="art-addr addr-2">
-          <h3 class="tit-h3">SRS.ai Inc.</h3>
+          <h3 class="tit-m">SRS.ai Inc.</h3>
           <address>
             <span class="txt-m">51 Cedarlake, Irvine, CA 92614, USA</span>
             <span class="txt-m">+1 949 677 1989</span>
@@ -24,7 +24,7 @@
           <ul class="nav-list">
             <!--  d1 | APPLICATIONS  -->
             <li class="list-item">
-              <h2 class="tit-h1">
+              <h2 class="tit-l">
                 <a class="nav-item">
                   APPLICATIONS
                 </a>
@@ -170,7 +170,7 @@
             <!--  //d1 | APPLICATIONS  -->
             <!--  d1 | PRODUCTS  -->
             <li class="list-item">
-              <h2 class="tit-h1">
+              <h2 class="tit-l">
                 <a class="nav-item">
                   PRODUCTS
                 </a>
@@ -258,7 +258,7 @@
             <!--  //d1 | PRODUCTS  -->
             <!--  d1 | DESIGN  -->
             <li class="list-item">
-              <h2 class="tit-h1">
+              <h2 class="tit-l">
                 <a class="nav-item">
                   DESIGN
                 </a>
@@ -308,7 +308,7 @@
             <!--  //d1 | DESIGN  -->
             <!--  d1 | ABOUT SRS  -->
             <li class="list-item">
-              <h2 class="tit-h1">
+              <h2 class="tit-l">
                 <a class="nav-item">
                   ABOUT SRS
                 </a>

@@ -4,34 +4,34 @@
 <!--    <div class="gnb-wrap">-->
 <!--      <ul class="nav-list">-->
 <!--        <li class="list-item">-->
-<!--          <h3 class="tit-h1">-->
+<!--          <h3 class="tit-l">-->
 <!--            <button class="nav-item">-->
 <!--              AUTOMOTIVE-->
 <!--            </button>-->
 <!--          </h3>-->
 <!--        </li>-->
 <!--        <li class="list-item">-->
-<!--          <h3 class="tit-h1">-->
+<!--          <h3 class="tit-l">-->
 <!--            <button class="nav-item">-->
 <!--              INDUSTRIAL-->
 <!--            </button>-->
 <!--          </h3>-->
 <!--        </li>-->
 <!--        <li class="list-item">-->
-<!--          <h3 class="tit-h1 ico-box">-->
+<!--          <h3 class="tit-l ico-box">-->
 <!--            <button class="nav-item">-->
 <!--            </button>-->
 <!--          </h3>-->
 <!--        </li>-->
 <!--        <li class="list-item">-->
-<!--          <h3 class="tit-h1">-->
+<!--          <h3 class="tit-l">-->
 <!--            <button class="nav-item">-->
 <!--              HEALTHCARE-->
 <!--            </button>-->
 <!--          </h3>-->
 <!--        </li>-->
 <!--        <li class="list-item">-->
-<!--          <h3 class="tit-h1">-->
+<!--          <h3 class="tit-l">-->
 <!--            <button class="nav-item">-->
 <!--              SMART PLACES-->
 <!--            </button>-->
@@ -41,7 +41,7 @@
 <!--    </div>-->
     <div class="gnb-sub-wrap">
       <div class="gnb-header">
-        <h2 class="tit-h1">SMART RADAR SYSTEM'S AI 4D</h2>
+        <h2 class="tit-l">SMART RADAR SYSTEM'S AI 4D</h2>
         <p class="txt-l">Radar Cornersone to SMART CITY</p>
       </div>
       <div class="d2-list-wrap">

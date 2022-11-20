@@ -7,7 +7,7 @@
         <ul class="nav-list">
           <!--  d1 | APPLICATIONS  -->
           <li class="list-item" v-on:mouseenter="d2Activate(0)">
-            <h2 class="tit-h1">
+            <h2 class="tit-l">
               <a href="#" class="nav-item">
                 APPLICATIONS
               </a>
@@ -19,7 +19,7 @@
                   <div class="d2-item">
                     <div class="tit-box">
                       <p class="txt-s">Mobility</p>
-                      <h3 class="tit-h3">AutoMotive</h3>
+                      <h3 class="tit-m">AutoMotive</h3>
                     </div>
                     <ul class="d3-list">
                       <li class="d3-list-item">
@@ -56,7 +56,7 @@
                   <div class="d2-item">
                     <div class="tit-box">
                       <p class="txt-s"></p>
-                      <h3 class="tit-h3">Industrial</h3>
+                      <h3 class="tit-m">Industrial</h3>
                     </div>
                     <ul class="d3-list">
                       <li class="d3-list-item">
@@ -88,7 +88,7 @@
                   <div class="d2-item">
                     <div class="tit-box">
                       <p class="txt-s">Smartcity</p>
-                      <h3 class="tit-h3">Healthcare</h3>
+                      <h3 class="tit-m">Healthcare</h3>
                     </div>
                     <ul class="d3-list">
                       <li class="d3-list-item">
@@ -115,7 +115,7 @@
                   <div class="d2-item">
                     <div class="tit-box">
                       <p class="txt-s"></p>
-                      <h3 class="tit-h3">Smart Places</h3>
+                      <h3 class="tit-m">Smart Places</h3>
                     </div>
                     <ul class="d3-list">
                       <li class="d3-list-item">
@@ -153,7 +153,7 @@
           <!--  //d1 | APPLICATIONS  -->
           <!--  d1 | PRODUCTS  -->
           <li class="list-item" v-on:mouseenter="d2Activate(1)">
-            <h2 class="tit-h1">
+            <h2 class="tit-l">
               <a href="#" class="nav-item">
                 PRODUCTS
               </a>
@@ -165,7 +165,7 @@
                   <div class="d2-item">
                     <div class="tit-box">
                       <p class="txt-s">Imaging Radar</p>
-                      <h3 class="tit-h3">RETINA-Next Gen</h3>
+                      <h3 class="tit-m">RETINA-Next Gen</h3>
                     </div>
                     <div class="img-box">
                       <a href="#">
@@ -179,7 +179,7 @@
                 <li class="d2-list-item">
                   <div class="d2-item">
                     <div class="tit-box">
-                      <h3 class="tit-h3">RETINA-4F</h3>
+                      <h3 class="tit-m">RETINA-4F</h3>
                     </div>
                     <div class="img-box">
                       <a href="#">
@@ -194,7 +194,7 @@
                   <div class="d2-item">
                     <div class="tit-box">
                       <p class="txt-s">Single Radar & Module</p>
-                      <h3 class="tit-h3">IRISt</h3>
+                      <h3 class="tit-m">IRISt</h3>
                     </div>
                     <div class="img-box">
                       <a href="#">
@@ -208,7 +208,7 @@
                 <li class="d2-list-item">
                   <div class="d2-item">
                     <div class="tit-box">
-                      <h3 class="tit-h3">IRISc</h3>
+                      <h3 class="tit-m">IRISc</h3>
                     </div>
                     <div class="img-box">
                       <a href="#">
@@ -222,7 +222,7 @@
                 <li class="d2-list-item">
                   <div class="d2-item">
                     <div class="tit-box">
-                      <h3 class="tit-h3">RETINA-4S</h3>
+                      <h3 class="tit-m">RETINA-4S</h3>
                     </div>
                     <div class="img-box">
                       <a href="#">
@@ -236,7 +236,7 @@
                 <li class="d2-list-item">
                   <div class="d2-item">
                     <div class="tit-box">
-                      <h3 class="tit-h3">RETINA-4A</h3>
+                      <h3 class="tit-m">RETINA-4A</h3>
                     </div>
                     <div class="img-box">
                       <a href="#">
@@ -250,7 +250,7 @@
                 <li class="d2-list-item">
                   <div class="d2-item">
                     <div class="tit-box">
-                      <h3 class="tit-h3">IRISm</h3>
+                      <h3 class="tit-m">IRISm</h3>
                     </div>
                     <div class="img-box">
                       <a href="#">
@@ -264,7 +264,7 @@
                 <li class="d2-list-item">
                   <div class="d2-item">
                     <div class="tit-box">
-                      <h3 class="tit-h3">SE68-51W</h3>
+                      <h3 class="tit-m">SE68-51W</h3>
                     </div>
                     <div class="img-box">
                       <a href="#">
@@ -280,7 +280,7 @@
           <!--  //d1 | PRODUCTS  -->
           <!--  d1 | DESIGN  -->
           <li class="list-item" v-on:mouseenter="d2Activate(2)">
-            <h2 class="tit-h1">
+            <h2 class="tit-l">
               <a href="#" class="nav-item">
                 DESIGN
               </a>
@@ -292,7 +292,7 @@
                   <div class="d2-item">
                     <div class="tit-box">
                       <p class="txt-s"></p>
-                      <h3 class="tit-h3">4D Imaging Radar</h3>
+                      <h3 class="tit-m">4D Imaging Radar</h3>
                     </div>
                     <div class="img-box">
                       <a href="#">
@@ -307,7 +307,7 @@
                   <div class="d2-item">
                     <div class="tit-box">
                       <p class="txt-s"></p>
-                      <h3 class="tit-h3">Software Defined Vehicle</h3>
+                      <h3 class="tit-m">Software Defined Vehicle</h3>
                     </div>
                     <div class="img-box">
                       <a href="#">
@@ -322,7 +322,7 @@
                   <div class="d2-item">
                     <div class="tit-box">
                       <p class="txt-s"></p>
-                      <h3 class="tit-h3">SWaP sensor</h3>
+                      <h3 class="tit-m">SWaP sensor</h3>
                     </div>
                     <div class="img-box">
                       <a href="#">
@@ -337,7 +337,7 @@
                   <div class="d2-item">
                     <div class="tit-box">
                       <p class="txt-s"></p>
-                      <h3 class="tit-h3">Edge Device with ML</h3>
+                      <h3 class="tit-m">Edge Device with ML</h3>
                     </div>
                     <div class="img-box">
                       <a href="#">
@@ -354,7 +354,7 @@
           <!--  //d1 | DESIGN  -->
           <!--  d1 | ABOUT SRS  -->
           <li class="list-item" v-on:mouseenter="d2Activate(3)">
-            <h2 class="tit-h1">
+            <h2 class="tit-l">
               <a href="#" class="nav-item">
                 ABOUT SRS
               </a>
@@ -365,7 +365,7 @@
                 <li class="d2-list-item">
                   <div class="d2-item">
                     <div class="tit-box">
-                      <h3 class="tit-h3">
+                      <h3 class="tit-m">
                         <a href="#">Investors & Partners</a>
                       </h3>
                     </div>
@@ -376,7 +376,7 @@
                 <li class="d2-list-item">
                   <div class="d2-item">
                     <div class="tit-box">
-                      <h3 class="tit-h3">
+                      <h3 class="tit-m">
                         <a href="#">Awards & Patents</a>
                       </h3>
                     </div>
@@ -387,7 +387,7 @@
                 <li class="d2-list-item">
                   <div class="d2-item">
                     <div class="tit-box">
-                      <h3 class="tit-h3">
+                      <h3 class="tit-m">
                         <a href="#">Team building</a>
                       </h3>
                     </div>
@@ -398,7 +398,7 @@
                 <li class="d2-list-item">
                   <div class="d2-item">
                     <div class="tit-box">
-                      <h3 class="tit-h3">
+                      <h3 class="tit-m">
                         <a href="#">Contacts</a>
                       </h3>
                     </div>
@@ -409,8 +409,8 @@
                 <li class="d2-list-item">
                   <div class="d2-item">
                     <div class="tit-box">
-                      <h3 class="tit-h3">
-                        <router-link to="/about">
+                      <h3 class="tit-m">
+                        <router-link to="/about/newsroom">
                           Newsroom
                         </router-link>
                       </h3>
@@ -463,7 +463,7 @@ export default {
   },
   computed: {
     path() {
-      return `../assets/images/img_temp_001.png`
+      return `../assets/images/temp/img_temp_001.png`
     }
     // imgPath() {
     //   return this.$store.state.path.img

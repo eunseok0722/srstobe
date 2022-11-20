@@ -23,7 +23,8 @@ const {loadModule} = window['vue3-sfc-loader'];
 // 컴포넌트 선언
 const
     SrsMain = () => loadModule('../components/main/SrsMain.vue', options),
-    AboutMain = () => loadModule('../components/about/AboutMain.vue', options);
+    AboutMain = () => loadModule('../components/about/AboutMain.vue', options),
+    NewsRoomMain = () => loadModule('../components/about/NewsRoomMain.vue', options);
 
 const routes = [
     {
@@ -35,6 +36,12 @@ const routes = [
         name: 'about-srs',
         path: '/about',
         component: AboutMain,
+        children: [
+            {
+                path: 'newsroom',
+                component: NewsRoomMain,
+            }
+        ]
     },
 ]
 

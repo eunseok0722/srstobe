@@ -6,25 +6,15 @@
     <!-- //header component -->
 
     <!-- container -->
-    <div id="container">
+    <div id="container" class="container">
       <!-- content | 본문  -->
-      <div class="content">
-        <!--  content-header | 본문 머릿말  -->
-        <div class="content-header">
-
-        </div>
-        <!--  //content-header | 본문 머릿말  -->
-
-        <!--  section |  -->
-        <section class="section"></section>
-        <!--  //section |  -->
-      </div>
+      <router-view></router-view>
       <!-- //content | 본문  -->
     </div>
     <!-- //container -->
 
     <!-- footer component -->
-        <comp-footer></comp-footer>
+    <comp-footer></comp-footer>
     <!-- //footer component -->
 
   </div>
@@ -32,20 +22,16 @@
 </template>
 
 <script>
-import MainHeader from '../common/MainHeader.vue';
 import CompHeader from '../common/CompHeader.vue';
 import CompFooter from '../common/CompFooter.vue';
+import NewsRoomMain from "../about/NewsRoomMain.vue";
 
 export default {
   name: "AboutMain",
   components: {
-    MainHeader,
     CompHeader,
     CompFooter,
+    NewsRoomMain,
   }
 }
 </script>
-
-<style scoped>
-
-</style>

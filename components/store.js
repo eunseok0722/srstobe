@@ -1,11 +1,14 @@
 import ModuleHeader from "./modules/MdHeader.js";
 import ModuleMain from "./modules/MdMain.js";
+import ModuleArticle from "./modules/MdArticle.js";
+
+
 
 const Store = Vuex.createStore({
     modules: {
         ModuleHeader,
         ModuleMain,
-
+        ModuleArticle
     },
     state: {
         count: 0,
@@ -16,8 +19,14 @@ const Store = Vuex.createStore({
     },
     getters: {
         HeaderData: function HeaderData(state) {
-            return state.HeaderData;
+            return state.ModuleHeader;
         },
+        MainData: function MainData(state) {
+            return state.ModuleMain;
+        },
+        ArticleData: function ArticleData(state) {
+            return state.ModuleArticle;
+        }
     },
     mutations: {}
 })

@@ -123,7 +123,7 @@
       color: $white;
       flex-basis: 13.8%;
       @include flex-col(2.6rem);
-      .tit-h1 {
+      .tit-l {
         font-size: $font-36r;
         font-weight: $l;
       }
@@ -249,7 +249,7 @@
       .list-item {
         flex-basis: 18.2rem;
 
-        .tit-h1 {
+        .tit-l {
           text-align: center;
           font-weight: $b;
           @include bdrs(1.4rem);
@@ -457,7 +457,7 @@
       @include bdb(1px, #d7d7d733);
       &:hover {
         background-color: $white;
-        .tit-h1 {
+        .tit-l {
           .nav-item {
             color: inherit;
             background-color: unset;
@@ -466,7 +466,7 @@
       }
     }
 
-    .tit-h1 {
+    .tit-l {
       .nav-item {
         color: $white;
       }
