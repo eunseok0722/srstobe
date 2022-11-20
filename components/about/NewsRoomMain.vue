@@ -6,7 +6,7 @@
     </div>
     <!--  Content header | 제목  -->
     <!--  Content body | 본문   -->
-    <article-type :article-data="blgArticle" pagination="true"></article-type>
+    <article-type :article-data="blgArticle" :pagination="true"></article-type>
     <!--   //content body | 본문   -->
   </div>
 </template>

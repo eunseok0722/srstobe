@@ -63,21 +63,76 @@ const state = ({
     teamData: [
         {
             id: 1,
+            state: false,
             img: `img_about_prf_003.png`,
             name: `Paul,Yonghwan Kim`,
             tit: `President & CEO`,
+            intro: `Paul has been leading the company to improve
+                    from the incubation stage to grow as a promin-
+                    ent startup in the market.
+                    His enthusiasm to view the world to change the
+                    world with world-leading technology with radar
+                    has come to the realization.
+                    His experience in the more established comp-
+                    anies that had global presence has been the
+                    key to bringing the technology-driven startup
+                    to successfully get funded for future roadmap`,
+            career01: `- Vice President, LG Group`,
+            career02: `- AT&T Labs, PMTS, USA`,
+            career03: `- Cisco Systems Inc.`,
+            career04: `- Ph.D. University of Texas Austin`,
+            career05: `- M.S. and B.S. Seoul National University`,
+            career06: ``,
+            career07: ``,
         },
         {
             id: 2,
+            state: false,
             img: `img_about_prf_001.png`,
             name: `DR.Kim`,
             tit: `Co-founder & CTO`,
+            intro: `Paul has been leading the company to improve
+                    from the incubation stage to grow as a promin-
+                    ent startup in the market.
+                    His enthusiasm to view the world to change the
+                    world with world-leading technology with radar
+                    has come to the realization.
+                    His experience in the more established comp-
+                    anies that had global presence has been the
+                    key to bringing the technology-driven startup
+                    to successfully get funded for future roadmap`,
+            career01: `- Vice President, LG Group`,
+            career02: `- AT&T Labs, PMTS, USA`,
+            career03: `- Cisco Systems Inc.`,
+            career04: `- Ph.D. University of Texas Austin`,
+            career05: `- M.S. and B.S. Seoul National University`,
+            career06: ``,
+            career07: ``,
         },
         {
             id: 3,
+            state: false,
             img: `img_about_prf_002.png`,
             name: `Nara Won`,
             tit: `President of Americas HQ`,
+            intro: `Paul has been leading the company to improve
+                    from the incubation stage to grow as a promin-
+                    ent startup in the market.
+                    His enthusiasm to view the world to change the
+                    world with world-leading technology with radar
+                    has come to the realization.
+                    His experience in the more established comp-
+                    anies that had global presence has been the
+                    key to bringing the technology-driven startup
+                    to successfully get funded for future roadmap`,
+            career01: `- Vice President, LG Group`,
+            career02: `- AT&T Labs, PMTS, USA`,
+            career03: `- Cisco Systems Inc.`,
+            career04: `- Ph.D. University of Texas Austin`,
+            career05: `- M.S. and B.S. Seoul National University`,
+            career06: ``,
+            career07: ``,
+
         },
 
     ],
