@@ -64,6 +64,11 @@ body {
   font-family: $point_font;
   font-weight: $r;
 }
+.txt-cont {
+  font-size: $font-18r;
+  font-weight: $r;
+  line-height: 1.5;
+}
 
 .garet {
   font-family: "Garet", sans-serif;
@@ -175,6 +180,21 @@ body {
   &.prev {
     background-image: url("../images/ico_arrow_004.png");
     transform: rotate(180deg);
+  }
+}
+
+.btn-ty01 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  min-width: 20rem;
+  border-radius: 5rem;
+  @include bd(1px, $gray_04);
+  padding: 1.8rem 1.4rem;
+  box-sizing: border-box;
+  a {
+    font-weight: $r;
   }
 }
 

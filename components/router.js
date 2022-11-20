@@ -24,7 +24,8 @@ const {loadModule} = window['vue3-sfc-loader'];
 const
     SrsMain = () => loadModule('../components/main/SrsMain.vue', options),
     AboutMain = () => loadModule('../components/about/AboutMain.vue', options),
-    NewsRoomMain = () => loadModule('../components/about/NewsRoomMain.vue', options);
+    NewsRoomMain = () => loadModule('../components/about/NewsRoomMain.vue', options),
+    NewsRoomPost = () => loadModule('../components/about/NewsRoomPost.vue', options);
 
 const routes = [
     {
@@ -40,6 +41,10 @@ const routes = [
             {
                 path: 'newsroom',
                 component: NewsRoomMain,
+            },
+            {
+                path: 'newsroom/:id',
+                component: NewsRoomPost,
             }
         ]
     },

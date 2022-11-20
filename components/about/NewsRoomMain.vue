@@ -1,5 +1,5 @@
 <template>
-  <div class="content blog-content">
+  <div class="content news-content">
     <!--  Content header | 제목  -->
     <div class="content-header">
       <h3 class="tit-cont">newsroom</h3>

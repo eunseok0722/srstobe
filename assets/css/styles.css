@@ -213,6 +213,8 @@ body { font-family: "Garet", sans-serif; }
 
 .tit-art { font-size: 2.2rem; font-family: "Poppins", sans-serif; font-weight: 400; }
 
+.txt-cont { font-size: 1.8rem; font-weight: 400; line-height: 1.5; }
+
 .garet { font-family: "Garet", sans-serif; }
 
 .poppins { font-family: "Poppins", sans-serif; }
@@ -253,6 +255,10 @@ body { font-family: "Garet", sans-serif; }
 .btn-page.next { background-image: url("../images/ico_arrow_004.png"); }
 
 .btn-page.prev { background-image: url("../images/ico_arrow_004.png"); transform: rotate(180deg); }
+
+.btn-ty01 { display: flex; align-items: center; justify-content: center; width: fit-content; min-width: 20rem; border-radius: 5rem; border: 1px solid #d7d7d7; padding: 1.8rem 1.4rem; box-sizing: border-box; }
+
+.btn-ty01 a { font-weight: 400; }
 
 /* //pagenation */
 /* main-header css */
@@ -524,5 +530,23 @@ select:focus, select :focus-visible { outline-color: #008aff; }
 .main-visual .visual-cont .d2-list-wrap .d2-list .d2-list-item.ty03 .d3-item a { background-color: #ef19a7; }
 
 .main-visual .visual-cont .d2-list-wrap .d2-list .d2-list-item.ty04 .d3-item a { background-color: #1ca55c; }
+
+.post-content section .post-cont { padding: 0 3.2rem 7.8rem; box-sizing: border-box; border-bottom: 1px solid #cccccc; display: flex; flex-direction: column; gap: 9.6rem; }
+
+.post-content section .post-cont .post-tit { display: flex; flex-direction: column; gap: 8rem; align-items: center; }
+
+.post-content section .post-cont .post-tit .tit-box { display: flex; flex-direction: column; gap: 1rem; align-items: center; }
+
+.post-content section .post-cont .post-tit .tit-box .tit-cont { font-weight: 500; }
+
+.post-content section .post-cont .post-tit .tit-box .txt-l { color: #008aff; }
+
+.post-content section .post-cont .post-tit .img-wrap { width: 60%; height: 0; padding-bottom: 34.2%; min-width: 738px; overflow: hidden; position: relative; }
+
+.post-content section .post-cont .post-tit .img-wrap img, .post-content section .post-cont .post-tit .img-wrap iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; }
+
+.post-content section .post-cont .post-txt { display: flex; flex-direction: column; gap: 5rem; }
+
+.post-content section .btn-list-wrap { display: flex; justify-content: flex-end; margin-top: 4.8rem; }
 
 /*# sourceMappingURL=../css/styles.css.map */
