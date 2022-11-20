@@ -19,7 +19,10 @@
     width: $pc-min;
     margin: 0 auto;
     padding: 6rem 0 13.4rem;
-    @include flex-col(11.4rem)
+    @include flex-col(11.4rem);
+    .content-header {
+      transition: all 0.3s ease;
+    }
   }
 }
 

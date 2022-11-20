@@ -1,6 +1,5 @@
 .post-content {
   section {
-
     .post-cont {
       padding: 0 3.2rem 7.8rem;
       box-sizing: border-box;
@@ -48,3 +47,103 @@
     }
   }
 }
+
+/* Awards & Patents CSS */
+.award-head-content {
+ section {
+   position: relative;
+   display: flex;
+   .art-txt {
+     width: 83%;
+     @include flex-col(5rem);
+     .tit-head {
+       line-height: 1.1;
+     }
+     .txt-box {
+       width: 66.66%;
+       @include flex-col(7rem);
+       line-height: 1.75;
+     }
+   }
+   .art-img {
+     flex-basis: 25%;
+     width: 25%;
+     position: absolute;
+     bottom: 0;
+     right:0;
+     .img-wrap {
+       width: 100%;
+       height: 0;
+       padding-bottom: 100%;
+       img {
+         width: 100%;
+         object-fit: contain;
+       }
+     }
+   }
+ }
+}
+
+// history
+
+.container .award-history-content {
+  gap: 8.5rem;
+}
+.award-history-content {
+  align-items: center;
+  .his-list {
+    display: flex;
+    .list-item {
+      flex-basis: 25%;
+    }
+  }
+}
+
+.his-item {
+  @include flex-col(3rem);
+
+  .dia-box {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+
+    .dia-dot {
+      width: 2.4rem;
+      height: 2.4rem;
+      border-radius: 2.4rem;
+      margin-top: 1rem;
+      background-color: $blue_l;
+    }
+
+    .dia-line {
+      width: calc(100% - 7.8rem);
+      height: 2.5rem;
+      border-bottom: 2px dotted $blue_l;
+      box-sizing: border-box;
+      span {
+        font-size: $font-16r;
+        font-weight: $md;
+        font-family: $point_font;
+        color: $blue_l;
+      }
+    }
+  }
+
+  .txt-box {
+    @include flex-col(6rem);
+    width: 84%;
+    .box {
+      @include flex-col(1.5rem);
+      .tit-art {
+        line-height: 1.2;
+      }
+      .txt-l {
+        line-height: 1.5;
+      }
+    }
+  }
+
+}
+
+/* //Awards & Patents CSS */
+

@@ -155,6 +155,8 @@ button { border: none; background: none; font: inherit; }
 
 .container .content { width: 1280px; margin: 0 auto; padding: 6rem 0 13.4rem; display: flex; flex-direction: column; gap: 11.4rem; }
 
+.container .content .content-header { transition: all 0.3s ease; }
+
 .layout-ty01 { display: flex; justify-content: flex-start; flex-wrap: wrap; column-gap: 4rem; row-gap: 14rem; }
 
 .layout-ty01 article { width: calc((100% - 8rem) / 3); display: flex; flex-direction: column; gap: 4rem; }
@@ -212,6 +214,8 @@ body { font-family: "Garet", sans-serif; }
 .tit-cont { font-size: 4.2rem; font-weight: 400; }
 
 .tit-art { font-size: 2.2rem; font-family: "Poppins", sans-serif; font-weight: 400; }
+
+.tit-head { font-size: 5.4rem; font-family: "Poppins", sans-serif; font-weight: 400; }
 
 .txt-cont { font-size: 1.8rem; font-weight: 400; line-height: 1.5; }
 
@@ -322,7 +326,7 @@ body { font-family: "Garet", sans-serif; }
 
 .sub-header .gnb-wrap .nav-list .list-item .tit-l:hover a { color: #fff; }
 
-.sub-header .d2-list-wrap { position: absolute; top: 7.7rem; left: 0; right: 0; background-color: #ffffff; height: fit-content; max-height: 0; overflow: hidden; transition: max-height 0.3s ease; }
+.sub-header .d2-list-wrap { position: absolute; top: 7.7rem; left: 0; right: 0; background-color: #ffffff; height: fit-content; max-height: 0; overflow: hidden; transition: max-height 0.3s ease; z-index: 100; }
 
 .sub-header .d2-list-wrap .d2-list { width: 1280px; height: 310px; margin: 0 auto; padding: 1.3rem 1.4rem; box-sizing: border-box; display: flex; gap: 9.4rem; }
 
@@ -395,6 +399,12 @@ select:focus, select :focus-visible { outline-color: #008aff; }
 
 .select-ty.active { background-image: url("../images/ico_arrow_002.png"); }
 
+/* handleScroll Event Class */
+.header-fix { position: fixed; top: 0; left: 0; right: 0; display: flex; align-items: center; height: 7.7rem; color: #fff; background-color: #008aff; z-index: 101; }
+
+.header-fix h3 { display: block; width: 1280px; margin: 0 auto; }
+
+/* //handleScroll Event Class */
 #footer { width: 100%; height: fit-content; background-color: #f5f5f5; }
 
 #footer .footer-wrap { width: 1280px; margin: 0 auto; padding: 3.7rem 3.2rem 3.2rem; box-sizing: border-box; display: flex; flex-direction: column; gap: 4.6rem; }
@@ -548,5 +558,48 @@ select:focus, select :focus-visible { outline-color: #008aff; }
 .post-content section .post-cont .post-txt { display: flex; flex-direction: column; gap: 5rem; }
 
 .post-content section .btn-list-wrap { display: flex; justify-content: flex-end; margin-top: 4.8rem; }
+
+/* Awards & Patents CSS */
+.award-head-content section { position: relative; display: flex; }
+
+.award-head-content section .art-txt { width: 83%; display: flex; flex-direction: column; gap: 5rem; }
+
+.award-head-content section .art-txt .tit-head { line-height: 1.1; }
+
+.award-head-content section .art-txt .txt-box { width: 66.66%; display: flex; flex-direction: column; gap: 7rem; line-height: 1.75; }
+
+.award-head-content section .art-img { flex-basis: 25%; width: 25%; position: absolute; bottom: 0; right: 0; }
+
+.award-head-content section .art-img .img-wrap { width: 100%; height: 0; padding-bottom: 100%; }
+
+.award-head-content section .art-img .img-wrap img { width: 100%; object-fit: contain; }
+
+.container .award-history-content { gap: 8.5rem; }
+
+.award-history-content { align-items: center; }
+
+.award-history-content .his-list { display: flex; }
+
+.award-history-content .his-list .list-item { flex-basis: 25%; }
+
+.his-item { display: flex; flex-direction: column; gap: 3rem; }
+
+.his-item .dia-box { display: flex; gap: 2rem; align-items: flex-start; }
+
+.his-item .dia-box .dia-dot { width: 2.4rem; height: 2.4rem; border-radius: 2.4rem; margin-top: 1rem; background-color: #008aff; }
+
+.his-item .dia-box .dia-line { width: calc(100% - 7.8rem); height: 2.5rem; border-bottom: 2px dotted #008aff; box-sizing: border-box; }
+
+.his-item .dia-box .dia-line span { font-size: 1.6rem; font-weight: 500; font-family: "Poppins", sans-serif; color: #008aff; }
+
+.his-item .txt-box { display: flex; flex-direction: column; gap: 6rem; width: 84%; }
+
+.his-item .txt-box .box { display: flex; flex-direction: column; gap: 1.5rem; }
+
+.his-item .txt-box .box .tit-art { line-height: 1.2; }
+
+.his-item .txt-box .box .txt-l { line-height: 1.5; }
+
+/* //Awards & Patents CSS */
 
 /*# sourceMappingURL=../css/styles.css.map */

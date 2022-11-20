@@ -25,7 +25,8 @@ const
     SrsMain = () => loadModule('../components/main/SrsMain.vue', options),
     AboutMain = () => loadModule('../components/about/AboutMain.vue', options),
     NewsRoomMain = () => loadModule('../components/about/NewsRoomMain.vue', options),
-    NewsRoomPost = () => loadModule('../components/about/NewsRoomPost.vue', options);
+    NewsRoomPost = () => loadModule('../components/about/NewsRoomPost.vue', options),
+    AwardsMain = () => loadModule('../components/about/AwardsMain.vue', options);
 
 const routes = [
     {
@@ -45,7 +46,11 @@ const routes = [
             {
                 path: 'newsroom/:id',
                 component: NewsRoomPost,
-            }
+            },
+            {
+                path: 'awards',
+                component: AwardsMain,
+            },
         ]
     },
 ]
@@ -55,7 +60,7 @@ const router = VueRouter.createRouter({
     history: VueRouter.createWebHashHistory(),
     routes,
     scrollBehavior() {
-        return {top: 0}
+        // return {top: 0}
     }
 })
 

@@ -377,7 +377,7 @@
                   <div class="d2-item">
                     <div class="tit-box">
                       <h3 class="tit-m">
-                        <a href="#">Awards & Patents</a>
+                        <router-link to="/about/awards">Awards & Patents</router-link>
                       </h3>
                     </div>
                   </div>

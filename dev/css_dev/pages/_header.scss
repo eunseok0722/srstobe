@@ -284,6 +284,7 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease;
+    z-index: $nav-z-index;
 
     .d2-list {
       width: 1280px;
@@ -533,3 +534,23 @@ select {
     background-image: url("../images/ico_arrow_002.png");
   }
 }
+
+/* handleScroll Event Class */
+.header-fix {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  height: 7.7rem;
+  color: $white;
+  background-color: $blue_l;
+  z-index: $nav-z-index + 1;
+  h3 {
+    display: block;
+    width: $pc-min;
+    margin: 0 auto;
+  }
+}
+/* //handleScroll Event Class */
