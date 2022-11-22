@@ -1,5 +1,5 @@
 <template>
-  <div class="content news-content">
+  <div class="content news-content" :class="{'header-fix-padding': scrollY}">
     <!--  Content header | 제목  -->
     <div class="content-header" :class="{'header-fix': scrollY}">
       <h3 class="tit-cont">newsroom</h3>
@@ -24,7 +24,7 @@ export default {
       return this.$store.getters["ArticleData"].blgArticle;
     },
     scrollY() {
-      return this.$store.getters["HeaderData"].scrollY > 200
+      return this.$store.getters["ModuleHeader/ScrollY"]
     }
   },
   components: {

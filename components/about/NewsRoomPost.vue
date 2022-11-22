@@ -1,6 +1,6 @@
 <template>
   <div class="news-post-contents">
-    <div class="content post-content">
+    <div class="content post-content" :class="{'header-fix-padding': scrollY}">
       <div class="content-header" :class="{'header-fix': scrollY}">
         <h3 class="tit-cont">newsroom</h3>
       </div>
@@ -62,7 +62,7 @@ export default {
       return `../assets/images/temp/img_temp_002.png`
     },
     scrollY() {
-      return this.$store.getters["HeaderData"].scrollY > 200
+      return this.$store.getters["ModuleHeader/ScrollY"]
     },
     // PostData() {
     //   let dataBase = this.$store.getters["PostData"].newsPost;

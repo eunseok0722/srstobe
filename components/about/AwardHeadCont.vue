@@ -1,5 +1,5 @@
 <template>
-  <div class="content award-head-content">
+  <div class="content award-head-content" :class="{'header-fix-padding': scrollY}">
     <!--  Content header | 제목  -->
     <div class="content-header" :class="{'header-fix': scrollY}">
       <h3 class="tit-cont">Awards & Patents</h3>
@@ -44,11 +44,8 @@ export default {
     img() {
       return `../assets/images/img_about_001.png`
     },
-    lastScrollY() {
-      return this.$store.getters["HeaderData"].lastScrollY;
-    },
     scrollY() {
-      return this.$store.getters["HeaderData"].scrollY >= 300
+      return this.$store.getters["ModuleHeader/ScrollY"]
     }
   },
   methods: {
@@ -56,11 +53,11 @@ export default {
       return this.$store.commit("ModuleHeader/handleScroll");
     }
   },
-  created() {
-    window.addEventListener('scroll', this.handleScroll)
-  },
-  beforeDestroy() {
-    window.removeEventListener('scroll', this.handleScroll)
-  },
+  // created() {
+  //   window.addEventListener('scroll', this.handleScroll)
+  // },
+  // beforeDestroy() {
+  //   window.removeEventListener('scroll', this.handleScroll)
+  // },
 }
 </script>

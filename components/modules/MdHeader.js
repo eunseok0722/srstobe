@@ -6,6 +6,7 @@ const state = ({
     // ],
     // logoImg : { url: 'fyrre_magazine.png' },
     navActive: false,
+    windowY: 0,
     scrollY: 0,
     lastScrollY: 0,
     timer: null,
@@ -14,6 +15,9 @@ const state = ({
 const getters = {
     HeaderData: function HeaderData(state) {
         return state
+    },
+    ScrollY: function ScrollY(state) {
+        return state.scrollY >= 300
     }
 }
 

@@ -54,7 +54,7 @@ export default {
       return this.$store.getters["HeaderData"].lastScrollY;
     },
     scrollY() {
-      return this.$store.getters["HeaderData"].scrollY >= 300
+      return this.$store.getters["ModuleHeader/ScrollY"]
     }
   },
   methods: {

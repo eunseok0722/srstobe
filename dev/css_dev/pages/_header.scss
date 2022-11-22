@@ -98,7 +98,7 @@
     padding: 2.2rem 3.2rem 2.8rem;
     box-sizing: border-box;
     border-radius: 3rem;
-    background-color: $blue_l;
+    background-color: #066dbddf;
     display: flex;
     gap: 9rem;
     justify-content: space-between;
@@ -208,12 +208,13 @@
             transition: all 0.3s;
 
             &:hover {
-              background-color: $light_blue;
+              background-color: $blue_m;
 
               a,
               button {
                 //font-family: $point-font;
-                color: $blue_lr;
+                color: $white;
+                font-weight: $md;
               }
             }
           }
@@ -416,6 +417,7 @@
     .d2-list {
       justify-content: space-between;
       gap: 0;
+      padding-top: 3.2rem;
     }
 
     .d2-item {
@@ -551,6 +553,14 @@ select {
     display: block;
     width: $pc-min;
     margin: 0 auto;
+  }
+}
+.header-fix-padding {
+  &::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4.2rem;
   }
 }
 /* //handleScroll Event Class */

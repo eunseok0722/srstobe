@@ -23,27 +23,27 @@
                     </div>
                     <ul class="d3-list">
                       <li class="d3-list-item">
-                        <a href="#" class="txt-s">
+                        <a href="#" class="txt-r">
                           Autonomous Driving
                         </a>
                       </li>
                       <li class="d3-list-item">
-                        <a href="#" class="txt-s">
+                        <a href="#" class="txt-r">
                           UAM
                         </a>
                       </li>
                       <li class="d3-list-item">
-                        <a href="#" class="txt-s">
+                        <a href="#" class="txt-r">
                           In-Cabin
                         </a>
                       </li>
                       <li class="d3-list-item">
-                        <a href="#" class="txt-s">
+                        <a href="#" class="txt-r">
                           Last Mile Delivery
                         </a>
                       </li>
                       <li class="d3-list-item">
-                        <a href="#" class="txt-s">
+                        <a href="#" class="txt-r">
                           AGV
                         </a>
                       </li>
@@ -60,22 +60,22 @@
                     </div>
                     <ul class="d3-list">
                       <li class="d3-list-item">
-                        <a href="#" class="txt-s">
+                        <a href="#" class="txt-r">
                           Construction Vehicle
                         </a>
                       </li>
                       <li class="d3-list-item">
-                        <a href="#" class="txt-s">
+                        <a href="#" class="txt-r">
                           Factory Robotics
                         </a>
                       </li>
                       <li class="d3-list-item">
-                        <a href="#" class="txt-s">
+                        <a href="#" class="txt-r">
                           Level-meter
                         </a>
                       </li>
                       <li class="d3-list-item">
-                        <a href="#" class="txt-s">
+                        <a href="#" class="txt-r">
                           Defense Drone
                         </a>
                       </li>
@@ -92,17 +92,17 @@
                     </div>
                     <ul class="d3-list">
                       <li class="d3-list-item">
-                        <a href="#" class="txt-s">
+                        <a href="#" class="txt-r">
                           Home
                         </a>
                       </li>
                       <li class="d3-list-item">
-                        <a href="#" class="txt-s">
+                        <a href="#" class="txt-r">
                           Hospital/Nursing Home
                         </a>
                       </li>
                       <li class="d3-list-item">
-                        <a href="#" class="txt-s">
+                        <a href="#" class="txt-r">
                           Puile Bathroom
                         </a>
                       </li>
@@ -119,27 +119,27 @@
                     </div>
                     <ul class="d3-list">
                       <li class="d3-list-item">
-                        <a href="#" class="txt-s">
+                        <a href="#" class="txt-r">
                           Elevator
                         </a>
                       </li>
                       <li class="d3-list-item">
-                        <a href="#" class="txt-s">
+                        <a href="#" class="txt-r">
                           Retailer
                         </a>
                       </li>
                       <li class="d3-list-item">
-                        <a href="#" class="txt-s">
+                        <a href="#" class="txt-r">
                           Office
                         </a>
                       </li>
                       <li class="d3-list-item">
-                        <a href="#" class="txt-s">
+                        <a href="#" class="txt-r">
                           Smart Pole PINNN
                         </a>
                       </li>
                       <li class="d3-list-item">
-                        <a href="#" class="txt-s">
+                        <a href="#" class="txt-r">
                           Security
                         </a>
                       </li>
