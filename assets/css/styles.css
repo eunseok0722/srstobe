@@ -273,6 +273,28 @@ body { font-family: "Garet", sans-serif; }
 .btn-cross { display: block; width: 3rem; height: 3rem; background-size: 2.6rem 2.6rem; background-repeat: no-repeat; background-position: center center; background-image: url("../images/ico_cross_001.png"); }
 
 /* //pagenation */
+/* Custom Select */
+.custom-select { position: relative; width: fit-content; min-width: 18rem; text-align: left; height: 3.5rem; line-height: 2.8rem; }
+
+.custom-select .selected { width: fit-content; min-width: 100%; white-space: nowrap; border-radius: 3.5rem; border: 1px solid #666666; padding: 0.3rem 4.2rem 0.3rem 1.5rem; cursor: pointer; user-select: none; font-size: 1.15rem; box-sizing: border-box; }
+
+.custom-select .selected.open { border: 2px solid #008aff; border-radius: 3.5rem; }
+
+.custom-select .selected.open::after { top: 1rem; border-color: transparent transparent #008aff transparent; }
+
+.custom-select .selected:after { position: absolute; content: ""; top: 1.6rem; right: 1.5rem; width: 0; height: 0; border: 6px solid transparent; border-color: #008aff transparent transparent transparent; }
+
+.custom-select .items { margin-top: 0.3rem; border-radius: 1rem; overflow: hidden; position: absolute; width: 100%; white-space: nowrap; box-shadow: 0px 6px 8px 0 rgba(0, 0, 0, 0.1); box-sizing: border-box; padding: 1rem; left: 0; right: 0; z-index: 1; }
+
+.custom-select .items div { width: fit-content; min-width: 100%; white-space: nowrap; color: inherit; padding: 0 2.2rem 0 1rem; border-radius: 0.5rem; box-sizing: border-box; cursor: pointer; user-select: none; font-size: 1.15rem; }
+
+.custom-select .items div:hover { background-color: #edf8fc; color: #008aff; font-weight: 500; }
+
+.custom-select .items div.checked { background-size: 12px 9px; background-position: 95% center; background-repeat: no-repeat; background-image: url("../images/ico_check_001.png"); }
+
+.selectHide { display: none; }
+
+/* // Custom Select */
 /* main-header css */
 .main-header-wrap { position: fixed; bottom: 0; left: 0; width: 100%; height: fit-content; z-index: 100; /* header  활성화 */ /* main header  gnb CSS */ /* main header  gnb CSS */ /* main header sub gnb CSS */ /* main header sub gnb CSS */ }
 
