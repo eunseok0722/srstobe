@@ -13,144 +13,156 @@
               </a>
             </h2>
             <div class="d2-list-wrap v1" :class="{active: d2State[0].active}">
-              <ul class="d2-list">
-                <!--  d2 | Automotive  -->
-                <li class="d2-list-item">
-                  <div class="d2-item">
-                    <div class="tit-box">
-                      <p class="txt-s">Mobility</p>
-                      <h3 class="tit-m">AutoMotive</h3>
+
+              <div class="d2-section">
+                <div class="d2-section-tit">
+                  <p class="tit-m">Mobility</p>
+                </div>
+                <ul class="d2-list">
+                  <!--  d2 | Automotive  -->
+                  <li class="d2-list-item">
+                    <div class="d2-item">
+                      <div class="tit-box">
+                        <p class="txt-s blind">Mobility</p>
+                        <h3 class="tit-m">AutoMotive</h3>
+                      </div>
+                      <ul class="d3-list">
+                        <li class="d3-list-item">
+                          <a href="#" class="txt-r">
+                            Autonomous Driving
+                          </a>
+                        </li>
+                        <li class="d3-list-item">
+                          <a href="#" class="txt-r">
+                            UAM
+                          </a>
+                        </li>
+                        <li class="d3-list-item">
+                          <a href="#" class="txt-r">
+                            In-Cabin
+                          </a>
+                        </li>
+                        <li class="d3-list-item">
+                          <a href="#" class="txt-r">
+                            Last Mile Delivery
+                          </a>
+                        </li>
+                        <li class="d3-list-item">
+                          <a href="#" class="txt-r">
+                            AGV
+                          </a>
+                        </li>
+                      </ul>
                     </div>
-                    <ul class="d3-list">
-                      <li class="d3-list-item">
-                        <a href="#" class="txt-r">
-                          Autonomous Driving
-                        </a>
-                      </li>
-                      <li class="d3-list-item">
-                        <a href="#" class="txt-r">
-                          UAM
-                        </a>
-                      </li>
-                      <li class="d3-list-item">
-                        <a href="#" class="txt-r">
-                          In-Cabin
-                        </a>
-                      </li>
-                      <li class="d3-list-item">
-                        <a href="#" class="txt-r">
-                          Last Mile Delivery
-                        </a>
-                      </li>
-                      <li class="d3-list-item">
-                        <a href="#" class="txt-r">
-                          AGV
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <!--  //d2 | Automotive  -->
-                <!--  d2 | Industrial   -->
-                <li class="d2-list-item">
-                  <div class="d2-item">
-                    <div class="tit-box">
-                      <p class="txt-s"></p>
-                      <h3 class="tit-m">Industrial</h3>
+                  </li>
+                  <!--  //d2 | Automotive  -->
+                  <!--  d2 | Industrial   -->
+                  <li class="d2-list-item">
+                    <div class="d2-item">
+                      <div class="tit-box">
+                        <h3 class="tit-m">Industrial</h3>
+                      </div>
+                      <ul class="d3-list">
+                        <li class="d3-list-item">
+                          <a href="#" class="txt-r">
+                            Construction Vehicle
+                          </a>
+                        </li>
+                        <li class="d3-list-item">
+                          <a href="#" class="txt-r">
+                            Factory Robotics
+                          </a>
+                        </li>
+                        <li class="d3-list-item">
+                          <a href="#" class="txt-r">
+                            Level-meter
+                          </a>
+                        </li>
+                        <li class="d3-list-item">
+                          <a href="#" class="txt-r">
+                            Defense Drone
+                          </a>
+                        </li>
+                      </ul>
                     </div>
-                    <ul class="d3-list">
-                      <li class="d3-list-item">
-                        <a href="#" class="txt-r">
-                          Construction Vehicle
-                        </a>
-                      </li>
-                      <li class="d3-list-item">
-                        <a href="#" class="txt-r">
-                          Factory Robotics
-                        </a>
-                      </li>
-                      <li class="d3-list-item">
-                        <a href="#" class="txt-r">
-                          Level-meter
-                        </a>
-                      </li>
-                      <li class="d3-list-item">
-                        <a href="#" class="txt-r">
-                          Defense Drone
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <!--  //d2 | Industrial   -->
-                <!--  d2 | Healthcare   -->
-                <li class="d2-list-item">
-                  <div class="d2-item">
-                    <div class="tit-box">
-                      <p class="txt-s">Smartcity</p>
-                      <h3 class="tit-m">Healthcare</h3>
+                  </li>
+                  <!--  //d2 | Industrial   -->
+                </ul>
+              </div>
+              <div class="d2-section">
+                <div class="d2-section-tit">
+                  <p class="tit-m">Smartcity</p>
+                </div>
+                <ul class="d2-list">
+                  <!--  d2 | Healthcare   -->
+                  <li class="d2-list-item">
+                    <div class="d2-item">
+                      <div class="tit-box">
+                        <p class="txt-s blind">Smartcity</p>
+                        <h3 class="tit-m">Healthcare</h3>
+                      </div>
+                      <ul class="d3-list">
+                        <li class="d3-list-item">
+                          <a href="#" class="txt-r">
+                            Home
+                          </a>
+                        </li>
+                        <li class="d3-list-item">
+                          <a href="#" class="txt-r">
+                            Hospital/Nursing Home
+                          </a>
+                        </li>
+                        <li class="d3-list-item">
+                          <a href="#" class="txt-r">
+                            Puile Bathroom
+                          </a>
+                        </li>
+                      </ul>
                     </div>
-                    <ul class="d3-list">
-                      <li class="d3-list-item">
-                        <a href="#" class="txt-r">
-                          Home
-                        </a>
-                      </li>
-                      <li class="d3-list-item">
-                        <a href="#" class="txt-r">
-                          Hospital/Nursing Home
-                        </a>
-                      </li>
-                      <li class="d3-list-item">
-                        <a href="#" class="txt-r">
-                          Puile Bathroom
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <!--  //d2 | Healthcare   -->
-                <!--  d2 | Smart Places   -->
-                <li class="d2-list-item">
-                  <div class="d2-item">
-                    <div class="tit-box">
-                      <p class="txt-s"></p>
-                      <h3 class="tit-m">Smart Places</h3>
+                  </li>
+                  <!--  //d2 | Healthcare   -->
+                  <!--  d2 | Smart Places   -->
+                  <li class="d2-list-item">
+                    <div class="d2-item">
+                      <div class="tit-box">
+                        <h3 class="tit-m">Smart Places</h3>
+                      </div>
+                      <ul class="d3-list">
+                        <li class="d3-list-item">
+                          <a href="#" class="txt-r">
+                            Elevator
+                          </a>
+                        </li>
+                        <li class="d3-list-item">
+                          <a href="#" class="txt-r">
+                            Retailer
+                          </a>
+                        </li>
+                        <li class="d3-list-item">
+                          <a href="#" class="txt-r">
+                            Office
+                          </a>
+                        </li>
+                        <li class="d3-list-item">
+                          <a href="#" class="txt-r">
+                            Smart Pole PINNN
+                          </a>
+                        </li>
+                        <li class="d3-list-item">
+                          <a href="#" class="txt-r">
+                            Security
+                          </a>
+                        </li>
+                      </ul>
                     </div>
-                    <ul class="d3-list">
-                      <li class="d3-list-item">
-                        <a href="#" class="txt-r">
-                          Elevator
-                        </a>
-                      </li>
-                      <li class="d3-list-item">
-                        <a href="#" class="txt-r">
-                          Retailer
-                        </a>
-                      </li>
-                      <li class="d3-list-item">
-                        <a href="#" class="txt-r">
-                          Office
-                        </a>
-                      </li>
-                      <li class="d3-list-item">
-                        <a href="#" class="txt-r">
-                          Smart Pole PINNN
-                        </a>
-                      </li>
-                      <li class="d3-list-item">
-                        <a href="#" class="txt-r">
-                          Security
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <!--  //d2 | Smart Places   -->
-              </ul>
+                  </li>
+                  <!--  //d2 | Smart Places   -->
+                </ul>
+              </div>
             </div>
           </li>
           <!--  //d1 | APPLICATIONS  -->
+
           <!--  d1 | PRODUCTS  -->
           <li class="list-item" v-on:mouseenter="d2Activate(1)">
             <h2 class="tit-l">
@@ -159,122 +171,140 @@
               </a>
             </h2>
             <div class="d2-list-wrap v2" :class="{active: d2State[1].active}">
-              <ul class="d2-list">
-                <!--  d2 | RETINA-Next Gen  -->
-                <li class="d2-list-item">
-                  <div class="d2-item">
-                    <div class="tit-box">
-                      <p class="txt-s">Imaging Radar</p>
-                      <h3 class="tit-m">RETINA-Next Gen</h3>
+
+              <div class="d2-section">
+                <div class="d2-section-tit">
+                  <p class="tit-m">
+                    Imaging Radar
+                  </p>
+                </div>
+                <ul class="d2-list">
+                  <!--  d2 | RETINA-Next Gen  -->
+                  <li class="d2-list-item">
+                    <div class="d2-item">
+                      <div class="tit-box">
+                        <h3 class="tit-m">RETINA-Next Gen</h3>
+                      </div>
+                      <div class="img-box">
+                        <a href="#">
+                          <img :src="path" alt="">
+                        </a>
+                      </div>
                     </div>
-                    <div class="img-box">
-                      <a href="#">
-                        <img :src="path" alt="">
-                      </a>
+                  </li>
+                  <!--  // d2 | RETINA-Next Gen  -->
+                  <!--  d2 | RETINA-4F  -->
+                  <li class="d2-list-item">
+                    <div class="d2-item">
+                      <div class="tit-box">
+                        <h3 class="tit-m">RETINA-4F</h3>
+                      </div>
+                      <div class="img-box">
+                        <a href="#">
+                          <img :src="path" alt="">
+                        </a>
+                      </div>
                     </div>
-                  </div>
-                </li>
-                <!--  // d2 | RETINA-Next Gen  -->
-                <!--  d2 | RETINA-4F  -->
-                <li class="d2-list-item">
-                  <div class="d2-item">
-                    <div class="tit-box">
-                      <h3 class="tit-m">RETINA-4F</h3>
+                  </li>
+                  <!--  // d2 | RETINA-4F  -->
+                  <!--  d2 | RETINA-4S  -->
+                  <li class="d2-list-item">
+                    <div class="d2-item">
+                      <div class="tit-box">
+                        <h3 class="tit-m">RETINA-4S</h3>
+                      </div>
+                      <div class="img-box">
+                        <a href="#">
+                          <img :src="path" alt="">
+                        </a>
+                      </div>
                     </div>
-                    <div class="img-box">
-                      <a href="#">
-                        <img :src="path" alt="">
-                      </a>
+                  </li>
+                  <!--  // d2 | RETINA-4S  -->
+                  <!--  d2 | RETINA-4A  -->
+                  <li class="d2-list-item">
+                    <div class="d2-item">
+                      <div class="tit-box">
+                        <h3 class="tit-m">RETINA-4A</h3>
+                      </div>
+                      <div class="img-box">
+                        <a href="#">
+                          <img :src="path" alt="">
+                        </a>
+                      </div>
                     </div>
-                  </div>
-                </li>
-                <!--  // d2 | RETINA-4F  -->
-                <!--  d2 | IRISt  -->
-                <li class="d2-list-item">
-                  <div class="d2-item">
-                    <div class="tit-box">
-                      <p class="txt-s">Single Radar & Module</p>
-                      <h3 class="tit-m">IRISt</h3>
+                  </li>
+                  <!--  // d2 | RETINA-4A  -->
+                </ul>
+              </div>
+              <div class="d2-section">
+                <div class="d2-section-tit">
+                  <p class="tit-m">
+                    Single Radar & Module
+                  </p>
+                </div>
+                <ul class="d2-list">
+                  <!--  d2 | IRISt  -->
+                  <li class="d2-list-item">
+                    <div class="d2-item">
+                      <div class="tit-box">
+                        <h3 class="tit-m">IRISt</h3>
+                      </div>
+                      <div class="img-box">
+                        <a href="#">
+                          <img :src="path" alt="">
+                        </a>
+                      </div>
                     </div>
-                    <div class="img-box">
-                      <a href="#">
-                        <img :src="path" alt="">
-                      </a>
+                  </li>
+                  <!--  // d2 | IRISt  -->
+                  <!--  d2 | IRISc  -->
+                  <li class="d2-list-item">
+                    <div class="d2-item">
+                      <div class="tit-box">
+                        <h3 class="tit-m">IRISc</h3>
+                      </div>
+                      <div class="img-box">
+                        <a href="#">
+                          <img :src="path" alt="">
+                        </a>
+                      </div>
                     </div>
-                  </div>
-                </li>
-                <!--  // d2 | IRISt  -->
-                <!--  d2 | IRISc  -->
-                <li class="d2-list-item">
-                  <div class="d2-item">
-                    <div class="tit-box">
-                      <h3 class="tit-m">IRISc</h3>
+                  </li>
+                  <!--  // d2 | IRISc  -->
+
+                  <!--  d2 | IRISm   -->
+                  <li class="d2-list-item">
+                    <div class="d2-item">
+                      <div class="tit-box">
+                        <h3 class="tit-m">IRISm</h3>
+                      </div>
+                      <div class="img-box">
+                        <a href="#">
+                          <img :src="path" alt="">
+                        </a>
+                      </div>
                     </div>
-                    <div class="img-box">
-                      <a href="#">
-                        <img :src="path" alt="">
-                      </a>
+                  </li>
+                  <!--  // d2 | IRISm   -->
+                  <!--  d2 | SE68-51W   -->
+                  <li class="d2-list-item">
+                    <div class="d2-item">
+                      <div class="tit-box">
+                        <h3 class="tit-m">SE68-51W</h3>
+                      </div>
+                      <div class="img-box">
+                        <a href="#">
+                          <img :src="path" alt="">
+                        </a>
+                      </div>
                     </div>
-                  </div>
-                </li>
-                <!--  // d2 | IRISc  -->
-                <!--  d2 | RETINA-4S  -->
-                <li class="d2-list-item">
-                  <div class="d2-item">
-                    <div class="tit-box">
-                      <h3 class="tit-m">RETINA-4S</h3>
-                    </div>
-                    <div class="img-box">
-                      <a href="#">
-                        <img :src="path" alt="">
-                      </a>
-                    </div>
-                  </div>
-                </li>
-                <!--  // d2 | RETINA-4S  -->
-                <!--  d2 | RETINA-4A  -->
-                <li class="d2-list-item">
-                  <div class="d2-item">
-                    <div class="tit-box">
-                      <h3 class="tit-m">RETINA-4A</h3>
-                    </div>
-                    <div class="img-box">
-                      <a href="#">
-                        <img :src="path" alt="">
-                      </a>
-                    </div>
-                  </div>
-                </li>
-                <!--  // d2 | RETINA-4A  -->
-                <!--  d2 | IRISm   -->
-                <li class="d2-list-item">
-                  <div class="d2-item">
-                    <div class="tit-box">
-                      <h3 class="tit-m">IRISm</h3>
-                    </div>
-                    <div class="img-box">
-                      <a href="#">
-                        <img :src="path" alt="">
-                      </a>
-                    </div>
-                  </div>
-                </li>
-                <!--  // d2 | IRISm   -->
-                <!--  d2 | SE68-51W   -->
-                <li class="d2-list-item">
-                  <div class="d2-item">
-                    <div class="tit-box">
-                      <h3 class="tit-m">SE68-51W</h3>
-                    </div>
-                    <div class="img-box">
-                      <a href="#">
-                        <img :src="path" alt="">
-                      </a>
-                    </div>
-                  </div>
-                </li>
-                <!--  // d2 | SE68-51W  -->
-              </ul>
+                  </li>
+                  <!--  // d2 | SE68-51W  -->
+                </ul>
+              </div>
+
+
             </div>
           </li>
           <!--  //d1 | PRODUCTS  -->
@@ -291,7 +321,6 @@
                 <li class="d2-list-item">
                   <div class="d2-item">
                     <div class="tit-box">
-                      <p class="txt-s"></p>
                       <h3 class="tit-m">4D Imaging Radar</h3>
                     </div>
                     <div class="img-box">
@@ -306,7 +335,6 @@
                 <li class="d2-list-item">
                   <div class="d2-item">
                     <div class="tit-box">
-                      <p class="txt-s"></p>
                       <h3 class="tit-m">Software Defined Vehicle</h3>
                     </div>
                     <div class="img-box">
@@ -321,7 +349,6 @@
                 <li class="d2-list-item">
                   <div class="d2-item">
                     <div class="tit-box">
-                      <p class="txt-s"></p>
                       <h3 class="tit-m">SWaP sensor</h3>
                     </div>
                     <div class="img-box">
@@ -336,7 +363,6 @@
                 <li class="d2-list-item">
                   <div class="d2-item">
                     <div class="tit-box">
-                      <p class="txt-s"></p>
                       <h3 class="tit-m">Edge Device with ML</h3>
                     </div>
                     <div class="img-box">
