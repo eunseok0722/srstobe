@@ -326,6 +326,7 @@
         border-radius: 10px;
         box-sizing: border-box;
         overflow: hidden;
+        border: 1px solid #e1e1e1;
 
         a {
           display: block;
@@ -465,7 +466,7 @@
       @include flex-col();
       .d2-section-tit {
         margin: 0 1.4rem 0 3.2rem;
-        border: 1px solid $gray_03;
+        border: 1px solid #e1e1e1;
         border-radius: 0.5rem;
         padding: 0.5rem 0;
         display: flex;
@@ -473,6 +474,7 @@
         justify-content: center;
         .tit-m {
           font-weight: $r;
+          color: #555555;
         }
       }
     }

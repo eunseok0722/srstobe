@@ -187,7 +187,7 @@
                       </div>
                       <div class="img-box">
                         <a href="#">
-                          <img :src="path" alt="">
+                          <img :src="d2ItemData[0].path" alt="">
                         </a>
                       </div>
                     </div>
@@ -201,7 +201,7 @@
                       </div>
                       <div class="img-box">
                         <a href="#">
-                          <img :src="path" alt="">
+                          <img :src="d2ItemData[1].path" alt="">
                         </a>
                       </div>
                     </div>
@@ -215,7 +215,7 @@
                       </div>
                       <div class="img-box">
                         <a href="#">
-                          <img :src="path" alt="">
+                          <img :src="d2ItemData[2].path" alt="">
                         </a>
                       </div>
                     </div>
@@ -229,7 +229,7 @@
                       </div>
                       <div class="img-box">
                         <a href="#">
-                          <img :src="path" alt="">
+                          <img :src="d2ItemData[3].path" alt="">
                         </a>
                       </div>
                     </div>
@@ -252,7 +252,7 @@
                       </div>
                       <div class="img-box">
                         <a href="#">
-                          <img :src="path" alt="">
+                          <img :src="d2ItemData[4].path" alt="">
                         </a>
                       </div>
                     </div>
@@ -266,7 +266,7 @@
                       </div>
                       <div class="img-box">
                         <a href="#">
-                          <img :src="path" alt="">
+                          <img :src="d2ItemData[5].path" alt="">
                         </a>
                       </div>
                     </div>
@@ -281,7 +281,7 @@
                       </div>
                       <div class="img-box">
                         <a href="#">
-                          <img :src="path" alt="">
+                          <img :src="d2ItemData[6].path" alt="">
                         </a>
                       </div>
                     </div>
@@ -295,7 +295,7 @@
                       </div>
                       <div class="img-box">
                         <a href="#">
-                          <img :src="path" alt="">
+                          <img :src="d2ItemData[7].path" alt="">
                         </a>
                       </div>
                     </div>
@@ -484,6 +484,16 @@ export default {
         {id: 2, active: false},
         {id: 3, active: false},
         {id: 4, active: false},
+      ],
+      d2ItemData: [
+          {id: 1, path: `../assets/images/img_retina_next_gen_001.png` },
+          {id: 1, path: `../assets/images/img_retina_4f_001.png` },
+          {id: 1, path: `../assets/images/img_retina_4sn_001.png` },
+          {id: 1, path: `../assets/images/img_retina_4a_001.png` },
+          {id: 1, path: `../assets/images/img_irist_001.png` },
+          {id: 1, path: `../assets/images/img_irisc_001.png` },
+          {id: 1, path: `../assets/images/img_irism_001.png` },
+          {id: 1, path: `../assets/images/img_se68_51w_001.png` },
       ]
     }
   },

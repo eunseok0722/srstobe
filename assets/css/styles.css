@@ -366,7 +366,7 @@ body { font-family: "Garet", sans-serif; }
 
 .sub-header .d2-list-wrap .d2-item .tit-box a { display: block; width: 100%; height: 100%; box-sizing: border-box; }
 
-.sub-header .d2-list-wrap .d2-item .img-box { width: 274px; height: 74px; margin: 0 1.8rem; border-radius: 10px; box-sizing: border-box; overflow: hidden; }
+.sub-header .d2-list-wrap .d2-item .img-box { width: 274px; height: 74px; margin: 0 1.8rem; border-radius: 10px; box-sizing: border-box; overflow: hidden; border: 1px solid #e1e1e1; }
 
 .sub-header .d2-list-wrap .d2-item .img-box a { display: block; width: 100%; height: 100%; }
 
@@ -408,9 +408,9 @@ body { font-family: "Garet", sans-serif; }
 
 .sub-header .d2-list-wrap.v1 .d2-section, .sub-header .d2-list-wrap.v2 .d2-section { width: 640px; padding-top: 3rem; box-sizing: border-box; display: flex; flex-direction: column; gap: 0; }
 
-.sub-header .d2-list-wrap.v1 .d2-section .d2-section-tit, .sub-header .d2-list-wrap.v2 .d2-section .d2-section-tit { margin: 0 1.4rem 0 3.2rem; border: 1px solid #898989; border-radius: 0.5rem; padding: 0.5rem 0; display: flex; align-items: center; justify-content: center; }
+.sub-header .d2-list-wrap.v1 .d2-section .d2-section-tit, .sub-header .d2-list-wrap.v2 .d2-section .d2-section-tit { margin: 0 1.4rem 0 3.2rem; border: 1px solid #e1e1e1; border-radius: 0.5rem; padding: 0.5rem 0; display: flex; align-items: center; justify-content: center; }
 
-.sub-header .d2-list-wrap.v1 .d2-section .d2-section-tit .tit-m, .sub-header .d2-list-wrap.v2 .d2-section .d2-section-tit .tit-m { font-weight: 400; }
+.sub-header .d2-list-wrap.v1 .d2-section .d2-section-tit .tit-m, .sub-header .d2-list-wrap.v2 .d2-section .d2-section-tit .tit-m { font-weight: 400; color: #555555; }
 
 .sub-header .d2-list-wrap.v1 .d2-list, .sub-header .d2-list-wrap.v2 .d2-list { width: 640px; }
 
