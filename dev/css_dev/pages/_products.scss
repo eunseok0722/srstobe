@@ -1,0 +1,37 @@
+
+// products CSS
+.prod-contents {
+
+}
+
+.prod-bg-wrap {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../images/img_retina_4f_002.png");
+}
+
+.prod-content {
+  .content-header {
+    @include flex-col(1rem);
+    .txt-r {
+      color: $blue_l;
+    }
+  }
+}
+
+.prod-head-cont {
+  .tit-box {
+    @include flex-col(12.5rem);
+    .tit-head {
+      display: block;
+      width: 76%;
+    }
+    .txt-l {
+      display: block;
+      line-height: 1.6;
+      width: 50%;
+    }
+  }
+}

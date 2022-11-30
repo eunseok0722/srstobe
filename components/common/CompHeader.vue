@@ -186,9 +186,9 @@
                         <h3 class="tit-m">RETINA-Next Gen</h3>
                       </div>
                       <div class="img-box">
-                        <a href="#">
+                        <router-link to="/products/1">
                           <img :src="d2ItemData[0].path" alt="">
-                        </a>
+                        </router-link>
                       </div>
                     </div>
                   </li>
@@ -200,9 +200,9 @@
                         <h3 class="tit-m">RETINA-4F</h3>
                       </div>
                       <div class="img-box">
-                        <a href="#">
+                        <router-link to="/products/1">
                           <img :src="d2ItemData[1].path" alt="">
-                        </a>
+                        </router-link>
                       </div>
                     </div>
                   </li>
@@ -214,9 +214,9 @@
                         <h3 class="tit-m">RETINA-4S</h3>
                       </div>
                       <div class="img-box">
-                        <a href="#">
+                        <router-link to="/products/1">
                           <img :src="d2ItemData[2].path" alt="">
-                        </a>
+                        </router-link>
                       </div>
                     </div>
                   </li>
@@ -228,9 +228,9 @@
                         <h3 class="tit-m">RETINA-4A</h3>
                       </div>
                       <div class="img-box">
-                        <a href="#">
+                        <router-link to="/products/1">
                           <img :src="d2ItemData[3].path" alt="">
-                        </a>
+                        </router-link>
                       </div>
                     </div>
                   </li>
@@ -251,9 +251,9 @@
                         <h3 class="tit-m">IRISt</h3>
                       </div>
                       <div class="img-box">
-                        <a href="#">
+                        <router-link to="/products/1">
                           <img :src="d2ItemData[4].path" alt="">
-                        </a>
+                        </router-link>
                       </div>
                     </div>
                   </li>
@@ -265,9 +265,9 @@
                         <h3 class="tit-m">IRISc</h3>
                       </div>
                       <div class="img-box">
-                        <a href="#">
+                        <router-link to="/products/1">
                           <img :src="d2ItemData[5].path" alt="">
-                        </a>
+                        </router-link>
                       </div>
                     </div>
                   </li>
@@ -280,9 +280,9 @@
                         <h3 class="tit-m">IRISm</h3>
                       </div>
                       <div class="img-box">
-                        <a href="#">
+                        <router-link to="/products/1">
                           <img :src="d2ItemData[6].path" alt="">
-                        </a>
+                        </router-link>
                       </div>
                     </div>
                   </li>
@@ -294,9 +294,9 @@
                         <h3 class="tit-m">SE68-51W</h3>
                       </div>
                       <div class="img-box">
-                        <a href="#">
+                        <router-link to="/products/8">
                           <img :src="d2ItemData[7].path" alt="">
-                        </a>
+                        </router-link>
                       </div>
                     </div>
                   </li>

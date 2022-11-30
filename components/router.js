@@ -1,18 +1,14 @@
 // vue3-sfc-loader 설정
 const options = {
     moduleCache: {
-        vue: Vue,
-        // scss: source => Object.assign(sass(source), { deps: () => [] }),
-    },
-    async getFile(url) {
+        vue: Vue, // scss: source => Object.assign(sass(source), { deps: () => [] }),
+    }, async getFile(url) {
         const res = await fetch(url);
-        if (!res.ok)
-            throw Object.assign(new Error(res.statusText + ' ' + url), {res});
+        if (!res.ok) throw Object.assign(new Error(res.statusText + ' ' + url), {res});
         return {
             getContentData: asBinary => asBinary ? res.arrayBuffer() : res.text(),
         }
-    },
-    addStyle(textContent) {
+    }, addStyle(textContent) {
         const style = Object.assign(document.createElement('style'), {textContent});
         const ref = document.head.getElementsByTagName('style')[0] || null;
         document.head.insertBefore(style, ref);
@@ -21,12 +17,13 @@ const options = {
 const {loadModule} = window['vue3-sfc-loader'];
 
 // 컴포넌트 선언
-const
-    SrsMain = () => loadModule('../components/main/SrsMain.vue', options),
+const SrsMain = () => loadModule('../components/main/SrsMain.vue', options),
     AboutMain = () => loadModule('../components/about/AboutMain.vue', options),
     NewsRoomMain = () => loadModule('../components/about/NewsRoomMain.vue', options),
     NewsRoomPost = () => loadModule('../components/about/NewsRoomPost.vue', options),
-    AwardsMain = () => loadModule('../components/about/AwardsMain.vue', options);
+    AwardsMain = () => loadModule('../components/about/AwardsMain.vue', options),
+    ProductsMain = () => loadModule('../components/products/ProductsMain.vue', options),
+    ProductArticle = () => loadModule('../components/products/ProductArticle.vue', options);
 
 const routes = [
     {
@@ -53,13 +50,22 @@ const routes = [
             },
         ]
     },
+    {
+        name: 'products',
+        path: '/products',
+        component: ProductsMain,
+        children: [
+            {
+                path: ':id',
+                component: ProductArticle,
+            },
+        ]
+    },
 ]
 
 
 const router = VueRouter.createRouter({
-    history: VueRouter.createWebHashHistory(),
-    routes,
-    scrollBehavior() {
+    history: VueRouter.createWebHashHistory(), routes, scrollBehavior() {
         // return {top: 0}
     }
 })
