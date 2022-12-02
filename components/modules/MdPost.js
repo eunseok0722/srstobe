@@ -20,17 +20,17 @@ const state = ({
                 {
                     id: 1,
                     tit: `diagonal`,
-                    img: `../../assets/images/img_retina_4f_001.png`,
+                    img: `../assets/images/img_retina_4f_001.png`,
                 },
                 {
                     id: 2,
                     tit: `front`,
-                    img: `../../assets/images/img_retina_4f_003.png`,
+                    img: `../assets/images/img_retina_4f_003.png`,
                 },
                 {
                     id: 3,
                     tit: `interface`,
-                    img: `../../assets/images/img_retina_4f_004.png`,
+                    img: `../assets/images/img_retina_4f_004.png`,
                 }
             ],
 
