@@ -3,6 +3,7 @@
 .auto-head-cont {
   display: flex;
   flex-direction: row-reverse;
+  justify-content: space-between;
   gap: 6rem;
 
   .tit-box {
@@ -61,6 +62,92 @@
       left: -52%;
       top: -35%;
       object-fit: contain;
+    }
+  }
+}
+
+.container .content.auto-feat-content {
+  padding: 0 0 11.5rem;
+}
+
+.auto-vehi-cont {
+  display: flex;
+  justify-content: space-between;
+  gap: 9rem;
+  align-items: center;
+  .tit-box {
+    @include flex-col(6rem);
+    .txt-wrap {
+      @include flex-col(6rem);
+      .tit-head {
+        line-height: 1.2;
+      }
+      .tit-art {
+        line-height: 1.4;
+      }
+    }
+    .count-wrap {
+      .count-list {
+        display: flex;
+        gap: 2rem;
+        .list-item {
+          flex-basis: 25%;
+        }
+      }
+      .count-item {
+        @include flex-col(1.2rem);
+        justify-content: center;
+        align-items: center;
+
+        .num {
+          width: 100%;
+          font-size: $font-60r;
+          font-family: $point_font;
+          text-align: center;
+          padding: 2rem 0;
+          @include bdrs(1rem);
+          border: 1px dashed $gray_02;
+          box-sizing: border-box;
+          transition: 0.3s;
+        }
+        &:hover {
+          .tit-r {
+            font-weight: $md;
+          }
+          .num {
+            color: $white;
+            background-color: $blue_l;
+            border: 1px solid $blue_l;
+          }
+        }
+      }
+    }
+  }
+}
+
+.auto-prod-cont {
+  @include flex-col(5rem);
+  .prod-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2.7rem;
+    column-gap: 1.2rem;
+    .list-item {
+      flex-basis: calc((100% - 2.4rem) / 3);
+    }
+  }
+  .dtl-item {
+    .img-box {
+      padding-bottom: 32rem;
+      @include bd(1px, $gray_01);
+      img {
+        width: auto;
+        height: auto;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        object-fit: contain;
+      }
     }
   }
 }

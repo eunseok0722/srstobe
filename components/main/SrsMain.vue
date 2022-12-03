@@ -32,10 +32,10 @@
                         <li class="d3-list-item">
                           <div class="d3-item ty01" @mouseenter="itemActivate(0)" @mouseleave="itemInactivate(0)"
                                :class="{active: itemState[0].active}">
-                            <a class="tit-l" href="#">
+                            <router-link class="tit-l" to="/applications/autonomous-driving">
                               <span class="num">1</span>
                               <span class="tit">Autonomous Driving</span>
-                            </a>
+                            </router-link>
                           </div>
                         </li>
                         <li class="d3-list-item">

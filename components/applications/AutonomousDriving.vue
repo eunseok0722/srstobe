@@ -17,57 +17,95 @@
               </p>
             </div>
             <div class="img-wrap">
-              <img :src="path02" alt="">
+              <img :src="autonomousData.img02" alt="">
               <div class="img-tag">
                 <p class="tit-l">SDV_diagonal</p>
               </div>
             </div>
           </div>
           <div class="img-box">
-            <img :src="path01" alt="">
+            <img :src="autonomousData.img01" alt="">
           </div>
         </article>
       </section>
     </div>
     <div class="content auto-feat-content">
-      <div class="content-header">
-        <div class="header-fix-div">
-          <h3 class="tit-cont fw-r blind">Autonomous Driving features</h3>
-        </div>
-      </div>
       <section>
         <article class="auto-feat-cont">
           <ul class="feat-list">
-            <li class="list-item ">
-              <div class="feat-item ico-01 ty-02">
+            <li class="list-item" v-for="item in autonomousData.feat" :key="item.id">
+              <div class="feat-item ty-02" :class="item.class">
                 <div class="tit-box">
-                  <p class="tit-art-04">Customer needs</p>
+                  <p class="tit-art-04">{{ item.tit }}</p>
                 </div>
                 <div class="cont-box">
-                  <p class="txt-l">
-                    - fall Detection <br>
-                    - Monitor " Risky Mouement" <br>
-                    - Multi People Detect <br>
-                    - No Privacy Invasion
+                  <p class="txt-l" v-html="item.cont">
                   </p>
                 </div>
               </div>
             </li>
-            <li class="list-item">
-              <div class="feat-item ico-02 ty-02">
-                <div class="tit-box">
-                  <p class="tit-art-04">Customer needs</p>
-                </div>
-                <div class="cont-box">
-                  <p class="txt-l">
-                    - fall Detection <br>
-                    - Monitor " Risky Mouement" <br>
-                    - Multi People Detect <br>
-                    - No Privacy Invasion
-                  </p>
+          </ul>
+        </article>
+      </section>
+    </div>
+    <div class="content auto-vehi-content">
+      <section>
+        <article class="auto-vehi-cont">
+          <div class="tit-box">
+            <div class="txt-wrap">
+              <h4 class="tit-head fw-r">Radar solution for Software  Defined Vehicle</h4>
+              <p class="tit-art">Cutting edge Imaging Radar technology realizing
+                the sensor fusion architecture
+              </p>
+            </div>
+            <div class="count-wrap">
+              <ul class="count-list">
+                <li class="list-item">
+                  <div class="count-item">
+                    <div class="tit-r">radar</div>
+                    <div class="num">7</div>
+                  </div>
+                </li>
+                <li class="list-item">
+                  <div class="count-item">
+                    <div class="tit-r">front</div>
+                    <div class="num">1</div>
+                  </div>
+                </li>
+                <li class="list-item">
+                  <div class="count-item">
+                    <div class="tit-r">corner</div>
+                    <div class="num">4</div>
+                  </div>
+                </li>
+                <li class="list-item">
+                  <div class="count-item">
+                    <div class="tit-r">in cabin</div>
+                    <div class="num">2</div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="img-box">
+            <img :src="autonomousData.img03" alt="">
+          </div>
+        </article>
+      </section>
+    </div>
+    <div class="content auto-prod-content">
+      <section>
+        <article class="auto-prod-cont">
+          <div class="tit-box">
+            <h4 class="tit-head fw-r">Product</h4>
+          </div>
+          <ul class="prod-list">
+            <li class="list-item" v-for="item in autonomousData.prod" :key="item.id">
+              <div class="dtl-item">
+                <div class="img-box">
+                  <img :src="item.path" :alt="item.desc">
                 </div>
               </div>
-
             </li>
           </ul>
         </article>
@@ -94,12 +132,6 @@ export default {
     //     }
     //   }
     // },
-    path01() {
-      return '../../assets/images/img_appl_auto_001.png'
-    },
-    path02() {
-      return '../../assets/images/img_appl_auto_002.png'
-    },
     scrollY() {
       return this.$store.getters["ModuleHeader/ScrollY"]
     },
@@ -111,6 +143,9 @@ export default {
           return dataBase[i];
         }
       }
+    },
+    autonomousData() {
+      return this.$store.getters["PostData"].autonomousData;
     }
   },
   methods: {

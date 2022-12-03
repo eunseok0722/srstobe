@@ -52,7 +52,7 @@
               <h3 class="lb-tit-r">Automotive</h3>
               <ul class="d3-list">
                 <li class="d3-list-item" @mouseenter="itemActivate(0)" @mouseleave="itemInactivate(0)">
-                  <a class="lb-txt-r" href="#">1. Autonomous Driving</a>
+                  <router-link class="lb-txt-r" to="/applications/autonomous-driving">1. Autonomous Driving</router-link>
                 </li>
                 <li class="d3-list-item" @mouseenter="itemActivate(1)" @mouseleave="itemInactivate(1)">
                   <a class="lb-txt-r" href="#">2. UAM</a>

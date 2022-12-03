@@ -5,6 +5,15 @@
         <li class="list-item">
           <div class="bread-item">
             <custom-select
+                :options="['APPLICATIONS', 'PRODUCTS', 'DESIGN', 'ABOUT SRS']"
+                :default="'APPLICATIONS'"
+                class="select"
+            ></custom-select>
+          </div>
+        </li>
+        <li class="list-item">
+          <div class="bread-item">
+            <custom-select
               :options="['Automotive', 'Industrial', 'Healthcare', 'Smart Places']"
               :default="'Automotive'"
               class="select"
