@@ -1,4 +1,3 @@
-
 // products CSS
 .prod-contents {
 
@@ -6,19 +5,41 @@
 
 .prod-bg-wrap {
   width: 100%;
-  background-size: cover;
-  background-position: center 75%;
+  background-size: contain;
+  background-position: 100% 50%;
   background-repeat: no-repeat;
 }
-.bg-retina-4f {
-  background-image: url("../images/img_retina_4f_002.png");
-}
 
+.bg-retina-next-gen {
+  background-image: url("../images/temp/img_temp_001.png");
+}
+.bg-retina-4f {
+  background-image: url("../images/img_retina_4f_001.png");
+}
+.bg-retina-4s {
+  background-image: url("../images/img_retina_4sn_001.png");
+}
+.bg-retina-4a {
+  background-image: url("../images/img_retina_4a_001.png");
+}
+.bg-irist {
+  background-image: url("../images/img_irist_001.png");
+}
+.bg-irisc {
+  background-image: url("../images/img_irisc_001.png");
+}
+.bg-irism {
+  background-image: url("../images/img_irism_001.png");
+}
+.bg-se68-51w {
+  background-image: url("../images/img_se68_51w_001.png");
+}
 
 
 .prod-content {
   .content-header {
     @include flex-col(1rem);
+
     .txt-r {
       color: $blue_l;
     }
@@ -28,10 +49,12 @@
 .prod-head-cont {
   .tit-box {
     @include flex-col(12.5rem);
+
     .tit-head {
       display: block;
       width: 76%;
     }
+
     .txt-l {
       display: block;
       line-height: 1.6;
@@ -50,6 +73,7 @@
   .dtl-list {
     display: flex;
     gap: 1.5rem;
+
     .list-item {
       flex: 1 1 33.33%;
     }
@@ -61,6 +85,7 @@
   //align-items: flex-start;
   width: 100%;
   max-width: 640px;
+
   .tit-box {
     display: flex;
     justify-content: center;
@@ -69,10 +94,12 @@
     padding: 1rem 0;
     background-color: $blue_l;
     border-radius: 2rem;
+
     .tit-l {
       color: $white;
     }
   }
+
   .img-box {
     border-radius: 1.5rem;
     background-color: $white;
@@ -81,6 +108,7 @@
     box-sizing: border-box;
     position: relative;
     box-shadow: 5.2px 6px 12px 0 rgba(0, 0, 0, 0.1);
+
     img {
       position: absolute;
       //left: 50%;
@@ -90,5 +118,165 @@
       transform: scale(0.9);
       object-fit: cover;
     }
+  }
+}
+
+.prod-contents {
+  .prod-spec-content {
+    padding: 12.5rem 0 6rem;
+    gap: 4rem;
+  }
+}
+
+.prod-spec-content {
+  .content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    .tit-cont {
+      font-family: "Poppins", sans-serif;
+    }
+  }
+}
+
+.prod-spec-cont {
+
+}
+
+.spec-list {
+  display: grid;
+  grid-template-columns: repeat(5, calc((100% - 8rem) / 5));
+  grid-gap: 2rem;
+
+  .list-item {
+    height: 10rem;
+
+    &.span {
+      grid-column: span 2;
+    }
+
+    &:first-child {
+      .spec-item {
+        .spec-box {
+          .tit-art-03 {
+            font-size: $font-32r;
+          }
+        }
+      }
+    }
+  }
+}
+
+.spec-item {
+  @include flex-col();
+  justify-content: flex-start;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  padding: 1rem 0;
+  box-sizing: border-box;
+  transition: 0.3s;
+  @include bdrs(1.5rem);
+  background-color: $violet;
+
+  .tit-box {
+    color: $black_02;
+  }
+
+  .spec-box {
+    margin: auto 0;
+    line-height: 1.2;
+    color: $black_02;
+  }
+
+  &:hover {
+    background-color: $blue-l;
+
+    .tit-box,
+    .spec-box {
+      color: $white;
+    }
+  }
+}
+
+.feat-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem 6rem;
+
+  .list-item {
+    flex-basis: calc((100% - 6rem) / 2);
+  }
+}
+
+.feat-item {
+  @include flex-col();
+  height: 37rem;
+  padding: 2.8rem 3.2rem;
+  @include bdrs(2rem);
+  background-color: $gray_01;
+  transition: 0.3s;
+
+  .tit-box {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+
+    &::before {
+      content: '';
+      display: block;
+      width: 7.5rem;
+      height: 7.5rem;
+      @include bdrs(2.4rem);
+      background-color: $white;
+      background-size: auto;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+  }
+
+  &.ico-01 {
+    .tit-box {
+      &::before {
+        background-image: url("../images/ico_prod_001.png");
+      }
+    }
+  }
+
+  &.ico-02 {
+    .tit-box {
+      &::before {
+        background-image: url("../images/ico_prod_002.png");
+      }
+    }
+  }
+
+  &.ico-03 {
+    .tit-box {
+      &::before {
+        background-image: url("../images/ico_prod_003.png");
+      }
+    }
+  }
+
+  &.ico-04 {
+    .tit-box {
+      &::before {
+        background-image: url("../images/ico_prod_004.png");
+      }
+    }
+  }
+
+  .cont-box {
+    margin: auto 0;
+
+    .txt-l {
+      line-height: 1.7;
+    }
+  }
+  &:hover {
+    background-color: $blue_l;
+    color: $white;
   }
 }

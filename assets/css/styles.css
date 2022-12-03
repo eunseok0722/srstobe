@@ -133,6 +133,8 @@ a { text-decoration: none; color: inherit; }
 
 button { border: none; background: none; font: inherit; }
 
+h1, h2, h3, h4, h5, h6 { font-weight: 400; }
+
 @font-face { font-family: 'Garet'; src: url("../font/Garet-Book.woff2") format("woff2"), url("../font/Garet-Book.woff") format("woff"), url("../font/Garet-Book.ttf") format("truetype"), url("../font/Garet-Book.otf") format("opentype"); font-weight: 400; font-style: normal; }
 
 @font-face { font-family: 'Garet'; src: url("../font/Garet-Heavy.woff2") format("woff2"), url("../font/Garet-Heavy.woff") format("woff"), url("../font/Garet-Heavy.ttf") format("truetype"), url("../font/Garet-Heavy.otf") format("opentype"); font-weight: 700; font-style: normal; }
@@ -193,35 +195,49 @@ body { font-family: "Garet", sans-serif; }
 
 .blind { font-size: 0; position: absolute; text-indent: -9999px; }
 
-.tit-l { font-family: "Poppins", sans-serif; font-weight: 400; font-size: 1.6rem; }
+.tit-l { font-family: "Poppins", sans-serif; font-size: 1.6rem; }
 
-.tit-r { font-family: "Poppins", sans-serif; font-weight: 700; font-size: 1.4rem; }
+.tit-r { font-family: "Poppins", sans-serif; font-size: 1.4rem; }
 
-.tit-m { font-family: "Poppins", sans-serif; font-weight: 600; font-size: 1.3rem; }
+.tit-m { font-family: "Poppins", sans-serif; font-size: 1.3rem; }
 
-.txt-l { font-size: 1.6rem; font-weight: 400; }
+.tit-s { font-family: "Poppins", sans-serif; font-size: 1.2rem; }
 
-.txt-r { font-size: 1.3rem; font-weight: 400; }
+.txt-l { font-size: 1.6rem; }
 
-.txt-m { font-size: 1.1rem; font-weight: 400; }
+.txt-r { font-size: 1.3rem; }
 
-.txt-s { font-size: 1.05rem; font-weight: 400; }
+.txt-m { font-size: 1.1rem; }
 
-.lb-tit-r { font-family: "Poppins", sans-serif; font-size: 1.8rem; font-weight: 600; }
+.txt-s { font-size: 1.05rem; }
 
-.lb-txt-r { font-family: "Garet", sans-serif; font-size: 1.4rem; font-weight: 400; }
+.lb-tit-r { font-family: "Poppins", sans-serif; font-size: 1.8rem; }
 
-.tit-cont { font-size: 4.2rem; font-weight: 400; }
+.lb-txt-r { font-family: "Garet", sans-serif; font-size: 1.4rem; }
 
-.tit-sec { font-family: "Poppins", sans-serif; font-size: 4.8rem; font-weight: 400; }
+.tit-cont { font-size: 4.2rem; }
 
-.tit-art { font-size: 2.2rem; font-family: "Poppins", sans-serif; font-weight: 400; }
+.tit-sec { font-family: "Poppins", sans-serif; font-size: 4.8rem; }
 
-.tit-art-02 { font-size: 2.4rem; font-family: "Poppins", sans-serif; font-weight: 500; }
+.tit-art { font-size: 2.2rem; font-family: "Poppins", sans-serif; }
 
-.tit-head { font-size: 5.4rem; font-family: "Poppins", sans-serif; font-weight: 400; }
+.tit-art-02 { font-size: 2.4rem; font-family: "Poppins", sans-serif; }
 
-.txt-cont { font-size: 1.8rem; font-weight: 400; line-height: 1.5; }
+.tit-art-03 { font-size: 2rem; font-family: "Poppins", sans-serif; }
+
+.tit-art-04 { font-size: 2.8rem; font-family: "Poppins", sans-serif; }
+
+.tit-head { font-size: 5.4rem; font-family: "Poppins", sans-serif; }
+
+.txt-cont { font-size: 1.8rem; line-height: 1.5; }
+
+.fw-r { font-weight: 400; }
+
+.fw-md { font-weight: 500; }
+
+.fw-sb { font-weight: 600; }
+
+.fw-b { font-weight: 700; }
 
 .garet { font-family: "Garet", sans-serif; }
 
@@ -447,6 +463,8 @@ select:focus, select :focus-visible { outline-color: #008aff; }
 .header-fix { position: fixed; top: 0; left: 0; right: 0; display: flex; align-items: center; height: 7.7rem; color: #fff; background-color: #008aff; z-index: 101; }
 
 .header-fix h3 { display: block; width: 1280px; margin: 0 auto; }
+
+.header-fix-div { transition: all 0.3s; }
 
 .header-fix-padding::before { content: ''; display: block; width: 100%; height: 4.2rem; }
 
@@ -713,9 +731,23 @@ select:focus, select :focus-visible { outline-color: #008aff; }
 .layer-item.on { transform: rotateY(0); z-index: 1; }
 
 /* //Awards & Patents CSS */
-.prod-bg-wrap { width: 100%; background-size: cover; background-position: center 75%; background-repeat: no-repeat; }
+.prod-bg-wrap { width: 100%; background-size: contain; background-position: 100% 50%; background-repeat: no-repeat; }
 
-.bg-retina-4f { background-image: url("../images/img_retina_4f_002.png"); }
+.bg-retina-next-gen { background-image: url("../images/temp/img_temp_001.png"); }
+
+.bg-retina-4f { background-image: url("../images/img_retina_4f_001.png"); }
+
+.bg-retina-4s { background-image: url("../images/img_retina_4sn_001.png"); }
+
+.bg-retina-4a { background-image: url("../images/img_retina_4a_001.png"); }
+
+.bg-irist { background-image: url("../images/img_irist_001.png"); }
+
+.bg-irisc { background-image: url("../images/img_irisc_001.png"); }
+
+.bg-irism { background-image: url("../images/img_irism_001.png"); }
+
+.bg-se68-51w { background-image: url("../images/img_se68_51w_001.png"); }
 
 .prod-content .content-header { display: flex; flex-direction: column; gap: 1rem; }
 
@@ -742,5 +774,53 @@ select:focus, select :focus-visible { outline-color: #008aff; }
 .dtl-item .img-box { border-radius: 1.5rem; background-color: #fff; overflow: hidden; padding-bottom: 47.3rem; box-sizing: border-box; position: relative; box-shadow: 5.2px 6px 12px 0 rgba(0, 0, 0, 0.1); }
 
 .dtl-item .img-box img { position: absolute; width: 100%; height: 100%; transform: scale(0.9); object-fit: cover; }
+
+.prod-contents .prod-spec-content { padding: 12.5rem 0 6rem; gap: 4rem; }
+
+.prod-spec-content .content-header { display: flex; justify-content: space-between; align-items: flex-end; }
+
+.prod-spec-content .content-header .tit-cont { font-family: "Poppins", sans-serif; }
+
+.spec-list { display: grid; grid-template-columns: repeat(5, calc((100% - 8rem) / 5)); grid-gap: 2rem; }
+
+.spec-list .list-item { height: 10rem; }
+
+.spec-list .list-item.span { grid-column: span 2; }
+
+.spec-list .list-item:first-child .spec-item .spec-box .tit-art-03 { font-size: 3.2rem; }
+
+.spec-item { display: flex; flex-direction: column; gap: 0; justify-content: flex-start; text-align: center; height: 100%; width: 100%; padding: 1rem 0; box-sizing: border-box; transition: 0.3s; -webkit-border-radius: 1.5rem; -moz-border-radius: 1.5rem; border-radius: 1.5rem; background-color: #e8ebff; }
+
+.spec-item .tit-box { color: #262626; }
+
+.spec-item .spec-box { margin: auto 0; line-height: 1.2; color: #262626; }
+
+.spec-item:hover { background-color: #008aff; }
+
+.spec-item:hover .tit-box, .spec-item:hover .spec-box { color: #fff; }
+
+.feat-list { display: flex; flex-wrap: wrap; gap: 3rem 6rem; }
+
+.feat-list .list-item { flex-basis: calc((100% - 6rem) / 2); }
+
+.feat-item { display: flex; flex-direction: column; gap: 0; height: 37rem; padding: 2.8rem 3.2rem; -webkit-border-radius: 2rem; -moz-border-radius: 2rem; border-radius: 2rem; background-color: #f7f7f7; transition: 0.3s; }
+
+.feat-item .tit-box { display: flex; align-items: center; gap: 3rem; }
+
+.feat-item .tit-box::before { content: ''; display: block; width: 7.5rem; height: 7.5rem; -webkit-border-radius: 2.4rem; -moz-border-radius: 2.4rem; border-radius: 2.4rem; background-color: #fff; background-size: auto; background-repeat: no-repeat; background-position: center center; }
+
+.feat-item.ico-01 .tit-box::before { background-image: url("../images/ico_prod_001.png"); }
+
+.feat-item.ico-02 .tit-box::before { background-image: url("../images/ico_prod_002.png"); }
+
+.feat-item.ico-03 .tit-box::before { background-image: url("../images/ico_prod_003.png"); }
+
+.feat-item.ico-04 .tit-box::before { background-image: url("../images/ico_prod_004.png"); }
+
+.feat-item .cont-box { margin: auto 0; }
+
+.feat-item .cont-box .txt-l { line-height: 1.7; }
+
+.feat-item:hover { background-color: #008aff; color: #fff; }
 
 /*# sourceMappingURL=../css/styles.css.map */

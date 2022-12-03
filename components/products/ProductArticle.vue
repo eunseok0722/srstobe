@@ -1,16 +1,18 @@
 <template>
   <div class="prod-contents">
-    <div class="prod-bg-wrap bg-retina-4f">
-      <div class="content prod-content" :class="{'header-fix-padding': scrollY}">
-        <div class="content-header" :class="{'header-fix': scrollY}">
-          <p class="txt-r">{{ productsData[0].cart }}</p>
-          <h3 class="tit-cont">{{ productsData[0].name }}</h3>
+    <div class="prod-bg-wrap" :class="productsData.bg">
+      <div class="content prod-content" >
+        <div class="content-header" :class="{'header-fix-padding': scrollY}">
+          <p class="txt-r">{{ productsData.cart }}</p>
+          <div class="header-fix-div" :class="{'header-fix': scrollY}">
+            <h3 class="tit-cont fw-r">{{ productsData.name }}</h3>
+          </div>
         </div>
         <section>
           <article class="prod-head-cont">
             <div class="tit-box">
-              <h3 class="tit-head">{{ productsData[0].tit }}</h3>
-              <p class="txt-l" v-html="productsData[0].desc">
+              <h3 class="tit-head fw-r">{{ productsData.tit }}</h3>
+              <p class="txt-l" v-html="productsData.desc">
               </p>
             </div>
           </article>
@@ -21,18 +23,67 @@
       <div class="content prod-dtl-content">
         <div class="content-header blind">
           <p class="txt-r">product detail</p>
-          <h3 class="tit-cont">{{ productsData[0].name }}</h3>
+          <h4 class="tit-cont">{{ productsData.name }}</h4>
         </div>
         <section>
           <article class="prod-dtl-cont">
             <ul class="dtl-list">
-              <li class="list-item" v-for="item in productsData[0].dtl" :key="item.id">
+              <li class="list-item" v-for="item in productsData.dtl" :key="item.id">
                 <div class="dtl-item">
                   <div class="tit-box">
                     <p class="tit-l">{{ item.tit }}</p>
                   </div>
                   <div class="img-box">
-                    <img :src="item.img" :alt="productsData[0].name + ' ' + item.tit">
+                    <img :src="item.img" :alt="productsData.name + ' ' + item.tit">
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </article>
+        </section>
+      </div>
+    </div>
+    <div class="prod-bg-wrap">
+      <div class="content prod-spec-content">
+        <div class="content-header">
+          <h4 class="tit-cont fw-r">Product Specifications</h4>
+          <p class="tit-r">Parameter / Specifications</p>
+        </div>
+        <section>
+          <article class="prod-spec-cont">
+            <ul class="spec-list">
+              <li class="list-item" v-for="item in productsData.spec" :key="item.id" :class="item.class">
+                <div class="spec-item">
+                  <div class="tit-box">
+                    <p class="tit-s">{{ item.tit }}</p>
+                  </div>
+                  <div class="spec-box">
+                    <p class="lb-txt-r">{{item.subCont}}</p>
+                    <p class="tit-art-03">{{ item.cont}}</p>
+                    <p v-html="item.subCont02"></p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </article>
+        </section>
+      </div>
+    </div>
+    <div class="prod-bg-wrap">
+      <div class="content prod-feat-content">
+        <div class="content-header blind">
+          <h4 class="tit-cont fw-r">Product features</h4>
+        </div>
+        <section>
+          <article class="prod-feat-cont">
+            <ul class="feat-list">
+              <li class="list-item" v-for="item in productsData.feat" :key="item.id">
+                <div class="feat-item" :class="item.class">
+                  <div class="tit-box">
+                    <p class="tit-art-04">{{ item.tit }}</p>
+                  </div>
+                  <div class="cont-box">
+                    <p class="txt-l" v-html="item.cont"></p>
                   </div>
                 </div>
               </li>
@@ -43,6 +94,8 @@
     </div>
   </div>
 
+
+
 </template>
 
 <script>
@@ -52,7 +105,7 @@ export default {
     // TextArticle,
   },
   props: {
-    id: Number
+    id: String
   },
   computed: {
     // postData() {
@@ -70,7 +123,13 @@ export default {
       return this.$store.getters["ModuleHeader/ScrollY"]
     },
     productsData() {
-      return this.$store.getters["PostData"].productsData
+      // return this.$store.getters["PostData"].productsData
+      let dataBase = this.$store.getters["PostData"].productsData;
+      for (let i = 0; i < dataBase.length; i++) {
+        if (dataBase[i].id == this.$route.params.id) {
+          return dataBase[i];
+        }
+      }
     }
   },
   methods: {

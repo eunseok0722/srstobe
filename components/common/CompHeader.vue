@@ -186,7 +186,7 @@
                         <h3 class="tit-m">RETINA-Next Gen</h3>
                       </div>
                       <div class="img-box">
-                        <router-link to="/products/1">
+                        <router-link to="/products/retina-next-gen">
                           <img :src="d2ItemData[0].path" alt="">
                         </router-link>
                       </div>
@@ -200,7 +200,7 @@
                         <h3 class="tit-m">RETINA-4F</h3>
                       </div>
                       <div class="img-box">
-                        <router-link to="/products/1">
+                        <router-link to="/products/retina-4f">
                           <img :src="d2ItemData[1].path" alt="">
                         </router-link>
                       </div>
@@ -214,7 +214,7 @@
                         <h3 class="tit-m">RETINA-4S</h3>
                       </div>
                       <div class="img-box">
-                        <router-link to="/products/1">
+                        <router-link to="/products/retina-4s">
                           <img :src="d2ItemData[2].path" alt="">
                         </router-link>
                       </div>
@@ -228,7 +228,7 @@
                         <h3 class="tit-m">RETINA-4A</h3>
                       </div>
                       <div class="img-box">
-                        <router-link to="/products/1">
+                        <router-link to="/products/retina-4a">
                           <img :src="d2ItemData[3].path" alt="">
                         </router-link>
                       </div>
@@ -251,7 +251,7 @@
                         <h3 class="tit-m">IRISt</h3>
                       </div>
                       <div class="img-box">
-                        <router-link to="/products/1">
+                        <router-link to="/products/irist">
                           <img :src="d2ItemData[4].path" alt="">
                         </router-link>
                       </div>
@@ -265,7 +265,7 @@
                         <h3 class="tit-m">IRISc</h3>
                       </div>
                       <div class="img-box">
-                        <router-link to="/products/1">
+                        <router-link to="/products/irisc">
                           <img :src="d2ItemData[5].path" alt="">
                         </router-link>
                       </div>
@@ -280,7 +280,7 @@
                         <h3 class="tit-m">IRISm</h3>
                       </div>
                       <div class="img-box">
-                        <router-link to="/products/1">
+                        <router-link to="/products/irism">
                           <img :src="d2ItemData[6].path" alt="">
                         </router-link>
                       </div>
@@ -294,7 +294,7 @@
                         <h3 class="tit-m">SE68-51W</h3>
                       </div>
                       <div class="img-box">
-                        <router-link to="/products/8">
+                        <router-link to="/products/se68-51w">
                           <img :src="d2ItemData[7].path" alt="">
                         </router-link>
                       </div>

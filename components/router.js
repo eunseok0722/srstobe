@@ -57,7 +57,9 @@ const routes = [
         children: [
             {
                 path: ':id',
+                name: 'productArticle',
                 component: ProductArticle,
+                props: route => ({name:String(route.params.id)})
             },
         ]
     },

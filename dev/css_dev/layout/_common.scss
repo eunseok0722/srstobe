@@ -13,76 +13,103 @@ body {
 //// font 설정
 .tit-l {
   font-family: $point_font;
-  font-weight: $r;
+  //font-weight: $r;
   font-size: $font-16r;
 }
 .tit-r {
   font-family: $point_font;
-  font-weight: $b;
+  //font-weight: $b;
   font-size: $font-14r;
 }
 .tit-m {
   font-family: $point_font;
-  font-weight: $sb;
+  //font-weight: $sb;
   font-size: $font-13r;
+}
+.tit-s {
+  font-family: $point_font;
+  //font-weight: $r;
+  font-size: $font-12r;
 }
 
 .txt-l {
   font-size: $font-16r;
-  font-weight: $r;
+  //font-weight: $r;
 }
 .txt-r {
   font-size: $font-13r;
-  font-weight: $r;
+  //font-weight: $r;
 }
 .txt-m {
   font-size: $font-11r;
-  font-weight: $r;
+  //font-weight: $r;
 }
 .txt-s {
   font-size: $font-10r;
-  font-weight: $r;
+  //font-weight: $r;
 }
 
 .lb-tit-r {
   font-family: $point-font;
   font-size: $font-18r;
-  font-weight: $sb;
+  //font-weight: $sb;
 }
 .lb-txt-r {
   font-family: $default_font;
   font-size: $font-14r;
-  font-weight: $r;
+  //font-weight: $r;
 }
 
 .tit-cont {
   font-size: $font-42r;
-  font-weight: $r;
+  //font-weight: $r;
 }
 .tit-sec {
   font-family: $point_font;
   font-size: $font-48r;
-  font-weight: $r;
+  //font-weight: $r;
 }
 .tit-art {
   font-size: $font-22r;
   font-family: $point_font;
-  font-weight: $r;
+  //font-weight: $r;
 }
 .tit-art-02 {
   font-size: $font-24r;
   font-family: $point_font;
-  font-weight: $md;
+  //font-weight: $md;
+}
+.tit-art-03 {
+  font-size: $font-20r;
+  font-family: $point_font;
+  //font-weight: $r;
+}
+.tit-art-04 {
+  font-size: $font-28r;
+  font-family: $point_font;
 }
 .tit-head {
   font-size: $font-54r;
   font-family: $point_font;
-  font-weight: $r;
+  //font-weight: $r;
 }
 .txt-cont {
   font-size: $font-18r;
-  font-weight: $r;
+  //font-weight: $r;
   line-height: 1.5;
+}
+
+.fw-r {
+  font-weight: $r;
+}
+.fw-md {
+  font-weight: $md;
+}
+.fw-sb {
+  font-weight: $sb;
+}
+.fw-b {
+  font-weight: $b;
 }
 
 
