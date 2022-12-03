@@ -36,7 +36,7 @@
 }
 
 
-.prod-content {
+.content {
   .content-header {
     @include flex-col(1rem);
 
@@ -236,6 +236,7 @@
     }
   }
 
+
   &.ico-01 {
     .tit-box {
       &::before {
@@ -275,8 +276,68 @@
       line-height: 1.7;
     }
   }
+
+
+
   &:hover {
     background-color: $blue_l;
     color: $white;
+  }
+
+  &.ty-02 {
+    padding: 0;
+    background-color: unset;
+    height: 28rem;
+    border: 1px solid $gray_01;
+    box-shadow: 6.8px 4.2px 8px 0 rgba(0, 0, 0, 0.08);
+    .tit-box {
+      @include bdb(1px, $light_gray);
+      padding: 2rem 3rem;
+      box-sizing: border-box;
+      &::before {
+        background-color: $blue_l;
+      }
+    }
+    .cont-box {
+      padding: 0 3rem;
+      .txt-l {
+        margin-left: 3rem;
+      }
+    }
+
+    &.ico-01 {
+      .tit-box {
+        &::before {
+          background-image: url("../images/ico_prod_001_w.png");
+        }
+      }
+    }
+
+    &.ico-02 {
+      .tit-box {
+        &::before {
+          background-image: url("../images/ico_prod_002_w.png");
+        }
+      }
+    }
+
+    &.ico-03 {
+      .tit-box {
+        &::before {
+          background-image: url("../images/ico_prod_003_w.png");
+        }
+      }
+    }
+
+    &.ico-04 {
+      .tit-box {
+        &::before {
+          background-image: url("../images/ico_prod_004_w.png");
+        }
+      }
+    }
+    &:hover {
+      background-color: $blue_l;
+    }
   }
 }

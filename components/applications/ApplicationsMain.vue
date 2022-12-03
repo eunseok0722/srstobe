@@ -24,12 +24,14 @@
 <script>
 import CompHeader from '../common/CompHeader.vue';
 import CompFooter from '../common/CompFooter.vue';
+import AutonomousDriving from "../applications/AutonomousDriving.vue";
 
 export default {
-  name: "ProductsMain",
+  name: "ApplicationsMain",
   components: {
     CompHeader,
     CompFooter,
+    AutonomousDriving
   }
 }
 </script>

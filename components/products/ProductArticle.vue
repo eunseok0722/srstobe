@@ -1,7 +1,7 @@
 <template>
   <div class="prod-contents">
     <div class="prod-bg-wrap" :class="productsData.bg">
-      <div class="content prod-content" >
+      <div class="content prod-content">
         <div class="content-header" :class="{'header-fix-padding': scrollY}">
           <p class="txt-r">{{ productsData.cart }}</p>
           <div class="header-fix-div" :class="{'header-fix': scrollY}">
@@ -11,7 +11,7 @@
         <section>
           <article class="prod-head-cont">
             <div class="tit-box">
-              <h3 class="tit-head fw-r">{{ productsData.tit }}</h3>
+              <h4 class="tit-head fw-r">{{ productsData.tit }}</h4>
               <p class="txt-l" v-html="productsData.desc">
               </p>
             </div>
@@ -100,7 +100,7 @@
 
 <script>
 export default {
-  name: "NewsRoomPost",
+  name: "ProductArticle",
   components: {
     // TextArticle,
   },

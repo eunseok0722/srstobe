@@ -28,9 +28,9 @@
                       </div>
                       <ul class="d3-list">
                         <li class="d3-list-item">
-                          <a href="#" class="txt-r">
+                          <router-link to="/applications/autonomous-driving" class="txt-r">
                             Autonomous Driving
-                          </a>
+                          </router-link>
                         </li>
                         <li class="d3-list-item">
                           <a href="#" class="txt-r">

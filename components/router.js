@@ -1,4 +1,5 @@
 // vue3-sfc-loader 설정
+
 const options = {
     moduleCache: {
         vue: Vue, // scss: source => Object.assign(sass(source), { deps: () => [] }),
@@ -23,13 +24,42 @@ const SrsMain = () => loadModule('../components/main/SrsMain.vue', options),
     NewsRoomPost = () => loadModule('../components/about/NewsRoomPost.vue', options),
     AwardsMain = () => loadModule('../components/about/AwardsMain.vue', options),
     ProductsMain = () => loadModule('../components/products/ProductsMain.vue', options),
-    ProductArticle = () => loadModule('../components/products/ProductArticle.vue', options);
+    ProductArticle = () => loadModule('../components/products/ProductArticle.vue', options),
+    ApplicationsMain = () => loadModule('../components/applications/ApplicationsMain.vue', options),
+    AutonomousDriving = () => loadModule('../components/applications/AutonomousDriving.vue', options);
+
 
 const routes = [
     {
         name: 'main-content',
         path: '/',
         component: SrsMain,
+    },
+    {
+        name: 'applications',
+        path: '/applications',
+        component: ApplicationsMain,
+        children: [
+            {
+                path: 'autonomous-driving',
+                // name: 'autonomous-driving',
+                component: AutonomousDriving,
+                // props: route => ({name:String(route.params.id)})
+            },
+        ]
+    },
+    {
+        name: 'products',
+        path: '/products',
+        component: ProductsMain,
+        children: [
+            {
+                path: ':id',
+                name: 'productArticle',
+                component: ProductArticle,
+                props: route => ({name:String(route.params.id)})
+            },
+        ]
     },
     {
         name: 'about-srs',
@@ -49,20 +79,7 @@ const routes = [
                 component: AwardsMain,
             },
         ]
-    },
-    {
-        name: 'products',
-        path: '/products',
-        component: ProductsMain,
-        children: [
-            {
-                path: ':id',
-                name: 'productArticle',
-                component: ProductArticle,
-                props: route => ({name:String(route.params.id)})
-            },
-        ]
-    },
+    }
 ]
 
 
