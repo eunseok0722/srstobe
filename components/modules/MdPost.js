@@ -1038,38 +1038,38 @@ down of                     up to 5 people in 7m x 7m area. `
 
             }
         ],
-        img01: '../../assets/images/img_appl_auto_001.png',
-        img02: '../../assets/images/img_appl_auto_002.png',
-        img03: '../../assets/images/img_appl_auto_003.png',
+        img01: '../assets/images/img_appl_auto_001.png',
+        img02: '../assets/images/img_appl_auto_002.png',
+        img03: '../assets/images/img_appl_auto_003.png',
         prod: [
             {
                 id: 1,
-                path: `../../assets/images/img_appl_auto_004.png`,
+                path: `../assets/images/img_appl_auto_004.png`,
                 desc: ``
             },
             {
                 id: 2,
-                path: `../../assets/images/img_appl_auto_005.png`,
+                path: `../assets/images/img_appl_auto_005.png`,
                 desc: ``
             },
             {
                 id: 3,
-                path: `../../assets/images/img_appl_auto_006.png`,
+                path: `../assets/images/img_appl_auto_006.png`,
                 desc: ``
             },
             {
                 id: 4,
-                path: `../../assets/images/img_appl_auto_007.png`,
+                path: `../assets/images/img_appl_auto_007.png`,
                 desc: ``
             },
             {
                 id: 5,
-                path: `../../assets/images/img_appl_auto_008.png`,
+                path: `../assets/images/img_appl_auto_008.png`,
                 desc: ``
             },
             {
                 id: 6,
-                path: `../../assets/images/img_appl_auto_009.png`,
+                path: `../assets/images/img_appl_auto_009.png`,
                 desc: ``
             },
         ]
