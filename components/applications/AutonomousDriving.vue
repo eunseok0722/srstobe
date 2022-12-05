@@ -1,6 +1,6 @@
 <template>
   <div class="appl-contents">
-    <div class="content auto-head-content">
+    <div class="content auto-head-content prod-content">
       <div class="content-header" :class="{'header-fix-padding': scrollY}">
         <p class="txt-r">Automotive</p>
         <div class="header-fix-div" :class="{'header-fix': scrollY}">
@@ -156,7 +156,7 @@ export default {
   created() {
     window.addEventListener('scroll', this.handleScroll)
   },
-  beforeDestroy() {
+  beforeUnmount() {
     window.removeEventListener('scroll', this.handleScroll)
   },
 }

@@ -92,6 +92,19 @@
         gap: 2rem;
         .list-item {
           flex-basis: 25%;
+
+          &:first-child {
+            .count-item {
+              .tit-r {
+                font-weight: $md;
+              }
+              .num {
+                color: $white;
+                background-color: $blue_l;
+                border: 1px solid $blue_l;
+              }
+            }
+          }
         }
       }
       .count-item {
@@ -109,16 +122,6 @@
           border: 1px dashed $gray_02;
           box-sizing: border-box;
           transition: 0.3s;
-        }
-        &:hover {
-          .tit-r {
-            font-weight: $md;
-          }
-          .num {
-            color: $white;
-            background-color: $blue_l;
-            border: 1px solid $blue_l;
-          }
         }
       }
     }

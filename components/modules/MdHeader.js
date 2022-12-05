@@ -18,6 +18,9 @@ const getters = {
     },
     ScrollY: function ScrollY(state) {
         return state.scrollY >= 300
+    },
+    ScrollTop: function scrollTop(state) {
+        return state.scrollY >= 1080
     }
 }
 

@@ -387,8 +387,8 @@
         </article>
       </section>
     </div>
-    <div class="ico-item ty02 ico-arrow-top">
-      <a href="#"></a>
+    <div class="ico-item ty02 ico-arrow-top" :class="{active: scrollY}">
+      <button v-on:click="scrollTop"></button>
     </div>
   </div>
   <!-- Footer | 꼬리말 -->
@@ -398,15 +398,26 @@
 
 export default {
   name: "compFooter",
-  components: {
-  },
-  computed: {
-
-  },
   props: [],
-  data() {
-    return {}
+  computed: {
+    scrollY() {
+      return this.$store.getters["HeaderData"].scrollY >= 1080
+    }
   },
+  methods: {
+    handleScroll() {
+      return this.$store.commit("ModuleHeader/handleScroll");
+    },
+    scrollTop() {
+      document.querySelector('#app').scrollIntoView({behavior: "smooth", block: "start", inline: "start"});
+    }
+  },
+  created() {
+    window.addEventListener('scroll', this.handleScroll)
+  },
+  beforeUnmount() {
+    window.removeEventListener('scroll', this.handleScroll)
+  }
 }
 </script>
 

@@ -486,14 +486,14 @@ export default {
         {id: 4, active: false},
       ],
       d2ItemData: [
-          {id: 1, path: `../assets/images/img_retina_next_gen_001.png` },
-          {id: 1, path: `../assets/images/img_retina_4f_001.png` },
-          {id: 1, path: `../assets/images/img_retina_4sn_001.png` },
-          {id: 1, path: `../assets/images/img_retina_4a_001.png` },
-          {id: 1, path: `../assets/images/img_irist_001.png` },
-          {id: 1, path: `../assets/images/img_irisc_001.png` },
-          {id: 1, path: `../assets/images/img_irism_001.png` },
-          {id: 1, path: `../assets/images/img_se68_51w_001.png` },
+          {id: 1, path: `../assets/images/img_retina_next_gen_002.png` },
+          {id: 1, path: `../assets/images/img_retina_4f_002.png` },
+          {id: 1, path: `../assets/images/img_retina_4sn_002.png` },
+          {id: 1, path: `../assets/images/img_retina_4a_002.png` },
+          {id: 1, path: `../assets/images/img_irist_002.png` },
+          {id: 1, path: `../assets/images/img_irisc_002.png` },
+          {id: 1, path: `../assets/images/img_irism_002.png` },
+          {id: 1, path: `../assets/images/img_se68_51w_002.png` },
       ]
     }
   },
@@ -528,7 +528,7 @@ export default {
   // created() {
   //   window.addEventListener('scroll', this.handleScroll)
   // },
-  // beforeDestroy() {
+  // beforeUnmount() {
   //   window.removeEventListener('scroll', this.handleScroll)
   // },
   components: {

@@ -1,7 +1,4 @@
 // products CSS
-.prod-contents {
-
-}
 
 .prod-bg-wrap {
   width: 100%;
@@ -13,30 +10,37 @@
 .bg-retina-next-gen {
   background-image: url("../images/temp/img_temp_001.png");
 }
+
 .bg-retina-4f {
   background-image: url("../images/img_retina_4f_001.png");
 }
+
 .bg-retina-4s {
   background-image: url("../images/img_retina_4sn_001.png");
 }
+
 .bg-retina-4a {
   background-image: url("../images/img_retina_4a_001.png");
 }
+
 .bg-irist {
   background-image: url("../images/img_irist_001.png");
 }
+
 .bg-irisc {
   background-image: url("../images/img_irisc_001.png");
 }
+
 .bg-irism {
   background-image: url("../images/img_irism_001.png");
 }
+
 .bg-se68-51w {
   background-image: url("../images/img_se68_51w_001.png");
 }
 
 
-.content {
+.prod-content {
   .content-header {
     @include flex-col(1rem);
 
@@ -158,6 +162,12 @@
 
     &:first-child {
       .spec-item {
+        background-color: $blue-l;
+        .tit-box,
+        .spec-box {
+          color: $white;
+        }
+
         .spec-box {
           .tit-art-03 {
             font-size: $font-32r;
@@ -188,15 +198,6 @@
     margin: auto 0;
     line-height: 1.2;
     color: $black_02;
-  }
-
-  &:hover {
-    background-color: $blue-l;
-
-    .tit-box,
-    .spec-box {
-      color: $white;
-    }
   }
 }
 
@@ -278,7 +279,6 @@
   }
 
 
-
   &:hover {
     background-color: $blue_l;
     color: $white;
@@ -290,16 +290,20 @@
     height: 28rem;
     border: 1px solid $gray_01;
     box-shadow: 6.8px 4.2px 8px 0 rgba(0, 0, 0, 0.08);
+
     .tit-box {
       @include bdb(1px, $light_gray);
       padding: 2rem 3rem;
       box-sizing: border-box;
+
       &::before {
         background-color: $blue_l;
       }
     }
+
     .cont-box {
       padding: 0 3rem;
+
       .txt-l {
         margin-left: 3rem;
       }
@@ -336,6 +340,7 @@
         }
       }
     }
+
     &:hover {
       background-color: $blue_l;
     }
