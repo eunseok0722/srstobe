@@ -879,7 +879,7 @@ select:focus, select :focus-visible { outline-color: #008aff; }
 
 .img-cont .img-box.ty02 { padding-bottom: 37%; }
 
-.auto-contents .img-cont .img-box img { left: -52%; top: -35%; }
+.auto-contents .img-cont .img-box img { left: -52%; top: -35%; width: unset; }
 
 .auto-vehi-cont { display: flex; justify-content: space-between; gap: 9rem; align-items: center; }
 
