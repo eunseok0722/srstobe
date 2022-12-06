@@ -25,13 +25,15 @@
 import CompHeader from '../common/CompHeader.vue';
 import CompFooter from '../common/CompFooter.vue';
 import AutonomousDriving from "../applications/AutonomousDriving.vue";
+import Elevator from "../applications/Elevator.vue";
 
 export default {
   name: "ApplicationsMain",
   components: {
     CompHeader,
     CompFooter,
-    AutonomousDriving
+    AutonomousDriving,
+    Elevator
   }
 }
 </script>

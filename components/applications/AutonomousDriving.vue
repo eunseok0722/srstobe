@@ -1,5 +1,5 @@
 <template>
-  <div class="appl-contents">
+  <div class="auto-contents">
     <div class="content head-content prod-content">
       <div class="content-header" :class="{'header-fix-padding': scrollY}">
         <p class="txt-r">Automotive</p>
@@ -77,7 +77,7 @@
       </section>
     </div>
     <div class="prod-bg-wrap">
-      <div class="content prod-spec-content">
+      <div class="content spec-content">
         <div class="content-header">
           <h4 class="tit-cont fw-r">Product Specifications</h4>
           <p class="tit-r">Parameter / Specifications</p>
@@ -125,7 +125,7 @@
         <article class="feat-cont">
           <ul class="feat-list">
             <li class="list-item" v-for="item in autonomousData.feat" :key="item.id">
-              <div class="feat-item ty-02" :class="item.class">
+              <div class="feat-item ty02" :class="item.class">
                 <div class="tit-box">
                   <p class="tit-art-04">{{ item.tit }}</p>
                 </div>
@@ -152,14 +152,15 @@ export default {
     id: String
   },
   computed: {
-    // postData() {
-    //   let dataBase = this.$store.getters["PostData"].newsPost;
-    //   for (let i = 0; i < dataBase.length; i++) {
-    //     if (dataBase[i].id == this.$route.params.id) {
-    //       return dataBase[i];
-    //     }
-    //   }
-    // },
+    breadcrumbData() {
+      let brd = this.$store.getters["HeaderData"].breadcrumbData;
+      brd.dp01.opt = ['APPLICATIONS', 'PRODUCTS', 'DESIGN', 'ABOUT SRS'];
+      brd.dp01.dft = 'APPLICATIONS';
+      brd.dp02.opt = ['Automotive', 'Industrial', 'Healthcare', 'Smart Places'];
+      brd.dp02.dft = 'Automotive';
+      brd.dp03.opt = ['Autonomous Driving', 'UAM', 'In-Cabin', 'Last Mile Delivery', 'AGV'];
+      brd.dp03.dft = 'Autonomous Driving';
+    },
     scrollY() {
       return this.$store.getters["ModuleHeader/ScrollY"]
     },

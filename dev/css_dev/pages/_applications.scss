@@ -55,9 +55,24 @@
     position: relative;
     img {
       position: absolute;
-      left: -52%;
-      top: -35%;
+      top: 0;
+      width: 100%;
+      height: auto;
       object-fit: contain;
+    }
+    &.ty02 {
+      padding-bottom: 37%;
+    }
+  }
+}
+
+.auto-contents {
+  .img-cont {
+    .img-box {
+      img {
+        left: -52%;
+        top: -35%;
+      }
     }
   }
 }

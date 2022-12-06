@@ -1146,6 +1146,116 @@ down of                     up to 5 people in 7m x 7m area. `
             },
 
         ],
+    },
+    elevatorData: {
+        ctgr: `Smart Places`,
+        tit: `Elevator`,
+        imgCont: {
+            tit: `Improves elevator boarding convenience`,
+            subTit: `Ensuring elevator-related safety and promoting user convenience`,
+            prodImg: null,
+            prodAlt: ``,
+            mainImg: `../assets/images/img_appl_elev_001.png`,
+            mainAlt: ``,
+            type: `ty02`
+        },
+        feat: [
+            {
+                id: 1,
+                class: `ico-01`,
+                tit: `Customer needs`,
+                cont: `- Detect getting in & out of passengers, ignore non-passengers by bypassing<br>
+                       - Integratable radar into the current HPI <br>(hall position indicator) system<br>
+                       - Privacy protection compared to IP cameras<br>
+                       - Passenger detection in various shapes of boarding spaces<br>
+                       - Easy setting of detection range, depending on type of installations`,
+
+            },
+            {
+                id: 2,
+                class: `ico-02`,
+                tit: `What we offer`,
+                cont: `- Wide horizontal FOV upto 150 degrees by minimizing blind spots (door walls)<br>
+                       - Zero tilt angle contributes to design freedom by keeping HPI designs<br>
+                       - Radar protocols enable the auto-setting on system level<br>
+                       - Formfactors for radar-fusion sensors<br>
+                       - Market lead & mass production on 2023`,
+
+            }
+        ],
+    },
+    officeData: {
+        ctgr: `Smart Places`,
+        tit: `Office`,
+        imgCont: {
+            tit: `Smart Office for Smart  Life using mmWave  Radar`,
+            subTit: `Smarter, safer, easier and more convinience in smart 
+office lifestyle using mmWave`,
+            prodImg: null,
+            prodAlt: ``,
+            mainImg: `../assets/images/img_appl_offi_001.png`,
+            mainAlt: ``,
+            type: `ty02`
+        },
+        feat: [
+            {
+                id: 1,
+                class: `ico-01`,
+                tit: `Customer needs`,
+                cont: `- People counting and detecting<br>
+                       - More capability beyond for future<br>
+                       - Optimal for Smart home/office environment<br>
+                       - Need to ensure privacy protection`,
+
+            },
+            {
+                id: 2,
+                class: `ico-02`,
+                tit: `What we offer`,
+                cont: `- Provides basic level of people counting, detecting and vital sign counting for healtier and smarter life<br>
+                       - Enables AI engine for future to also stretch into posture detection and expandability in future project<br>
+                       - Provides features with optimal power consumption suitable for indoor detection<br>
+                       - non-vision sensor capable of securing privacy for smart home life`,
+
+            }
+        ],
+    },
+    polePinData: {
+        ctgr: `Smart Places`,
+        tit: `Smart Pole PINNN`,
+        imgCont: {
+            tit: `Optimized radar for road traffic detection`,
+            subTit: `Improving safety and mobility by preventing traffic accidents & paradigm shift from road management 
+to user safety`,
+            prodImg: null,
+            prodAlt: ``,
+            mainImg: `../assets/images/img_appl_pole_001.png`,
+            mainAlt: ``,
+            type: `ty02`
+        },
+        feat: [
+            {
+                id: 1,
+                class: `ico-01`,
+                tit: `Customer needs`,
+                cont: `- Solution for short lifespan and increasingly high total operating costs when installing loop sensors<br>
+                       - The 24GHz radar is still the mainstream, but it will gradually fade out<br>
+                       - Multi-lane detection and high measurement accuracy<br>
+                       - Necessity of sensor integrated unmanned control equipment`,
+
+            },
+            {
+                id: 2,
+                class: `ico-02`,
+                tit: `What we offer`,
+                cont: `- Replacement effect of existing loop sensors, low initial cost and low operating cost<br>
+                       - Released 60GHz radar for the first time in the Korean market as a government-designated excellent procurement product<br>
+                       - Detection rate corresponding to existing roof sensors<br>
+                       - Detection distance of 20 to 80 meters with ±5% of speed measurement accuracy<br>
+                       - Simultaneous target detections up to 18`,
+
+            }
+        ],
     }
 
 });

@@ -5,8 +5,8 @@
         <li class="list-item">
           <div class="bread-item">
             <custom-select
-                :options="['APPLICATIONS', 'PRODUCTS', 'DESIGN', 'ABOUT SRS']"
-                :default="'APPLICATIONS'"
+                :options="breadcrumbData.dp01.opt"
+                :default="breadcrumbData.dp01.dft"
                 class="select"
             ></custom-select>
           </div>
@@ -14,8 +14,8 @@
         <li class="list-item">
           <div class="bread-item">
             <custom-select
-              :options="['Automotive', 'Industrial', 'Healthcare', 'Smart Places']"
-              :default="'Automotive'"
+              :options="breadcrumbData.dp02.opt"
+              :default="breadcrumbData.dp02.dft"
               class="select"
             ></custom-select>
           </div>
@@ -23,8 +23,8 @@
         <li class="list-item">
           <div class="bread-item">
             <custom-select
-                :options="['Autonomous Driving', 'UAM', 'In-Cabin', 'Last Mile Delivery', 'AGV']"
-                :default="'Autonomous Driving'"
+                :options="breadcrumbData.dp03.opt"
+                :default="breadcrumbData.dp03.dft"
                 class="select"
             ></custom-select>
           </div>
@@ -48,7 +48,11 @@ export default {
         {id: 1, active: false},
         {id: 2, active: false},
       ],
-
+    }
+  },
+  computed: {
+    breadcrumbData() {
+      return this.$store.getters["HeaderData"].breadcrumbData
     }
   },
   methods: {

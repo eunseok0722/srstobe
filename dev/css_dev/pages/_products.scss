@@ -125,14 +125,13 @@
   }
 }
 
-.prod-contents {
-  .prod-spec-content {
-    padding: 12.5rem 0 6rem;
-    gap: 4rem;
-  }
-}
 
 .prod-spec-content {
+  padding-top: 11.8rem;
+}
+
+
+.spec-content {
   .content-header {
     display: flex;
     justify-content: space-between;
@@ -287,7 +286,7 @@
     color: $white;
   }
 
-  &.ty-02 {
+  &.ty02 {
     padding: 0;
     background-color: unset;
     height: 100%;

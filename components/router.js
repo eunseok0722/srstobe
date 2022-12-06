@@ -26,7 +26,10 @@ const SrsMain = () => loadModule('../components/main/SrsMain.vue', options),
     ProductsMain = () => loadModule('../components/products/ProductsMain.vue', options),
     ProductArticle = () => loadModule('../components/products/ProductArticle.vue', options),
     ApplicationsMain = () => loadModule('../components/applications/ApplicationsMain.vue', options),
-    AutonomousDriving = () => loadModule('../components/applications/AutonomousDriving.vue', options);
+    AutonomousDriving = () => loadModule('../components/applications/AutonomousDriving.vue', options),
+    Elevator = () => loadModule('../components/applications/Elevator.vue', options),
+    Office = () => loadModule('../components/applications/Office.vue', options),
+    SmartPolePinnn = () => loadModule('../components/applications/SmartPolePinnn.vue', options);
 
 
 const routes = [
@@ -42,8 +45,26 @@ const routes = [
         children: [
             {
                 path: 'autonomous-driving',
-                // name: 'autonomous-driving',
+                name: 'autonomous-driving',
                 component: AutonomousDriving,
+                // props: route => ({name:String(route.params.id)})
+            },
+            {
+                path: 'elevator',
+                name: 'elevator',
+                component: Elevator,
+                // props: route => ({name:String(route.params.id)})
+            },
+            {
+                path: 'office',
+                name: 'office',
+                component: Office,
+                // props: route => ({name:String(route.params.id)})
+            },
+            {
+                path: 'smart-pole-pinnn',
+                name: 'smart-pole-pinnn',
+                component: SmartPolePinnn,
                 // props: route => ({name:String(route.params.id)})
             },
         ]

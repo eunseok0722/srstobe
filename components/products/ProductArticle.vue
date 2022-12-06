@@ -44,7 +44,7 @@
       </div>
     </div>
     <div class="prod-bg-wrap">
-      <div class="content prod-spec-content">
+      <div class="content prod-spec-content spec-content">
         <div class="content-header">
           <h4 class="tit-cont fw-r">Product Specifications</h4>
           <p class="tit-r">Parameter / Specifications</p>

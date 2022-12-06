@@ -129,9 +129,9 @@
                       </div>
                       <ul class="d3-list">
                         <li class="d3-list-item">
-                          <a href="#" class="txt-r">
+                          <router-link to="/applications/elevator" class="txt-r">
                             Elevator
-                          </a>
+                          </router-link>
                         </li>
                         <li class="d3-list-item">
                           <a href="#" class="txt-r">
@@ -139,14 +139,14 @@
                           </a>
                         </li>
                         <li class="d3-list-item">
-                          <a href="#" class="txt-r">
+                          <router-link to="/applications/office" class="txt-r">
                             Office
-                          </a>
+                          </router-link>
                         </li>
                         <li class="d3-list-item">
-                          <a href="#" class="txt-r">
+                          <router-link to="/applications/smart-pole-pinnn" class="txt-r">
                             Smart Pole PINNN
-                          </a>
+                          </router-link>
                         </li>
                         <li class="d3-list-item">
                           <a href="#" class="txt-r">
@@ -187,7 +187,7 @@
                       </div>
                       <div class="img-box">
                         <router-link to="/products/retina-next-gen">
-                          <img :src="d2ItemData[0].path" alt="">
+                          <img :src="d2ItemData[1].path" alt="">
                         </router-link>
                       </div>
                     </div>
@@ -229,7 +229,7 @@
                       </div>
                       <div class="img-box">
                         <router-link to="/products/retina-4a">
-                          <img :src="d2ItemData[3].path" alt="">
+                          <img :src="d2ItemData[2].path" alt="">
                         </router-link>
                       </div>
                     </div>

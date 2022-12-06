@@ -37,7 +37,7 @@ export default {
       type: Number,
       required: false,
       default: 0,
-    },
+    }
   },
   data() {
     return {

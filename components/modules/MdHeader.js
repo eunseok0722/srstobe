@@ -10,6 +10,20 @@ const state = ({
     scrollY: 0,
     lastScrollY: 0,
     timer: null,
+    breadcrumbData: {
+        dp01: {
+            opt: ['APPLICATIONS', 'PRODUCTS', 'DESIGN', 'ABOUT SRS'],
+            dft: 'APPLICATIONS',
+        },
+        dp02: {
+            opt: ['Automotive', 'Industrial', 'Healthcare', 'Smart Places'],
+            dft: 'Automotive',
+        },
+        dp03: {
+            opt: ['Autonomous Driving', 'UAM', 'In-Cabin', 'Last Mile Delivery', 'AGV'],
+            dft: 'Autonomous Driving',
+        }
+    }
 });
 
 const getters = {
