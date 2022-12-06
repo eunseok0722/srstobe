@@ -1,6 +1,6 @@
 <template>
   <div class="news-post-contents">
-    <div class="content post-content" :class="{'header-fix-padding': scrollY}">
+    <div class="content post-content head-content" :class="{'header-fix-padding': scrollY}">
       <div class="content-header" :class="{'header-fix': scrollY}">
         <h3 class="tit-cont">newsroom</h3>
       </div>

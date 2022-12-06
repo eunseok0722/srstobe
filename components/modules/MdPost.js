@@ -86,7 +86,7 @@ const state = ({
                 },
                 {
                     id: 10,
-                    tit: `Operating Tempurature`,
+                    tit: `Operating Temperature`,
                     cont: `-40℃ ~ +85℃`,
                 },
                 {
@@ -232,7 +232,7 @@ down of                     up to 5 people in 7m x 7m area. `
                 },
                 {
                     id: 10,
-                    tit: `Operating Tempurature`,
+                    tit: `Operating Temperature`,
                     cont: `-40℃ ~ +85℃`,
                 },
                 {
@@ -378,7 +378,7 @@ down of                     up to 5 people in 7m x 7m area. `
                 },
                 {
                     id: 10,
-                    tit: `Operating Tempurature`,
+                    tit: `Operating Temperature`,
                     cont: `-30℃ ~ +65℃ `,
                 },
                 {
@@ -519,7 +519,7 @@ down of                     up to 5 people in 7m x 7m area. `
                 },
                 {
                     id: 10,
-                    tit: `Operating Tempurature`,
+                    tit: `Operating Temperature`,
                     cont: `-40℃ ~ +85℃`,
                 },
                 {
@@ -660,7 +660,7 @@ down of                     up to 5 people in 7m x 7m area. `
                 },
                 {
                     id: 10,
-                    tit: `Operating Tempurature`,
+                    tit: `Operating Temperature`,
                     cont: `-40℃ ~ +85℃`,
                 },
                 {
@@ -806,7 +806,7 @@ down of                     up to 5 people in 7m x 7m area. `
                 },
                 {
                     id: 10,
-                    tit: `Operating Tempurature`,
+                    tit: `Operating Temperature`,
                     cont: `-40℃ ~ +85℃`,
                 },
                 {
@@ -952,7 +952,7 @@ down of                     up to 5 people in 7m x 7m area. `
                 },
                 {
                     id: 10,
-                    tit: `Operating Tempurature`,
+                    tit: `Operating Temperature`,
                     cont: `-40℃ ~ +85℃`,
                 },
                 {
@@ -1021,20 +1021,19 @@ down of                     up to 5 people in 7m x 7m area. `
                 id: 1,
                 class: `ico-01`,
                 tit: `Customer needs`,
-                cont: `- fall Detection <br>
-                    - Monitor " Risky Mouement" <br>
-                    - Multi People Detect <br>
-                    - No Privacy Invasion`,
+                cont: `- Long Range Radar with higher resolution<br>
+                       - Powerful detection capability for the safety<br>
+                       - Robust radar in challenging environment`,
 
             },
             {
                 id: 2,
                 class: `ico-02`,
                 tit: `What we offer`,
-                cont: `- fall Detection <br>
-                    - Monitor " Risky Mouement" <br>
-                    - Multi People Detect <br>
-                    - No Privacy Invasion`,
+                cont: `- Provides 3 types of range mode to cover all usage in autonomous driving <br>
+                       - Less power and higher accuracy<br>
+                       - Rich point cloud with faster output rate<br>
+                       - AI engine embedded for object classification`,
 
             }
         ],
@@ -1072,7 +1071,81 @@ down of                     up to 5 people in 7m x 7m area. `
                 path: `../assets/images/img_appl_auto_009.png`,
                 desc: ``
             },
-        ]
+        ],
+        spec: [
+            {
+                id: 1,
+                tit: `Product Name`,
+                cont: `RETINA-4SN`,
+                class: `span`,
+            },
+            {
+                id: 2,
+                tit: `Type`,
+                cont: `4D Imaging Radar`,
+                class: `span`,
+            },
+            {
+                id: 3,
+                tit: `Frequency`,
+                cont: `77 ~ 81 GHz`,
+            },
+            {
+                id: 4,
+                tit: `Detection range`,
+                cont: `7m`,
+                subCont: ``,
+                subCont02: ``,
+            },
+            {
+                id: 5,
+                tit: `Azimuth Angle FoV`,
+                cont: `90°(±45°)`,
+            },
+            {
+                id: 6,
+                tit: `Elevation Angle FoV`,
+                cont: `90°(±45°)`,
+            },
+            {
+                id: 7,
+                tit: `Update Rate`,
+                cont: `100ms`,
+            },
+            {
+                id: 8,
+                tit: `Comm. Interface`,
+                cont: `Wi-Fi`,
+            },
+            {
+                id: 9,
+                tit: `Main Power supply`,
+                cont: `Typ. 12V`,
+            },
+            {
+                id: 10,
+                tit: `Operating Temperature`,
+                cont: `-30℃ ~ +65℃`,
+            },
+            {
+                id: 11,
+                tit: `IP Rating`,
+                cont: `IP43`,
+            },
+            {
+                id: 12,
+                tit: `Dimension (mm)`,
+                cont: `130 x 130 x 33.8`,
+                subCont02: ``,
+
+            },
+            {
+                id: 13,
+                tit: `Weight (g)`,
+                cont: `580`,
+            },
+
+        ],
     }
 
 });

@@ -1,5 +1,5 @@
 <template>
-  <div class="content news-content" :class="{'header-fix-padding': scrollY}">
+  <div class="content news-content head-content" :class="{'header-fix-padding': scrollY}">
     <!--  Content header | 제목  -->
     <div class="content-header" :class="{'header-fix': scrollY}">
       <h3 class="tit-cont">newsroom</h3>

@@ -1,6 +1,6 @@
 <template>
   <div class="appl-contents">
-    <div class="content auto-head-content prod-content">
+    <div class="content head-content prod-content">
       <div class="content-header" :class="{'header-fix-padding': scrollY}">
         <p class="txt-r">Automotive</p>
         <div class="header-fix-div" :class="{'header-fix': scrollY}">
@@ -8,12 +8,13 @@
         </div>
       </div>
       <section>
-        <article class="auto-head-cont">
+        <article class="img-cont">
           <div class="tit-box">
             <div class="txt-wrap">
-              <h4 class="tit-head fw-r">Radar solution  for Software  Defined Vehicle</h4>
-              <p class="tit-art">Cutting edge Imaging Radar technology realizing
-                the sensor fusion architecture
+              <h4 class="tit-head fw-r">4D Imaging Radar for
+                Autonomous Driving</h4>
+              <p class="tit-art">Presents safer autonomous driving with long-rang &
+                high-precisioin imaging radar
               </p>
             </div>
             <div class="img-wrap">
@@ -29,25 +30,7 @@
         </article>
       </section>
     </div>
-    <div class="content auto-feat-content">
-      <section>
-        <article class="auto-feat-cont">
-          <ul class="feat-list">
-            <li class="list-item" v-for="item in autonomousData.feat" :key="item.id">
-              <div class="feat-item ty-02" :class="item.class">
-                <div class="tit-box">
-                  <p class="tit-art-04">{{ item.tit }}</p>
-                </div>
-                <div class="cont-box">
-                  <p class="txt-l" v-html="item.cont">
-                  </p>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </article>
-      </section>
-    </div>
+
     <div class="content auto-vehi-content">
       <section>
         <article class="auto-vehi-cont">
@@ -93,9 +76,35 @@
         </article>
       </section>
     </div>
-    <div class="content auto-prod-content">
+    <div class="prod-bg-wrap">
+      <div class="content prod-spec-content">
+        <div class="content-header">
+          <h4 class="tit-cont fw-r">Product Specifications</h4>
+          <p class="tit-r">Parameter / Specifications</p>
+        </div>
+        <section>
+          <article class="prod-spec-cont">
+            <ul class="spec-list">
+              <li class="list-item" v-for="item in autonomousData.spec" :key="item.id" :class="item.class">
+                <div class="spec-item">
+                  <div class="tit-box">
+                    <p class="tit-s">{{ item.tit }}</p>
+                  </div>
+                  <div class="spec-box">
+                    <p class="lb-txt-r">{{item.subCont}}</p>
+                    <p class="tit-art-03">{{ item.cont}}</p>
+                    <p v-html="item.subCont02"></p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </article>
+        </section>
+      </div>
+    </div>
+    <div class="content prod-content">
       <section>
-        <article class="auto-prod-cont">
+        <article class="prod-cont">
           <div class="tit-box">
             <h4 class="tit-head fw-r">Product</h4>
           </div>
@@ -104,6 +113,25 @@
               <div class="dtl-item">
                 <div class="img-box">
                   <img :src="item.path" :alt="item.desc">
+                </div>
+              </div>
+            </li>
+          </ul>
+        </article>
+      </section>
+    </div>
+    <div class="content feat-content">
+      <section>
+        <article class="feat-cont">
+          <ul class="feat-list">
+            <li class="list-item" v-for="item in autonomousData.feat" :key="item.id">
+              <div class="feat-item ty-02" :class="item.class">
+                <div class="tit-box">
+                  <p class="tit-art-04">{{ item.tit }}</p>
+                </div>
+                <div class="cont-box">
+                  <p class="txt-l" v-html="item.cont">
+                  </p>
                 </div>
               </div>
             </li>

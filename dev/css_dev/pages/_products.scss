@@ -213,11 +213,14 @@
 
 .feat-item {
   @include flex-col();
-  height: 37rem;
+  min-height: 37rem;
+  height: 100%;
+  box-sizing: border-box;
   padding: 2.8rem 3.2rem;
   @include bdrs(2rem);
   background-color: $gray_01;
   transition: 0.3s;
+
 
   .tit-box {
     display: flex;
@@ -271,7 +274,7 @@
   }
 
   .cont-box {
-    margin: auto 0;
+    margin: 3.5rem 0;
 
     .txt-l {
       line-height: 1.7;
@@ -287,7 +290,8 @@
   &.ty-02 {
     padding: 0;
     background-color: unset;
-    height: 28rem;
+    height: 100%;
+    min-height: unset;
     border: 1px solid $gray_01;
     box-shadow: 6.8px 4.2px 8px 0 rgba(0, 0, 0, 0.08);
 
@@ -343,6 +347,44 @@
 
     &:hover {
       background-color: $blue_l;
+
+      .tit-box {
+        &::before {
+          background-color: $white;
+        }
+      }
+
+      &.ico-01 {
+        .tit-box {
+          &::before {
+            background-image: url("../images/ico_prod_001.png");
+          }
+        }
+      }
+
+      &.ico-02 {
+        .tit-box {
+          &::before {
+            background-image: url("../images/ico_prod_002.png");
+          }
+        }
+      }
+
+      &.ico-03 {
+        .tit-box {
+          &::before {
+            background-image: url("../images/ico_prod_003.png");
+          }
+        }
+      }
+
+      &.ico-04 {
+        .tit-box {
+          &::before {
+            background-image: url("../images/ico_prod_004.png");
+          }
+        }
+      }
     }
   }
 }
