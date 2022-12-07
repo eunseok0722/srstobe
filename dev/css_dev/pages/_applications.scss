@@ -227,6 +227,7 @@
           box-sizing: border-box;
           height: 3.5rem;
           line-height: 3.5rem;
+          transition: background-color 0.3s;
           @include bdr(1px, $gray_04);
           &:nth-child(1) {
             flex-basis: 46%;
