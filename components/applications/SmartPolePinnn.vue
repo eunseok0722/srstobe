@@ -1,65 +1,69 @@
 <template>
-  <div class="appl-contents">
-    <div class="content head-content prod-content">
-      <div class="content-header" :class="{'header-fix-padding': scrollY}">
-        <p class="txt-r">{{ articleData.ctgr }}</p>
-        <div class="header-fix-div" :class="{'header-fix': scrollY}">
-          <h3 class="tit-cont fw-r">{{ articleData.tit }}</h3>
-        </div>
-      </div>
-      <section>
-        <article class="img-cont">
-          <div class="tit-box">
-            <div class="txt-wrap">
-              <h4 class="tit-head fw-r">{{ articleData.imgCont.tit }}</h4>
-              <p class="tit-art"> {{ articleData.imgCont.subTit }}
-              </p>
-            </div>
-            <template v-if="articleData.imgCont.prodImg">
-              <div class="img-wrap">
-                <img :src="articleData.imgCont.prodImg" :alt="articleData.imgCont.prodAlt">
-                <div class="img-tag">
-                  <p class="tit-l">{{ articleData.imgCont.prodAlt }}</p>
-                </div>
-              </div>
-            </template>
-            
-          </div>
-          <div class="img-box" :class="articleData.imgCont.type">
-            <img :src="articleData.imgCont.mainImg" :alt="articleData.imgCont.mainAlt">
-          </div>
-        </article>
-      </section>
-    </div>
+  <div class="pole-contents">
+<!--    <div class="content head-content img-content">-->
+<!--      <div class="content-header" :class="{'header-fix-padding': scrollY}">-->
+<!--        <p class="txt-r">{{ articleData.ctgr }}</p>-->
+<!--        <div class="header-fix-div" :class="{'header-fix': scrollY}">-->
+<!--          <h3 class="tit-cont fw-r">{{ articleData.tit }}</h3>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <section>-->
+<!--        <article class="img-cont">-->
+<!--          <div class="tit-box">-->
+<!--            <div class="txt-wrap">-->
+<!--              <h4 class="tit-head fw-r">{{ articleData.imgCont.tit }}</h4>-->
+<!--              <p class="tit-art"> {{ articleData.imgCont.subTit }}-->
+<!--              </p>-->
+<!--            </div>-->
+<!--            <template v-if="articleData.imgCont.prodImg">-->
+<!--              <div class="img-wrap">-->
+<!--                <img :src="articleData.imgCont.prodImg" :alt="articleData.imgCont.prodAlt">-->
+<!--                <div class="img-tag">-->
+<!--                  <p class="tit-l">{{ articleData.imgCont.prodAlt }}</p>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </template>-->
+<!--            -->
+<!--          </div>-->
+<!--          <div class="img-box" :class="articleData.imgCont.type">-->
+<!--            <img :src="articleData.imgCont.mainImg" :alt="articleData.imgCont.mainAlt">-->
+<!--          </div>-->
+<!--        </article>-->
+<!--      </section>-->
+<!--    </div>-->
+    <img-content :article-data="articleData"></img-content>
 
-
-    <div class="content feat-content">
-      <section>
-        <article class="feat-cont">
-          <ul class="feat-list">
-            <li class="list-item" v-for="item in articleData.feat" :key="item.id">
-              <div class="feat-item ty02" :class="item.class">
-                <div class="tit-box">
-                  <p class="tit-art-04">{{ item.tit }}</p>
-                </div>
-                <div class="cont-box">
-                  <p class="txt-l" v-html="item.cont">
-                  </p>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </article>
-      </section>
-    </div>
+<!--    <div class="content feat-content">-->
+<!--      <section>-->
+<!--        <article class="feat-cont">-->
+<!--          <ul class="feat-list">-->
+<!--            <li class="list-item" v-for="item in articleData.feat" :key="item.id">-->
+<!--              <div class="feat-item ty02" :class="item.class">-->
+<!--                <div class="tit-box">-->
+<!--                  <p class="tit-art-04">{{ item.tit }}</p>-->
+<!--                </div>-->
+<!--                <div class="cont-box">-->
+<!--                  <p class="txt-l" v-html="item.cont">-->
+<!--                  </p>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </li>-->
+<!--          </ul>-->
+<!--        </article>-->
+<!--      </section>-->
+<!--    </div>-->
+    <feat-content :article-data="articleData"></feat-content>
   </div>
 </template>
 
 <script>
+import FeatContent from "../common/FeatContent.vue";
+import ImgContent from "../common/ImgContent.vue";
 export default {
   name: "Elevator",
   components: {
-
+    FeatContent,
+    ImgContent
   },
   props: {
     id: String

@@ -1,7 +1,7 @@
 <template>
   <div class="prod-contents">
     <div class="prod-bg-wrap" :class="productsData.bg">
-      <div class="content prod-content head-content">
+      <div class="content img-content head-content">
         <div class="content-header" :class="{'header-fix-padding': scrollY}">
           <p class="txt-r">{{ productsData.cart }}</p>
           <div class="header-fix-div" :class="{'header-fix': scrollY}">

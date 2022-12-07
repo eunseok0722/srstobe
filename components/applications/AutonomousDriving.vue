@@ -1,6 +1,6 @@
 <template>
   <div class="auto-contents">
-    <div class="content head-content prod-content">
+    <div class="content head-content img-content">
       <div class="content-header" :class="{'header-fix-padding': scrollY}">
         <p class="txt-r">Automotive</p>
         <div class="header-fix-div" :class="{'header-fix': scrollY}">
@@ -77,30 +77,31 @@
       </section>
     </div>
     <div class="prod-bg-wrap">
-      <div class="content spec-content">
-        <div class="content-header">
-          <h4 class="tit-cont fw-r">Product Specifications</h4>
-          <p class="tit-r">Parameter / Specifications</p>
-        </div>
-        <section>
-          <article class="prod-spec-cont">
-            <ul class="spec-list">
-              <li class="list-item" v-for="item in autonomousData.spec" :key="item.id" :class="item.class">
-                <div class="spec-item">
-                  <div class="tit-box">
-                    <p class="tit-s">{{ item.tit }}</p>
-                  </div>
-                  <div class="spec-box">
-                    <p class="lb-txt-r">{{item.subCont}}</p>
-                    <p class="tit-art-03">{{ item.cont}}</p>
-                    <p v-html="item.subCont02"></p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </article>
-        </section>
-      </div>
+<!--      <div class="content spec-content">-->
+<!--        <div class="content-header">-->
+<!--          <h4 class="tit-cont fw-r">Product Specifications</h4>-->
+<!--          <p class="tit-r">Parameter / Specifications</p>-->
+<!--        </div>-->
+<!--        <section>-->
+<!--          <article class="prod-spec-cont">-->
+<!--            <ul class="spec-list">-->
+<!--              <li class="list-item" v-for="item in autonomousData.spec" :key="item.id" :class="item.class">-->
+<!--                <div class="spec-item">-->
+<!--                  <div class="tit-box">-->
+<!--                    <p class="tit-s">{{ item.tit }}</p>-->
+<!--                  </div>-->
+<!--                  <div class="spec-box">-->
+<!--                    <p class="lb-txt-r">{{item.subCont}}</p>-->
+<!--                    <p class="tit-art-03">{{ item.cont}}</p>-->
+<!--                    <p v-html="item.subCont02"></p>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </li>-->
+<!--            </ul>-->
+<!--          </article>-->
+<!--        </section>-->
+<!--      </div>-->
+      <spec-content :article-data="autonomousData"></spec-content>
     </div>
     <div class="content prod-content">
       <section>
@@ -143,10 +144,12 @@
 </template>
 
 <script>
+import SpecContent from "../common/SpecContent.vue";
+
 export default {
   name: "AutonomousDriving",
   components: {
-
+    SpecContent
   },
   props: {
     id: String

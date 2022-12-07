@@ -58,7 +58,7 @@
                   <a class="lb-txt-r" href="#">2. UAM</a>
                 </li>
                 <li class="d3-list-item" @mouseenter="itemActivate(2)" @mouseleave="itemInactivate(2)">
-                  <a class="lb-txt-r" href="#">3. In-Cabin</a>
+                  <router-link class="lb-txt-r" to="/applications/in-cabin">3. In-Cabin</router-link>
                 </li>
                 <li class="d3-list-item" @mouseenter="itemActivate(3)" @mouseleave="itemInactivate(3)">
                   <a class="lb-txt-r" href="#">4. Last Mile Delivery</a>
@@ -76,7 +76,7 @@
               <h3 class="lb-tit-r">Industrial</h3>
               <ul class="d3-list">
                 <li class="d3-list-item" @mouseenter="itemActivate(5)" @mouseleave="itemInactivate(5)">
-                  <a  class="lb-txt-r" href="#">6. Construction Vehicle</a>
+                  <router-link  class="lb-txt-r" to="/applications/construction-vehicle">6. Construction Vehicle</router-link>
                 </li>
                 <li class="d3-list-item" @mouseenter="itemActivate(6)" @mouseleave="itemInactivate(6)">
                   <a class="lb-txt-r" href="#">7. Factory Robotics</a>
@@ -97,13 +97,13 @@
               <h3 class="lb-tit-r">Healthcare</h3>
               <ul class="d3-list">
                 <li class="d3-list-item" @mouseenter="itemActivate(9)" @mouseleave="itemInactivate(9)">
-                  <a class="lb-txt-r" href="#">10. Home</a>
+                  <router-link to="/applications/home" class="lb-txt-r" href="#">10. Home</router-link>
                 </li>
                 <li class="d3-list-item" @mouseenter="itemActivate(10)" @mouseleave="itemInactivate(10)">
-                  <a class="lb-txt-r" href="#">11. Hospital/Nursing Home</a>
+                  <router-link class="lb-txt-r" to="/applications/hospital-nursing-home">11. Hospital/Nursing Home</router-link>
                 </li>
                 <li class="d3-list-item" @mouseenter="itemActivate(11)" @mouseleave="itemInactivate(11)">
-                  <a class="lb-txt-r" href="#">12. Puile Bathroom</a>
+                  <router-link class="lb-txt-r" to="/applications/puile-bathroom">12. Puile Bathroom</router-link>
                 </li>
               </ul>
             </div>

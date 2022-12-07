@@ -29,8 +29,12 @@ const SrsMain = () => loadModule('../components/main/SrsMain.vue', options),
     AutonomousDriving = () => loadModule('../components/applications/AutonomousDriving.vue', options),
     Elevator = () => loadModule('../components/applications/Elevator.vue', options),
     Office = () => loadModule('../components/applications/Office.vue', options),
-    SmartPolePinnn = () => loadModule('../components/applications/SmartPolePinnn.vue', options);
-
+    SmartPolePinnn = () => loadModule('../components/applications/SmartPolePinnn.vue', options),
+    InCabin = () => loadModule('../components/applications/InCabin.vue', options),
+    ConstructionVehicle  = () => loadModule('../components/applications/ConstructionVehicle.vue', options),
+    Home = () => loadModule('../components/applications/Home.vue', options),
+    HospitalNursingHome= () => loadModule('../components/applications/HospitalNursingHome.vue', options),
+    PuileBathroom= () => loadModule('../components/applications/PuileBathroom.vue', options);
 
 const routes = [
     {
@@ -48,6 +52,32 @@ const routes = [
                 name: 'autonomous-driving',
                 component: AutonomousDriving,
                 // props: route => ({name:String(route.params.id)})
+            },
+            {
+                path: 'in-cabin',
+                name: 'in-cabin',
+                component: InCabin,
+                // props: route => ({name:String(route.params.id)})
+            },
+            {
+                path: 'construction-vehicle',
+                name: 'construction-vehicle',
+                component: ConstructionVehicle,
+            },
+            {
+                path: 'home',
+                name: 'home',
+                component: Home,
+            },
+            {
+                path: 'hospital-nursing-home',
+                name: 'hospital-nursing-home',
+                component: HospitalNursingHome,
+            },
+            {
+                path: 'puile-bathroom',
+                name: 'puile-bathroom',
+                component: PuileBathroom,
             },
             {
                 path: 'elevator',

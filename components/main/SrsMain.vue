@@ -50,10 +50,10 @@
                         <li class="d3-list-item">
                           <div class="d3-item ty03" @mouseenter="itemActivate(2)" @mouseleave="itemInactivate(2)"
                                :class="{active: itemState[2].active}">
-                            <a class="tit-l" href="#">
+                            <router-link class="tit-l" to="/applications/in-cabin">
                               <span class="num">3</span>
                               <span class="tit">In-Cabin</span>
-                            </a>
+                            </router-link>
                           </div>
                         </li>
                         <li class="d3-list-item">
@@ -86,10 +86,10 @@
                         <li class="d3-list-item">
                           <div class="d3-item ty06" @mouseenter="itemActivate(5)" @mouseleave="itemInactivate(5)"
                                :class="{active: itemState[5].active}">
-                            <a class="tit-l" href="#">
+                            <router-link class="tit-l" to="/applications/construction-vehicle">
                               <span class="num">6</span>
                               <span class="tit">Construction Vehicle</span>
-                            </a>
+                            </router-link>
                           </div>
                         </li>
                         <li class="d3-list-item">
@@ -131,28 +131,28 @@
                         <li class="d3-list-item">
                           <div class="d3-item r ty10" @mouseenter="itemActivate(9)" @mouseleave="itemInactivate(9)"
                                :class="{active: itemState[9].active}">
-                            <a class="tit-l" href="#">
+                            <router-link to="/applications/home" class="tit-l">
                               <span class="num">10</span>
                               <span class="tit">Home</span>
-                            </a>
+                            </router-link>
                           </div>
                         </li>
                         <li class="d3-list-item">
                           <div class="d3-item ty11" @mouseenter="itemActivate(10)" @mouseleave="itemInactivate(10)"
                                :class="{active: itemState[10].active}">
-                            <a class="tit-l" href="#">
+                            <router-link class="tit-l" to="/applications/hospital-nursing-home">
                               <span class="num">11</span>
                               <span class="tit">Hospital/Nursing Home</span>
-                            </a>
+                            </router-link>
                           </div>
                         </li>
                         <li class="d3-list-item">
                           <div class="d3-item ty12" @mouseenter="itemActivate(11)" @mouseleave="itemInactivate(11)"
                                :class="{active: itemState[11].active}">
-                            <a class="tit-l" href="#">
+                            <router-link class="tit-l" to="/applications/puile-bathroom">
                               <span class="num">12</span>
                               <span class="tit">Puile Bathroom</span>
-                            </a>
+                            </router-link>
                           </div>
                         </li>
                       </ul>

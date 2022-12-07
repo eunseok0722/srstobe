@@ -100,9 +100,6 @@
 
 // history
 
-.container .award-history-content {
-  gap: 8.5rem;
-}
 
 .award-history-content {
   align-items: center;
@@ -166,6 +163,7 @@
 }
 
 .award-vision-content {
+  padding-top: 16.8rem;
   .content-header {
     width: 40%;
     line-height: 1.2;
@@ -207,7 +205,7 @@
 
 // team content
 .container .award-member-content {
-  padding-bottom: 6.5rem;
+  padding: 6.5rem 0;
 }
 .award-member-content {
   align-items: center;

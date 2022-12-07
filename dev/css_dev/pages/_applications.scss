@@ -15,6 +15,9 @@
     .txt-wrap {
       @include flex-col(6rem);
       line-height: 1.2;
+      .txt-inner-wrap {
+        @include flex-col(3rem);
+      }
     }
     .img-wrap {
       width: 100%;
@@ -42,6 +45,9 @@
           color: $white;
         }
       }
+      &.ty02 {
+        padding-bottom: 70%;
+      }
     }
   }
 
@@ -62,6 +68,9 @@
     }
     &.ty02 {
       padding-bottom: 37%;
+    }
+    &.ty03 {
+      padding-bottom: 58.5%;
     }
   }
 }
@@ -146,6 +155,11 @@
     .list-item {
       flex-basis: calc((100% - 2.4rem) / 3);
     }
+    &.ty02 {
+      .list-item {
+        flex-basis: calc((100% - 1.2rem) / 2);
+      }
+    }
   }
   .dtl-item {
     .img-box {
@@ -156,9 +170,106 @@
         height: auto;
         left: 50%;
         top: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%) scale(0.85);
         object-fit: contain;
       }
     }
+  }
+}
+
+.cabi-contents {
+  .feat-list {
+    .list-item {
+      flex-basis: 100%;
+    }
+  }
+}
+
+
+.desc-table-wrap {
+  width: 100%;
+  height: fit-content;
+
+  .desc-table {
+    width: 100%;
+    height: fit-content;
+    @include bdt(2px, $blue_l);
+    @include bdb(2px, $blue_l);
+    .table-row {
+      &:first-child {
+        text-align: center;
+        font: {
+          size: $font-12r;
+          weight: $r;
+
+        };
+        .table-column {
+          .table-item {
+            background-color: unset!important;
+          }
+        }
+      }
+      .table-column {
+        display: flex;
+        @include bdb(1px, $gray_04);
+        justify-content: space-between;
+        align-items: center;
+        .table-item {
+          flex-basis: 10%;
+          font-size: $font-12r;
+          padding: 0 2.5rem;
+          box-sizing: border-box;
+          height: 3.5rem;
+          line-height: 3.5rem;
+          @include bdr(1px, $gray_04);
+          &:nth-child(1) {
+            flex-basis: 46%;
+            background-color: $light_gray;
+          }
+          &:nth-child(2),
+          &:nth-child(3) {
+            flex-basis: 27%;
+            text-align: center;
+
+          }
+          &:last-child {
+            border-right: unset
+          }
+          .circle {
+            font: {
+              size: $font-32r;
+              family: $default_font;
+            }
+            line-height: 1;
+            color: $red;
+          }
+        }
+      }
+    }
+  }
+}
+
+.feat-item:hover {
+  .desc-table-wrap {
+    .desc-table {
+      @include bdt(2px, $white);
+      @include bdb(2px, $white);
+      .table-row {
+        .table-column {
+          .table-item {
+            background-color: unset
+          }
+        }
+      }
+    }
+  }
+}
+
+.bath-contents {
+  .img-cont .tit-box .img-wrap img {
+      transform: scale(0.75);
+  }
+  .prod-cont .dtl-item .img-box img {
+    transform: translate(-50%, -50%);
   }
 }

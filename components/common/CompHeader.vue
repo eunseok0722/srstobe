@@ -38,9 +38,9 @@
                           </a>
                         </li>
                         <li class="d3-list-item">
-                          <a href="#" class="txt-r">
+                          <router-link to="/applications/in-cabin" class="txt-r">
                             In-Cabin
-                          </a>
+                          </router-link>
                         </li>
                         <li class="d3-list-item">
                           <a href="#" class="txt-r">
@@ -64,9 +64,9 @@
                       </div>
                       <ul class="d3-list">
                         <li class="d3-list-item">
-                          <a href="#" class="txt-r">
+                          <router-link to="/applications/construction-vehicle" class="txt-r">
                             Construction Vehicle
-                          </a>
+                          </router-link>
                         </li>
                         <li class="d3-list-item">
                           <a href="#" class="txt-r">
@@ -103,19 +103,19 @@
                       </div>
                       <ul class="d3-list">
                         <li class="d3-list-item">
-                          <a href="#" class="txt-r">
+                          <router-link to="/applications/home" class="txt-r">
                             Home
-                          </a>
+                          </router-link>
                         </li>
                         <li class="d3-list-item">
-                          <a href="#" class="txt-r">
+                          <router-link to="/applications/hospital-nursing-home" class="txt-r">
                             Hospital/Nursing Home
-                          </a>
+                          </router-link>
                         </li>
                         <li class="d3-list-item">
-                          <a href="#" class="txt-r">
+                          <router-link to="/applications/puile-bathroom" class="txt-r">
                             Puile Bathroom
-                          </a>
+                          </router-link>
                         </li>
                       </ul>
                     </div>

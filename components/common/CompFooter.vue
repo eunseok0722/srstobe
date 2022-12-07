@@ -77,9 +77,9 @@
                       </div>
                       <ul class="d3-list">
                         <li class="d3-list-item">
-                          <a href="#" class="txt-s">
+                          <router-link to="/applications/construction-vehicle" class="txt-s">
                             Construction Vehicle
-                          </a>
+                          </router-link>
                         </li>
                         <li class="d3-list-item">
                           <a href="#" class="txt-s">
@@ -109,19 +109,19 @@
                       </div>
                       <ul class="d3-list">
                         <li class="d3-list-item">
-                          <a href="#" class="txt-s">
+                          <router-link to="/applications/home" class="txt-s">
                             Home
-                          </a>
+                          </router-link>
                         </li>
                         <li class="d3-list-item">
-                          <a href="#" class="txt-s">
+                          <router-link to="/applications/hospital-nursing-home" class="txt-s">
                             Hospital/Nursing Home
-                          </a>
+                          </router-link>
                         </li>
                         <li class="d3-list-item">
-                          <a href="#" class="txt-s">
+                          <router-link to="/applications/puile-bathroom" class="txt-s">
                             Puile Bathroom
-                          </a>
+                          </router-link>
                         </li>
                       </ul>
                     </div>
