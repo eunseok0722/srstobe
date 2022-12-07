@@ -115,16 +115,16 @@
               <h3 class="lb-tit-r">Smart Places</h3>
               <ul class="d3-list">
                 <li class="d3-list-item" @mouseenter="itemActivate(12)" @mouseleave="itemInactivate(12)">
-                  <a class="lb-txt-r" href="#">13. Elevator</a>
+                  <router-link class="lb-txt-r" to="/applications/elevator">13. Elevator</router-link>
                 </li>
                 <li class="d3-list-item" @mouseenter="itemActivate(13)" @mouseleave="itemInactivate(13)">
                   <a class="lb-txt-r" href="#">14. Retailer</a>
                 </li>
                 <li class="d3-list-item" @mouseenter="itemActivate(14)" @mouseleave="itemInactivate(14)">
-                  <a class="lb-txt-r" href="#">15. Office</a>
+                  <router-link class="lb-txt-r" to="/applications/office">15. Office</router-link>
                 </li>
                 <li class="d3-list-item" @mouseenter="itemActivate(15)" @mouseleave="itemInactivate(15)">
-                  <a class="lb-txt-r" href="#">16. Smart Pole PINNN</a>
+                  <router-link class="lb-txt-r" to="/applications/smart-pole-pinnn">16. Smart Pole PINNN</router-link>
                 </li>
                 <li class="d3-list-item" @mouseenter="itemActivate(16)" @mouseleave="itemInactivate(16)">
                   <a class="lb-txt-r" href="#">17. Security</a>
@@ -212,6 +212,7 @@ export default {
   //   window.addEventListener('scroll', this.handleScroll)
   // },
   // beforeUnmount() {
+  // this.$store.getters["HeaderData"].scrollY = 0;
   //   window.removeEventListener('scroll', this.handleScroll)
   // },
   components: {

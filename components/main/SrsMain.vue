@@ -167,10 +167,10 @@
                         <li class="d3-list-item">
                           <div class="d3-item ty13" @mouseenter="itemActivate(12)" @mouseleave="itemInactivate(12)"
                                :class="{active: itemState[12].active}">
-                            <a class="tit-l" href="#">
+                            <router-link class="tit-l" to="/applications/elevator">
                               <span class="num">13</span>
                               <span class="tit">Elevator</span>
-                            </a>
+                            </router-link>
                           </div>
                         </li>
                         <li class="d3-list-item">
@@ -185,19 +185,19 @@
                         <li class="d3-list-item">
                           <div class="d3-item r ty15" @mouseenter="itemActivate(14)" @mouseleave="itemInactivate(14)"
                                :class="{active: itemState[14].active}">
-                            <a class="tit-l" href="#">
+                            <router-link class="tit-l" to="/applications/office">
                               <span class="num">15</span>
                               <span class="tit">Office</span>
-                            </a>
+                            </router-link>
                           </div>
                         </li>
                         <li class="d3-list-item">
                           <div class="d3-item ty16" @mouseenter="itemActivate(15)" @mouseleave="itemInactivate(15)"
                                :class="{active: itemState[15].active}">
-                            <a class="tit-l" href="#">
+                            <router-link class="tit-l" to="/applications/smart-pole-pinnn">
                               <span class="num">16</span>
                               <span class="tit">Smart Pole PINNN</span>
-                            </a>
+                            </router-link>
                           </div>
                         </li>
                         <li class="d3-list-item">

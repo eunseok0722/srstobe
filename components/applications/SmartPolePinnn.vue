@@ -99,7 +99,8 @@ export default {
     window.addEventListener('scroll', this.handleScroll)
   },
   beforeUnmount() {
-    window.removeEventListener('scroll', this.handleScroll)
+    this.$store.getters["HeaderData"].scrollY = 0;
+    window.removeEventListener('scroll', this.handleScroll);
   },
 }
 </script>

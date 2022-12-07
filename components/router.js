@@ -105,8 +105,10 @@ const routes = [
 
 
 const router = VueRouter.createRouter({
-    history: VueRouter.createWebHashHistory(), routes, scrollBehavior() {
-        // return {top: 0}
+    history: VueRouter.createWebHashHistory(),
+    routes,
+    scrollBehavior() {
+        return {top: 0}
     }
 })
 

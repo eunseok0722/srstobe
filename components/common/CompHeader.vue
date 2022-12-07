@@ -529,6 +529,7 @@ export default {
   //   window.addEventListener('scroll', this.handleScroll)
   // },
   // beforeUnmount() {
+  // this.$store.getters["HeaderData"].scrollY = 0;
   //   window.removeEventListener('scroll', this.handleScroll)
   // },
   components: {
