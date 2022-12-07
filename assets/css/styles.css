@@ -863,9 +863,13 @@ select:focus, select :focus-visible { outline-color: #008aff; }
 
 .img-cont .tit-box { flex-basis: calc((100% - 6rem) / 2); width: calc((100% - 6rem) / 2); display: flex; flex-direction: column; gap: 0; justify-content: space-between; }
 
-.img-cont .tit-box .txt-wrap { display: flex; flex-direction: column; gap: 6rem; line-height: 1.2; }
+.img-cont .tit-box .txt-wrap { display: flex; flex-direction: column; gap: 6rem; }
 
 .img-cont .tit-box .txt-wrap .txt-inner-wrap { display: flex; flex-direction: column; gap: 3rem; }
+
+.img-cont .tit-box .txt-wrap .tit-head { line-height: 1.1; }
+
+.img-cont .tit-box .txt-wrap .tit-art { line-height: 1.4; }
 
 .img-cont .tit-box .img-wrap { width: 100%; height: 0; padding-bottom: 50%; position: relative; overflow: hidden; }
 
@@ -927,7 +931,7 @@ select:focus, select :focus-visible { outline-color: #008aff; }
 
 .desc-table-wrap .desc-table { width: 100%; height: fit-content; border-top: 2px solid #008aff; border-bottom: 2px solid #008aff; }
 
-.desc-table-wrap .desc-table .table-row:first-child { text-align: center; font-size: 1.2rem; font-weight: 400; }
+.desc-table-wrap .desc-table .table-row:first-child { text-align: center; font-size: 1.2rem; font-weight: 400; font-family: "Poppins", sans-serif; }
 
 .desc-table-wrap .desc-table .table-row:first-child .table-column .table-item { background-color: unset !important; }
 

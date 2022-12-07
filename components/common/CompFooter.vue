@@ -25,9 +25,9 @@
             <!--  d1 | APPLICATIONS  -->
             <li class="list-item">
               <h2 class="tit-l">
-                <a class="nav-item">
+                <router-link to="/applications/autonomous-driving" class="nav-item">
                   APPLICATIONS
-                </a>
+                </router-link>
               </h2>
               <div class="d2-list-wrap v1">
                 <ul class="d2-list">
@@ -40,29 +40,29 @@
                       </div>
                       <ul class="d3-list">
                         <li class="d3-list-item">
-                          <a href="#" class="txt-s">
+                          <router-link to="/applications/autonomous-driving" class="txt-s">
                             Autonomous Driving
-                          </a>
+                          </router-link>
                         </li>
                         <li class="d3-list-item">
-                          <a href="#" class="txt-s">
+                          <router-link to="" class="txt-s">
                             UAM
-                          </a>
+                          </router-link>
                         </li>
                         <li class="d3-list-item">
-                          <a href="#" class="txt-s">
+                          <router-link  to="/applications/in-cabin" class="txt-s">
                             In-Cabin
-                          </a>
+                          </router-link>
                         </li>
                         <li class="d3-list-item">
-                          <a href="#" class="txt-s">
+                          <router-link to="" class="txt-s">
                             Last Mile Delivery
-                          </a>
+                          </router-link>
                         </li>
                         <li class="d3-list-item">
-                          <a href="#" class="txt-s">
+                          <router-link to="" class="txt-s">
                             AGV
-                          </a>
+                          </router-link>
                         </li>
                       </ul>
                     </div>
@@ -82,19 +82,19 @@
                           </router-link>
                         </li>
                         <li class="d3-list-item">
-                          <a href="#" class="txt-s">
+                          <router-link to="" class="txt-s">
                             Factory Robotics
-                          </a>
+                          </router-link>
                         </li>
                         <li class="d3-list-item">
-                          <a href="#" class="txt-s">
+                          <router-link to="" class="txt-s">
                             Level-meter
-                          </a>
+                          </router-link>
                         </li>
                         <li class="d3-list-item">
-                          <a href="#" class="txt-s">
+                          <router-link to="" class="txt-s">
                             Defense Drone
-                          </a>
+                          </router-link>
                         </li>
                       </ul>
                     </div>
@@ -136,29 +136,29 @@
                       </div>
                       <ul class="d3-list">
                         <li class="d3-list-item">
-                          <a href="#" class="txt-s">
+                          <router-link to="/applications/elevator" class="txt-s">
                             Elevator
-                          </a>
+                          </router-link>
                         </li>
                         <li class="d3-list-item">
-                          <a href="#" class="txt-s">
+                          <router-link to="" class="txt-s">
                             Retailer
-                          </a>
+                          </router-link>
                         </li>
                         <li class="d3-list-item">
-                          <a href="#" class="txt-s">
+                          <router-link to="/applications/office" class="txt-s">
                             Office
-                          </a>
+                          </router-link>
                         </li>
                         <li class="d3-list-item">
-                          <a href="#" class="txt-s">
+                          <router-link to="/applications/smart-pole-pinnn" class="txt-s">
                             Smart Pole PINNN
-                          </a>
+                          </router-link>
                         </li>
                         <li class="d3-list-item">
-                          <a href="#" class="txt-s">
+                          <router-link to="" class="txt-s">
                             Security
-                          </a>
+                          </router-link>
                         </li>
                       </ul>
                     </div>
@@ -171,9 +171,9 @@
             <!--  d1 | PRODUCTS  -->
             <li class="list-item">
               <h2 class="tit-l">
-                <a class="nav-item">
+                <router-link to="/products/retina-4f" class="nav-item">
                   PRODUCTS
-                </a>
+                </router-link>
               </h2>
               <div class="d2-list-wrap v2">
                 <ul class="d2-list">
@@ -182,7 +182,12 @@
                     <div class="d2-item">
                       <div class="tit-box">
                         <p class="txt-s">Imaging Radar</p>
-                        <h3 class="txt-r">RETINA-Next Gen</h3>
+                        <h3 class="txt-r">
+                          <router-link to="/products/retina-next-gen">
+                            RETINA-Next Gen
+                          </router-link>
+
+                        </h3>
                       </div>
                     </div>
                   </li>
@@ -191,7 +196,11 @@
                   <li class="d2-list-item">
                     <div class="d2-item">
                       <div class="tit-box">
-                        <h3 class="txt-r">RETINA-4F</h3>
+                        <h3 class="txt-r">
+                          <router-link to="/products/retina-4f">
+                          RETINA-4F
+                          </router-link>
+                        </h3>
                       </div>
                     </div>
                   </li>
@@ -200,7 +209,11 @@
                   <li class="d2-list-item">
                     <div class="d2-item">
                       <div class="tit-box">
-                        <h3 class="txt-r">RETINA-4S</h3>
+                        <h3 class="txt-r">
+                          <router-link to="/products/retina-4s">
+                          RETINA-4S
+                          </router-link>
+                        </h3>
                       </div>
                     </div>
                   </li>
@@ -209,7 +222,11 @@
                   <li class="d2-list-item">
                     <div class="d2-item">
                       <div class="tit-box">
-                        <h3 class="txt-r">RETINA-4A</h3>
+                        <h3 class="txt-r">
+                          <router-link to="/products/retina-4a">
+                          RETINA-4A
+                          </router-link>
+                        </h3>
                       </div>
                     </div>
                   </li>
@@ -219,7 +236,11 @@
                     <div class="d2-item">
                       <div class="tit-box">
                         <p class="txt-s">Single Radar & Module</p>
-                        <h3 class="txt-r">IRISt</h3>
+                        <h3 class="txt-r">
+                          <router-link to="/products/irist">
+                            IRISt
+                          </router-link>
+                        </h3>
                       </div>
                     </div>
                   </li>
@@ -228,7 +249,11 @@
                   <li class="d2-list-item">
                     <div class="d2-item">
                       <div class="tit-box">
-                        <h3 class="txt-r">IRISc</h3>
+                        <h3 class="txt-r">
+                          <router-link to="/products/irisc">
+                          IRISc
+                          </router-link>
+                        </h3>
                       </div>
                     </div>
                   </li>
@@ -238,7 +263,11 @@
                   <li class="d2-list-item">
                     <div class="d2-item">
                       <div class="tit-box">
-                        <h3 class="txt-r">IRISm</h3>
+                        <h3 class="txt-r">
+                          <router-link to="/products/irism">
+                          IRISm
+                          </router-link>
+                        </h3>
                       </div>
                     </div>
                   </li>
@@ -247,7 +276,11 @@
                   <li class="d2-list-item">
                     <div class="d2-item">
                       <div class="tit-box">
-                        <h3 class="txt-r">SE68-51W</h3>
+                        <h3 class="txt-r">
+                          <router-link to="/products/se68-51w">
+                          SE68-51W
+                          </router-link>
+                        </h3>
                       </div>
                     </div>
                   </li>
@@ -309,9 +342,9 @@
             <!--  d1 | ABOUT SRS  -->
             <li class="list-item">
               <h2 class="tit-l">
-                <a class="nav-item">
+                <router-link to="/about/awards" class="nav-item">
                   ABOUT SRS
-                </a>
+                </router-link>
               </h2>
               <div class="d2-list-wrap v4">
                 <ul class="d2-list">
@@ -328,7 +361,11 @@
                   <li class="d2-list-item">
                     <div class="d2-item">
                       <div class="tit-box">
-                        <h3 class="txt-r">Awards & Patents</h3>
+                        <h3 class="txt-r">
+                          <router-link to="/about/awards">
+                          Awards & Patents
+                          </router-link>
+                        </h3>
                       </div>
                     </div>
                   </li>
@@ -337,7 +374,11 @@
                   <li class="d2-list-item">
                     <div class="d2-item">
                       <div class="tit-box">
-                        <h3 class="txt-r">Team building</h3>
+                        <h3 class="txt-r">
+                          <router-link to="">
+                          Team building
+                          </router-link>
+                        </h3>
                       </div>
                     </div>
                   </li>
@@ -346,7 +387,11 @@
                   <li class="d2-list-item">
                     <div class="d2-item">
                       <div class="tit-box">
-                        <h3 class="txt-r">Contacts</h3>
+                        <h3 class="txt-r">
+                          <router-link to="">
+                          Contacts
+                          </router-link>
+                        </h3>
                       </div>
                     </div>
                   </li>
@@ -355,7 +400,11 @@
                   <li class="d2-list-item">
                     <div class="d2-item">
                       <div class="tit-box">
-                        <h3 class="txt-r">Newsroom</h3>
+                        <h3 class="txt-r">
+                          <router-link to="/about/newsroom">
+                          Newsroom
+                          </router-link>
+                        </h3>
                       </div>
                     </div>
                   </li>
@@ -375,12 +424,12 @@
           <ul class="ico-list">
             <li class="list-item">
               <div class="ico-item ico-facebook">
-                <a href="#" title="새창 이동" target="_blank"></a>
+                <router-link to="" title="새창 이동" target="_blank"></router-link>
               </div>
             </li>
             <li class="list-item">
               <div class="ico-item ico-linkedin">
-                <a href="#" title="새창 이동" target="_blank"></a>
+                <router-link to="" title="새창 이동" target="_blank"></router-link>
               </div>
             </li>
           </ul>

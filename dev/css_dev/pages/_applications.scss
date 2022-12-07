@@ -14,9 +14,14 @@
     justify-content: space-between;
     .txt-wrap {
       @include flex-col(6rem);
-      line-height: 1.2;
       .txt-inner-wrap {
         @include flex-col(3rem);
+      }
+      .tit-head {
+        line-height: 1.1;
+      }
+      .tit-art {
+        line-height: 1.4;
       }
     }
     .img-wrap {
@@ -201,6 +206,7 @@
         font: {
           size: $font-12r;
           weight: $r;
+          family: $point_font;
 
         };
         .table-column {

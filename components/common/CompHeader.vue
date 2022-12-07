@@ -24,7 +24,7 @@
                     <div class="d2-item">
                       <div class="tit-box">
                         <p class="txt-s blind">Mobility</p>
-                        <h3 class="tit-m">AutoMotive</h3>
+                        <h3 class="tit-m fw-md">AutoMotive</h3>
                       </div>
                       <ul class="d3-list">
                         <li class="d3-list-item">
@@ -60,7 +60,7 @@
                   <li class="d2-list-item">
                     <div class="d2-item">
                       <div class="tit-box">
-                        <h3 class="tit-m">Industrial</h3>
+                        <h3 class="tit-m fw-md">Industrial</h3>
                       </div>
                       <ul class="d3-list">
                         <li class="d3-list-item">
@@ -91,7 +91,7 @@
               </div>
               <div class="d2-section">
                 <div class="d2-section-tit">
-                  <p class="tit-m">Smartcity</p>
+                  <p class="tit-m fw-md">Smartcity</p>
                 </div>
                 <ul class="d2-list">
                   <!--  d2 | Healthcare   -->
@@ -99,7 +99,7 @@
                     <div class="d2-item">
                       <div class="tit-box">
                         <p class="txt-s blind">Smartcity</p>
-                        <h3 class="tit-m">Healthcare</h3>
+                        <h3 class="tit-m fw-md">Healthcare</h3>
                       </div>
                       <ul class="d3-list">
                         <li class="d3-list-item">
@@ -125,7 +125,7 @@
                   <li class="d2-list-item">
                     <div class="d2-item">
                       <div class="tit-box">
-                        <h3 class="tit-m">Smart Places</h3>
+                        <h3 class="tit-m fw-md">Smart Places</h3>
                       </div>
                       <ul class="d3-list">
                         <li class="d3-list-item">
@@ -183,7 +183,7 @@
                   <li class="d2-list-item">
                     <div class="d2-item">
                       <div class="tit-box">
-                        <h3 class="tit-m">RETINA-Next Gen</h3>
+                        <h3 class="tit-m fw-md">RETINA-Next Gen</h3>
                       </div>
                       <div class="img-box">
                         <router-link to="/products/retina-next-gen">
@@ -197,7 +197,7 @@
                   <li class="d2-list-item">
                     <div class="d2-item">
                       <div class="tit-box">
-                        <h3 class="tit-m">RETINA-4F</h3>
+                        <h3 class="tit-m fw-md">RETINA-4F</h3>
                       </div>
                       <div class="img-box">
                         <router-link to="/products/retina-4f">
@@ -211,7 +211,7 @@
                   <li class="d2-list-item">
                     <div class="d2-item">
                       <div class="tit-box">
-                        <h3 class="tit-m">RETINA-4S</h3>
+                        <h3 class="tit-m fw-md">RETINA-4S</h3>
                       </div>
                       <div class="img-box">
                         <router-link to="/products/retina-4s">
@@ -225,7 +225,7 @@
                   <li class="d2-list-item">
                     <div class="d2-item">
                       <div class="tit-box">
-                        <h3 class="tit-m">RETINA-4A</h3>
+                        <h3 class="tit-m fw-md">RETINA-4A</h3>
                       </div>
                       <div class="img-box">
                         <router-link to="/products/retina-4a">
@@ -248,7 +248,7 @@
                   <li class="d2-list-item">
                     <div class="d2-item">
                       <div class="tit-box">
-                        <h3 class="tit-m">IRISt</h3>
+                        <h3 class="tit-m fw-md">IRISt</h3>
                       </div>
                       <div class="img-box">
                         <router-link to="/products/irist">
@@ -262,7 +262,7 @@
                   <li class="d2-list-item">
                     <div class="d2-item">
                       <div class="tit-box">
-                        <h3 class="tit-m">IRISc</h3>
+                        <h3 class="tit-m fw-md">IRISc</h3>
                       </div>
                       <div class="img-box">
                         <router-link to="/products/irisc">
@@ -277,7 +277,7 @@
                   <li class="d2-list-item">
                     <div class="d2-item">
                       <div class="tit-box">
-                        <h3 class="tit-m">IRISm</h3>
+                        <h3 class="tit-m fw-md">IRISm</h3>
                       </div>
                       <div class="img-box">
                         <router-link to="/products/irism">
@@ -291,7 +291,7 @@
                   <li class="d2-list-item">
                     <div class="d2-item">
                       <div class="tit-box">
-                        <h3 class="tit-m">SE68-51W</h3>
+                        <h3 class="tit-m fw-md">SE68-51W</h3>
                       </div>
                       <div class="img-box">
                         <router-link to="/products/se68-51w">
@@ -321,7 +321,7 @@
                 <li class="d2-list-item">
                   <div class="d2-item">
                     <div class="tit-box">
-                      <h3 class="tit-m">4D Imaging Radar</h3>
+                      <h3 class="tit-m fw-md">4D Imaging Radar</h3>
                     </div>
                     <div class="img-box">
                       <a href="#">
@@ -335,7 +335,7 @@
                 <li class="d2-list-item">
                   <div class="d2-item">
                     <div class="tit-box">
-                      <h3 class="tit-m">Software Defined Vehicle</h3>
+                      <h3 class="tit-m fw-md">Software Defined Vehicle</h3>
                     </div>
                     <div class="img-box">
                       <a href="#">
@@ -349,7 +349,7 @@
                 <li class="d2-list-item">
                   <div class="d2-item">
                     <div class="tit-box">
-                      <h3 class="tit-m">SWaP sensor</h3>
+                      <h3 class="tit-m fw-md">SWaP sensor</h3>
                     </div>
                     <div class="img-box">
                       <a href="#">
@@ -363,7 +363,7 @@
                 <li class="d2-list-item">
                   <div class="d2-item">
                     <div class="tit-box">
-                      <h3 class="tit-m">Edge Device with ML</h3>
+                      <h3 class="tit-m fw-md">Edge Device with ML</h3>
                     </div>
                     <div class="img-box">
                       <a href="#">
@@ -391,7 +391,7 @@
                 <li class="d2-list-item">
                   <div class="d2-item">
                     <div class="tit-box">
-                      <h3 class="tit-m">
+                      <h3 class="tit-m fw-md">
                         <a href="#">Investors & Partners</a>
                       </h3>
                     </div>
@@ -402,7 +402,7 @@
                 <li class="d2-list-item">
                   <div class="d2-item">
                     <div class="tit-box">
-                      <h3 class="tit-m">
+                      <h3 class="tit-m fw-md">
                         <router-link to="/about/awards">Awards & Patents</router-link>
                       </h3>
                     </div>
@@ -413,7 +413,7 @@
                 <li class="d2-list-item">
                   <div class="d2-item">
                     <div class="tit-box">
-                      <h3 class="tit-m">
+                      <h3 class="tit-m fw-md">
                         <a href="#">Team building</a>
                       </h3>
                     </div>
@@ -424,7 +424,7 @@
                 <li class="d2-list-item">
                   <div class="d2-item">
                     <div class="tit-box">
-                      <h3 class="tit-m">
+                      <h3 class="tit-m fw-md">
                         <a href="#">Contacts</a>
                       </h3>
                     </div>
@@ -435,7 +435,7 @@
                 <li class="d2-list-item">
                   <div class="d2-item">
                     <div class="tit-box">
-                      <h3 class="tit-m">
+                      <h3 class="tit-m fw-md">
                         <router-link to="/about/newsroom">
                           Newsroom
                         </router-link>
