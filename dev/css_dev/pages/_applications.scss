@@ -1,6 +1,4 @@
 
-
-
 .img-cont {
   display: flex;
   flex-direction: row-reverse;
@@ -10,72 +8,176 @@
   .tit-box {
     flex-basis: calc((100% - 6rem) / 2);
     width: calc((100% - 6rem) / 2);
-    @include flex-col();
+    @include flex-col(3rem);
     justify-content: space-between;
-    .txt-wrap {
-      @include flex-col(6rem);
-      .txt-inner-wrap {
-        @include flex-col(3rem);
-      }
-      .tit-head {
-        line-height: 1.1;
-      }
-      .tit-art {
-        line-height: 1.4;
-      }
-    }
-    .img-wrap {
+
+    .head-sec {
       width: 100%;
-      height: 0;
-      padding-bottom: 50%;
-      position: relative;
-      overflow: hidden;
-      img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-        z-index: -1;
-      }
-      .img-tag {
-        position: absolute;
-        right: 4rem;
-        bottom: 2rem;
-        background-color: $black_02;
-        padding: 1rem 2.5rem;
-        @include bdrs(2rem);
-        .tit-l {
-          color: $white;
+      height: 100%;
+      @include flex-col();
+      justify-content: space-between;
+
+      .txt-wrap {
+        @include flex-col(6rem);
+
+        .txt-inner-wrap {
+          @include flex-col(3rem);
+        }
+
+        .tit-head {
+          line-height: 1.1;
+        }
+
+        .tit-art {
+          line-height: 1.4;
         }
       }
-      &.ty02 {
-        padding-bottom: 70%;
+
+      .img-wrap {
+        width: 100%;
+        height: 0;
+        padding-bottom: 50%;
+        position: relative;
+        overflow: hidden;
+
+        img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+          z-index: -1;
+        }
+
+        .img-tag {
+          position: absolute;
+          right: 4rem;
+          bottom: 2rem;
+          background-color: $black_02;
+          padding: 1rem 2.5rem;
+          @include bdrs(2rem);
+
+          .tit-l {
+            color: $white;
+          }
+        }
+
+        &.ty02 {
+          padding-bottom: 70%;
+        }
+
+        &.ty03 {
+          padding-bottom: 100%;
+        }
+      }
+    }
+
+    .feat-sec {
+      width: 100%;
+
+      .feat-info-list {
+        display: flex;
+        justify-content: space-between;
+
+        .list-item {
+
+        }
+      }
+
+      .feat-info-item {
+        width: 12rem;
+        @include flex-col(2rem);
+        align-items: center;
+
+        .ico-box {
+          width: 9rem;
+          height: 9rem;
+          @include bdrs(1.6rem);
+          @include bd(3px, $white);
+          box-sizing: border-box;
+          box-shadow: 5.1px 3.2px 8px 0 rgba(0, 0, 0, 0.12);
+          background-color: $light_gray;
+          background-size: auto;
+          background-position: center;
+          background-repeat: no-repeat;
+
+          &.ty01 {
+            background-image: url("../images/ico_appl_feat_001.png");
+          }
+
+          &.ty02 {
+            background-image: url("../images/ico_appl_feat_002.png");
+          }
+
+          &.ty03 {
+            background-image: url("../images/ico_appl_feat_003.png");
+          }
+
+          &.ty04 {
+            background-image: url("../images/ico_appl_feat_004.png");
+          }
+        }
       }
     }
   }
 
   .img-box {
+    @include flex-col(4.5rem);
     flex-basis: calc(50% - 6rem);
     width: calc(50% - 6rem);
-    height: 0;
-    padding-bottom: calc(50% - 2rem);
-    overflow: hidden;
-    @include bdrs(2.8rem);
-    position: relative;
-    img {
-      position: absolute;
-      top: 0;
+
+    .main-img {
       width: 100%;
-      height: auto;
-      object-fit: contain;
+      height: 0;
+      padding-bottom: 97%;
+      overflow: hidden;
+      @include bdrs(2.8rem);
+      position: relative;
+
+      img {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+      }
     }
+
+    .sub-img {
+      width: 100%;
+      height: 0;
+      padding-bottom: 72.5%;
+      overflow: hidden;
+      @include bdrs(2.8rem);
+      position: relative;
+
+      img {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+      }
+    }
+
+
     &.ty02 {
-      padding-bottom: 37%;
+      .main-img {
+        padding-bottom: 82%;
+      }
+
     }
+
     &.ty03 {
-      padding-bottom: 58.5%;
+      .main-img {
+        padding-bottom: 105%;
+      }
+    }
+    &.ty04 {
+      .main-img {
+        padding-bottom: 130%;
+      }
     }
   }
 }
@@ -97,21 +199,27 @@
   justify-content: space-between;
   gap: 9rem;
   align-items: center;
+
   .tit-box {
     @include flex-col(6rem);
+
     .txt-wrap {
       @include flex-col(6rem);
+
       .tit-head {
         line-height: 1.2;
       }
+
       .tit-art {
         line-height: 1.4;
       }
     }
+
     .count-wrap {
       .count-list {
         display: flex;
         gap: 2rem;
+
         .list-item {
           flex-basis: 25%;
 
@@ -120,6 +228,7 @@
               .tit-r {
                 font-weight: $md;
               }
+
               .num {
                 color: $white;
                 background-color: $blue_l;
@@ -129,6 +238,7 @@
           }
         }
       }
+
       .count-item {
         @include flex-col(1.2rem);
         justify-content: center;
@@ -152,30 +262,35 @@
 
 .prod-cont {
   @include flex-col(5rem);
+
   .prod-list {
     display: flex;
     flex-wrap: wrap;
     row-gap: 2.7rem;
     column-gap: 1.2rem;
+
     .list-item {
       flex-basis: calc((100% - 2.4rem) / 3);
     }
+
     &.ty02 {
       .list-item {
         flex-basis: calc((100% - 1.2rem) / 2);
       }
     }
   }
+
   .dtl-item {
     .img-box {
       padding-bottom: 32rem;
       @include bd(1px, $gray_01);
+
       img {
         width: auto;
         height: auto;
         left: 50%;
         top: 50%;
-        transform: translate(-50%, -50%) scale(0.85);
+        transform: translate(-50%, -50%) scale(0.9);
         object-fit: contain;
       }
     }
@@ -200,6 +315,7 @@
     height: fit-content;
     @include bdt(2px, $blue_l);
     @include bdb(2px, $blue_l);
+
     .table-row {
       &:first-child {
         text-align: center;
@@ -209,17 +325,20 @@
           family: $point_font;
 
         };
+
         .table-column {
           .table-item {
-            background-color: unset!important;
+            background-color: unset !important;
           }
         }
       }
+
       .table-column {
         display: flex;
         @include bdb(1px, $gray_04);
         justify-content: space-between;
         align-items: center;
+
         .table-item {
           flex-basis: 10%;
           font-size: $font-12r;
@@ -229,19 +348,23 @@
           line-height: 3.5rem;
           transition: background-color 0.3s;
           @include bdr(1px, $gray_04);
+
           &:nth-child(1) {
             flex-basis: 46%;
             background-color: $light_gray;
           }
+
           &:nth-child(2),
           &:nth-child(3) {
             flex-basis: 27%;
             text-align: center;
 
           }
+
           &:last-child {
             border-right: unset
           }
+
           .circle {
             font: {
               size: $font-32r;
@@ -261,6 +384,7 @@
     .desc-table {
       @include bdt(2px, $white);
       @include bdb(2px, $white);
+
       .table-row {
         .table-column {
           .table-item {
@@ -274,9 +398,46 @@
 
 .bath-contents {
   .img-cont .tit-box .img-wrap img {
-      transform: scale(0.75);
+    transform: scale(0.75);
   }
+
   .prod-cont .dtl-item .img-box img {
     transform: translate(-50%, -50%);
+  }
+}
+
+// uam custom
+.uam-contents {
+  .prod-cont .dtl-item .img-box {
+    padding-bottom: 67%;
+
+    img {
+      width: 100%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+
+// construction Vehicle custom
+
+.const-vehi-contents {
+  .img-cont .tit-box {
+    gap: 10rem;
+  }
+}
+
+// hospital nursing home custom
+
+.nursing-contents {
+  .img-cont .tit-box {
+    gap: 10rem;
+  }
+}
+
+// home custom
+
+.home-contents {
+  .img-cont .tit-box {
+    gap: 4rem;
   }
 }

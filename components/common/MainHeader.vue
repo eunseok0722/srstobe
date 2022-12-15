@@ -55,7 +55,7 @@
                   <router-link class="lb-txt-r" to="/applications/autonomous-driving">1. Autonomous Driving</router-link>
                 </li>
                 <li class="d3-list-item" @mouseenter="itemActivate(1)" @mouseleave="itemInactivate(1)">
-                  <a class="lb-txt-r" href="#">2. UAM</a>
+                  <router-link class="lb-txt-r" to="/applications/uam">2. UAM</router-link>
                 </li>
                 <li class="d3-list-item" @mouseenter="itemActivate(2)" @mouseleave="itemInactivate(2)">
                   <router-link class="lb-txt-r" to="/applications/in-cabin">3. In-Cabin</router-link>

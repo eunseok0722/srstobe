@@ -34,7 +34,9 @@ const SrsMain = () => loadModule('../components/main/SrsMain.vue', options),
     ConstructionVehicle  = () => loadModule('../components/applications/ConstructionVehicle.vue', options),
     Home = () => loadModule('../components/applications/Home.vue', options),
     HospitalNursingHome= () => loadModule('../components/applications/HospitalNursingHome.vue', options),
-    PuileBathroom= () => loadModule('../components/applications/PuileBathroom.vue', options);
+    PuileBathroom= () => loadModule('../components/applications/PuileBathroom.vue', options),
+    Uam = () => loadModule('../components/applications/Uam.vue', options);
+
 
 const routes = [
     {
@@ -51,6 +53,12 @@ const routes = [
                 path: 'autonomous-driving',
                 name: 'autonomous-driving',
                 component: AutonomousDriving,
+                // props: route => ({name:String(route.params.id)})
+            },
+            {
+                path: 'uam',
+                name: 'uam',
+                component: Uam,
                 // props: route => ({name:String(route.params.id)})
             },
             {

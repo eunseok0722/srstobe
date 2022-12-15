@@ -1,8 +1,7 @@
 <template>
-  <div class="nursing-contents">
+  <div class="uam-contents">
     <img-content :article-data="articleData"></img-content>
     <prod-content :article-data="articleData"></prod-content>
-    <spec-content :article-data="articleData"></spec-content>
     <feat-content :article-data="articleData"></feat-content>
   </div>
 </template>
@@ -14,16 +13,15 @@ import SpecContent from "../common/SpecContent.vue";
 import ProdContent from "../common/ProdContent.vue";
 
 export default {
-  name: "HospitalNursingHome",
+  name: "Uam",
   components: {
     ProdContent,
-    SpecContent,
     FeatContent,
     ImgContent
   },
   computed: {
     articleData() {
-      return this.$store.getters["PostData"].nursingData;
+      return this.$store.getters["PostData"].uamData;
     }
   }
 }

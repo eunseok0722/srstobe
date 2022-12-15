@@ -1264,11 +1264,20 @@ to user safety`,
             tit: `To see the unseen all-around the vehicle and even inside`,
             subTit: `Smart Radar System's effective and market-leading in-cabin sensing mmWave radar to ensure EuroNCAP standards that will put on a bar in new coming vehicle era`,
             subTit02: `Introducing In-Cabin Radar: `,
-            prodImg: null,
-            prodAlt: ``,
+            prodImg: `../assets/images/img_retina_4f_005.png`,
+            prodImgType: `ty02`,
+            prodAlt: `RETINA_4F_diagonal`,
             mainImg: `../assets/images/img_appl_cabi_001.png`,
             mainAlt: ``,
-            mainType: `ty02`
+            mainType: ``,
+            subImg: `../assets/images/img_appl_cabi_002.png`,
+            subAlt: ``,
+            featInfo: [
+                { id: 1, feat: `Non-contact`, class: `ty01`},
+                { id: 2, feat: `Privacy`, class: `ty02`},
+                { id: 3, feat: `Waterproof`, class: `ty03`},
+                { id: 4, feat: `No-light`, class: `ty04`},
+            ]
         },
         prod: [
             {
@@ -1366,7 +1375,15 @@ to user safety`,
             prodAlt: `IRISt-03a_diagonal`,
             mainImg: `../assets/images/img_appl_cons_001.png`,
             mainAlt: `Industrial Safety`,
-            mainType: `ty03`
+            mainType: `ty03`,
+            subImg: `../assets/images/img_appl_cons_002.png`,
+            subAlt: ``,
+            featInfo: [
+                { id: 1, feat: `Non-contact`, class: `ty01`},
+                { id: 2, feat: `Privacy`, class: `ty02`},
+                { id: 3, feat: `Waterproof`, class: `ty03`},
+                { id: 4, feat: `No-light`, class: `ty04`},
+            ]
         },
         prodType: 'ty02',
         prod: [
@@ -1458,21 +1475,21 @@ to user safety`,
                 id: 1,
                 class: `ico-01`,
                 tit: `Customer needs`,
-                cont: `- Replace legacy radar (FOV 120 Degree) with Better FOV<br>
-                       - Reduced blindspot at desired detecting area<br>
-                       - Robust radar in challenging environment<br>
-                       - At least 15m of detection all-around<br>
-                       - Effective, durable solution that can work in harsh environments (dusty, rainy, muddy environment)`,
+                cont: `<span>- Replace legacy radar (FOV 120 Degree) with Better FOV</span>
+                       <span>- Reduced blindspot at desired detecting area</span>
+                       <span>- Robust radar in challenging environment</span>
+                       <span>- At least 15m of detection all-around</span>
+                       <span>- Effective, durable solution that can work in harsh environments (dusty, rainy, muddy environment)</span>`,
 
             },
             {
                 id: 2,
                 class: `ico-02`,
                 tit: `What we offer`,
-                cont: `- Provide Larger FOV with optimal sized radar product, surpassing the all characteristics of legacy radar <br>
-                       - Provide all-around detection capability to reduce blindspots<br>
-                       - Enable longer cover area even with all-around detection capability<br>
-                       - Provide endurance with customer's target IP rating`,
+                cont: `<span>- Provide Larger FOV with optimal sized radar product, surpassing the all characteristics of legacy radar</span>
+                       <span>- Provide all-around detection capability to reduce blindspots</span>
+                       <span>- Enable longer cover area even with all-around detection capability</span>
+                       <span>- Provide endurance with customer's target IP rating</span>`,
 
             }
         ],
@@ -1483,12 +1500,21 @@ to user safety`,
         imgCont: {
             tit: `mmWave Radar for the Elderly / the Handicapped`,
             subTit: `Quick but hidden assitant to detect bed-fall and slight movement`,
-            prodImg: `../assets/images/img_se68_51w_001.png`,
-            prodImgType: `ty02`,
+            prodImg: `../assets/images/img_se68_51w_005.png`,
+            prodImgType: `ty03`,
             prodAlt: `SE68-51W_diagonal`,
             mainImg: `../assets/images/img_appl_home_001.png`,
             mainAlt: `Healthcare`,
-            mainType: `ty03`
+            mainType: `ty03`,
+            subImg: `../assets/images/img_appl_home_002.png`,
+            subAlt: ``,
+            featInfo: [
+                { id: 1, feat: `Non-contact`, class: `ty01`},
+                { id: 2, feat: `Privacy`, class: `ty02`},
+                { id: 3, feat: `Waterproof`, class: `ty03`},
+                { id: 4, feat: `No-light`, class: `ty04`},
+            ]
+
         },
         // prodType: 'ty02',
         prod: [
@@ -1614,7 +1640,15 @@ to user safety`,
             prodAlt: `RETINA-4S_diagonal`,
             mainImg: `../assets/images/img_appl_nurs_001.png`,
             mainAlt: `Healthcare`,
-            mainType: `ty03`
+            mainType: `ty03`,
+            subImg: `../assets/images/img_appl_nurs_002.png`,
+            subAlt: ``,
+            featInfo: [
+                { id: 1, feat: `Non-contact`, class: `ty01`},
+                { id: 2, feat: `Privacy`, class: `ty02`},
+                { id: 3, feat: `Waterproof`, class: `ty03`},
+                { id: 4, feat: `No-light`, class: `ty04`},
+            ]
         },
         // prodType: 'ty02',
         prod: [
@@ -1866,7 +1900,60 @@ to user safety`,
             }
         ],
     },
+    uamData: {
+        ctgr: `Automotive`,
+        tit: `UAM`,
+        imgCont: {
+            tit: `4D Imaging Radar for Mobility (overview)`,
+            subTit: `Innovative products help us earn valuable recognition from the government and investors`,
+            prodImg: `../assets/images/img_retina_4f_005.png`,
+            // prodImgType: `ty02`,
+            prodAlt: `RETINA-4F_diagonal`,
+            mainImg: `../assets/images/img_appl_uam_001.png`,
+            mainAlt: `Automotive`,
+            mainType: `ty04`,
+            featInfo: [
+                { id: 1, feat: `Non-contact`, class: `ty01`},
+                { id: 2, feat: `Privacy`, class: `ty02`},
+                { id: 3, feat: `Waterproof`, class: `ty03`},
+                { id: 4, feat: `No-light`, class: `ty04`},
+            ]
+        },
+        prodType: 'ty02',
+        prod: [
+            {
+                id: 1,
+                path: `../assets/images/img_appl_uam_002.png`,
+                desc: ``
+            },
+            {
+                id: 2,
+                path: `../assets/images/img_appl_uam_003.png`,
+                desc: ``
+            },
+        ],
+        feat: [
+            {
+                id: 1,
+                class: `ico-01`,
+                tit: `Customer needs`,
+                cont: `<span>- Long Range Radar with higher resolution</span>
+                       <span>- Powerful detection capability for the safety</span>
+                       <span>- Robust radar in challeging environments</span>`,
 
+            },
+            {
+                id: 2,
+                class: `ico-02`,
+                tit: `What we offer`,
+                cont: `<span>- Provide 3 types of range mode to cover all usage in autonomous driving</span>
+                       <span>- Less power and higher accuracy</span> 
+                       <span>- Rich point cloud with faster output rate</span>
+                       <span>- AI engine embedded for object classification</span>`,
+
+            }
+        ],
+    },
 });
 
 const getters = {

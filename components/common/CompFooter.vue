@@ -45,7 +45,7 @@
                           </router-link>
                         </li>
                         <li class="d3-list-item">
-                          <router-link to="" class="txt-s">
+                          <router-link to="/applications/uam" class="txt-s">
                             UAM
                           </router-link>
                         </li>

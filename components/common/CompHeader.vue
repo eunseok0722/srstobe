@@ -33,9 +33,9 @@
                           </router-link>
                         </li>
                         <li class="d3-list-item">
-                          <a href="#" class="txt-r">
+                          <router-link to="/applications/uam" class="txt-r">
                             UAM
-                          </a>
+                          </router-link>
                         </li>
                         <li class="d3-list-item">
                           <router-link to="/applications/in-cabin" class="txt-r">

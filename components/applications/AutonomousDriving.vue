@@ -10,22 +10,26 @@
       <section>
         <article class="img-cont">
           <div class="tit-box">
-            <div class="txt-wrap">
-              <h4 class="tit-head fw-r">4D Imaging Radar for
-                Autonomous Driving</h4>
-              <p class="tit-art">Presents safer autonomous driving with long-rang &
-                high-precisioin imaging radar
-              </p>
-            </div>
-            <div class="img-wrap">
-              <img :src="autonomousData.img02" alt="">
-              <div class="img-tag">
-                <p class="tit-l">SDV_diagonal</p>
+            <div class="head-sec">
+              <div class="txt-wrap">
+                <h4 class="tit-head fw-r">4D Imaging Radar for
+                  Autonomous Driving</h4>
+                <p class="tit-art">Presents safer autonomous driving with long-rang &
+                  high-precisioin imaging radar
+                </p>
+              </div>
+              <div class="img-wrap">
+                <img :src="autonomousData.img02" alt="">
+                <div class="img-tag">
+                  <p class="tit-l">SDV_diagonal</p>
+                </div>
               </div>
             </div>
           </div>
           <div class="img-box">
-            <img :src="autonomousData.img01" alt="">
+            <div class="main-img">
+              <img :src="autonomousData.img01" alt="">
+            </div>
           </div>
         </article>
       </section>
