@@ -41,39 +41,41 @@
                         <li class="d3-list-item">
                           <div class="d3-item ty02" @mouseenter="itemActivate(1)" @mouseleave="itemInactivate(1)"
                                :class="{active: itemState[1].active}">
-                            <router-link class="tit-l" to="/applications/uam">
+                            <router-link class="tit-l" to="/applications/in-cabin">
                               <span class="num">2</span>
-                              <span class="tit">UAM</span>
+                              <span class="tit">In-Cabin</span>
                             </router-link>
                           </div>
                         </li>
                         <li class="d3-list-item">
                           <div class="d3-item ty03" @mouseenter="itemActivate(2)" @mouseleave="itemInactivate(2)"
                                :class="{active: itemState[2].active}">
-                            <router-link class="tit-l" to="/applications/in-cabin">
+                            <a class="tit-l" href="#">
                               <span class="num">3</span>
-                              <span class="tit">In-Cabin</span>
-                            </router-link>
+                              <span class="tit">AGV</span>
+                            </a>
                           </div>
                         </li>
                         <li class="d3-list-item">
                           <div class="d3-item ty04" @mouseenter="itemActivate(3)" @mouseleave="itemInactivate(3)"
                                :class="{active: itemState[3].active}">
-                            <a class="tit-l" href="#">
+                            <router-link class="tit-l" to="/applications/uam">
                               <span class="num">4</span>
-                              <span class="tit">Last Mile Delivery</span>
-                            </a>
+                              <span class="tit">UAM</span>
+                            </router-link>
                           </div>
                         </li>
+
                         <li class="d3-list-item">
                           <div class="d3-item ty05" @mouseenter="itemActivate(4)" @mouseleave="itemInactivate(4)"
                                :class="{active: itemState[4].active}">
                             <a class="tit-l" href="#">
                               <span class="num">5</span>
-                              <span class="tit">AGV</span>
+                              <span class="tit">Last Mile Delivery</span>
                             </a>
                           </div>
                         </li>
+
                       </ul>
                     </div>
                   </li>
@@ -225,7 +227,7 @@
     <!-- //container -->
 
     <!-- footer component -->
-<!--    <comp-footer></comp-footer>-->
+    <!--    <comp-footer></comp-footer>-->
     <!-- //footer component -->
 
   </div>
@@ -265,6 +267,12 @@ export default {
     },
     itemInactivate(index) {
       this.$store.commit('ModuleMain/itemInactivate', index)
+    }
+  },
+  mounted() {
+    let d3item = document.querySelectorAll('.d3-item').length;
+    for (let i = 0; i > d3item; i++) {
+      this.itemInactivate(i);
     }
   },
   components: {

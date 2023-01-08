@@ -32,11 +32,7 @@
                             Autonomous Driving
                           </router-link>
                         </li>
-                        <li class="d3-list-item">
-                          <router-link to="/applications/uam" class="txt-r">
-                            UAM
-                          </router-link>
-                        </li>
+
                         <li class="d3-list-item">
                           <router-link to="/applications/in-cabin" class="txt-r">
                             In-Cabin
@@ -44,12 +40,17 @@
                         </li>
                         <li class="d3-list-item">
                           <a href="#" class="txt-r">
-                            Last Mile Delivery
+                            AGV
                           </a>
                         </li>
                         <li class="d3-list-item">
+                          <router-link to="/applications/uam" class="txt-r">
+                            UAM
+                          </router-link>
+                        </li>
+                        <li class="d3-list-item">
                           <a href="#" class="txt-r">
-                            AGV
+                            Last Mile Delivery
                           </a>
                         </li>
                       </ul>

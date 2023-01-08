@@ -55,17 +55,18 @@
                   <router-link class="lb-txt-r" to="/applications/autonomous-driving">1. Autonomous Driving</router-link>
                 </li>
                 <li class="d3-list-item" @mouseenter="itemActivate(1)" @mouseleave="itemInactivate(1)">
-                  <router-link class="lb-txt-r" to="/applications/uam">2. UAM</router-link>
+                  <router-link class="lb-txt-r" to="/applications/in-cabin">2. In-Cabin</router-link>
                 </li>
                 <li class="d3-list-item" @mouseenter="itemActivate(2)" @mouseleave="itemInactivate(2)">
-                  <router-link class="lb-txt-r" to="/applications/in-cabin">3. In-Cabin</router-link>
+                  <a class="lb-txt-r" href="#">3. AGV</a>
                 </li>
                 <li class="d3-list-item" @mouseenter="itemActivate(3)" @mouseleave="itemInactivate(3)">
-                  <a class="lb-txt-r" href="#">4. Last Mile Delivery</a>
+                  <router-link class="lb-txt-r" to="/applications/uam">4. UAM</router-link>
                 </li>
                 <li class="d3-list-item" @mouseenter="itemActivate(4)" @mouseleave="itemInactivate(4)">
-                  <a class="lb-txt-r" href="#">5. AGV</a>
+                  <a class="lb-txt-r" href="#">5. Last Mile Delivery</a>
                 </li>
+
               </ul>
             </div>
           </li>

@@ -55,6 +55,9 @@
                     <li class="list-item tit-r">
                       {{ item.career05 }}
                     </li>
+                    <li class="list-item tit-r" v-if="item.career06">
+                      {{ item.career06 }}
+                    </li>
                   </ul>
                 </div>
                 <div class="intro-wrap">

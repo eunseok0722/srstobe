@@ -45,23 +45,23 @@
                           </router-link>
                         </li>
                         <li class="d3-list-item">
-                          <router-link to="/applications/uam" class="txt-s">
-                            UAM
-                          </router-link>
-                        </li>
-                        <li class="d3-list-item">
                           <router-link  to="/applications/in-cabin" class="txt-s">
                             In-Cabin
                           </router-link>
                         </li>
                         <li class="d3-list-item">
                           <router-link to="" class="txt-s">
-                            Last Mile Delivery
+                            AGV
+                          </router-link>
+                        </li>
+                        <li class="d3-list-item">
+                          <router-link to="/applications/uam" class="txt-s">
+                            UAM
                           </router-link>
                         </li>
                         <li class="d3-list-item">
                           <router-link to="" class="txt-s">
-                            AGV
+                            Last Mile Delivery
                           </router-link>
                         </li>
                       </ul>
