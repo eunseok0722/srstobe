@@ -439,9 +439,9 @@ down of                     up to 5 people in 7m x 7m area. `
             ]
         },
         {
+            cart: `Single Radar & Module`,
             id: 'irist',
             bg: `bg-irist`,
-            cart: `Single Radar & Module`,
             name: `IRISt-03a`,
             tit: `4D Imaging Radar for Hospitals /
                 Elderly Homes`,
@@ -1021,22 +1021,45 @@ down of                     up to 5 people in 7m x 7m area. `
                 id: 1,
                 class: `ico-01`,
                 tit: `Customer needs`,
-                cont: `- Long Range Radar with higher resolution<br>
-                       - Powerful detection capability for the safety<br>
-                       - Robust radar in challenging environment`,
+                cont: `<span>- Long Range Radar with higher resolution</span>
+                       <span>- Powerful detection capability for the safety</span>
+                       <span>- Robust radar in challenging environment</span>`,
 
             },
             {
                 id: 2,
                 class: `ico-02`,
                 tit: `What we offer`,
-                cont: `- Provides 3 types of range mode to cover all usage in autonomous driving <br>
-                       - Less power and higher accuracy<br>
-                       - Rich point cloud with faster output rate<br>
-                       - AI engine embedded for object classification`,
+                cont: `<span>- Provides 3 types of range mode to cover all usage in autonomous driving </span>
+                       <span>- Less power and higher accuracy</span>
+                       <span>- Rich point cloud with faster output rate</span>
+                       <span>- AI engine embedded for object classification</span>`,
 
             }
         ],
+        ctgr : 'Automotive',
+        tit : 'Autonomous Driving',
+        imgCont: {
+            tit: `4D Imaging Radar for
+                  Autonomous Driving`,
+            subTit: `Presents safer autonomous driving with long-rang & high-precisioin imaging radar`,
+            prodImg: `../assets/images/img_appl_auto_002.png`,
+            prodImgType: ``,
+            prodAlt: `SDV_diagonal`,
+            prodUrl: `/products/retina-4f`,
+            mainImg: `../assets/images/img_appl_auto_001.png`,
+            mainAlt: `Autonomous Driving`,
+            mainType: `ty03`,
+            subImg: `../assets/images/img_appl_auto_003.png`,
+            subAlt: ``,
+            featType: `ty02`,
+            featInfo: [
+                { id: 1, feat: `Built-in AI Engine`, class: `ty05`},
+                { id: 2, feat: `Weather Almighty`, class: `ty06`},
+                { id: 3, feat: `Long-Range`, class: `ty07`},
+                { id: 4, feat: `Speed Detection`, class: `ty08`},
+            ]
+        },
         img01: '../assets/images/img_appl_auto_001.png',
         img02: '../assets/images/img_appl_auto_002.png',
         img03: '../assets/images/img_appl_auto_003.png',
@@ -1157,29 +1180,38 @@ down of                     up to 5 people in 7m x 7m area. `
             prodAlt: ``,
             mainImg: `../assets/images/img_appl_elev_001.png`,
             mainAlt: ``,
-            mainType: `ty02`
+            mainType: `ty02`,
+            subImg: `../assets/images/img_appl_elev_002.png`,
+            subAlt: ``,
+            featType: `ty02`,
+            featInfo: [
+                { id: 1, feat: `No Contact`, class: `ty01`},
+                { id: 2, feat: `Cost Saving`, class: `ty17`},
+                { id: 3, feat: `No Light`, class: `ty04`},
+                { id: 4, feat: `Presence Detection`, class: `ty10`},
+            ]
         },
         feat: [
             {
                 id: 1,
                 class: `ico-01`,
                 tit: `Customer needs`,
-                cont: `- Detect getting in & out of passengers, ignore non-passengers by bypassing<br>
-                       - Integratable radar into the current HPI <br>(hall position indicator) system<br>
-                       - Privacy protection compared to IP cameras<br>
-                       - Passenger detection in various shapes of boarding spaces<br>
-                       - Easy setting of detection range, depending on type of installations`,
+                cont: `<span>- Detect getting in & out of passengers, ignore non-passengers by bypassing</span>
+                       <span>- Integratable radar into the current HPI (hall position indicator) system</span>
+                       <span>- Privacy protection compared to IP cameras</span>
+                       <span>- Passenger detection in various shapes of boarding spaces</span>
+                       <span>- Easy setting of detection range, depending on type of installations</span>`,
 
             },
             {
                 id: 2,
                 class: `ico-02`,
                 tit: `What we offer`,
-                cont: `- Wide horizontal FOV upto 150 degrees by minimizing blind spots (door walls)<br>
-                       - Zero tilt angle contributes to design freedom by keeping HPI designs<br>
-                       - Radar protocols enable the auto-setting on system level<br>
-                       - Formfactors for radar-fusion sensors<br>
-                       - Market lead & mass production on 2023`,
+                cont: `<span>- Wide horizontal FOV upto 150 degrees by minimizing blind spots (door walls)</span>
+                       <span>- Zero tilt angle contributes to design freedom by keeping HPI designs</span>
+                       <span>- Radar protocols enable the auto-setting on system level</span>
+                       <span>- Formfactors for radar-fusion sensors</span>
+                       <span>- Market lead & mass production on 2023</span>`,
 
             }
         ],
@@ -1202,20 +1234,66 @@ office lifestyle using mmWave`,
                 id: 1,
                 class: `ico-01`,
                 tit: `Customer needs`,
-                cont: `- People counting and detecting<br>
-                       - More capability beyond for future<br>
-                       - Optimal for Smart home/office environment<br>
-                       - Need to ensure privacy protection`,
+                cont: `<span>- People counting and detecting</span>
+                       <span>- More capability beyond for future</span>
+                       <span>- Optimal for Smart home/office environment</span>
+                       <span>- Need to ensure privacy protection</span>`,
 
             },
             {
                 id: 2,
                 class: `ico-02`,
                 tit: `What we offer`,
-                cont: `- Provides basic level of people counting, detecting and vital sign counting for healtier and smarter life<br>
-                       - Enables AI engine for future to also stretch into posture detection and expandability in future project<br>
-                       - Provides features with optimal power consumption suitable for indoor detection<br>
-                       - non-vision sensor capable of securing privacy for smart home life`,
+                cont: `<span>- Provides basic level of people counting, detecting and vital sign counting for healtier and smarter life</span>
+                       <span>- Enables AI engine for future to also stretch into posture detection and expandability in future project</span>
+                       <span>- Provides features with optimal power consumption suitable for indoor detection</span>
+                       <span>- non-vision sensor capable of securing privacy for smart home life</span>`,
+
+            }
+        ],
+    },
+    retailerData: {
+        ctgr: `Smart Places`,
+        tit: `Retailer`,
+        imgCont: {
+            tit: `Wide Angle and Long Rang Multi-Purpose Detector`,
+            subTit: `Enhancing safety and providing instanat alert of any danger in harsh environment`,
+            prodImg: `../assets/images/img_appl_reta_003.png`,
+            prodImgType: ``,
+            prodAlt: `IRISc-03a_diagonal`,
+            prodUrl: `/products/irisc`,
+            mainImg: `../assets/images/img_appl_reta_001.png`,
+            mainAlt: ``,
+            mainType: `ty02`,
+            subImg: `../assets/images/img_appl_reta_002.png`,
+            subAlt: ``,
+            featType: `ty02`,
+            featInfo: [
+                { id: 1, feat: `Long-Range`, class: `ty07`},
+                { id: 2, feat: `Presence Detection`, class: `ty10`},
+                { id: 3, feat: `Weather Almighty`, class: `ty06`},
+                { id: 4, feat: `No-light`, class: `ty04`},
+            ]
+        },
+        feat: [
+            {
+                id: 1,
+                class: `ico-01`,
+                tit: `Customer needs`,
+                cont: `<span>- Affordable-price sensor for commercial and specialist vehicles</span>
+                       <span>- Reduced blindspot at desired detecting area</span>
+                       <span>- Plug and play solution for various vehicle types/shapes</span>`,
+
+            },
+            {
+                id: 2,
+                class: `ico-02`,
+                tit: `What we offer`,
+                cont: `<span>- Wide angle and long range detection </span>
+                       <span>- Object detection in harsh environment, dark, rain and dusty environments</span>
+                       <span>- Easy connection to any types of vehicle</span>
+                       <span>- Field proven accurate detection, less false detection</span>
+                       <span>- Save management & operation cost of special vehicles</span>`,
 
             }
         ],
@@ -1231,28 +1309,37 @@ to user safety`,
             prodAlt: ``,
             mainImg: `../assets/images/img_appl_pole_001.png`,
             mainAlt: ``,
-            mainType: `ty02`
+            mainType: `ty02`,
+            subImg: `../assets/images/img_appl_pole_002.png`,
+            subAlt: ``,
+            featType: `ty02`,
+            featInfo: [
+                { id: 1, feat: `Cost Saving`, class: `ty17`},
+                { id: 2, feat: `Multi-lane Detection`, class: `ty18`},
+                { id: 3, feat: `Long-Range`, class: `ty07`},
+                { id: 4, feat: `Speed Detection`, class: `ty08`},
+            ]
         },
         feat: [
             {
                 id: 1,
                 class: `ico-01`,
                 tit: `Customer needs`,
-                cont: `- Solution for short lifespan and increasingly high total operating costs when installing loop sensors<br>
-                       - The 24GHz radar is still the mainstream, but it will gradually fade out<br>
-                       - Multi-lane detection and high measurement accuracy<br>
-                       - Necessity of sensor integrated unmanned control equipment`,
+                cont: `<span>- Solution for short lifespan and increasingly high total operating costs when installing loop sensors</span>
+                       <span>- The 24GHz radar is still the mainstream, but it will gradually fade out</span>
+                       <span>- Multi-lane detection and high measurement accuracy</span>
+                       <span>- Necessity of sensor integrated unmanned control equipment</span>`,
 
             },
             {
                 id: 2,
                 class: `ico-02`,
                 tit: `What we offer`,
-                cont: `- Replacement effect of existing loop sensors, low initial cost and low operating cost<br>
-                       - Released 60GHz radar for the first time in the Korean market as a government-designated excellent procurement product<br>
-                       - Detection rate corresponding to existing roof sensors<br>
-                       - Detection distance of 20 to 80 meters with ±5% of speed measurement accuracy<br>
-                       - Simultaneous target detections up to 18`,
+                cont: `<span>- Replacement effect of existing loop sensors, low initial cost and low operating cost</span>
+                       <span>- Released 60GHz radar for the first time in the Korean market as a government-designated excellent procurement product</span>
+                       <span>- Detection rate corresponding to existing roof sensors</span>
+                       <span>- Detection distance of 20 to 80 meters with ±5% of speed measurement accuracy</span>
+                       <span>- Simultaneous target detections up to 18</span>`,
 
             }
         ],
@@ -1264,19 +1351,20 @@ to user safety`,
             tit: `To see the unseen all-around the vehicle and even inside`,
             subTit: `Smart Radar System's effective and market-leading in-cabin sensing mmWave radar to ensure EuroNCAP standards that will put on a bar in new coming vehicle era`,
             subTit02: `Introducing In-Cabin Radar: `,
-            prodImg: `../assets/images/img_retina_4f_005.png`,
-            prodImgType: `ty02`,
+            prodImg: `../assets/images/img_appl_cabi_003.png`,
+            prodImgType: ``,
             prodAlt: `RETINA_4F_diagonal`,
+            prodUrl: `/products/retina-4f`,
             mainImg: `../assets/images/img_appl_cabi_001.png`,
             mainAlt: ``,
             mainType: ``,
             subImg: `../assets/images/img_appl_cabi_002.png`,
             subAlt: ``,
             featInfo: [
-                { id: 1, feat: `Non-contact`, class: `ty01`},
-                { id: 2, feat: `Privacy`, class: `ty02`},
-                { id: 3, feat: `Waterproof`, class: `ty03`},
-                { id: 4, feat: `No-light`, class: `ty04`},
+                { id: 1, feat: `Vital sign Detection`, class: `ty09`},
+                { id: 2, feat: `Presence Detection`, class: `ty10`},
+                { id: 3, feat: `No Wearing`, class: `ty11`},
+                { id: 4, feat: `Privacy Protected`, class: `ty12`},
             ]
         },
         prod: [
@@ -1368,11 +1456,12 @@ to user safety`,
         ctgr: `Industrial Safety`,
         tit: `Construction Vehicle`,
         imgCont: {
-            tit: `180 Degree, Zero Blindspot Safety Guard: IRIS Products`,
+            tit: `360º, Zero Blind Spot Safety Smart Guard : IRIS`,
             subTit: `Ensuring safety in various industrial sectors to prioritize human safety with all-around detection capability with mmWave radar`,
-            prodImg: `../assets/images/img_irist_001.png`,
-            prodImgType: `ty02`,
+            prodImg: `../assets/images/img_appl_cons_003.png`,
+            prodImgType: ``,
             prodAlt: `IRISt-03a_diagonal`,
+            prodUrl: `/products/irist`,
             mainImg: `../assets/images/img_appl_cons_001.png`,
             mainAlt: `Industrial Safety`,
             mainType: `ty03`,
@@ -1385,112 +1474,27 @@ to user safety`,
                 { id: 4, feat: `No-light`, class: `ty04`},
             ]
         },
-        prodType: 'ty02',
-        prod: [
-            {
-                id: 1,
-                path: `../assets/images/img_irist_002.png`,
-                desc: ``
-            },
-            {
-                id: 2,
-                path: `../assets/images/img_irist_003.png`,
-                desc: ``
-            },
-        ],
-        spec: [
-            {
-                id: 1,
-                tit: `Product Name`,
-                cont: `IRISt-03A`,
-                class: `span`,
-            },
-            {
-                id: 2,
-                tit: `Type`,
-                cont: `Single chip Radar`,
-                class: `span`,
-            },
-            {
-                id: 3,
-                tit: `Frequency`,
-                cont: `77 ~ 81 GHz`,
-            },
-            {
-                id: 4,
-                tit: `Detection range`,
-                cont: `20m`,
-                subCont: ``,
-                subCont02: ``,
-            },
-            {
-                id: 5,
-                tit: `Azimuth Angle FoV`,
-                cont: `180°(±90°)`,
-            },
-            {
-                id: 6,
-                tit: `Elevation Angle FoV`,
-                cont: `30°(±15°)`,
-            },
-            {
-                id: 7,
-                tit: `Update Rate`,
-                cont: `100ms`,
-            },
-            {
-                id: 8,
-                tit: `Comm. Interface`,
-                cont: `CAN FD x1 Ethernet x1`,
-            },
-            {
-                id: 9,
-                tit: `Main Power supply`,
-                cont: `Typ. 12V/24V`,
-            },
-            {
-                id: 10,
-                tit: `Operating Temperature`,
-                cont: `-40℃ ~ +85℃`,
-            },
-            {
-                id: 11,
-                tit: `IP Rating`,
-                cont: `IP69K`,
-            },
-            {
-                id: 12,
-                tit: `Dimension (mm)`,
-                cont: `90 x 117 x 59.35`,
-            },
-            {
-                id: 13,
-                tit: `Weight (g)`,
-                cont: `375`,
-            },
-
-        ],
         feat: [
             {
                 id: 1,
                 class: `ico-01`,
                 tit: `Customer needs`,
-                cont: `<span>- Replace legacy radar (FOV 120 Degree) with Better FOV</span>
+                cont: `<span>- Replace legacy radar (*FoV 120º) with Better <br> *Field of View</span>
                        <span>- Reduced blindspot at desired detecting area</span>
-                       <span>- Robust radar in challenging environment</span>
                        <span>- At least 15m of detection all-around</span>
-                       <span>- Effective, durable solution that can work in harsh environments (dusty, rainy, muddy environment)</span>`,
+                       <span>- Cost-effective, durable solution that can work in harsh environments (dusty, rainy, muddy envirnoment)</span>`,
 
             },
             {
                 id: 2,
                 class: `ico-02`,
                 tit: `What we offer`,
-                cont: `<span>- Provide Larger FOV with optimal sized radar product, surpassing the all characteristics of legacy radar</span>
-                       <span>- Provide all-around detection capability to reduce blindspots</span>
-                       <span>- Enable longer cover area even with all-around detection capability</span>
-                       <span>- Provide endurance with customer's target IP rating</span>`,
-
+                cont: `<span>- Cover upto 360º and max 50 feet range</span>
+                       <span>-  Real-time detection of any danger in safety critical environments</span>
+                       <span>- All-around detection with no blind spot</span>
+                       <span>- Provide IP69 rating endurance to be used under harsh outdoor environments</span>
+                       <span>- Compatilble to technical stanards and stand alone operation </span>
+                       <span>-  Easy installation and operation</span>`,
             }
         ],
     },
@@ -1498,11 +1502,12 @@ to user safety`,
         ctgr: `Healthcare`,
         tit: `Home`,
         imgCont: {
-            tit: `mmWave Radar for the Elderly / the Handicapped`,
-            subTit: `Quick but hidden assitant to detect bed-fall and slight movement`,
-            prodImg: `../assets/images/img_se68_51w_005.png`,
-            prodImgType: `ty03`,
+            tit: `Smart Home for <br> Smart Life <br> using mmWave Radar`,
+            subTit: `Smarter, safer, easier and more convinience in smart home lifestyle using mmWave`,
+            prodImg: `../assets/images/img_appl_home_003.png`,
+            prodImgType: `ty02`,
             prodAlt: `SE68-51W_diagonal`,
+            prodUrl: `/products/se68-51w`,
             mainImg: `../assets/images/img_appl_home_001.png`,
             mainAlt: `Healthcare`,
             mainType: `ty03`,
@@ -1516,116 +1521,29 @@ to user safety`,
             ]
 
         },
-        // prodType: 'ty02',
-        prod: [
-            {
-                id: 1,
-                path: `../assets/images/img_se68_51w_002.png`,
-                desc: ``
-            },
-            {
-                id: 2,
-                path: `../assets/images/img_se68_51w_003.png`,
-                desc: ``
-            },
-            {
-                id: 3,
-                path: `../assets/images/img_se68_51w_004.png`,
-                desc: ``
-            },
-        ],
-        spec: [
-            {
-                id: 1,
-                tit: `Product Name`,
-                cont: `SE68-51W`,
-                class: `span`,
-            },
-            {
-                id: 2,
-                tit: `Type`,
-                cont: `Single chip Radar`,
-                class: `span`,
-            },
-            {
-                id: 3,
-                tit: `Frequency`,
-                cont: `60 ~ 64 GHz`,
-            },
-            {
-                id: 4,
-                tit: `Detection range`,
-                cont: `5m`,
-                subCont: ``,
-                subCont02: `(pedestrian)`,
-            },
-            {
-                id: 5,
-                tit: `Azimuth Angle FoV`,
-                cont: `120°(3m) / 20°(5m)`,
-            },
-            {
-                id: 6,
-                tit: `Elevation Angle FoV`,
-                cont: `120°(±60°)`,
-            },
-            {
-                id: 7,
-                tit: `Update Rate`,
-                cont: `100ms`,
-            },
-            {
-                id: 8,
-                tit: `Comm. Interface`,
-                cont: `Wi-Fi`,
-            },
-            {
-                id: 9,
-                tit: `Main Power supply`,
-                cont: `Typ. 5V`,
-            },
-            {
-                id: 10,
-                tit: `Operating Temperature`,
-                cont: `-40℃ ~ +85℃`,
-            },
-            {
-                id: 11,
-                tit: `IP Rating`,
-                cont: `n/a`,
-            },
-            {
-                id: 12,
-                tit: `Dimension (mm)`,
-                cont: `42 x 42 x 8`,
-                subCont02: `(PCB t: 1.6)`,
-
-            },
-            {
-                id: 13,
-                tit: `Weight (g)`,
-                cont: `14`,
-            },
-
-        ],
         feat: [
             {
                 id: 1,
                 class: `ico-01`,
                 tit: `Customer needs`,
-                cont: `- Bed Fall detection<br>
-                       - Person presence detection<br>
-                       - Micro movement & vital sign (HR/BR) detection`,
+                cont: `<span>- People counting and detecting</span>
+                       <span>- More capability beyond for future</span>
+                       <span>- Optimal for Smart home environment</span>
+                       <span>- Need to ensure privacy protection</span>`,
 
             },
             {
                 id: 2,
                 class: `ico-02`,
                 tit: `What we offer`,
-                cont: `- 24/7 monitoring<br>
-                       - Hidden but immediate reaction<br>
-                       - Harmless to human body`,
-
+                cont: `<span>- Provides basic level of people counting, detecting 
+   and vital sign counting for healtier and smarter life</span>
+                       <span>- Enables AI engine for future to also stretch into 
+   psoture detection  and expandability in future project</span>
+                       <span>- Provides features with optimal power consumption
+   suitable for  indoor detection</span>
+                        <span>- Non-vision sensor capable of securing privacy for 
+   smart home life</span>`,
             }
         ],
     },
@@ -1635,19 +1553,23 @@ to user safety`,
         imgCont: {
             tit: `4D Imaging Radar for Hospital / Elderly House`,
             subTit: `Presents safer autonomous driving with long-rang & high-precisioin imaging radar`,
-            prodImg: `../assets/images/img_retina_4sn_005.png`,
+            prodImg: `../assets/images/img_appl_nurs_003.png`,
             prodImgType: `ty02`,
             prodAlt: `RETINA-4S_diagonal`,
+            prodUrl: `/products/retina-4s`,
             mainImg: `../assets/images/img_appl_nurs_001.png`,
             mainAlt: `Healthcare`,
             mainType: `ty03`,
             subImg: `../assets/images/img_appl_nurs_002.png`,
             subAlt: ``,
             featInfo: [
-                { id: 1, feat: `Non-contact`, class: `ty01`},
-                { id: 2, feat: `Privacy`, class: `ty02`},
-                { id: 3, feat: `Waterproof`, class: `ty03`},
-                { id: 4, feat: `No-light`, class: `ty04`},
+                { id: 1, feat: `Elderly Care`, class: `ty12`},
+                { id: 2, feat: `Healthcare Tech`, class: `ty13`},
+                { id: 3, feat: `Privacy Protected`, class: `ty02`},
+                { id: 4, feat: `Fall Detection & Prediction (conditional)`, class: `ty14`},
+                { id: 5, feat: `Seeing Through`, class: `ty15`},
+                { id: 6, feat: `Movement Tracking`, class: `ty16`},
+
             ]
         },
         // prodType: 'ty02',
@@ -1770,132 +1692,48 @@ to user safety`,
         imgCont: {
             tit: `Keep life safe at the public space with single radar`,
             subTit: `Optimal occupancy & abnomal situation detect solution for public safety`,
-            prodImg: `../assets/images/img_se68_51w_011.png`,
+            prodImg: `../assets/images/img_appl_bath_003.png`,
             // prodImgType: `ty02`,
             prodAlt: `SE68-51W_diagonal`,
+            prodUrl: `/products/se68-51w`,
             mainImg: `../assets/images/img_appl_bath_001.png`,
             mainAlt: `Healthcare`,
-            mainType: `ty02`
+            mainType: `ty02`,
+            subImg: `../assets/images/img_appl_bath_002.png`,
+            subAlt: ``,
+            featInfo: [
+                { id: 1, feat: `Privacy Protected`, class: `ty02`},
+                { id: 2, feat: `Waterproof`, class: `ty03`},
+                { id: 3, feat: `No Light`, class: `ty04`},
+                { id: 4, feat: `Presence Detection`, class: `ty10`},
+            ]
         },
-        // prodType: 'ty02',
-        prod: [
-            {
-                id: 1,
-                path: `../assets/images/img_se68_51w_012.png`,
-                desc: ``
-            },
-            {
-                id: 2,
-                path: `../assets/images/img_se68_51w_013.png`,
-                desc: ``
-            },
-            {
-                id: 3,
-                path: `../assets/images/img_se68_51w_014.png`,
-                desc: ``
-            },
-        ],
-        spec: [
-            {
-                id: 1,
-                tit: `Product Name`,
-                cont: `SE68-51W`,
-                class: `span`,
-            },
-            {
-                id: 2,
-                tit: `Type`,
-                cont: `Single chip Radar`,
-                class: `span`,
-            },
-            {
-                id: 3,
-                tit: `Frequency`,
-                cont: `60 ~ 64 GHz`,
-            },
-            {
-                id: 4,
-                tit: `Detection range`,
-                cont: `5m`,
-                subCont: ``,
-                subCont02: `(pedestrian)`,
-            },
-            {
-                id: 5,
-                tit: `Azimuth Angle FoV`,
-                cont: `120°(3m) / 20°(5m)`,
-            },
-            {
-                id: 6,
-                tit: `Elevation Angle FoV`,
-                cont: `120°(±60°)`,
-            },
-            {
-                id: 7,
-                tit: `Update Rate`,
-                cont: `100ms`,
-            },
-            {
-                id: 8,
-                tit: `Comm. Interface`,
-                cont: `Wi-Fi`,
-            },
-            {
-                id: 9,
-                tit: `Main Power supply`,
-                cont: `Typ. 5V`,
-            },
-            {
-                id: 10,
-                tit: `Operating Temperature`,
-                cont: `-40℃ ~ +85℃`,
-            },
-            {
-                id: 11,
-                tit: `IP Rating`,
-                cont: `n/a`,
-            },
-            {
-                id: 12,
-                tit: `Dimension (mm)`,
-                cont: `42 x 42 x 8`,
-                subCont02: `(PCB t: 1.6)`,
-
-            },
-            {
-                id: 13,
-                tit: `Weight (g)`,
-                cont: `14`,
-            },
-
-        ],
         feat: [
             {
                 id: 1,
                 class: `ico-01`,
                 tit: `Customer needs`,
-                cont: `- Detect occupancy in the public restroom cells<br>
-- Must Not miss long time occupancy<br>
-- Requirement for sitting or lying on the floor in each 
-  restroom cell
-- No camera, not even camera-like <br>
-- Should work without light<br>
-- Control multi radars through single gateway`,
+                cont: `<span>- Detect occupancy in the public restroom cells</span>
+                        <span>- Must Not miss long time occupancy</span>
+                        <span>- Requirement for sitting or lying on the floor in each restroom cell</span>
+                        <span>- No camera, not even camera-like</span>
+                        <span>- Should work without light</span>
+                        <span>- Control multi radars through single gateway</span>`,
 
             },
             {
                 id: 2,
                 class: `ico-02`,
                 tit: `What we offer`,
-                cont: `- Accurate detect of occupancy and exit <br>
-                       - Perfect occupancy detect regardless of light or 
-                         temperature<br>
-                       - Not miss long time occupancy using vital sign<br>
-                       - Continuous occupancy of users is well divided into 
-                         individual use, by distinguishing large action<br>
-                       - Detect sitting or lying on the floor in the cell, even 
-                         wide cell such as toilets for the disabled<br>
-                       - Maximum 32 radars connect to one gateway`,
+                cont: `<span>- Accurate detect of occupancy and exit</span>
+                       <span>- Perfect occupancy detect regardless of light or 
+                         temperature</span>
+                       <span>- Not miss long time occupancy using vital sign</span>
+                       <span>- Continuous occupancy of users is well divided into 
+                         individual use, by distinguishing large action</span>
+                       <span>- Detect sitting or lying on the floor in the cell, even 
+                         wide cell such as toilets for the disabled</span>
+                       <span>- Maximum 32 radars connect to one gateway</span>`,
 
             }
         ],
@@ -1906,9 +1744,10 @@ to user safety`,
         imgCont: {
             tit: `4D Imaging Radar for Mobility (overview)`,
             subTit: `Innovative products help us earn valuable recognition from the government and investors`,
-            prodImg: `../assets/images/img_retina_4f_005.png`,
+            prodImg: `../assets/images/img_appl_uam_004.png`,
             // prodImgType: `ty02`,
             prodAlt: `RETINA-4F_diagonal`,
+            prodUrl: `/products/retina-4f`,
             mainImg: `../assets/images/img_appl_uam_001.png`,
             mainAlt: `Automotive`,
             mainType: `ty04`,

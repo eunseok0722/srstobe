@@ -1,5 +1,5 @@
 <template>
-  <div class="const-vehi-contents">
+  <div class="reta-contents">
     <img-content :article-data="articleData"></img-content>
     <feat-content :article-data="articleData"></feat-content>
   </div>
@@ -8,21 +8,19 @@
 <script>
 import FeatContent from "../common/FeatContent.vue";
 import ImgContent from "../common/ImgContent.vue";
-// import SpecContent from "../common/SpecContent.vue";
-// import ProdContent from "../common/ProdContent.vue";
-
 export default {
-  name: "ConstructionVehicle",
+  name: "Elevator",
   components: {
-    // ProdContent,
-    // SpecContent,
     FeatContent,
     ImgContent
   },
+  props: {
+    id: String
+  },
   computed: {
     articleData() {
-      return this.$store.getters["PostData"].constructionData;
+      return this.$store.getters["PostData"].retailerData;
     }
-  }
+  },
 }
 </script>

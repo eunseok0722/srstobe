@@ -178,10 +178,10 @@
                         <li class="d3-list-item">
                           <div class="d3-item ty14" @mouseenter="itemActivate(13)" @mouseleave="itemInactivate(13)"
                                :class="{active: itemState[13].active}">
-                            <a class="tit-l" href="#">
+                            <router-link class="tit-l" to="/applications/retailer">
                               <span class="num">14</span>
                               <span class="tit">Retailer</span>
-                            </a>
+                            </router-link>
                           </div>
                         </li>
                         <li class="d3-list-item">

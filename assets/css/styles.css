@@ -829,15 +829,13 @@ select:focus, select :focus-visible { outline-color: #008aff; }
 
 .feat-item .cont-box { margin: 3.5rem 0; }
 
-.feat-item .cont-box .txt-l { line-height: 1.7; }
+.feat-item .cont-box .txt-l { line-height: 1.7; font-family: "Poppins", sans-serif; }
 
 .feat-item .cont-box .txt-l span { display: block; text-indent: -1.2rem; padding-left: 1.2rem; }
 
-.feat-item:hover { background-color: #008aff; color: #fff; }
-
 .feat-item.ty02 { padding: 0; background-color: unset; height: 100%; min-height: unset; border: 1px solid #f7f7f7; box-shadow: 6.8px 4.2px 8px 0 rgba(0, 0, 0, 0.08); }
 
-.feat-item.ty02 .tit-box { border-bottom: 1px solid #f5f5f5; padding: 2rem 3rem; box-sizing: border-box; }
+.feat-item.ty02 .tit-box { background-color: #f5f5fd; padding: 2rem 3rem; box-sizing: border-box; border-radius: 18px; box-shadow: 6.8px 4.2px 8px 0 rgba(0, 0, 0, 0.08); }
 
 .feat-item.ty02 .tit-box::before { background-color: #008aff; }
 
@@ -853,18 +851,6 @@ select:focus, select :focus-visible { outline-color: #008aff; }
 
 .feat-item.ty02.ico-04 .tit-box::before { background-image: url("../images/ico_prod_004_w.png"); }
 
-.feat-item.ty02:hover { background-color: #008aff; }
-
-.feat-item.ty02:hover .tit-box::before { background-color: #fff; }
-
-.feat-item.ty02:hover.ico-01 .tit-box::before { background-image: url("../images/ico_prod_001.png"); }
-
-.feat-item.ty02:hover.ico-02 .tit-box::before { background-image: url("../images/ico_prod_002.png"); }
-
-.feat-item.ty02:hover.ico-03 .tit-box::before { background-image: url("../images/ico_prod_003.png"); }
-
-.feat-item.ty02:hover.ico-04 .tit-box::before { background-image: url("../images/ico_prod_004.png"); }
-
 .img-cont { display: flex; flex-direction: row-reverse; justify-content: space-between; gap: 6rem; }
 
 .img-cont .tit-box { flex-basis: calc((100% - 6rem) / 2); width: calc((100% - 6rem) / 2); display: flex; flex-direction: column; gap: 3rem; justify-content: space-between; }
@@ -879,23 +865,29 @@ select:focus, select :focus-visible { outline-color: #008aff; }
 
 .img-cont .tit-box .head-sec .txt-wrap .tit-art { line-height: 1.4; }
 
-.img-cont .tit-box .head-sec .img-wrap { width: 100%; height: 0; padding-bottom: 50%; position: relative; overflow: hidden; }
+.img-cont .tit-box .head-sec .img-wrap { width: 100%; height: 0; padding-bottom: 66%; position: relative; overflow: hidden; }
 
 .img-cont .tit-box .head-sec .img-wrap img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; z-index: -1; }
 
-.img-cont .tit-box .head-sec .img-wrap .img-tag { position: absolute; right: 4rem; bottom: 2rem; background-color: #262626; padding: 1rem 2.5rem; -webkit-border-radius: 2rem; -moz-border-radius: 2rem; border-radius: 2rem; }
+.img-cont .tit-box .head-sec .img-wrap .img-tag { position: absolute; right: 4rem; bottom: 2rem; background-color: #262626; -webkit-border-radius: 2rem; -moz-border-radius: 2rem; border-radius: 2rem; }
 
 .img-cont .tit-box .head-sec .img-wrap .img-tag .tit-l { color: #fff; }
 
-.img-cont .tit-box .head-sec .img-wrap.ty02 { padding-bottom: 70%; }
+.img-cont .tit-box .head-sec .img-wrap .img-tag .tag-link { display: flex; align-items: center; box-sizing: border-box; padding: 0.5rem 0.5rem 0.5rem 2rem; }
+
+.img-cont .tit-box .head-sec .img-wrap .img-tag .tag-link::after { content: ''; display: inline-block; width: 3rem; height: 3rem; margin-left: 1rem; border-radius: 3rem; background-image: url("../images/ico_arrow_005.png"); background-repeat: no-repeat; background-size: 22px 17px; background-position: center; background-color: #f5f5f5; }
+
+.img-cont .tit-box .head-sec .img-wrap.ty02 { padding-bottom: 82%; }
 
 .img-cont .tit-box .head-sec .img-wrap.ty03 { padding-bottom: 100%; }
 
-.img-cont .tit-box .feat-sec { width: 100%; }
+.img-cont .tit-box .feat-sec { width: 100%; padding: 0 3rem; box-sizing: border-box; }
 
-.img-cont .tit-box .feat-sec .feat-info-list { display: flex; justify-content: space-between; }
+.img-cont .tit-box .feat-sec .feat-info-list { display: flex; justify-content: flex-start; flex-wrap: wrap; gap: calc((100% - 480px) / 3); }
 
-.img-cont .tit-box .feat-sec .feat-info-item { width: 12rem; display: flex; flex-direction: column; gap: 2rem; align-items: center; }
+.img-cont .tit-box .feat-sec .feat-info-item { width: 12rem; display: flex; flex-direction: column; gap: 2rem; align-items: center; text-align: center; }
+
+.img-cont .tit-box .feat-sec .feat-info-item .tit-l { line-height: 1.25; }
 
 .img-cont .tit-box .feat-sec .feat-info-item .ico-box { width: 9rem; height: 9rem; -webkit-border-radius: 1.6rem; -moz-border-radius: 1.6rem; border-radius: 1.6rem; border: 3px solid #fff; box-sizing: border-box; box-shadow: 5.1px 3.2px 8px 0 rgba(0, 0, 0, 0.12); background-color: #f5f5f5; background-size: auto; background-position: center; background-repeat: no-repeat; }
 
@@ -907,6 +899,36 @@ select:focus, select :focus-visible { outline-color: #008aff; }
 
 .img-cont .tit-box .feat-sec .feat-info-item .ico-box.ty04 { background-image: url("../images/ico_appl_feat_004.png"); }
 
+.img-cont .tit-box .feat-sec .feat-info-item .ico-box.ty05 { background-image: url("../images/ico_appl_feat_005.png"); }
+
+.img-cont .tit-box .feat-sec .feat-info-item .ico-box.ty06 { background-image: url("../images/ico_appl_feat_006.png"); }
+
+.img-cont .tit-box .feat-sec .feat-info-item .ico-box.ty07 { background-image: url("../images/ico_appl_feat_007.png"); }
+
+.img-cont .tit-box .feat-sec .feat-info-item .ico-box.ty08 { background-image: url("../images/ico_appl_feat_008.png"); }
+
+.img-cont .tit-box .feat-sec .feat-info-item .ico-box.ty09 { background-image: url("../images/ico_appl_feat_009.png"); }
+
+.img-cont .tit-box .feat-sec .feat-info-item .ico-box.ty10 { background-image: url("../images/ico_appl_feat_010.png"); }
+
+.img-cont .tit-box .feat-sec .feat-info-item .ico-box.ty11 { background-image: url("../images/ico_appl_feat_011.png"); }
+
+.img-cont .tit-box .feat-sec .feat-info-item .ico-box.ty12 { background-image: url("../images/ico_appl_feat_012.png"); }
+
+.img-cont .tit-box .feat-sec .feat-info-item .ico-box.ty13 { background-image: url("../images/ico_appl_feat_013.png"); }
+
+.img-cont .tit-box .feat-sec .feat-info-item .ico-box.ty14 { background-image: url("../images/ico_appl_feat_014.png"); }
+
+.img-cont .tit-box .feat-sec .feat-info-item .ico-box.ty15 { background-image: url("../images/ico_appl_feat_015.png"); }
+
+.img-cont .tit-box .feat-sec .feat-info-item .ico-box.ty16 { background-image: url("../images/ico_appl_feat_016.png"); }
+
+.img-cont .tit-box .feat-sec .feat-info-item .ico-box.ty17 { background-image: url("../images/ico_appl_feat_017.png"); }
+
+.img-cont .tit-box .feat-sec .feat-info-item .ico-box.ty18 { background-image: url("../images/ico_appl_feat_018.png"); }
+
+.img-cont .tit-box .feat-sec.ty02 { padding-bottom: 15rem; }
+
 .img-cont .img-box { display: flex; flex-direction: column; gap: 4.5rem; flex-basis: calc(50% - 6rem); width: calc(50% - 6rem); }
 
 .img-cont .img-box .main-img { width: 100%; height: 0; padding-bottom: 97%; overflow: hidden; -webkit-border-radius: 2.8rem; -moz-border-radius: 2.8rem; border-radius: 2.8rem; position: relative; }
@@ -917,13 +939,11 @@ select:focus, select :focus-visible { outline-color: #008aff; }
 
 .img-cont .img-box .sub-img img { position: absolute; top: 0; width: 100%; height: auto; object-fit: contain; }
 
-.img-cont .img-box.ty02 .main-img { padding-bottom: 82%; }
+.img-cont .img-box.ty02 .main-img { padding-bottom: 79%; }
 
-.img-cont .img-box.ty03 .main-img { padding-bottom: 105%; }
+.img-cont .img-box.ty03 .main-img { padding-bottom: 107%; }
 
 .img-cont .img-box.ty04 .main-img { padding-bottom: 130%; }
-
-.auto-contents .img-cont .img-box img { left: -52%; top: -35%; width: unset; }
 
 .auto-vehi-cont { display: flex; justify-content: space-between; gap: 9rem; align-items: center; }
 
@@ -981,21 +1001,15 @@ select:focus, select :focus-visible { outline-color: #008aff; }
 
 .desc-table-wrap .desc-table .table-row .table-column .table-item .circle { font-size: 3.2rem; font-family: "Garet", sans-serif; line-height: 1; color: #ed1c24; }
 
-.feat-item:hover .desc-table-wrap .desc-table { border-top: 2px solid #fff; border-bottom: 2px solid #fff; }
-
-.feat-item:hover .desc-table-wrap .desc-table .table-row .table-column .table-item { background-color: unset; }
-
-.bath-contents .img-cont .tit-box .img-wrap img { transform: scale(0.75); }
-
-.bath-contents .prod-cont .dtl-item .img-box img { transform: translate(-50%, -50%); }
+.bath-contents .img-cont .tit-box { gap: 6rem; }
 
 .uam-contents .prod-cont .dtl-item .img-box { padding-bottom: 67%; }
 
 .uam-contents .prod-cont .dtl-item .img-box img { width: 100%; transform: translate(-50%, -50%); }
 
-.const-vehi-contents .img-cont .tit-box { gap: 10rem; }
+.auto-contents .img-cont .tit-box { gap: 6rem; }
 
-.nursing-contents .img-cont .tit-box { gap: 10rem; }
+.const-vehi-contents .img-cont .tit-box { gap: 10rem; }
 
 .home-contents .img-cont .tit-box { gap: 4rem; }
 

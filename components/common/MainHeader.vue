@@ -119,7 +119,7 @@
                   <router-link class="lb-txt-r" to="/applications/elevator">13. Elevator</router-link>
                 </li>
                 <li class="d3-list-item" @mouseenter="itemActivate(13)" @mouseleave="itemInactivate(13)">
-                  <a class="lb-txt-r" href="#">14. Retailer</a>
+                  <router-link class="lb-txt-r" to="/applications/retailer">14. Retailer</router-link>
                 </li>
                 <li class="d3-list-item" @mouseenter="itemActivate(14)" @mouseleave="itemInactivate(14)">
                   <router-link class="lb-txt-r" to="/applications/office">15. Office</router-link>

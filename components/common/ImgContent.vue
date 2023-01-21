@@ -19,20 +19,20 @@
                 <p class="tit-art"> {{ articleData.imgCont.subTit }}</p>
               </template>
               <template v-else>
-                <h4 class="tit-head fw-r">{{ articleData.imgCont.tit }}</h4>
-                <p class="tit-art"> {{ articleData.imgCont.subTit }}</p>
+                <h4 class="tit-head fw-r" v-html="articleData.imgCont.tit"></h4>
+                <p class="tit-art" v-html="articleData.imgCont.subTit"></p>
               </template>
             </div>
             <template v-if="articleData.imgCont.prodImg">
               <div class="img-wrap" :class="articleData.imgCont.prodImgType">
                 <img :src="articleData.imgCont.prodImg" :alt="articleData.imgCont.prodAlt">
                 <div class="img-tag">
-                  <p class="tit-l">{{ articleData.imgCont.prodAlt }}</p>
+                  <router-link :to="articleData.imgCont.prodUrl" class="tit-l tag-link">{{ articleData.imgCont.prodAlt }}</router-link>
                 </div>
               </div>
             </template>
           </div>
-          <div class="feat-sec">
+          <div class="feat-sec" :class="articleData.imgCont.featType">
             <ul class="feat-info-list">
               <li class="list-item" v-for="item in articleData.imgCont.featInfo" :key="item.id">
                 <div class="feat-info-item">

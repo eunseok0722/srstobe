@@ -141,7 +141,7 @@
                           </router-link>
                         </li>
                         <li class="d3-list-item">
-                          <router-link to="" class="txt-s">
+                          <router-link to="/applications/retailer" class="txt-s">
                             Retailer
                           </router-link>
                         </li>

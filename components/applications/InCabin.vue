@@ -19,7 +19,7 @@
     <!--      </article>-->
     <!--    </section>-->
     <!--  </div>-->
-    <prod-content :article-data="articleData"></prod-content>
+<!--    <prod-content :article-data="articleData"></prod-content>-->
     <feat-content :article-data="articleData"></feat-content>
   </div>
 </template>

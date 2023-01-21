@@ -277,6 +277,7 @@
 
     .txt-l {
       line-height: 1.7;
+      font-family: $point_font;
       span {
         display: block;
         text-indent: -1.2rem;
@@ -286,10 +287,10 @@
   }
 
 
-  &:hover {
-    background-color: $blue_l;
-    color: $white;
-  }
+  //&:hover {
+  //  background-color: $blue_l;
+  //  color: $white;
+  //}
 
   &.ty02 {
     padding: 0;
@@ -300,9 +301,11 @@
     box-shadow: 6.8px 4.2px 8px 0 rgba(0, 0, 0, 0.08);
 
     .tit-box {
-      @include bdb(1px, $light_gray);
+      background-color: $gray_07;
       padding: 2rem 3rem;
       box-sizing: border-box;
+      border-radius: 18px;
+      box-shadow: 6.8px 4.2px 8px 0 rgba(0, 0, 0, 0.08);
 
       &::before {
         background-color: $blue_l;
@@ -349,47 +352,47 @@
       }
     }
 
-    &:hover {
-      background-color: $blue_l;
-
-      .tit-box {
-        &::before {
-          background-color: $white;
-        }
-      }
-
-      &.ico-01 {
-        .tit-box {
-          &::before {
-            background-image: url("../images/ico_prod_001.png");
-          }
-        }
-      }
-
-      &.ico-02 {
-        .tit-box {
-          &::before {
-            background-image: url("../images/ico_prod_002.png");
-          }
-        }
-      }
-
-      &.ico-03 {
-        .tit-box {
-          &::before {
-            background-image: url("../images/ico_prod_003.png");
-          }
-        }
-      }
-
-      &.ico-04 {
-        .tit-box {
-          &::before {
-            background-image: url("../images/ico_prod_004.png");
-          }
-        }
-      }
-    }
+    //&:hover {
+    //  background-color: $blue_l;
+    //
+    //  .tit-box {
+    //    &::before {
+    //      background-color: $white;
+    //    }
+    //  }
+    //
+    //  &.ico-01 {
+    //    .tit-box {
+    //      &::before {
+    //        background-image: url("../images/ico_prod_001.png");
+    //      }
+    //    }
+    //  }
+    //
+    //  &.ico-02 {
+    //    .tit-box {
+    //      &::before {
+    //        background-image: url("../images/ico_prod_002.png");
+    //      }
+    //    }
+    //  }
+    //
+    //  &.ico-03 {
+    //    .tit-box {
+    //      &::before {
+    //        background-image: url("../images/ico_prod_003.png");
+    //      }
+    //    }
+    //  }
+    //
+    //  &.ico-04 {
+    //    .tit-box {
+    //      &::before {
+    //        background-image: url("../images/ico_prod_004.png");
+    //      }
+    //    }
+    //  }
+    //}
   }
 }
 

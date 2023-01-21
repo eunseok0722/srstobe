@@ -35,7 +35,8 @@ const SrsMain = () => loadModule('../components/main/SrsMain.vue', options),
     Home = () => loadModule('../components/applications/Home.vue', options),
     HospitalNursingHome= () => loadModule('../components/applications/HospitalNursingHome.vue', options),
     PuileBathroom= () => loadModule('../components/applications/PuileBathroom.vue', options),
-    Uam = () => loadModule('../components/applications/Uam.vue', options);
+    Uam = () => loadModule('../components/applications/Uam.vue', options),
+    Retailer = () => loadModule('../components/applications/Retailer.vue', options);
 
 
 const routes = [
@@ -91,6 +92,12 @@ const routes = [
                 path: 'elevator',
                 name: 'elevator',
                 component: Elevator,
+                // props: route => ({name:String(route.params.id)})
+            },
+            {
+                path: 'retailer',
+                name: 'retailer',
+                component: Retailer,
                 // props: route => ({name:String(route.params.id)})
             },
             {
