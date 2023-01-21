@@ -1267,7 +1267,7 @@ office lifestyle using mmWave`,
             mainType: `ty02`,
             subImg: `../assets/images/img_appl_reta_002.png`,
             subAlt: ``,
-            featType: `ty02`,
+            // featType: `ty02`,
             featInfo: [
                 { id: 1, feat: `Long-Range`, class: `ty07`},
                 { id: 2, feat: `Presence Detection`, class: `ty10`},
