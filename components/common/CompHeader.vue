@@ -114,8 +114,8 @@
                           </router-link>
                         </li>
                         <li class="d3-list-item">
-                          <router-link to="/applications/puile-bathroom" class="txt-r">
-                            Puile Bathroom
+                          <router-link to="/applications/public-bathroom" class="txt-r">
+                            Public Bathroom
                           </router-link>
                         </li>
                       </ul>
@@ -135,18 +135,18 @@
                           </router-link>
                         </li>
                         <li class="d3-list-item">
-                          <router-link to="/applications/retailer" class="txt-r">
-                            Retailer
+                          <router-link to="/applications/infrastructure" class="txt-r">
+                            Infrastructure
                           </router-link>
                         </li>
                         <li class="d3-list-item">
-                          <router-link to="/applications/office" class="txt-r">
-                            Office
+                          <router-link to="/applications/public-spaces" class="txt-r">
+                            Public Spaces
                           </router-link>
                         </li>
                         <li class="d3-list-item">
-                          <router-link to="/applications/smart-pole-pinnn" class="txt-r">
-                            Smart Pole PINNN
+                          <router-link to="/applications/c-its" class="txt-r">
+                            C-ITS
                           </router-link>
                         </li>
                         <li class="d3-list-item">
@@ -274,34 +274,34 @@
                   </li>
                   <!--  // d2 | IRISc  -->
 
-                  <!--  d2 | IRISm   -->
+                  <!--  d2 | IRIS-SafeGuard   -->
                   <li class="d2-list-item">
                     <div class="d2-item">
                       <div class="tit-box">
-                        <h3 class="tit-m fw-md">IRISm</h3>
+                        <h3 class="tit-m fw-md">IRIS-SafeGuard</h3>
                       </div>
                       <div class="img-box">
-                        <router-link to="/products/irism">
+                        <router-link to="/products/iris-safeguard">
                           <img :src="d2ItemData[6].path" alt="">
                         </router-link>
                       </div>
                     </div>
                   </li>
-                  <!--  // d2 | IRISm   -->
-                  <!--  d2 | SE68-51W   -->
+                  <!--  // d2 | IRIS-SafeGuard   -->
+                  <!--  d2 | RM68-51   -->
                   <li class="d2-list-item">
                     <div class="d2-item">
                       <div class="tit-box">
-                        <h3 class="tit-m fw-md">SE68-51W</h3>
+                        <h3 class="tit-m fw-md">RM68-51</h3>
                       </div>
                       <div class="img-box">
-                        <router-link to="/products/se68-51w">
+                        <router-link to="/products/rm68-51">
                           <img :src="d2ItemData[7].path" alt="">
                         </router-link>
                       </div>
                     </div>
                   </li>
-                  <!--  // d2 | SE68-51W  -->
+                  <!--  // d2 | RM68-51  -->
                 </ul>
               </div>
 
@@ -399,28 +399,39 @@
                   </div>
                 </li>
                 <!--  // d2 | Investors & Partners  -->
-                <!--  d2 | Awards & Patents  -->
+                <!--  d2 | Awards  -->
                 <li class="d2-list-item">
                   <div class="d2-item">
                     <div class="tit-box">
                       <h3 class="tit-m fw-md">
-                        <router-link to="/about/awards">Awards & Patents</router-link>
+                        <router-link to="/about/awards">Awards</router-link>
                       </h3>
                     </div>
                   </div>
                 </li>
-                <!--  // d2 | Awards & Patents  -->
-                <!--  d2 | Team building  -->
+                <!--  // d2 | Awards  -->
+                <!--  d2 | Patent & Certifications  -->
                 <li class="d2-list-item">
                   <div class="d2-item">
                     <div class="tit-box">
                       <h3 class="tit-m fw-md">
-                        <a href="#">Team building</a>
+                        <a href="#">Patent & Certifications</a>
                       </h3>
                     </div>
                   </div>
                 </li>
-                <!--  // d2 | Team building  -->
+                <!--  // d2 | Patent & Certifications  -->
+                <!--  d2 | Team building & Careers  -->
+                <li class="d2-list-item">
+                  <div class="d2-item">
+                    <div class="tit-box">
+                      <h3 class="tit-m fw-md">
+                        <router-link to="/about/team-building">Team building & Careers</router-link>
+                      </h3>
+                    </div>
+                  </div>
+                </li>
+                <!--  // d2 | Team building & Careers  -->
                 <!--  d2 | Contacts  -->
                 <li class="d2-list-item">
                   <div class="d2-item">

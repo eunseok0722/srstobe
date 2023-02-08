@@ -371,3 +371,17 @@
 
 /* //Awards & Patents CSS */
 
+/* team building & Careers */
+.team-org-content {
+  @include flex-col(74px);
+  .tit-sec {
+    text-align: center;
+  }
+  section {
+    width: 1217px;
+
+  }
+}
+
+/* //team building & Careers */
+

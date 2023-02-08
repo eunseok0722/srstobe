@@ -26,6 +26,7 @@ import CompHeader from '../common/CompHeader.vue';
 import CompFooter from '../common/CompFooter.vue';
 import NewsRoomMain from "../about/NewsRoomMain.vue";
 import AwardsMain from "../about/AwardsMain.vue";
+import TeamMain from "../about/TeamMain.vue"
 
 export default {
   name: "AboutMain",
@@ -34,6 +35,7 @@ export default {
     CompFooter,
     NewsRoomMain,
     AwardsMain,
+    TeamMain
   }
 }
 </script>

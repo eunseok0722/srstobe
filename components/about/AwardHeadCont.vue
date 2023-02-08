@@ -2,7 +2,7 @@
   <div class="content award-head-content head-content" :class="{'header-fix-padding': scrollY}">
     <!--  Content header | 제목  -->
     <div class="content-header" :class="{'header-fix': scrollY}">
-      <h3 class="tit-cont">Awards & Patents</h3>
+      <h3 class="tit-cont">Awards</h3>
     </div>
     <!--  Content header | 제목  -->
     <!--  Content body | 본문   -->

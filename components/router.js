@@ -28,15 +28,16 @@ const SrsMain = () => loadModule('../components/main/SrsMain.vue', options),
     ApplicationsMain = () => loadModule('../components/applications/ApplicationsMain.vue', options),
     AutonomousDriving = () => loadModule('../components/applications/AutonomousDriving.vue', options),
     Elevator = () => loadModule('../components/applications/Elevator.vue', options),
-    Office = () => loadModule('../components/applications/Office.vue', options),
-    SmartPolePinnn = () => loadModule('../components/applications/SmartPolePinnn.vue', options),
+    PublicSpaces = () => loadModule('../components/applications/PublicSpaces.vue', options),
+    C_ITS = () => loadModule('../components/applications/C_ITS.vue', options),
     InCabin = () => loadModule('../components/applications/InCabin.vue', options),
     ConstructionVehicle  = () => loadModule('../components/applications/ConstructionVehicle.vue', options),
     Home = () => loadModule('../components/applications/Home.vue', options),
     HospitalNursingHome= () => loadModule('../components/applications/HospitalNursingHome.vue', options),
-    PuileBathroom= () => loadModule('../components/applications/PuileBathroom.vue', options),
+    PublicBathroom= () => loadModule('../components/applications/PublicBathroom.vue', options),
     Uam = () => loadModule('../components/applications/Uam.vue', options),
-    Retailer = () => loadModule('../components/applications/Retailer.vue', options);
+    Infrastructure = () => loadModule('../components/applications/Infrastructure.vue', options),
+    TeamMain  = () => loadModule('../components/about/TeamMain.vue', options);
 
 
 const routes = [
@@ -84,9 +85,9 @@ const routes = [
                 component: HospitalNursingHome,
             },
             {
-                path: 'puile-bathroom',
-                name: 'puile-bathroom',
-                component: PuileBathroom,
+                path: 'public-bathroom',
+                name: 'public-bathroom',
+                component: PublicBathroom,
             },
             {
                 path: 'elevator',
@@ -95,21 +96,21 @@ const routes = [
                 // props: route => ({name:String(route.params.id)})
             },
             {
-                path: 'retailer',
-                name: 'retailer',
-                component: Retailer,
+                path: 'infrastructure',
+                name: 'infrastructure',
+                component: Infrastructure,
                 // props: route => ({name:String(route.params.id)})
             },
             {
-                path: 'office',
-                name: 'office',
-                component: Office,
+                path: 'public-spaces',
+                name: 'public-spaces',
+                component: PublicSpaces,
                 // props: route => ({name:String(route.params.id)})
             },
             {
-                path: 'smart-pole-pinnn',
-                name: 'smart-pole-pinnn',
-                component: SmartPolePinnn,
+                path: 'c-its',
+                name: 'c-its',
+                component: C_ITS,
                 // props: route => ({name:String(route.params.id)})
             },
         ]
@@ -144,6 +145,10 @@ const routes = [
                 path: 'awards',
                 component: AwardsMain,
             },
+            {
+                path: 'team-building',
+                component: TeamMain,
+            }
         ]
     }
 ]

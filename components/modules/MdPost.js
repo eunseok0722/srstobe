@@ -290,7 +290,7 @@ down of                     up to 5 people in 7m x 7m area. `
 down of                     up to 5 people in 7m x 7m area. `
                 },
 
-            ]
+            ],
         },
         {
             id: 'retina-4s',
@@ -721,10 +721,10 @@ down of                     up to 5 people in 7m x 7m area. `
             ]
         },
         {
-            id: 'irism',
+            id: 'iris-safeguard',
             bg: `bg-irism`,
             cart: `Single Radar & Module`,
-            name: `IRISm-03a`,
+            name: `IRIS-SafeGuard`,
             tit: `4D Imaging Radar for Hospitals /
                 Elderly Homes`,
             desc: `This radar can detect human postures: standing, sitting, lying down
@@ -867,10 +867,10 @@ down of                     up to 5 people in 7m x 7m area. `
             ]
         },
         {
-            id: 'se68-51w',
-            bg: `bg-se68-51w`,
+            id: 'rm68-51',
+            bg: `bg-rm68-51`,
             cart: `Single Radar & Module`,
-            name: `SE68-51W`,
+            name: `RM68-51`,
             tit: `4D Imaging Radar for Hospitals /
                 Elderly Homes`,
             desc: `This radar can detect human postures: standing, sitting, lying down
@@ -904,7 +904,7 @@ down of                     up to 5 people in 7m x 7m area. `
                 {
                     id: 1,
                     tit: `Product Name`,
-                    cont: `SE68-51W`,
+                    cont: `RM68-51`,
                     class: `span`,
                 },
                 {
@@ -1216,9 +1216,9 @@ down of                     up to 5 people in 7m x 7m area. `
             }
         ],
     },
-    officeData: {
+    publicSpacesData: {
         ctgr: `Smart Places`,
-        tit: `Office`,
+        tit: `Public Spaces`,
         imgCont: {
             tit: `Smart Office for Smart  Life using mmWave  Radar`,
             subTit: `Smarter, safer, easier and more convinience in smart 
@@ -1252,9 +1252,9 @@ office lifestyle using mmWave`,
             }
         ],
     },
-    retailerData: {
+    infrastructureData: {
         ctgr: `Smart Places`,
-        tit: `Retailer`,
+        tit: `Infrastructure`,
         imgCont: {
             tit: `Wide Angle and Long Rang Multi-Purpose Detector`,
             subTit: `Enhancing safety and providing instanat alert of any danger in harsh environment`,
@@ -1300,7 +1300,7 @@ office lifestyle using mmWave`,
     },
     polePinData: {
         ctgr: `Smart Places`,
-        tit: `Smart Pole PINNN`,
+        tit: `C-ITS`,
         imgCont: {
             tit: `Optimized radar for road traffic detection`,
             subTit: `Improving safety and mobility by preventing traffic accidents & paradigm shift from road management 
@@ -1506,8 +1506,8 @@ to user safety`,
             subTit: `Smarter, safer, easier and more convinience in smart home lifestyle using mmWave`,
             prodImg: `../assets/images/img_appl_home_003.png`,
             prodImgType: `ty02`,
-            prodAlt: `SE68-51W_diagonal`,
-            prodUrl: `/products/se68-51w`,
+            prodAlt: `RM68-51_diagonal`,
+            prodUrl: `/products/rm68-51`,
             mainImg: `../assets/images/img_appl_home_001.png`,
             mainAlt: `Healthcare`,
             mainType: `ty03`,
@@ -1688,14 +1688,14 @@ to user safety`,
     },
     bathroomData: {
         ctgr: `Healthcare`,
-        tit: `Puile Bathroom`,
+        tit: `Public Bathroom`,
         imgCont: {
             tit: `Keep life safe at the public space with single radar`,
             subTit: `Optimal occupancy & abnomal situation detect solution for public safety`,
             prodImg: `../assets/images/img_appl_bath_003.png`,
             // prodImgType: `ty02`,
-            prodAlt: `SE68-51W_diagonal`,
-            prodUrl: `/products/se68-51w`,
+            prodAlt: `RM68-51_diagonal`,
+            prodUrl: `/products/rm68-51`,
             mainImg: `../assets/images/img_appl_bath_001.png`,
             mainAlt: `Healthcare`,
             mainType: `ty02`,

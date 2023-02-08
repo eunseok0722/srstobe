@@ -104,7 +104,7 @@
                   <router-link class="lb-txt-r" to="/applications/hospital-nursing-home">11. Hospital/Nursing Home</router-link>
                 </li>
                 <li class="d3-list-item" @mouseenter="itemActivate(11)" @mouseleave="itemInactivate(11)">
-                  <router-link class="lb-txt-r" to="/applications/puile-bathroom">12. Puile Bathroom</router-link>
+                  <router-link class="lb-txt-r" to="/applications/public-bathroom">12. Public Bathroom</router-link>
                 </li>
               </ul>
             </div>
@@ -119,13 +119,13 @@
                   <router-link class="lb-txt-r" to="/applications/elevator">13. Elevator</router-link>
                 </li>
                 <li class="d3-list-item" @mouseenter="itemActivate(13)" @mouseleave="itemInactivate(13)">
-                  <router-link class="lb-txt-r" to="/applications/retailer">14. Retailer</router-link>
+                  <router-link class="lb-txt-r" to="/applications/infrastructure">14. Infrastructure</router-link>
                 </li>
                 <li class="d3-list-item" @mouseenter="itemActivate(14)" @mouseleave="itemInactivate(14)">
-                  <router-link class="lb-txt-r" to="/applications/office">15. Office</router-link>
+                  <router-link class="lb-txt-r" to="/applications/public-spaces">15. Public Spaces</router-link>
                 </li>
                 <li class="d3-list-item" @mouseenter="itemActivate(15)" @mouseleave="itemInactivate(15)">
-                  <router-link class="lb-txt-r" to="/applications/smart-pole-pinnn">16. Smart Pole PINNN</router-link>
+                  <router-link class="lb-txt-r" to="/applications/c-its">16. C-ITS</router-link>
                 </li>
                 <li class="d3-list-item" @mouseenter="itemActivate(16)" @mouseleave="itemInactivate(16)">
                   <a class="lb-txt-r" href="#">17. Security</a>

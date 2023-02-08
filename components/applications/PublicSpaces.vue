@@ -77,7 +77,7 @@ export default {
     //   brd.dp01.dft = 'APPLICATIONS';
     //   brd.dp02.opt = ['Automotive', 'Industrial', 'Healthcare', 'Smart Places'];
     //   brd.dp02.dft = 'Smart Places';
-    //   brd.dp03.opt = ['Elevator', 'Retailer', 'Office', 'Smart Pole PiNNN', 'Security'];
+    //   brd.dp03.opt = ['Elevator', 'Infrastructure', 'Public Spaces', 'C-ITS', 'Security'];
     //   brd.dp03.dft = 'Elevator';
     // },
     scrollY() {
@@ -93,7 +93,7 @@ export default {
     //   }
     // },
     articleData() {
-      return this.$store.getters["PostData"].officeData;
+      return this.$store.getters["PostData"].publicSpacesData;
     }
   },
   methods: {

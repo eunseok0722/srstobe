@@ -7,7 +7,7 @@
         <article class="art-addr addr-1">
           <h3 class="tit-m">Smart Radar System Inc.</h3>
           <address>
-            <span class="txt-m">3rd Floor, Fine Venture Bldg, 41, Seongnam-daero 925gil, Bundan</span>
+            <span class="txt-m">3F, Fine Venture Bldg, 41, Seongnam-daero 925beon-gil, Bundang-gu, Seongnam-si, Gyeonggi-do, South Korea</span>
             <span class="txt-m">+82 1533 0217</span>
           </address>
         </article>
@@ -88,7 +88,7 @@
                         </li>
                         <li class="d3-list-item">
                           <router-link to="" class="txt-s">
-                            Level-meter
+                            Fill-Level Meter
                           </router-link>
                         </li>
                         <li class="d3-list-item">
@@ -119,8 +119,8 @@
                           </router-link>
                         </li>
                         <li class="d3-list-item">
-                          <router-link to="/applications/puile-bathroom" class="txt-s">
-                            Puile Bathroom
+                          <router-link to="/applications/public-bathroom" class="txt-s">
+                            Public Bathroom
                           </router-link>
                         </li>
                       </ul>
@@ -141,18 +141,18 @@
                           </router-link>
                         </li>
                         <li class="d3-list-item">
-                          <router-link to="/applications/retailer" class="txt-s">
-                            Retailer
+                          <router-link to="/applications/infrastructure" class="txt-s">
+                            Infrastructure
                           </router-link>
                         </li>
                         <li class="d3-list-item">
-                          <router-link to="/applications/office" class="txt-s">
-                            Office
+                          <router-link to="/applications/public-spaces" class="txt-s">
+                            Public Spaces
                           </router-link>
                         </li>
                         <li class="d3-list-item">
-                          <router-link to="/applications/smart-pole-pinnn" class="txt-s">
-                            Smart Pole PINNN
+                          <router-link to="/applications/c-its" class="txt-s">
+                            C-ITS
                           </router-link>
                         </li>
                         <li class="d3-list-item">
@@ -259,32 +259,32 @@
                   </li>
                   <!--  // d2 | IRISc  -->
 
-                  <!--  d2 | IRISm   -->
+                  <!--  d2 | IRIS-SafeGuard   -->
                   <li class="d2-list-item">
                     <div class="d2-item">
                       <div class="tit-box">
                         <h3 class="txt-r">
-                          <router-link to="/products/irism">
-                          IRISm
+                          <router-link to="/products/iris-safeguard">
+                          IRIS-SafeGuard
                           </router-link>
                         </h3>
                       </div>
                     </div>
                   </li>
-                  <!--  // d2 | IRISm   -->
-                  <!--  d2 | SE68-51W   -->
+                  <!--  // d2 | IRIS-SafeGuard   -->
+                  <!--  d2 | RM68-51   -->
                   <li class="d2-list-item">
                     <div class="d2-item">
                       <div class="tit-box">
                         <h3 class="txt-r">
-                          <router-link to="/products/se68-51w">
-                          SE68-51W
+                          <router-link to="/products/rm68-51">
+                          RM68-51
                           </router-link>
                         </h3>
                       </div>
                     </div>
                   </li>
-                  <!--  // d2 | SE68-51W  -->
+                  <!--  // d2 | RM68-51  -->
                 </ul>
               </div>
             </li>
@@ -357,32 +357,45 @@
                     </div>
                   </li>
                   <!--  // d2 | Investors & Partners  -->
-                  <!--  d2 | Awards & Patents  -->
+                  <!--  d2 | Awards  -->
                   <li class="d2-list-item">
                     <div class="d2-item">
                       <div class="tit-box">
                         <h3 class="txt-r">
-                          <router-link to="/about/awards">
-                          Awards & Patents
+                          <a href="#none">
+                            Awards
+                          </a>
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <!--  // d2 | Awards  -->
+                  <!--  d2 | Patent & Certifications  -->
+                  <li class="d2-list-item">
+                    <div class="d2-item">
+                      <div class="tit-box">
+                        <h3 class="txt-r">
+                          <a href="#none">
+                            Patent & Certifications
+                          </a>
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <!--  // d2 | Patent & Certifications  -->
+                  <!--  d2 | Team building & Careers  -->
+                  <li class="d2-list-item">
+                    <div class="d2-item">
+                      <div class="tit-box">
+                        <h3 class="txt-r">
+                          <router-link to="/about/team-building">
+                            Team building & Careers
                           </router-link>
                         </h3>
                       </div>
                     </div>
                   </li>
-                  <!--  // d2 | Awards & Patents  -->
-                  <!--  d2 | Team building  -->
-                  <li class="d2-list-item">
-                    <div class="d2-item">
-                      <div class="tit-box">
-                        <h3 class="txt-r">
-                          <router-link to="">
-                          Team building
-                          </router-link>
-                        </h3>
-                      </div>
-                    </div>
-                  </li>
-                  <!--  // d2 | Team building  -->
+                  <!--  // d2 | Team building & Careers  -->
                   <!--  d2 | Contacts  -->
                   <li class="d2-list-item">
                     <div class="d2-item">

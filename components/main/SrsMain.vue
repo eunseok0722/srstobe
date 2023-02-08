@@ -151,9 +151,9 @@
                         <li class="d3-list-item">
                           <div class="d3-item ty12" @mouseenter="itemActivate(11)" @mouseleave="itemInactivate(11)"
                                :class="{active: itemState[11].active}">
-                            <router-link class="tit-l" to="/applications/puile-bathroom">
+                            <router-link class="tit-l" to="/applications/public-bathroom">
                               <span class="num">12</span>
-                              <span class="tit">Puile Bathroom</span>
+                              <span class="tit">Public Bathroom</span>
                             </router-link>
                           </div>
                         </li>
@@ -178,27 +178,27 @@
                         <li class="d3-list-item">
                           <div class="d3-item ty14" @mouseenter="itemActivate(13)" @mouseleave="itemInactivate(13)"
                                :class="{active: itemState[13].active}">
-                            <router-link class="tit-l" to="/applications/retailer">
+                            <router-link class="tit-l" to="/applications/infrastructure">
                               <span class="num">14</span>
-                              <span class="tit">Retailer</span>
+                              <span class="tit">Infrastructure</span>
                             </router-link>
                           </div>
                         </li>
                         <li class="d3-list-item">
                           <div class="d3-item r ty15" @mouseenter="itemActivate(14)" @mouseleave="itemInactivate(14)"
                                :class="{active: itemState[14].active}">
-                            <router-link class="tit-l" to="/applications/office">
+                            <router-link class="tit-l" to="/applications/public-spaces">
                               <span class="num">15</span>
-                              <span class="tit">Office</span>
+                              <span class="tit">Public Spaces</span>
                             </router-link>
                           </div>
                         </li>
                         <li class="d3-list-item">
                           <div class="d3-item ty16" @mouseenter="itemActivate(15)" @mouseleave="itemInactivate(15)"
                                :class="{active: itemState[15].active}">
-                            <router-link class="tit-l" to="/applications/smart-pole-pinnn">
+                            <router-link class="tit-l" to="/applications/c-its">
                               <span class="num">16</span>
-                              <span class="tit">Smart Pole PINNN</span>
+                              <span class="tit">C-ITS</span>
                             </router-link>
                           </div>
                         </li>
