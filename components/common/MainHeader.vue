@@ -58,13 +58,13 @@
                   <router-link class="lb-txt-r" to="/applications/in-cabin">2. In-Cabin</router-link>
                 </li>
                 <li class="d3-list-item" @mouseenter="itemActivate(2)" @mouseleave="itemInactivate(2)">
-                  <a class="lb-txt-r" href="#">3. AGV</a>
+                  <router-link class="lb-txt-r" to="/applications/agv">3. AGV</router-link>
                 </li>
                 <li class="d3-list-item" @mouseenter="itemActivate(3)" @mouseleave="itemInactivate(3)">
                   <router-link class="lb-txt-r" to="/applications/uam">4. UAM</router-link>
                 </li>
                 <li class="d3-list-item" @mouseenter="itemActivate(4)" @mouseleave="itemInactivate(4)">
-                  <a class="lb-txt-r" href="#">5. Last Mile Delivery</a>
+                  <router-link class="lb-txt-r" to="/applications/last-mile-delivery">5. Last Mile Delivery</router-link>
                 </li>
 
               </ul>

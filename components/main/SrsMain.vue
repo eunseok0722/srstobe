@@ -50,10 +50,10 @@
                         <li class="d3-list-item">
                           <div class="d3-item ty03" @mouseenter="itemActivate(2)" @mouseleave="itemInactivate(2)"
                                :class="{active: itemState[2].active}">
-                            <a class="tit-l" href="#">
+                            <router-link class="tit-l" to="/applications/agv">
                               <span class="num">3</span>
                               <span class="tit">AGV</span>
-                            </a>
+                            </router-link>
                           </div>
                         </li>
                         <li class="d3-list-item">
@@ -69,10 +69,10 @@
                         <li class="d3-list-item">
                           <div class="d3-item ty05" @mouseenter="itemActivate(4)" @mouseleave="itemInactivate(4)"
                                :class="{active: itemState[4].active}">
-                            <a class="tit-l" href="#">
+                            <router-link class="tit-l" to="/applications/last-mile-delivery">
                               <span class="num">5</span>
                               <span class="tit">Last Mile Delivery</span>
-                            </a>
+                            </router-link>
                           </div>
                         </li>
 

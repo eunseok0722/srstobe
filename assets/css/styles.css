@@ -734,7 +734,7 @@ select:focus, select :focus-visible { outline-color: #008aff; }
 
 .layer-item .career-list-wrap .career-list .tit-r { font-weight: 400; }
 
-.layer-item .career-list-wrap .career-list .list-item { text-indent: -1.2rem; padding-left: 1.2rem; }
+.layer-item .career-list-wrap .career-list .list-item { text-indent: -1.3rem; padding-left: 1.3rem; }
 
 .layer-item .intro-wrap .intro { line-height: 1.4; }
 
@@ -837,9 +837,9 @@ select:focus, select :focus-visible { outline-color: #008aff; }
 
 .feat-item .cont-box { margin: 3.5rem 0; }
 
-.feat-item .cont-box .txt-l { line-height: 1.7; font-family: "Poppins", sans-serif; }
+.feat-item .cont-box .lb-tit-r { line-height: 1.7; font-weight: 300; }
 
-.feat-item .cont-box .txt-l span { display: block; text-indent: -1.2rem; padding-left: 1.2rem; }
+.feat-item .cont-box .lb-tit-r span { display: block; text-indent: -1.3rem; padding-left: 1.3rem; margin-bottom: 1rem; }
 
 .feat-item.ty02 { padding: 0; background-color: unset; height: 100%; min-height: unset; border: 1px solid #f7f7f7; box-shadow: 6.8px 4.2px 8px 0 rgba(0, 0, 0, 0.08); }
 
@@ -847,7 +847,7 @@ select:focus, select :focus-visible { outline-color: #008aff; }
 
 .feat-item.ty02 .tit-box::before { background-color: #008aff; }
 
-.feat-item.ty02 .cont-box { padding: 0 3rem; }
+.feat-item.ty02 .cont-box { padding: 0 7rem; }
 
 .feat-item.ty02 .cont-box .txt-l { margin-left: 3rem; }
 
@@ -858,6 +858,16 @@ select:focus, select :focus-visible { outline-color: #008aff; }
 .feat-item.ty02.ico-03 .tit-box::before { background-image: url("../images/ico_prod_003_w.png"); }
 
 .feat-item.ty02.ico-04 .tit-box::before { background-image: url("../images/ico_prod_004_w.png"); }
+
+.video-content { display: flex; flex-direction: column; gap: 5rem; justify-content: center; align-items: center; }
+
+.video-content .tit-cont { font-family: "Poppins", sans-serif; font-weight: 300; }
+
+.video-content section { width: 100%; display: flex; justify-content: center; align-items: center; }
+
+.video-content .img-wrap { width: 60%; height: 0; padding-bottom: 33.75%; min-width: 738px; overflow: hidden; position: relative; }
+
+.video-content .img-wrap img, .video-content .img-wrap iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; }
 
 .img-cont { display: flex; flex-direction: row-reverse; justify-content: space-between; gap: 6rem; }
 
@@ -871,7 +881,7 @@ select:focus, select :focus-visible { outline-color: #008aff; }
 
 .img-cont .tit-box .head-sec .txt-wrap .tit-head { line-height: 1.1; }
 
-.img-cont .tit-box .head-sec .txt-wrap .tit-art { line-height: 1.4; }
+.img-cont .tit-box .head-sec .txt-wrap .tit-art { font-weight: 300; line-height: 1.4; }
 
 .img-cont .tit-box .head-sec .img-wrap { width: 100%; height: 0; padding-bottom: 66%; position: relative; overflow: hidden; }
 

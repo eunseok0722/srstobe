@@ -12,7 +12,7 @@ import ImgContent from "../common/ImgContent.vue";
 import VideoContent from "../common/VideoContent.vue";
 
 export default {
-  name: "Uam",
+  name: "LastMileDelivery",
   components: {
     FeatContent,
     ImgContent,
@@ -20,7 +20,7 @@ export default {
   },
   computed: {
     articleData() {
-      return this.$store.getters["PostData"].uamData;
+      return this.$store.getters["PostData"].lastMileData;
     }
   }
 }

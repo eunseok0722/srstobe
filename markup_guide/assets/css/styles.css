@@ -238,4 +238,12 @@ article.poppins { font-weight: 500; }
 
 .mrkp-list .desc-table-wrap .desc-table .table-row .table-column .table-item:last-child { font-size: 1.3rem; font-weight: 700; }
 
+.mrkp-list .desc-table-wrap .desc-table .table-row .table-column.ing { background-color: Cornsilk; }
+
+.mrkp-list .desc-table-wrap .desc-table .table-row .table-column.edit { background-color: Azure; }
+
+.mrkp-list .desc-table-wrap .desc-table .table-row .table-column.add { background-color: MistyRose; }
+
+.mrkp-list .desc-table-wrap .desc-table .table-row .table-column.end { background-color: WhiteSmoke; }
+
 /*# sourceMappingURL=styles.css.map */

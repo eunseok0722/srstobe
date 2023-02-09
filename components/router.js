@@ -31,14 +31,15 @@ const SrsMain = () => loadModule('../components/main/SrsMain.vue', options),
     PublicSpaces = () => loadModule('../components/applications/PublicSpaces.vue', options),
     C_ITS = () => loadModule('../components/applications/C_ITS.vue', options),
     InCabin = () => loadModule('../components/applications/InCabin.vue', options),
-    ConstructionVehicle  = () => loadModule('../components/applications/ConstructionVehicle.vue', options),
+    ConstructionVehicle = () => loadModule('../components/applications/ConstructionVehicle.vue', options),
     Home = () => loadModule('../components/applications/Home.vue', options),
-    HospitalNursingHome= () => loadModule('../components/applications/HospitalNursingHome.vue', options),
-    PublicBathroom= () => loadModule('../components/applications/PublicBathroom.vue', options),
+    HospitalNursingHome = () => loadModule('../components/applications/HospitalNursingHome.vue', options),
+    PublicBathroom = () => loadModule('../components/applications/PublicBathroom.vue', options),
     Uam = () => loadModule('../components/applications/Uam.vue', options),
     Infrastructure = () => loadModule('../components/applications/Infrastructure.vue', options),
-    TeamMain  = () => loadModule('../components/about/TeamMain.vue', options);
-
+    TeamMain = () => loadModule('../components/about/TeamMain.vue', options),
+    Agv = () => loadModule('../components/applications/Agv.vue', options),
+    LastMileDelivery = () => loadModule('../components/applications/LastMileDelivery.vue', options);
 
 const routes = [
     {
@@ -61,6 +62,18 @@ const routes = [
                 path: 'uam',
                 name: 'uam',
                 component: Uam,
+                // props: route => ({name:String(route.params.id)})
+            },
+            {
+                path: 'agv',
+                name: 'agv',
+                component: Agv,
+                // props: route => ({name:String(route.params.id)})
+            },
+            {
+                path: 'last-mile-delivery',
+                name: 'last-mile-delivery',
+                component: LastMileDelivery,
                 // props: route => ({name:String(route.params.id)})
             },
             {
@@ -124,7 +137,7 @@ const routes = [
                 path: ':id',
                 name: 'productArticle',
                 component: ProductArticle,
-                props: route => ({name:String(route.params.id)})
+                props: route => ({name: String(route.params.id)})
             },
         ]
     },

@@ -1742,8 +1742,8 @@ to user safety`,
         ctgr: `Automotive`,
         tit: `UAM`,
         imgCont: {
-            tit: `4D Imaging Radar for Mobility (overview)`,
-            subTit: `Innovative products help us earn valuable recognition from the government and investors`,
+            tit: `Radar, the sensor for the air`,
+            subTit: `Present long range and weather almighty sensor that works in the darkness and backlight`,
             prodImg: `../assets/images/img_appl_uam_004.png`,
             // prodImgType: `ty02`,
             prodAlt: `RETINA-4F_diagonal`,
@@ -1752,46 +1752,164 @@ to user safety`,
             mainAlt: `Automotive`,
             mainType: `ty04`,
             featInfo: [
-                { id: 1, feat: `Non-contact`, class: `ty01`},
-                { id: 2, feat: `Privacy`, class: `ty02`},
-                { id: 3, feat: `Waterproof`, class: `ty03`},
-                { id: 4, feat: `No-light`, class: `ty04`},
-            ]
+                { id: 1, feat: `Vital sign Detection`, class: `ty09`},
+                { id: 2, feat: `Presence Detection`, class: `ty10`},
+                { id: 3, feat: `No Wearing`, class: `ty11`},
+                { id: 4, feat: `Privacy Protected`, class: `ty02`},
+            ],
+            // prodImg2: `../assets/images/img_appl_cons_003.png`,
+            // // prodImgType: `ty02`,
+            // prodAlt2: `IRISt-03a_diagonal`,
+            // prodUrl2: `/products/irist`,
+            // featInfo2: [
+            //     { id: 1, feat: `Non-contact`, class: `ty01`},
+            //     { id: 2, feat: `Privacy`, class: `ty02`},
+            //     { id: 3, feat: `Waterproof`, class: `ty03`},
+            //     { id: 4, feat: `No-light`, class: `ty04`},
+            // ],
         },
-        prodType: 'ty02',
-        prod: [
-            {
-                id: 1,
-                path: `../assets/images/img_appl_uam_002.png`,
-                desc: ``
-            },
-            {
-                id: 2,
-                path: `../assets/images/img_appl_uam_003.png`,
-                desc: ``
-            },
-        ],
         feat: [
             {
                 id: 1,
                 class: `ico-01`,
                 tit: `Customer needs`,
                 cont: `<span>- Long Range Radar with higher resolution</span>
-                       <span>- Powerful detection capability for the safety</span>
-                       <span>- Robust radar in challeging environments</span>`,
+                       <span>- Robust radar in challenging environment</span>
+                       <span>- Necessity of sensor integrated unmanned control equipment</span>`,
 
             },
             {
                 id: 2,
                 class: `ico-02`,
                 tit: `What we offer`,
-                cont: `<span>- Provide 3 types of range mode to cover all usage in autonomous driving</span>
-                       <span>- Less power and higher accuracy</span> 
-                       <span>- Rich point cloud with faster output rate</span>
-                       <span>- AI engine embedded for object classification</span>`,
-
+                cont: `<span>- Support the SDIR for collaboration with Infrastructure/flatform</span>
+                       <span>- AI engine embedded for object classification</span>
+                       <span>- Simultaneous multiple targets detection</span>`
             }
         ],
+        video: {
+            tit: `Autonomous Driving and ADAS`,
+            src: `https://www.youtube.com/embed/JlFeF7nByu4?rel=0&amp;autoplay=1&loop=1&mute=1&playlist=JlFeF7nByu4`,
+            opt: `accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture`,
+        }
+    },
+    agvData: {
+        ctgr: `Automotive`,
+        tit: `AGV`,
+        imgCont: {
+            tit: `Innovative sensor that fits to all type of SDV structure`,
+            subTit: `Innovative sensor that fits to all type of SDV structure`,
+            prodImg: `../assets/images/img_appl_uam_004.png`,
+            // prodImgType: `ty02`,
+            prodAlt: `RETINA-4F_diagonal`,
+            prodUrl: `/products/retina-4f`,
+            mainImg: `../assets/images/img_appl_agv_001.png`,
+            mainAlt: `Automotive`,
+            mainType: `ty04`,
+            featInfo: [
+                { id: 1, feat: `Vital sign Detection`, class: `ty09`},
+                { id: 2, feat: `Presence Detection`, class: `ty10`},
+                { id: 3, feat: `No Wearing`, class: `ty11`},
+                { id: 4, feat: `Privacy Protected`, class: `ty02`},
+            ],
+            prodImg2: `../assets/images/img_appl_cons_003.png`,
+            // prodImgType: `ty02`,
+            prodAlt2: `IRISt-03a_diagonal`,
+            prodUrl2: `/products/irist`,
+            featInfo2: [
+                { id: 1, feat: `Non-contact`, class: `ty01`},
+                { id: 2, feat: `Privacy`, class: `ty02`},
+                { id: 3, feat: `Waterproof`, class: `ty03`},
+                { id: 4, feat: `No-light`, class: `ty04`},
+            ],
+        },
+        feat: [
+            {
+                id: 1,
+                class: `ico-01`,
+                tit: `Customer needs`,
+                cont: `<span>- Long Range Radar with higher resolution</span>
+                       <span>- Support the Software Defined Vehicle structure for sensor-fusion</span>
+                       <span>- Plug and play solution for various vehicle types shapes</span>`,
+            },
+            {
+                id: 2,
+                class: `ico-02`,
+                tit: `What we offer`,
+                cont: `<span>- Provide 3 types of range mode to cover all usage in autonomous driving</span>
+                       <span>- Proven Software Defined Imaging Radar solution by OEMs and Tier-1s</span>
+                       <span>- Easy connection to any types of vehicle</span>`
+            }
+        ],
+        video: {
+            tit: `Autonomous Driving and ADAS`,
+            src: `https://www.youtube.com/embed/JlFeF7nByu4?rel=0&amp;autoplay=1&loop=1&mute=1&playlist=JlFeF7nByu4`,
+            opt: `accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture`,
+        }
+    },
+    lastMileData: {
+        ctgr: `Automotive`,
+        tit: `Last Mile Delivery`,
+        imgCont: {
+            tit: `Affordably priced sensor for the last-mile delivery`,
+            subTit: `Support efficient and cost-effective logistics solution, transforming the parcel delivery  as we know it`,
+            // prodImg: `../assets/images/img_appl_uam_004.png`,
+            // prodImgType: `ty02`,
+            // prodAlt: `RETINA-4F_diagonal`,
+            // prodUrl: `/products/retina-4f`,
+            mainImg: `../assets/images/img_appl_last_001.png`,
+            mainAlt: `Automotive`,
+            mainType: `ty04`,
+            // featInfo: [
+            //     { id: 1, feat: `Vital sign Detection`, class: `ty09`},
+            //     { id: 2, feat: `Presence Detection`, class: `ty10`},
+            //     { id: 3, feat: `No Wearing`, class: `ty11`},
+            //     { id: 4, feat: `Privacy Protected`, class: `ty02`},
+            // ],
+            prodImg: `../assets/images/img_appl_cons_003.png`,
+            // prodImgType: `ty02`,
+            prodAlt: `IRISt-03a_diagonal`,
+            prodUrl: `/products/irist`,
+            featInfo: [
+                { id: 1, feat: `Non-contact`, class: `ty01`},
+                { id: 2, feat: `Privacy`, class: `ty02`},
+                { id: 3, feat: `Waterproof`, class: `ty03`},
+                { id: 4, feat: `No-light`, class: `ty04`},
+            ],
+            prodImg2: `../assets/images/img_appl_reta_003.png`,
+            prodImgType2: ``,
+            prodAlt2: `IRISc-03a_diagonal`,
+            prodUrl2: `/products/irisc`,
+            featInfo2: [
+                { id: 1, feat: `Long-Range`, class: `ty07`},
+                { id: 2, feat: `Presence Detection`, class: `ty10`},
+                { id: 3, feat: `Weather Almighty`, class: `ty06`},
+                { id: 4, feat: `No-light`, class: `ty04`},
+            ],
+        },
+        feat: [
+            {
+                id: 1,
+                class: `ico-01`,
+                tit: `Customer needs`,
+                cont: `<span>- Laser beams affect the human eye</span>
+                       <span>- Resistant to dirt rising from the soil</span>
+                       <span>- Plug and play solution for various vehicle types/shapes</span>`,
+            },
+            {
+                id: 2,
+                class: `ico-02`,
+                tit: `What we offer`,
+                cont: `<span>- Object detection in dark and dusty environments</span>
+                       <span>- Easy connection to any types of vehicle</span>
+                       <span>- Privacy protected in the whole RoI</span>`
+            }
+        ],
+        video: {
+            tit: `Autonomous Driving and ADAS`,
+            src: `https://www.youtube.com/embed/JlFeF7nByu4?rel=0&amp;autoplay=1&loop=1&mute=1&playlist=JlFeF7nByu4`,
+            opt: `accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture`,
+        }
     },
 });
 

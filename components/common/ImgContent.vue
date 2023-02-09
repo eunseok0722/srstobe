@@ -27,7 +27,10 @@
               <div class="img-wrap" :class="articleData.imgCont.prodImgType">
                 <img :src="articleData.imgCont.prodImg" :alt="articleData.imgCont.prodAlt">
                 <div class="img-tag">
-                  <router-link :to="articleData.imgCont.prodUrl" class="tit-l tag-link">{{ articleData.imgCont.prodAlt }}</router-link>
+                  <router-link :to="articleData.imgCont.prodUrl" class="tit-l tag-link">{{
+                      articleData.imgCont.prodAlt
+                    }}
+                  </router-link>
                 </div>
               </div>
             </template>
@@ -45,6 +48,35 @@
               </li>
             </ul>
           </div>
+          <template v-if="articleData.imgCont.prodImg2">
+            <div class="head-sec">
+              <div class="img-wrap" :class="articleData.imgCont.prodImgType2">
+                <img :src="articleData.imgCont.prodImg2" :alt="articleData.imgCont.prodAlt2">
+                <div class="img-tag">
+                  <router-link :to="articleData.imgCont.prodUrl2" class="tit-l tag-link">
+                    {{ articleData.imgCont.prodAlt2 }}
+                  </router-link>
+                </div>
+              </div>
+            </div>
+          </template>
+          <template v-if="articleData.imgCont.featInfo2">
+            <div class="feat-sec" :class="articleData.imgCont.featType2">
+              <ul class="feat-info-list">
+                <li class="list-item" v-for="item in articleData.imgCont.featInfo2" :key="item.id">
+                  <div class="feat-info-item">
+                    <div class="ico-box" :class="item.class">
+                    </div>
+                    <div class="tit-l">
+                      {{ item.feat }}
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </template>
+
+
         </div>
         <div class="img-box" :class="articleData.imgCont.mainType">
           <div class="main-img">
@@ -63,7 +95,7 @@
 export default {
   name: "ImgContent",
   props: {
-    articleData:Object
+    articleData: Object
   },
   computed: {
     scrollY() {

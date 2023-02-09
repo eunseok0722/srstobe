@@ -9,7 +9,7 @@
                 <p class="tit-art-04">{{ item.tit }}</p>
               </div>
               <div class="cont-box">
-                <p class="txt-l" v-html="item.cont">
+                <p class="lb-tit-r" v-html="item.cont">
                 </p>
               </div>
             </div>

@@ -275,13 +275,14 @@
   .cont-box {
     margin: 3.5rem 0;
 
-    .txt-l {
+    .lb-tit-r {
       line-height: 1.7;
-      font-family: $point_font;
+      font-weight: $l;
       span {
         display: block;
-        text-indent: -1.2rem;
-        padding-left: 1.2rem;
+        text-indent: -1.3rem;
+        padding-left: 1.3rem;
+        margin-bottom: 1rem;
       }
     }
   }
@@ -313,7 +314,7 @@
     }
 
     .cont-box {
-      padding: 0 3rem;
+      padding: 0 7rem;
 
       .txt-l {
         margin-left: 3rem;
@@ -396,3 +397,36 @@
   }
 }
 
+.video-content {
+  @include flex-col(5rem);
+  justify-content: center;
+  align-items: center;
+  .tit-cont {
+    font-family: $point_font;
+    font-weight: $l;
+  }
+  section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-wrap {
+    width: 60%;
+    height: 0;
+    padding-bottom: 33.75%;
+    min-width: 738px;
+    overflow: hidden;
+    position: relative;
+
+    img,
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+}

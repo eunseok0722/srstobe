@@ -151,6 +151,19 @@ article {
               font-weight: $b;
             }
           }
+          
+          &.ing {
+            background-color: Cornsilk;
+          }
+          &.edit {
+            background-color: Azure;
+          }
+          &.add {
+            background-color: MistyRose;
+          }
+          &.end {
+            background-color: WhiteSmoke;
+          }
         }
       }
     }

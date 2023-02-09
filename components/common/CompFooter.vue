@@ -50,7 +50,7 @@
                           </router-link>
                         </li>
                         <li class="d3-list-item">
-                          <router-link to="" class="txt-s">
+                          <router-link to="/applications/agv" class="txt-s">
                             AGV
                           </router-link>
                         </li>
@@ -60,7 +60,7 @@
                           </router-link>
                         </li>
                         <li class="d3-list-item">
-                          <router-link to="" class="txt-s">
+                          <router-link to="/applications/last-mile-delivery" class="txt-s">
                             Last Mile Delivery
                           </router-link>
                         </li>
@@ -218,19 +218,19 @@
                     </div>
                   </li>
                   <!--  // d2 | RETINA-4S  -->
-                  <!--  d2 | RETINA-4A  -->
+                  <!--  d2 | RADAR-FOR-UAS  -->
                   <li class="d2-list-item">
                     <div class="d2-item">
                       <div class="tit-box">
                         <h3 class="txt-r">
-                          <router-link to="/products/retina-4a">
-                          RETINA-4A
+                          <router-link to="/products/radar-for-uas">
+                          RADAR FOR UAS
                           </router-link>
                         </h3>
                       </div>
                     </div>
                   </li>
-                  <!--  // d2 | RETINA-4A  -->
+                  <!--  // d2 | RADAR-FOR-UAS  -->
                   <!--  d2 | IRISt  -->
                   <li class="d2-list-item">
                     <div class="d2-item">
@@ -298,15 +298,15 @@
               </h2>
               <div class="d2-list-wrap v3">
                 <ul class="d2-list">
-                  <!--  d2 | 4D Imaging Radar  -->
+                  <!--  d2 | 4D Imaging Radar with AI  -->
                   <li class="d2-list-item">
                     <div class="d2-item">
                       <div class="tit-box">
-                        <h3 class="txt-r">4D Imaging Radar</h3>
+                        <h3 class="txt-r">4D Imaging Radar with AI</h3>
                       </div>
                     </div>
                   </li>
-                  <!--  // d2 | 4D Imaging Radar  -->
+                  <!--  // d2 | 4D Imaging Radar with AI  -->
                   <!--  d2 | Software Defined Vehicle  -->
                   <li class="d2-list-item">
                     <div class="d2-item">
@@ -325,15 +325,15 @@
                     </div>
                   </li>
                   <!--  // d2 | SWaP sensor  -->
-                  <!--  d2 | Edge Device with ML  -->
+                  <!--  d2 | Product Lineup  -->
                   <li class="d2-list-item">
                     <div class="d2-item">
                       <div class="tit-box">
-                        <h3 class="txt-r">Edge Device with ML</h3>
+                        <h3 class="txt-r">Product Lineup</h3>
                       </div>
                     </div>
                   </li>
-                  <!--  // d2 | Edge Device with ML  -->
+                  <!--  // d2 | Product Lineup  -->
 
                 </ul>
               </div>
