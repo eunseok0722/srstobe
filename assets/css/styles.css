@@ -837,9 +837,9 @@ select:focus, select :focus-visible { outline-color: #008aff; }
 
 .feat-item .cont-box { margin: 3.5rem 0; }
 
-.feat-item .cont-box .lb-tit-r { line-height: 1.7; font-weight: 300; }
+.feat-item .cont-box .lb-tit-r, .feat-item .cont-box .txt-l { line-height: 1.7; font-weight: 300; }
 
-.feat-item .cont-box .lb-tit-r span { display: block; text-indent: -1.3rem; padding-left: 1.3rem; margin-bottom: 1rem; }
+.feat-item .cont-box .lb-tit-r span, .feat-item .cont-box .txt-l span { display: block; text-indent: -1.3rem; padding-left: 1.3rem; margin-bottom: 1rem; }
 
 .feat-item.ty02 { padding: 0; background-color: unset; height: 100%; min-height: unset; border: 1px solid #f7f7f7; box-shadow: 6.8px 4.2px 8px 0 rgba(0, 0, 0, 0.08); }
 
