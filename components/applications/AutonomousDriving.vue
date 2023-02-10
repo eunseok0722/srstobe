@@ -1,26 +1,26 @@
 <template>
   <div class="auto-contents">
     <img-content :article-data="articleData"></img-content>
-
-    <div class="content feat-content">
-      <section>
-        <article class="feat-cont">
-          <ul class="feat-list">
-            <li class="list-item" v-for="item in autonomousData.feat" :key="item.id">
-              <div class="feat-item ty02" :class="item.class">
-                <div class="tit-box">
-                  <p class="tit-art-04">{{ item.tit }}</p>
-                </div>
-                <div class="cont-box">
-                  <p class="txt-l" v-html="item.cont">
-                  </p>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </article>
-      </section>
-    </div>
+    <feat-content :article-data="articleData"></feat-content>
+<!--    <div class="content feat-content">-->
+<!--      <section>-->
+<!--        <article class="feat-cont">-->
+<!--          <ul class="feat-list">-->
+<!--            <li class="list-item" v-for="item in autonomousData.feat" :key="item.id">-->
+<!--              <div class="feat-item ty02" :class="item.class">-->
+<!--                <div class="tit-box">-->
+<!--                  <p class="tit-art-04">{{ item.tit }}</p>-->
+<!--                </div>-->
+<!--                <div class="cont-box">-->
+<!--                  <p class="txt-l" v-html="item.cont">-->
+<!--                  </p>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </li>-->
+<!--          </ul>-->
+<!--        </article>-->
+<!--      </section>-->
+<!--    </div>-->
   </div>
 </template>
 
