@@ -175,7 +175,13 @@ h1, h2, h3, h4, h5, h6 { font-weight: 400; }
 
 .layout-ty01 article .art-tet .tit-box { display: flex; flex-direction: column; gap: 2rem; line-height: 1.4; }
 
+.layout-ty01 article .art-tet .tit-box .tit-art { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; word-wrap: break-word; word-break: break-all; }
+
+.layout-ty01 article .art-tet .tit-box .tit-l { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
 .layout-ty01 article .art-tet .txt-box { line-height: 1.4; }
+
+.layout-ty01 article .art-tet .txt-box p { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; word-wrap: break-word; word-break: break-all; }
 
 .layout-ty01 article:hover .img-wrap img { transform: scale(1.1); }
 
@@ -274,9 +280,11 @@ body { font-family: "Garet", sans-serif; scroll-behavior: smooth; }
 
 .pagination-wrap .pagination .page-list { display: flex; gap: 1rem; }
 
-.page-item { width: 4rem; height: 4rem; box-sizing: border-box; border: 1px solid #cccccc; display: flex; justify-content: center; align-items: center; color: #898989; }
+.page-item { width: 4rem; height: 4rem; box-sizing: border-box; border: 1px solid #cccccc; color: #898989; }
 
 .page-item:hover { color: #000; background-color: #f7f7f7; }
+
+.page-item a { display: flex; justify-content: center; align-items: center; width: 100%; height: 100%; }
 
 .btn-page { width: 4rem; height: 4rem; box-sizing: border-box; background-size: 18px 33px; background-repeat: no-repeat; background-position: center center; }
 
@@ -284,9 +292,11 @@ body { font-family: "Garet", sans-serif; scroll-behavior: smooth; }
 
 .btn-page.prev { background-image: url("../images/ico_arrow_004.png"); transform: rotate(180deg); }
 
-.btn-ty01 { display: flex; align-items: center; justify-content: center; width: fit-content; min-width: 20rem; border-radius: 5rem; border: 1px solid #d7d7d7; padding: 1.8rem 1.4rem; box-sizing: border-box; }
+.btn-page a { display: flex; justify-content: center; align-items: center; width: 100%; height: 100%; }
 
-.btn-ty01 a { font-weight: 400; }
+.btn-ty01 { width: fit-content; min-width: 20rem; border-radius: 5rem; border: 1px solid #d7d7d7; box-sizing: border-box; }
+
+.btn-ty01 a { display: flex; align-items: center; justify-content: center; box-sizing: border-box; width: 100%; height: 100%; font-weight: 400; padding: 1.8rem 1.4rem; }
 
 .btn-cross { display: block; width: 3rem; height: 3rem; background-size: 2.6rem 2.6rem; background-repeat: no-repeat; background-position: center center; background-image: url("../images/ico_cross_001.png"); }
 

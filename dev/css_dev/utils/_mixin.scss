@@ -83,20 +83,21 @@
   gap: $g;
 }
 
-//@mixin ln-b($l: 2) {
-//  display: -webkit-box;
-//  -webkit-line-clamp: $l;
-//  -webkit-box-orient: vertical;
-//  overflow: hidden;
-//  word-wrap: break-word;
-//  word-break: break-all;
-//}
+@mixin ln-b($l: 2) {
+  display: -webkit-box;
+  -webkit-line-clamp: $l;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  word-wrap: break-word;
+  word-break: break-all;
+}
 
-//@mixin ln-1() {
-//  overflow: hidden;
-//  text-overflow: ellipsis;
-//  white-space: nowrap;
-//}
+@mixin ln-1() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 //@mixin txt-ovf {
 //  display: block;
 //  overflow: hidden;

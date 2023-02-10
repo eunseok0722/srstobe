@@ -67,9 +67,18 @@
       .tit-box{
         @include flex-col(2rem);
         line-height: 1.4;
+        .tit-art {
+          @include ln-b(3);
+        }
+        .tit-l {
+          @include ln-1();
+        }
       }
       .txt-box {
         line-height: 1.4;
+        p {
+         @include ln-b(3);
+        }
       }
     }
     &:hover {

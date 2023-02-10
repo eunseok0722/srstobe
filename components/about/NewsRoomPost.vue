@@ -30,7 +30,7 @@
           <ul class="btn-list">
             <li class="list-item">
               <div class="btn-wrap btn-ty01">
-                <a href="#" class="lb-tit-r">List</a>
+                <router-link to="/about/newsroom" class="lb-tit-r">List</router-link>
               </div>
             </li>
           </ul>
