@@ -135,71 +135,90 @@ in Irvine, CA.`,
         },
 
     ],
-    // itemState: [
-    //     {id: 1, active: false},
-    //     {id: 2, active: false},
-    //     {id: 3, active: false},
-    //     {id: 4, active: false},
-    //     {id: 5, active: false},
-    //     {id: 6, active: false},
-    //     {id: 7, active: false},
-    //     {id: 8, active: false},
-    //     {id: 9, active: false},
-    //     {id: 10, active: false},
-    //     {id: 11, active: false},
-    //     {id: 12, active: false},
-    //     {id: 13, active: false},
-    //     {id: 14, active: false},
-    //     {id: 15, active: false},
-    //     {id: 16, active: false},
-    //     {id: 17, active: false},
-    // ]
-    // newsTickerList: [
-    //     {
-    //         id: 1,
-    //         txt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit +++ ',
-    //         path: 'magazine/1'
-    //     },
-    //     {
-    //         id: 2,
-    //         txt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit +++',
-    //         path: 'podcast/2',
-    //     },
-    // ],
-    // headlineDetail:
-    //     {
-    //         id: 1,
-    //         tit: 'DON\'T CLOSE YOUR EYES',
-    //         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas dui id ornare arcu odio ut sem. Cras ornare arcu dui vivamus arcu felis bibendum ut. Porttitor leo a diam.',
-    //         text: 'Jakob Gronberg',
-    //         date: '16. March 2022',
-    //         duration: '1 Min',
-    //         img: 'banner_1.png'
-    //     },
-    // mostPopularList: [
-    //     {
-    //         id: '01',
-    //         tit: 'Street art festival',
-    //         text: 'Cristofer Vaccaro',
-    //         link: '6'
-    //     },
-    //     {
-    //         id: '02',
-    //         tit: 'Hope dies last',
-    //         text: 'Anne Henry',
-    //         link: '1'
-    //     },
-    //     {
-    //         id: '03',
-    //         tit: 'Artists who want to rise above',
-    //         text: 'Anna Nielsen',
-    //         link: '9'
-    //     },
-    // ],
-    // latestMagazine: {
-    //     pub: '03/2022',
-    //     img: 'magazine_aside_cover.png'
-    // }
+    teamCareerData: {
+        img: `../assets/images/img_about_team_001.png`,
+        title: `Team building & Careers`
+    },
+    investorsData: [
+        {
+            name: `BSK Investment`,
+            img : `../assets/images/img_ci_001.png`
+        },
+        {
+            name: `EVERGREEN`,
+            img : `../assets/images/img_ci_002.png`
+        },
+        {
+            name: `Hemi`,
+            img : `../assets/images/img_ci_003.png`
+        },
+        {
+            name: `HUMAX`,
+            img : `../assets/images/img_ci_004.png`
+        },
+        {
+            name: `HUNDAI INVESTMENT PARTNERS`,
+            img : `../assets/images/img_ci_005.png`
+        },
+        {
+            name: `kakao ventures`,
+            img : `../assets/images/img_ci_006.png`
+        },
+        {
+            name: `MUREX PARTNERS`,
+            img : `../assets/images/img_ci_007.png`
+        },
+        {
+            name: `SPARX`,
+            img : `../assets/images/img_ci_008.png`
+        },
+        {
+            name: `Toyota Tsusho Nexty Electronics`,
+            img : `../assets/images/img_ci_009.png`
+        },
+        {
+            name: `GU Equity Partners`,
+            img : `../assets/images/img_ci_010.png`
+        },
+        {
+            name: `Korea Investment`,
+            img : `../assets/images/img_ci_011.png`
+        },
+        {
+            name: `Mando`,
+            img : `../assets/images/img_ci_012.png`
+        },
+
+    ],
+    patentData: {
+        patent: [
+            {
+                nation: `South Korea`,
+                class: `ty01`,
+                proc: `19`,
+                gran: `21`,
+            },
+            {
+                nation: `US`,
+                class: `ty02`,
+                proc: `17`,
+                gran: `03`,
+            },
+            {
+                nation: `Japan`,
+                class: `ty03`,
+                proc: `03`,
+                gran: `01`,
+            },
+            {
+                nation: `China`,
+                class: `ty04`,
+                proc: `10`,
+                gran: `0`,
+            }
+        ]
+    }
+
 });
 
 const getters = {

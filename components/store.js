@@ -2,6 +2,7 @@ import ModuleHeader from "./modules/MdHeader.js";
 import ModuleMain from "./modules/MdMain.js";
 import ModuleArticle from "./modules/MdArticle.js";
 import ModulePost from "./modules/MdPost.js";
+import ModuleDesign from "./modules/MdDesign.js"
 
 
 
@@ -11,6 +12,7 @@ const Store = Vuex.createStore({
         ModuleMain,
         ModuleArticle,
         ModulePost,
+        ModuleDesign,
     },
     state: {
         count: 0,
@@ -31,6 +33,9 @@ const Store = Vuex.createStore({
         },
         PostData: function PostData(state) {
             return state.ModulePost;
+        },
+        DesData: function DesData(state) {
+            return state.ModuleDesign
         }
     },
     mutations: {}

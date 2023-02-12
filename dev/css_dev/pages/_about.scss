@@ -378,8 +378,21 @@
     text-align: center;
   }
   section {
-    width: 1217px;
-
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 3rem;
+    .img-wrap {
+      width: 100%;
+      height: 0;
+      padding-bottom: 48.80%;
+      background-image: url("../images/img_about_team_001.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: contain;
+      img {
+        visibility: hidden;
+      }
+    }
   }
 }
 

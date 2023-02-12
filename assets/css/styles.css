@@ -135,6 +135,8 @@ button { border: none; background: none; font: inherit; }
 
 h1, h2, h3, h4, h5, h6 { font-weight: 400; }
 
+address { font-style: normal; }
+
 @font-face { font-family: 'Garet'; src: url("../font/Garet-Book.woff2") format("woff2"), url("../font/Garet-Book.woff") format("woff"), url("../font/Garet-Book.ttf") format("truetype"), url("../font/Garet-Book.otf") format("opentype"); font-weight: 400; font-style: normal; }
 
 @font-face { font-family: 'Garet'; src: url("../font/Garet-Heavy.woff2") format("woff2"), url("../font/Garet-Heavy.woff") format("woff"), url("../font/Garet-Heavy.ttf") format("truetype"), url("../font/Garet-Heavy.otf") format("opentype"); font-weight: 700; font-style: normal; }
@@ -756,7 +758,11 @@ select:focus, select :focus-visible { outline-color: #008aff; }
 
 .team-org-content .tit-sec { text-align: center; }
 
-.team-org-content section { width: 1217px; }
+.team-org-content section { width: 100%; box-sizing: border-box; padding: 0 3rem; }
+
+.team-org-content section .img-wrap { width: 100%; height: 0; padding-bottom: 48.80%; background-image: url("../images/img_about_team_001.png"); background-repeat: no-repeat; background-size: cover; background-position: contain; }
+
+.team-org-content section .img-wrap img { visibility: hidden; }
 
 /* //team building & Careers */
 .prod-bg-wrap { width: 100%; background-size: contain; background-position: 100% 50%; background-repeat: no-repeat; }
@@ -1040,5 +1046,134 @@ select:focus, select :focus-visible { outline-color: #008aff; }
 .const-vehi-contents .img-cont .tit-box { gap: 10rem; }
 
 .home-contents .img-cont .tit-box { gap: 4rem; }
+
+/* product lineup */
+.lineup-contents .content-header { display: flex; flex-direction: column; gap: 7.2rem; }
+
+.main-img-banner { width: 100%; height: fit-content; }
+
+.main-img-banner .img-wrap { width: 100%; height: 0; padding-bottom: 26.25%; background-image: url("../images/img_design_prod_001.png"); background-repeat: no-repeat; background-size: cover; background-position: center; position: relative; border-radius: 1rem; overflow: hidden; }
+
+.main-img-banner .banner-tit { position: absolute; top: 50%; left: 23%; transform: translateY(-50%); font-size: 6rem; }
+
+.lineup-table-wrap { width: 100%; height: fit-content; }
+
+.lineup-table-wrap .lineup-table { width: 100%; height: fit-content; border-bottom: 2px solid #0d8de0; }
+
+.lineup-table-wrap .lineup-table .table-row:first-child { text-align: center; }
+
+.lineup-table-wrap .lineup-table .table-row:first-child .table-column .table-item { background-color: #ebebeb; font-size: 1.4rem; font-weight: 500; font-family: "Poppins", sans-serif; padding: 0 2.5rem; height: 3.5rem; border-right: unset; }
+
+.lineup-table-wrap .lineup-table .table-row:first-child .table-column .table-item:nth-child(1) { background-color: #ebebeb; }
+
+.lineup-table-wrap .lineup-table .table-row:nth-child(2) .table-column { border-bottom: 4px solid #008aff; }
+
+.lineup-table-wrap .lineup-table .table-row:nth-child(2) .table-column .table-item { padding: 0; }
+
+.lineup-table-wrap .lineup-table .table-row:nth-child(2) .table-column .table-item:nth-child(1) { background-color: unset; }
+
+.lineup-table-wrap .lineup-table .table-row .table-column { display: flex; border-bottom: 1px solid #d7d7d7; justify-content: space-between; align-items: stretch; }
+
+.lineup-table-wrap .lineup-table .table-row .table-column .table-item { display: flex; justify-content: center; align-items: center; text-align: center; flex-basis: 14.28%; color: #262626; font-size: 1.3rem; padding: 2rem 1rem; box-sizing: border-box; height: auto; line-height: 1.7; border-right: 1px solid #d7d7d7; }
+
+.lineup-table-wrap .lineup-table .table-row .table-column .table-item img { width: 100%; height: 100%; object-fit: contain; }
+
+.lineup-table-wrap .lineup-table .table-row .table-column .table-item:nth-child(1) { background-color: #0d8de0; color: #fff; font-size: 1.2rem; font-weight: 400; font-family: "Poppins", sans-serif; }
+
+.lineup-table-wrap .lineup-table .table-row .table-column .table-item:last-child { border-right: unset; }
+
+.table-caption { font-size: 2rem; color: #363636; margin-top: 2rem; }
+
+/* //product lineup */
+/* Technology Roadmap */
+.road-sec { width: 100%; height: fit-content; }
+
+.road-sec img { width: 100%; height: auto; }
+
+/* //Technology Roadmap */
+/* Investors & Partners */
+.inve-list { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; row-gap: 6rem; }
+
+.inve-list .list-item { flex-basis: 25%; }
+
+.inve-item { width: 240px; height: 200px; border-radius: 24px; background-color: #fff; box-shadow: 2.6px 3px 8px 0 rgba(0, 0, 0, 0.12); border: solid 1px #ebebeb; display: flex; justify-content: center; align-items: center; margin: 0 auto; }
+
+/* //Investors & Partners */
+/* Contacts */
+.container .cont-head-content .txt-sec { display: flex; margin-top: 10rem; }
+
+.container .cont-head-content .txt-sec .tit-box { flex-basis: 40%; }
+
+.container .cont-head-content .txt-sec .add-box { flex-basis: 45%; display: flex; flex-direction: column; gap: 6rem; }
+
+.container .cont-head-content .txt-sec .add-box .add { display: flex; flex-direction: column; gap: 0.5rem; }
+
+.phone-num { width: fit-content; padding: 0.4rem 2rem; border: 1px solid #ebebeb; box-sizing: border-box; border-radius: 20px; margin-top: 0.5rem; }
+
+.map-sec { width: 100%; height: 480px; border-radius: 2.4rem; overflow: hidden; box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.12); margin-top: -16px; }
+
+.map-sec iframe { width: 100%; height: 100%; }
+
+/* // Contacts */
+/* Patents & Certifications */
+.pate-sec { margin-top: 10rem; display: flex; flex-direction: column; gap: 4rem; }
+
+.pate-box { width: 100%; height: fit-content; border-radius: 24px; box-shadow: 2.6px 3px 8px 0 rgba(0, 0, 0, 0.12); border: solid 1px #ebebeb; }
+
+.pate-list { display: flex; justify-content: space-between; align-items: center; text-align: center; }
+
+.pate-list > .list-item { flex-basis: 25%; border-right: 1px solid #e1e1e1; }
+
+.pate-list > .list-item:last-child { border-right: unset; }
+
+.pate-item { margin: 0 3rem; padding-top: 1rem; }
+
+.pate-item .nation-box { border-bottom: 1px solid #e1e1e1; padding: 1.5rem 0; }
+
+.pate-item .nation-box .tit-r { color: #363636; display: flex; justify-content: center; align-items: center; }
+
+.pate-item .nation-box .tit-r::before { content: ''; display: block; margin-right: 1.2rem; width: 41px; height: 27px; background-size: contain; background-position: center; background-repeat: no-repeat; }
+
+.pate-item .nation-box .tit-r.ty01::before { background-image: url("../images/ico_about_pate_01.png"); }
+
+.pate-item .nation-box .tit-r.ty02::before { background-image: url("../images/ico_about_pate_02.png"); }
+
+.pate-item .nation-box .tit-r.ty03::before { background-image: url("../images/ico_about_pate_03.png"); }
+
+.pate-item .nation-box .tit-r.ty04::before { background-image: url("../images/ico_about_pate_04.png"); }
+
+.pate-item .situ-box { padding: 3rem 0; }
+
+.pate-item .situ-box .situ-list { display: flex; justify-content: center; gap: 1.2rem; }
+
+.pate-item .situ-box .situ-list .list-item { display: flex; flex-direction: column; gap: 1rem; }
+
+.pate-item .situ-box .situ-list .list-item .tit-s { color: #363636; }
+
+.pate-item .situ-box .situ-list .list-item .num { display: flex; width: 110px; height: 110px; justify-content: center; align-items: center; border-radius: 24px; background-color: #e8ebff; font-size: 5rem; color: #111; }
+
+.cert-sec { display: flex; flex-direction: column; gap: 4rem; }
+
+.cert-sec .table-box .table-list { display: flex; gap: 4rem; justify-content: space-between; }
+
+.cert-sec .table-box .table-list .list-item { flex-basis: 50%; }
+
+.cert-table-wrap { width: 100%; height: fit-content; }
+
+.cert-table-wrap .cert-table { width: 100%; height: fit-content; border-top: 2px solid #008aff; border-bottom: 2px solid #008aff; }
+
+.cert-table-wrap .cert-table .table-row:first-child { text-align: center; font-size: 1.2rem; font-weight: 300; font-family: "Poppins", sans-serif; }
+
+.cert-table-wrap .cert-table .table-row:first-child .table-column .table-item { background-color: unset !important; }
+
+.cert-table-wrap .cert-table .table-row .table-column { display: flex; border-bottom: 1px solid #d7d7d7; justify-content: space-between; align-items: center; }
+
+.cert-table-wrap .cert-table .table-row .table-column .table-item { font-size: 1.2rem; padding: 0 2.5rem; box-sizing: border-box; height: 3.5rem; line-height: 3.5rem; border-right: 1px solid #d7d7d7; flex-basis: 33.33%; }
+
+.cert-table-wrap .cert-table .table-row .table-column .table-item:nth-child(1) { background-color: #f5f5f5; }
+
+.cert-table-wrap .cert-table .table-row .table-column .table-item:last-child { border-right: unset; }
+
+/* //Patents & Certifications */
 
 /*# sourceMappingURL=../css/styles.css.map */

@@ -12,10 +12,12 @@
         <h3 class="tit-sec">
           Global #1 4D Image Radar
         </h3>
-        <section>
-
-        </section>
       </div>
+      <section>
+        <div class="img-wrap">
+          <img :src="articleData.img" :alt="articleData.title">
+        </div>
+      </section>
     </div>
   </div>
 </template>
@@ -26,7 +28,10 @@ export default {
   computed: {
     scrollY() {
       return this.$store.getters["ModuleHeader/ScrollY"]
-    }
+    },
+    articleData() {
+      return this.$store.getters["ArticleData"].teamCareerData;
+    },
   },
   methods: {
     handleScroll() {

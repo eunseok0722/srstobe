@@ -1,0 +1,117 @@
+const state = ({
+    lineupData: {
+        prod001: {
+            name: 'RETINA-4FN',
+            img: `../../assets/images/img_design_prod_002.png`,
+            type: `4D Imaging Radar`,
+            frequency: `77 ~ 81 GHz`,
+            detection: `*LR/SR/USR 250m(vehicle) 100m(vehicle) 15m(pedestrian)`,
+            azimuth: `LR/SR/USR <br> 30°(±15°) /<br> 100°(±50°) /<br> 100°(±50°)`,
+            elevation: `24°(±12°)`,
+            update: `50ms`,
+            interface: `CAN FD x1 Ethernet x1`,
+            power: `Typ. 12V`,
+            temperature: `-40℃ ~ +85℃`,
+            ip: `IP67`,
+            dimension: `147.3 x 121.5 x 37.0`,
+            weight: `529`,
+        },
+        prod002: {
+            name: 'RETINA-4SN',
+            img: `../../assets/images/img_design_prod_003.png`,
+            type: `4D Imaging Radar`,
+            frequency: `77 ~ 81 GHz`,
+            detection: `7m`,
+            azimuth: `90°(±45°)`,
+            elevation: `90°(±45°)`,
+            update: `50ms`,
+            interface: `Wi-Fi`,
+            power: `Typ. 12V`,
+            temperature: `-30℃ ~ +65℃`,
+            ip: `IP43`,
+            dimension: `130 x 130 x 33.8`,
+            weight: `580`,
+        },
+        prod003: {
+            name: 'IRISt-03A',
+            img: `../../assets/images/img_design_prod_004.png`,
+            type: `Single chip Radar`,
+            frequency: `77 ~ 81 GHz`,
+            detection: `20m`,
+            azimuth: `180°(±90°)`,
+            elevation: `30°(±15°)`,
+            update: `100ms`,
+            interface: `CAN FD x1`,
+            power: `Typ. 12V/24V`,
+            temperature: `-40℃ ~ +85℃`,
+            ip: `IP69K`,
+            dimension: `90 x 117 x 59.35`,
+            weight: `375`,
+        },
+        prod004: {
+            name: 'IRISc-03A',
+            img: `../../assets/images/img_design_prod_005.png`,
+            type: `Single chip Radar`,
+            frequency: `77 ~ 81 GHz`,
+            detection: `45m(vehicle)/ 22m(pedestrian)`,
+            azimuth: `100°(±50°)`,
+            elevation: `30°(±15°)`,
+            update: `100ms`,
+            interface: `CAN FD x1`,
+            power: `Typ. 12V/24V`,
+            temperature: `-40℃ ~ +85℃`,
+            ip: `IP69K`,
+            dimension: `90 x 117 x 38.50`,
+            weight: `275`,
+        },
+        prod005: {
+            name: 'SE68-51',
+            img: `../../assets/images/img_design_prod_006.png`,
+            type: `Single chip Radar`,
+            frequency: `60 ~ 64 GHz`,
+            detection: `3m`,
+            azimuth: `120°(±60°)`,
+            elevation: `120°(±60°)`,
+            update: `100ms`,
+            interface: `CAN`,
+            power: `Typ. 24V`,
+            temperature: `-40℃ ~ +85℃`,
+            ip: `IP43 (ceiling installation based)`,
+            dimension: `119.5 x 82 x 35 (Radar PCB 1.6t/ Power PCB 1.6t)`,
+            weight: `135`,
+        },
+        prod006: {
+            name: 'SE68-03W',
+            img: `../../assets/images/img_design_prod_007.png`,
+            type: `Single chip Radar`,
+            frequency: `60 ~ 64 GHz`,
+            detection: `60m(vehicle)/ 40m(pedestrian)`,
+            azimuth: ` Front 90°(10m) / Side 45°(5m)`,
+            elevation: `45°(±22.5°)`,
+            update: `100ms`,
+            interface: `Wi-Fi/ BLE`,
+            power: `Typ. 5V`,
+            temperature: `-40℃ ~ +85℃`,
+            ip: `IP43`,
+            dimension: `76 x 76 x 22 (PCB 1.6t)`,
+            weight: `72`,
+        },
+    },
+    roadmapData: {
+        img: `../assets/images/img_design_road_001.png`,
+        title: `Technology Roadmap`
+    }
+});
+
+const getters = {
+}
+
+const mutations = {
+}
+
+export default {
+    namespaced: true,
+    state,
+    getters,
+    mutations
+}

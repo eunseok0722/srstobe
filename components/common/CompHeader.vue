@@ -332,20 +332,24 @@
                   </div>
                 </li>
                 <!--  // d2 | 4D Imaging Radar with AI  -->
-                <!--  d2 | Software Defined Vehicle  -->
+                <!--  d2 | Technology Roadmap  -->
                 <li class="d2-list-item">
                   <div class="d2-item">
                     <div class="tit-box">
-                      <h3 class="tit-m fw-md">Software Defined Vehicle</h3>
+                      <h3 class="tit-m fw-md">
+                        <router-link to="/design/technology-roadmap">
+                          Technology Roadmap
+                        </router-link>
+                      </h3>
                     </div>
                     <div class="img-box">
-                      <a href="#">
+                      <router-link to="/design/technology-roadmap">
                         <img :src="path" alt="">
-                      </a>
+                      </router-link>
                     </div>
                   </div>
                 </li>
-                <!--  // d2 | Software Defined Vehicle  -->
+                <!--  // d2 | Technology Roadmap  -->
                 <!--  d2 | SWaP sensor  -->
                 <li class="d2-list-item">
                   <div class="d2-item">
@@ -364,12 +368,14 @@
                 <li class="d2-list-item">
                   <div class="d2-item">
                     <div class="tit-box">
-                      <h3 class="tit-m fw-md">Product Lineup</h3>
+                      <h3 class="tit-m fw-md">
+                        <router-link to="/design/product-lineup">Product Lineup</router-link>
+                      </h3>
                     </div>
                     <div class="img-box">
-                      <a href="#">
+                      <router-link to="/design/product-lineup">
                         <img :src="path" alt="">
-                      </a>
+                      </router-link>
                     </div>
                   </div>
                 </li>
@@ -382,9 +388,9 @@
           <!--  d1 | ABOUT SRS  -->
           <li class="list-item" v-on:mouseenter="d2Activate(3)">
             <h2 class="tit-l">
-              <a href="#" class="nav-item">
+              <router-link to="/about/investors" class="nav-item">
                 ABOUT SRS
-              </a>
+              </router-link>
             </h2>
             <div class="d2-list-wrap v4" :class="{active: d2State[3].active}">
               <ul class="d2-list">
@@ -393,7 +399,7 @@
                   <div class="d2-item">
                     <div class="tit-box">
                       <h3 class="tit-m fw-md">
-                        <a href="#">Investors & Partners</a>
+                        <router-link to="/about/investors">Investors & Partners</router-link>
                       </h3>
                     </div>
                   </div>
@@ -415,7 +421,9 @@
                   <div class="d2-item">
                     <div class="tit-box">
                       <h3 class="tit-m fw-md">
-                        <a href="#">Patent & Certifications</a>
+                        <router-link to="/about/patent">
+                          Patent & Certifications
+                        </router-link>
                       </h3>
                     </div>
                   </div>
@@ -437,7 +445,7 @@
                   <div class="d2-item">
                     <div class="tit-box">
                       <h3 class="tit-m fw-md">
-                        <a href="#">Contacts</a>
+                        <router-link to="/about/contacts">Contacts</router-link>
                       </h3>
                     </div>
                   </div>

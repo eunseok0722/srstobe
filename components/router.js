@@ -39,7 +39,13 @@ const SrsMain = () => loadModule('../components/main/SrsMain.vue', options),
     Infrastructure = () => loadModule('../components/applications/Infrastructure.vue', options),
     TeamMain = () => loadModule('../components/about/TeamMain.vue', options),
     Agv = () => loadModule('../components/applications/Agv.vue', options),
-    LastMileDelivery = () => loadModule('../components/applications/LastMileDelivery.vue', options);
+    LastMileDelivery = () => loadModule('../components/applications/LastMileDelivery.vue', options),
+    DesignMain = () => loadModule('../components/design/DesignMain.vue', options),
+    ProductLineup = () => loadModule('../components/design/ProductLineup.vue', options),
+    TechnologyRoadmap = () => loadModule('../components/design/TechnologyRoadmap.vue', options),
+    Investors = () => loadModule('../components/about/investors.vue', options),
+    Contacts = () => loadModule('../components/about/Contacts.vue', options),
+    Patent = () => loadModule('../components/about/Patent.vue', options);
 
 const routes = [
     {
@@ -147,6 +153,21 @@ const routes = [
         component: AboutMain,
         children: [
             {
+                path: 'investors',
+                name: 'investors',
+                component: Investors,
+            },
+            {
+                path: 'patent',
+                name: 'patent',
+                component: Patent,
+            },
+            {
+                path: 'contacts',
+                name: 'contacts',
+                component: Contacts,
+            },
+            {
                 path: 'newsroom',
                 component: NewsRoomMain,
             },
@@ -161,6 +182,23 @@ const routes = [
             {
                 path: 'team-building',
                 component: TeamMain,
+            }
+        ]
+    },
+    {
+        name: 'design',
+        path: '/design',
+        component: DesignMain,
+        children: [
+            {
+                path: 'product-lineup',
+                name: 'product-lineup',
+                component: ProductLineup,
+            },
+            {
+                path: 'technology-roadmap',
+                name: 'technology-roadmap',
+                component: TechnologyRoadmap,
             }
         ]
     }

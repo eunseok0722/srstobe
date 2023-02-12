@@ -45,7 +45,7 @@
                           </router-link>
                         </li>
                         <li class="d3-list-item">
-                          <router-link  to="/applications/in-cabin" class="txt-s">
+                          <router-link to="/applications/in-cabin" class="txt-s">
                             In-Cabin
                           </router-link>
                         </li>
@@ -198,7 +198,7 @@
                       <div class="tit-box">
                         <h3 class="txt-r">
                           <router-link to="/products/retina-4f">
-                          RETINA-4F
+                            RETINA-4F
                           </router-link>
                         </h3>
                       </div>
@@ -211,7 +211,7 @@
                       <div class="tit-box">
                         <h3 class="txt-r">
                           <router-link to="/products/retina-4s">
-                          RETINA-4S
+                            RETINA-4S
                           </router-link>
                         </h3>
                       </div>
@@ -224,7 +224,7 @@
                       <div class="tit-box">
                         <h3 class="txt-r">
                           <router-link to="/products/radar-for-uas">
-                          RADAR FOR UAS
+                            RADAR FOR UAS
                           </router-link>
                         </h3>
                       </div>
@@ -251,7 +251,7 @@
                       <div class="tit-box">
                         <h3 class="txt-r">
                           <router-link to="/products/irisc">
-                          IRISc
+                            IRISc
                           </router-link>
                         </h3>
                       </div>
@@ -265,7 +265,7 @@
                       <div class="tit-box">
                         <h3 class="txt-r">
                           <router-link to="/products/iris-safeguard">
-                          IRIS-SafeGuard
+                            IRIS-SafeGuard
                           </router-link>
                         </h3>
                       </div>
@@ -278,7 +278,7 @@
                       <div class="tit-box">
                         <h3 class="txt-r">
                           <router-link to="/products/rm68-51">
-                          RM68-51
+                            RM68-51
                           </router-link>
                         </h3>
                       </div>
@@ -307,15 +307,19 @@
                     </div>
                   </li>
                   <!--  // d2 | 4D Imaging Radar with AI  -->
-                  <!--  d2 | Software Defined Vehicle  -->
+                  <!--  d2 | Technology Roadmap  -->
                   <li class="d2-list-item">
                     <div class="d2-item">
                       <div class="tit-box">
-                        <h3 class="txt-r">Software Defined Vehicle</h3>
+                        <h3 class="txt-r">
+                          <router-link to="/design/technology-roadmap">
+                            Technology Roadmap
+                          </router-link>
+                        </h3>
                       </div>
                     </div>
                   </li>
-                  <!--  // d2 | Software Defined Vehicle  -->
+                  <!--  // d2 | Technology Roadmap  -->
                   <!--  d2 | SWaP sensor  -->
                   <li class="d2-list-item">
                     <div class="d2-item">
@@ -329,7 +333,9 @@
                   <li class="d2-list-item">
                     <div class="d2-item">
                       <div class="tit-box">
-                        <h3 class="txt-r">Product Lineup</h3>
+                        <h3 class="txt-r">
+                          <router-link to="/design/product-lineup">Product Lineup</router-link>
+                        </h3>
                       </div>
                     </div>
                   </li>
@@ -342,7 +348,7 @@
             <!--  d1 | ABOUT SRS  -->
             <li class="list-item">
               <h2 class="tit-l">
-                <router-link to="/about/awards" class="nav-item">
+                <router-link to="/about/investors" class="nav-item">
                   ABOUT SRS
                 </router-link>
               </h2>
@@ -352,7 +358,11 @@
                   <li class="d2-list-item">
                     <div class="d2-item">
                       <div class="tit-box">
-                        <h3 class="txt-r">Investors & Partners</h3>
+                        <h3 class="txt-r">
+                          <router-link to="/about/investors">
+                            Investors & Partners
+                          </router-link>
+                        </h3>
                       </div>
                     </div>
                   </li>
@@ -375,9 +385,9 @@
                     <div class="d2-item">
                       <div class="tit-box">
                         <h3 class="txt-r">
-                          <a href="#none">
+                          <router-link to="/about/patent">
                             Patent & Certifications
-                          </a>
+                          </router-link>
                         </h3>
                       </div>
                     </div>
@@ -401,8 +411,8 @@
                     <div class="d2-item">
                       <div class="tit-box">
                         <h3 class="txt-r">
-                          <router-link to="">
-                          Contacts
+                          <router-link to="/about/contacts">
+                            Contacts
                           </router-link>
                         </h3>
                       </div>
@@ -415,7 +425,7 @@
                       <div class="tit-box">
                         <h3 class="txt-r">
                           <router-link to="/about/newsroom">
-                          Newsroom
+                            Newsroom
                           </router-link>
                         </h3>
                       </div>
