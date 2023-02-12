@@ -43,7 +43,7 @@ const SrsMain = () => loadModule('../components/main/SrsMain.vue', options),
     DesignMain = () => loadModule('../components/design/DesignMain.vue', options),
     ProductLineup = () => loadModule('../components/design/ProductLineup.vue', options),
     TechnologyRoadmap = () => loadModule('../components/design/TechnologyRoadmap.vue', options),
-    Investors = () => loadModule('../components/about/investors.vue', options),
+    Investors = () => loadModule('../components/about/Investors.vue', options),
     Contacts = () => loadModule('../components/about/Contacts.vue', options),
     Patent = () => loadModule('../components/about/Patent.vue', options);
 

@@ -2,7 +2,7 @@ const state = ({
     lineupData: {
         prod001: {
             name: 'RETINA-4FN',
-            img: `../../assets/images/img_design_prod_002.png`,
+            img: `../assets/images/img_design_prod_002.png`,
             type: `4D Imaging Radar`,
             frequency: `77 ~ 81 GHz`,
             detection: `*LR/SR/USR 250m(vehicle) 100m(vehicle) 15m(pedestrian)`,
@@ -18,7 +18,7 @@ const state = ({
         },
         prod002: {
             name: 'RETINA-4SN',
-            img: `../../assets/images/img_design_prod_003.png`,
+            img: `../assets/images/img_design_prod_003.png`,
             type: `4D Imaging Radar`,
             frequency: `77 ~ 81 GHz`,
             detection: `7m`,
@@ -34,7 +34,7 @@ const state = ({
         },
         prod003: {
             name: 'IRISt-03A',
-            img: `../../assets/images/img_design_prod_004.png`,
+            img: `../assets/images/img_design_prod_004.png`,
             type: `Single chip Radar`,
             frequency: `77 ~ 81 GHz`,
             detection: `20m`,
@@ -50,7 +50,7 @@ const state = ({
         },
         prod004: {
             name: 'IRISc-03A',
-            img: `../../assets/images/img_design_prod_005.png`,
+            img: `../assets/images/img_design_prod_005.png`,
             type: `Single chip Radar`,
             frequency: `77 ~ 81 GHz`,
             detection: `45m(vehicle)/ 22m(pedestrian)`,
@@ -66,7 +66,7 @@ const state = ({
         },
         prod005: {
             name: 'SE68-51',
-            img: `../../assets/images/img_design_prod_006.png`,
+            img: `../assets/images/img_design_prod_006.png`,
             type: `Single chip Radar`,
             frequency: `60 ~ 64 GHz`,
             detection: `3m`,
@@ -82,7 +82,7 @@ const state = ({
         },
         prod006: {
             name: 'SE68-03W',
-            img: `../../assets/images/img_design_prod_007.png`,
+            img: `../assets/images/img_design_prod_007.png`,
             type: `Single chip Radar`,
             frequency: `60 ~ 64 GHz`,
             detection: `60m(vehicle)/ 40m(pedestrian)`,
